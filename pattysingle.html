@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Patty XXXtasis - Single</title> 
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <script src='playerjs.js' type='text/javascript'></script>
+	</head>
+	<body>
+    <style>
+        html,body{
+            margin:0;padding:0;width:100%;height:100%;
+        }
+    </style>
+        
+    <div id="playerjs" style="width:100%;height:100%;"></div>
+        
+    <script type="text/javascript">
+            
+        var ps = location.href.substr(location.href.indexOf("html?")+5).split("&");
+            
+        var vs = {id:"playerjs"};
+            
+        for(var i = 0; i<ps.length; i++){
+            var p = ps[i].substr(0,ps[i].indexOf("="));
+            var v = ps[i].substr(ps[i].indexOf("=")+1);
+            if(p!=v){
+                vs[p] = decodeURIComponent(v);
+            }
+        }
+            
+        var player = new Playerjs({
+   id:"playerjs",
+   file:
+   
+   [{"title":"Single 001","file":"http://bit.ly/3CyQ1ea"},{"title":"Single 002","file":"http://bit.ly/3GPWfsJ"},{"title":"Single 003","file":"http://bit.ly/3IzVGUZ"},{"title":"Single 004","file":"http://bit.ly/3GmnOZ8"},{"title":"Single 005","file":"http://bit.ly/3WYGMMq"},{"title":"Single 006","file":"http://bit.ly/3k01U6r"},{"title":"Single 007","file":"http://bit.ly/3Gu82vq"},{"title":"Single 008","file":"http://bit.ly/3GmofTg"},{"title":"Single 009","file":"http://bit.ly/3VYIIn1"},{"title":"Single 010","file":"http://bit.ly/3Wckp5f"},{"title":"Single 011","file":"http://bit.ly/3WVnI1O"},{"title":"Single 012","file":"http://bit.ly/3ist9pV"},{"title":"Single 013","file":"http://bit.ly/3k16AZM"},{"title":"Single 014","file":"http://bit.ly/3XeLw0m"},{"title":"Single 015","file":"http://bit.ly/3k3Koy2"},{"title":"Single 016","file":"http://bit.ly/3imJnAX"},{"title":"Single 017","file":"http://bit.ly/3k03hlB"},{"title":"Single 018","file":"http://bit.ly/3QnZryR"},{"title":"Single 019","file":"http://bit.ly/3ZkcR2V"},{"title":"Single 020","file":"http://bit.ly/3VW31kX"},{"title":"Single 021","file":"http://bit.ly/3GvyxAJ"},{"title":"Single 022","file":"http://bit.ly/3ZqEWWf"},{"title":"Single 023","file":"http://bit.ly/3VZ9lbc"},{"title":"Single 024","file":"http://bit.ly/3WVpL60"},{"title":"Single 025","file":"http://bit.ly/3Cxh3m0"},{"title":"Single 026","file":"http://bit.ly/3XdHzJa"},{"title":"Single 027","file":"http://bit.ly/3GN8Xs5"},{"title":"Single 028","file":"http://bit.ly/3X0Mi1k"},{"title":"Single 029","file":"http://bit.ly/3QFTDB7"},{"title":"Single 030","file":"http://bit.ly/3GNIXwO"},{"title":"Single 031","file":"http://bit.ly/3ZpM85d"},{"title":"Single 032","file":"http://bit.ly/3QqaDLi"},{"title":"Single 033","file":"http://bit.ly/3GMAfxN"},{"title":"Single 034","file":"http://bit.ly/3ilgDbR"},{"title":"Single 035","file":"http://bit.ly/3jVL6xj"},{"title":"Single 036","file":"http://bit.ly/3QqaZS8"},{"title":"Single 037","file":"http://bit.ly/3W0VTng"},{"title":"Single 038","file":"http://bit.ly/3XcT0AU"},{"title":"Single 039","file":"http://bit.ly/3vNupqD"},{"title":"Single 040","file":"http://bit.ly/3ZkiSN3"},{"title":"Single 041","file":"http://bit.ly/3k4dyxj"},{"title":"Single 042","file":"http://bit.ly/3k3bzJy"},{"title":"Single 043","file":"http://bit.ly/3CyLN6r"}]
+   
+});
+            
+    </script>
+</body>
+</html>
