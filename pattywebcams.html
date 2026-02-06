@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Patty XXXtasis - Webcams</title> 
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <script src='playerjs.js' type='text/javascript'></script>
+	</head>
+	<body>
+    <style>
+        html,body{
+            margin:0;padding:0;width:100%;height:100%;
+        }
+    </style>
+        
+    <div id="playerjs" style="width:100%;height:100%;"></div>
+        
+    <script type="text/javascript">
+            
+        var ps = location.href.substr(location.href.indexOf("html?")+5).split("&");
+            
+        var vs = {id:"playerjs"};
+            
+        for(var i = 0; i<ps.length; i++){
+            var p = ps[i].substr(0,ps[i].indexOf("="));
+            var v = ps[i].substr(ps[i].indexOf("=")+1);
+            if(p!=v){
+                vs[p] = decodeURIComponent(v);
+            }
+        }
+            
+        var player = new Playerjs({
+   id:"playerjs",
+   file:
+   
+   [{"title":"Webcam 001","file":"http://bit.ly/3jdRos5"},{"title":"Webcam 002","file":"http://bit.ly/3WoAq8n"},{"title":"Webcam 003","file":"https://bit.ly/3HDOUgv"},{"title":"Webcam 004","file":"http://bit.ly/3FZkQKZ"},{"title":"Webcam 005","file":"http://bit.ly/3BGIPvW"},{"title":"Webcam 006","file":"http://bit.ly/3WrWOxE"},{"title":"Webcam 007","file":"http://bit.ly/3G0k4O1"},{"title":"Webcam 008","file":"http://bit.ly/3W4CxPa"},{"title":"Webcam 009","file":"http://bit.ly/3PBuMOj"},{"title":"Webcam 010","file":"http://bit.ly/3Ytzkdn"},{"title":"Webcam 011","file":"http://bit.ly/3W8ddaR"},{"title":"Webcam 012","file":"http://bit.ly/3HJDZC5"},{"title":"Webcam 013","file":"http://bit.ly/3FA7Qdp"},{"title":"Webcam 014","file":"http://bit.ly/3Wrys7u"},{"title":"Webcam 015","file":"http://bit.ly/3v19wrM"},{"title":"Webcam 016","file":"http://bit.ly/3FDsJVi"},{"title":"Webcam 017","file":"http://bit.ly/3WnRrQb"},{"title":"Webcam 018","file":"http://bit.ly/3hCc5xm"},{"title":"Webcam 019","file":"http://bit.ly/3jeeYVh"},{"title":"Webcam 020","file":"http://bit.ly/3uV28hw"},{"title":"Webcam 021","file":"http://bit.ly/3HKdmNu"},{"title":"Webcam 022","file":"http://bit.ly/3FBdU5E"},{"title":"Webcam 023","file":"http://bit.ly/3BKg3Lb"},{"title":"Webcam 024","file":"http://bit.ly/3V6PDd6"},{"title":"Webcam 025","file":"http://bit.ly/3j6f0yB"}]
+   
+});
+            
+    </script>
+</body>
+</html>
