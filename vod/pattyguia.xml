@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tv>
   <channel id="pwc001">
-    <display-name lang="es">Patty XXXtasis WebCam Trailer 001</display-name>
+    <display-name>Patty WebCam 001</display-name>
   </channel>
-    <programme start="20210115000000" stop="20251212000300" channel="pwc001">
-    <title>Patty XXXtasis WebCam Trailer 001</title>
-    <icon src="https://lh3.googleusercontent.com/i_ImAKGyXTS2ctro7VeDu0__-zqkqerlNJ9WnAHWDr8EY5W_eMKaRANNlb7elFw2DouHWwbPY2S2TmqKqaF47nBWrWk92-EBnvotkMwDBWrPUAkNwGfU-4NBYzTMVQ-H84XZlRGkWzs" />
-    <desc lang="es">Patty XXXtasis en Sesión de Webcam. (Trailer) 
+
+  <programme start="20210115000000" stop="20251212000300" channel="Patty WebCam 001">
+    <title>Patty WebCam 001</title>
+	<icon src="https://lh3.googleusercontent.com/pw/AP1GczPjZMd08jYTxl3w2JdDqdTHIXRR5x2mxMeYop2kLJuW5pSYTGNRSoCJe0cs0TrJzzqYLXOsWBK5BG-EHRa2i6z-7qsfMkZQePrS-tJO5wkvLCQ1Og" />
+    <desc lang="es">Patty en Sesión de Webcam. 
 Duración: 3:31
-Actor: Patty XXXtasis.
+Actor: Patty.
 Vestuario: Blusa Negra y Medias de Red Negras.</desc>
-    <category lang="es">Patty XXXtasis</category>
-    <category lang="es">Webcams</category>
-    <category lang="es">XXX</category>
-    <category lang="es">Trailer</category>
+    <category lang="es">Patty</category>
+	<category lang="es">Webcams</category>
+	<category lang="es">XXX</category>
   </programme>
 </tv>
