@@ -14,11 +14,10 @@ Actor: Patty XXXtasis.</desc>
     <category lang="es">XXX</category>
     <category lang="es">Trailer</category>
   </programme>
-  <channel id="nwc001">
+  <channel id="pwc001">
     <display-name lang="es">Patty XXXtasis WebCam Trailer 001</display-name>
-    <url>http://www.ivolnet.esy.es/tv/</url>
   </channel>
-    <programme start="20210115000000" stop="20251212000300" channel="nwc001">
+    <programme start="20210115000000" stop="20251212000300" channel="pwc001">
     <title>Patty XXXtasis WebCam Trailer 001</title>
     <icon src="https://lh3.googleusercontent.com/i_ImAKGyXTS2ctro7VeDu0__-zqkqerlNJ9WnAHWDr8EY5W_eMKaRANNlb7elFw2DouHWwbPY2S2TmqKqaF47nBWrWk92-EBnvotkMwDBWrPUAkNwGfU-4NBYzTMVQ-H84XZlRGkWzs" />
     <desc lang="es">Patty XXXtasis en Sesión de Webcam. (Trailer) 
