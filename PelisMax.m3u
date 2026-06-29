@@ -20,6 +20,8 @@ http://190.61.42.218:9000/play/a08b/index.m3u8
 http://190.61.42.218:9000/play/a05r/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Cinecanal
 http://190.61.42.218:9000/play/a06j/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Cine Latino
+http://miotv.cc:8080/live/RESTREAMCRUEL/T7464747/187229.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Cinemax
 http://190.61.42.218:9000/play/a01q/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", CNN en Español
@@ -84,10 +86,14 @@ http://209.14.98.47:8000/play/a0u8/index.m3u8
 http://190.61.42.218:9000/play/a07y/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Golden Edge
 http://38.211.119.30:50002/play/a0fd/index.m3u8u?hls
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Golden Premier HD
+http://miotv.cc:8080/live/RESTREAMCRUEL/T7464747/187221.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Nickelodeon
 http://190.61.42.218:9000/play/a02n/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Pasiones
 http://190.61.42.218:9000/play/a05x/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Paramount Channel
+http://miotv.cc:8080/live/RESTREAMCRUEL/T7464747/187225.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Sony Channel
 http://190.61.46.92:8009/play/a0cb/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Space
@@ -120,22 +126,23 @@ http://190.61.42.218:9000/play/a00r/index.m3u8
 http://190.61.42.218:9000/play/a04d/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Sony Movies
 http://38.211.119.30:50002/play/a0g4/index.m3u8u?hls
-#EXTINF:-1 tvg-id="" tvg-name="" group-title="🎬 | CINE PREMIUM HD - SD" tvg-logo="https://i.ibb.co/nrrvNBf/PREMIEER.png",CINE | GOLDEN PREMIER  HD
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", GOLDEN PREMIER HD
 http://miotv.cc:8080/live/RESTREAMCRUEL/T7464747/187221.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" group-title="🎬 | CINE PREMIUM HD - SD" tvg-logo="https://i.ibb.co/64P8bHR/paramountsd.png",CINE | PARAMOUNT CHANEL SD
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", PARAMOUNT CHANEL
 http://miotv.cc:8080/live/RESTREAMCRUEL/T7464747/187225.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" group-title="🎬 | CINE PREMIUM HD - SD" tvg-logo="https://i.ibb.co/bRgXjbs/CINELATINO.png",CINE | CINE LATINO
-http://miotv.cc:8080/live/RESTREAMCRUEL/T7464747/187229.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" group-title="⚽ | DEPORTES PREMIUM HD - SD" tvg-logo="http://stalkertvlatinoplay.com/LOGOS/ECUADOR/GOLTV.png",GOL TV LATINOAMERICA
-http://miotv.cc:8080/live/RESTREAMCRUEL/T7464747/187345.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", 
+
 
 
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", Super Mario Galaxy la película
-https://dl.dropbox.com/scl/fi/6iak3znirpbchvhveozkp/SMGLaPelicula-2026.mp4?rlkey=mb9ytg5y4fdvu897tkce55hya&st=0r8o9rz6&dl=1
+http://192.168.100.19:8096/emby/videos/117584/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117584&PlaySessionId=8b30e797dcc8425987c063a3cb609c63&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", La momia de Lee Cronin
-https://dl.dropbox.com/scl/fi/c2p5qskyh8hr3xvwfn3zo/La-posesi-n-de-la-momia-2026.mp4?rlkey=awx66v8pcmuud5m0onjotdtdj&st=rszfdnmp&dl=1
+http://192.168.100.19:8096/emby/videos/117609/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117609&PlaySessionId=157dda74671849e7a2829708e8e7d649&api_key=d2f48a7a1f2d468293e9757c560b77b1
 
 
 
