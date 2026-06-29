@@ -133,21 +133,22 @@ http://190.61.42.218:9000/play/a04d/index.m3u8
 
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Dartkoo/hosting/refs/heads/gh-pages/imgpelismax1/0001.jpg" group-title="Estrenos", Super Mario Galaxy la película
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117584/Images/Primary?maxHeight=492&maxWidth=328&tag=62e046676902797e30847502295b9184&keepAnimation=true&quality=90" group-title="Estrenos", Super Mario Galaxy la película
 http://192.168.100.19:8096/emby/videos/117584/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117584&PlaySessionId=8b30e797dcc8425987c063a3cb609c63&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117609/Images/Primary?maxHeight=492&maxWidth=328&tag=ddb78acc51a276206e2cee9430722754&keepAnimation=true&quality=90" group-title="Estrenos", La momia de Lee Cronin
 http://192.168.100.19:8096/emby/videos/117609/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117609&PlaySessionId=157dda74671849e7a2829708e8e7d649&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Dartkoo/hosting/refs/heads/gh-pages/imgpelismax1/0003.jpg" group-title="Estrenos", Shelter: El Protector
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117438/Images/Primary?maxHeight=492&maxWidth=328&tag=2c5183bb61527ce0af14793e86cd98a5&keepAnimation=true&quality=90" group-title="Estrenos", Shelter: El Protector
 http://192.168.100.19:8096/emby/videos/117438/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117438&PlaySessionId=b3c03d647702418fadadf7d02f30d3a6&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Dartkoo/hosting/refs/heads/gh-pages/imgpelismax1/0004.jpg" group-title="Estrenos", ¿Quieres ser mi novia?
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117435/Images/Primary?maxHeight=492&maxWidth=328&tag=44692a2f874faa52483f943c3936d1d4&keepAnimation=true&quality=90" group-title="Estrenos", ¿Quieres ser mi novia?
 http://192.168.100.19:8096/emby/videos/117435/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117435&PlaySessionId=3e6ab9517824408cbbf7de04e7cb05d0&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Dartkoo/hosting/refs/heads/gh-pages/imgpelismax1/0005.jpg" group-title="Estrenos", Five Nights at Freddy's 2
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115520/Images/Primary?maxHeight=492&maxWidth=328&tag=2c596235eb01b3047b228b87e1f67528&keepAnimation=true&quality=90" group-title="Estrenos", Five Nights at Freddy's 2
 http://192.168.100.19:8096/emby/videos/115520/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115520&PlaySessionId=6395c8ef94754efea57692fbea1b1690&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Dartkoo/hosting/refs/heads/gh-pages/imgpelismax1/0006.jpg" group-title="Estrenos", Familia a la deriva
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117569/Images/Primary?maxHeight=492&maxWidth=328&tag=bea6b8121aab71e40e41d38b6707b7af&keepAnimation=true&quality=90" group-title="Estrenos", Familia a la deriva
 http://192.168.100.19:8096/emby/videos/117569/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117569&PlaySessionId=f86f788ba6f84374826f4ef63d213c20&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Dartkoo/hosting/refs/heads/gh-pages/imgpelismax1/0007.jpg" group-title="Estrenos", Borrón y Vida Nueva
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117417/Images/Primary?maxHeight=492&maxWidth=328&tag=bf55bc755a8bb96da6084128113be0a6&keepAnimation=true&quality=90" group-title="Estrenos", Borrón y Vida Nueva
 http://192.168.100.19:8096/emby/videos/117417/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117417&PlaySessionId=1ad4c0fdec3c4efea0188c7d84cc48b1&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115463/Images/Primary?maxHeight=492&maxWidth=328&tag=adfacc113b45d9be7c75614e96cdf02c&keepAnimation=true&quality=90" group-title="Estrenos", Misión Imposible La sentencia final
+http://192.168.100.19:8096/emby/videos/115463/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115463&PlaySessionId=c85e100ae87b400aa421314f578d1f0b&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
