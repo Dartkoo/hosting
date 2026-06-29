@@ -126,14 +126,7 @@ http://190.61.42.218:9000/play/a00r/index.m3u8
 http://190.61.42.218:9000/play/a04d/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Sony Movies
 http://38.211.119.30:50002/play/a0g4/index.m3u8u?hls
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", GOLDEN PREMIER HD
-http://miotv.cc:8080/live/RESTREAMCRUEL/T7464747/187221.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", PARAMOUNT CHANEL
-http://miotv.cc:8080/live/RESTREAMCRUEL/T7464747/187225.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", 
+ 
 
 
 
