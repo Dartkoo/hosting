@@ -1,5 +1,53 @@
 ﻿#EXTM3U
 
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", A&E
+http://190.61.42.218:9000/play/a058/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", AMC
+http://190.61.42.218:9000/play/a069/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", AXN
+http://190.61.42.218:9000/play/a005/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Adult Swim
+http://190.61.42.218:9000/play/a06r/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Animal Planet
+http://190.61.42.218:9000/play/a07x/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", America TV
+http://190.61.46.92:8009/play/a09d/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Baby TV
+http://190.61.42.218:9000/play/a08a/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Cartoon Network
+http://190.61.42.218:9000/play/a08b/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Cartoonito
+http://190.61.42.218:9000/play/a05r/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Cinecanal
+http://190.61.42.218:9000/play/a06j/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Cinemax
+http://190.61.42.218:9000/play/a01q/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", CNN en Español
+http://190.61.42.218:9000/play/a00t/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Comedy Central
+http://190.90.71.103:8000/play/a0at/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", DHE
+http://190.61.46.92:8009/play/a0c9/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", De Película
+http://190.61.42.218:9000/play/a080/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Discovery Channel
+http://190.61.42.218:9000/play/a05k/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Discovery Kids
+http://190.61.42.218:9000/play/a00s/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Discovery Science
+http://190.61.42.218:9000/play/a00h/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Discovery Turbo
+http://190.61.42.218:9000/play/a01v/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Disney Channel
+http://190.61.46.92:8009/play/a0ex/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Disney Jr.
+http://190.61.42.218:9000/play/a00z/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", E! Entertainment
+http://190.61.42.218:9000/play/a019/index.m3u8
+
+
+
+
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", Super Mario Galaxy la película
 https://dl.dropbox.com/scl/fi/6iak3znirpbchvhveozkp/SMGLaPelicula-2026.mp4?rlkey=mb9ytg5y4fdvu897tkce55hya&st=0r8o9rz6&dl=1
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", La momia de Lee Cronin
