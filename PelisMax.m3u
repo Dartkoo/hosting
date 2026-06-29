@@ -135,7 +135,7 @@ http://190.61.42.218:9000/play/a04d/index.m3u8
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Dartkoo/hosting/refs/heads/gh-pages/imgpelismax1/0001.jpg" group-title="Estrenos", Super Mario Galaxy la película
 http://192.168.100.19:8096/emby/videos/117584/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117584&PlaySessionId=8b30e797dcc8425987c063a3cb609c63&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Dartkoo/hosting/refs/heads/gh-pages/imgpelismax1/0002.jpg" group-title="Estrenos", La momia de Lee Cronin
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117609/Images/Primary?maxHeight=492&maxWidth=328&tag=ddb78acc51a276206e2cee9430722754&keepAnimation=true&quality=90" group-title="Estrenos", La momia de Lee Cronin
 http://192.168.100.19:8096/emby/videos/117609/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117609&PlaySessionId=157dda74671849e7a2829708e8e7d649&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Dartkoo/hosting/refs/heads/gh-pages/imgpelismax1/0003.jpg" group-title="Estrenos", Shelter: El Protector
 http://192.168.100.19:8096/emby/videos/117438/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117438&PlaySessionId=b3c03d647702418fadadf7d02f30d3a6&api_key=d2f48a7a1f2d468293e9757c560b77b1
