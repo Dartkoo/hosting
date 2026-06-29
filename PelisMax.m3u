@@ -6,7 +6,7 @@ http://190.61.42.218:9000/play/a058/index.m3u8
 http://190.61.42.218:9000/play/a069/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", AXN
 http://190.61.42.218:9000/play/a005/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://github.com/Dartkoo/hosting/imgpelismax1/AdultSwim.png" group-title="TV", Adult Swim
+#EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Dartkoo/hosting/refs/heads/gh-pages/imgpelismax1/AdultSwim.png" group-title="TV", Adult Swim
 http://190.61.42.218:9000/play/a06r/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Animal Planet
 http://190.61.42.218:9000/play/a07x/index.m3u8
