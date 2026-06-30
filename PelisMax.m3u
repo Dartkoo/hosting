@@ -230,10 +230,17 @@ http://100.111.130.91:8096/emby/videos/81405/original.mp4?DeviceId=76ac5534-f0b3
 http://100.111.130.91:8096/emby/videos/59730/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59730&PlaySessionId=beb341c358dc4144885972b024c7c470&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/59732/Images/Primary?maxHeight=492&maxWidth=328&tag=69abc36dd7f7fa41ef3455b34e957e59&keepAnimation=true&quality=90" group-title="Estrenos", Intensamente 2 (2024)
 http://100.111.130.91:8096/emby/videos/59732/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59732&PlaySessionId=1a2a89cac65b482396e2a9a9faa3f470&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
+#EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/59754/Images/Primary?maxHeight=492&maxWidth=328&tag=b5f8c6234bb9b328937a7bcb738593c1&keepAnimation=true&quality=90" group-title="Estrenos", ¡Patos! (2023)
+http://100.111.130.91:8096/emby/videos/59754/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59754&PlaySessionId=0ad8a67e456a4cb7a8806dbc77f94262&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/59704/Images/Primary?maxHeight=492&maxWidth=328&tag=52a9bbccb458e956b016158438910576&keepAnimation=true&quality=90" group-title="Estrenos", Al rescate de Fondo de Bikini: La película de Arenita Mejillas (2024)
+http://100.111.130.91:8096/emby/videos/59704/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59704&PlaySessionId=12d248879bf04d189660f008bd8ca8fc&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/59748/Images/Primary?maxHeight=492&maxWidth=328&tag=ce49dde5d07bd7ba97242baabfaaca82&keepAnimation=true&quality=90" group-title="Estrenos", Gru 4: Mi villano favorito (2024)
+http://100.111.130.91:8096/emby/videos/59748/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59748&PlaySessionId=da7adc75c0bc4bf1a36f92ccbf2ec377&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/59746/Images/Primary?maxHeight=492&maxWidth=328&tag=d40c379c9cc720d049e489a685f7c6db&keepAnimation=true&quality=90" group-title="Estrenos", Megalodón 2: El gran abismo (2023)
+http://100.111.130.91:8096/emby/videos/59746/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59746&PlaySessionId=482df553168842719263daa35c2399a4&api_key=d2f48a7a1f2d468293e9757c560b77b1
+
+
+
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
