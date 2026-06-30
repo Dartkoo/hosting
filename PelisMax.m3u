@@ -131,7 +131,8 @@ http://190.61.42.218:9000/play/a04d/index.m3u8
 
 
 
-
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117639/Images/Primary?maxHeight=492&maxWidth=328&tag=28ab39d513d55080f48cc6f7c6eb8b97&keepAnimation=true&quality=90" group-title="Estrenos", Dolly Juega conmigo (2026)
+http://192.168.100.19:8096/emby/videos/117639/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117639&PlaySessionId=35e14d4b0fc44f8f8f81a44578aa41e5&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="pm00001" tvg-logo="http://192.168.100.19:8096/emby/Items/117609/Images/Primary?maxHeight=492&maxWidth=328&tag=ddb78acc51a276206e2cee9430722754&keepAnimation=true&quality=90" group-title="Estrenos", La momia de Lee Cronin (2026)
 http://192.168.100.19:8096/emby/videos/117609/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117609&PlaySessionId=157dda74671849e7a2829708e8e7d649&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117584/Images/Primary?maxHeight=492&maxWidth=328&tag=62e046676902797e30847502295b9184&keepAnimation=true&quality=90" group-title="Estrenos", Super Mario Galaxy la película  (2026)
@@ -164,17 +165,28 @@ http://192.168.100.19:8096/emby/videos/115333/original.mp4?DeviceId=76ac5534-f0b
 http://192.168.100.19:8096/emby/videos/115310/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115310&PlaySessionId=64eef444bf2345ba9ca077e10462b763&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115261/Images/Primary?maxHeight=492&maxWidth=328&tag=ad2098aaab89cc695a38e66d6a4cdd29&keepAnimation=true&quality=90" group-title="Estrenos", 28 años después (2025)
 http://192.168.100.19:8096/emby/videos/115261/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115261&PlaySessionId=b54abedfc78846c9b43cae1b92893415&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115215/Images/Primary?maxHeight=492&maxWidth=328&tag=cc8755c1ca52a4792c3152d379545fd6&keepAnimation=true&quality=90" group-title="Estrenos", Conexión Macabra (2024)
+http://192.168.100.19:8096/emby/videos/115215/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115215&PlaySessionId=2432395330ab477bb2d16a3b34430adc&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115189/Images/Primary?maxHeight=492&maxWidth=328&tag=7c6107657bf0a74e19ef30d17d0f19dc&keepAnimation=true&quality=90" group-title="Estrenos", El payaso del maizal (2025)
+http://192.168.100.19:8096/emby/videos/115189/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115189&PlaySessionId=e0a4eab644024bf2ab6e88136952d5b9&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115181/Images/Primary?maxHeight=492&maxWidth=328&tag=45ecb7a2b3712504ef89be7d0a143251&keepAnimation=true&quality=90" group-title="Estrenos", Mamá Reinventada (2025)
+http://192.168.100.19:8096/emby/videos/115181/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115181&PlaySessionId=1d7336e2a6f242fba40742f3ed2f4918&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115125/Images/Primary?maxHeight=492&maxWidth=328&tag=b3456be1b619be82ebaac8dcea1b218e&keepAnimation=true&quality=90" group-title="Estrenos", Opus (2025)
+http://192.168.100.19:8096/emby/videos/115125/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115125&PlaySessionId=81cf7ffad450499d95ba213b9044c748&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115102/Images/Primary?maxHeight=492&maxWidth=328&tag=8d1466422cd34e60335b99f6f3c4bdec&keepAnimation=true&quality=90" group-title="Estrenos", El candidato honesto (2024)
+http://192.168.100.19:8096/emby/videos/115102/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115102&PlaySessionId=d297cffbe7cd4cd69438ba9e16dc67b5&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115067/Images/Primary?maxHeight=492&maxWidth=328&tag=9023a5c6840751327e54a717ee088abb&keepAnimation=true&quality=90" group-title="Estrenos", M3GAN 2.0 (2025)
+http://192.168.100.19:8096/emby/videos/115067/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115067&PlaySessionId=98ed77dc442a4ec5ad8032128157a5de&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115001/Images/Primary?maxHeight=492&maxWidth=328&tag=7d6773d11462f8c17dcf9741c9cdc63a&keepAnimation=true&quality=90" group-title="Estrenos", La extinción (2024)
+http://192.168.100.19:8096/emby/videos/115001/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115001&PlaySessionId=8e66c5af48024787a641e31e22c43f57&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/114982/Images/Primary?maxHeight=492&maxWidth=328&tag=e10e3d9a3c758521e22c05893b0bebcf&keepAnimation=true&quality=90" group-title="Estrenos", Corre o muere (2024)
+http://192.168.100.19:8096/emby/videos/114982/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_114982&PlaySessionId=03050161490f4c71931f496e73e8f2be&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/114952/Images/Primary?maxHeight=492&maxWidth=328&tag=0afb61870bc4226db824405fb780d376&keepAnimation=true&quality=90" group-title="Estrenos", Dora en busca del Sol Dorado (2025)
+http://192.168.100.19:8096/emby/videos/114952/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_114952&PlaySessionId=b58709ad4f704bb9b27cb3d68785e8ac&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/114922/Images/Primary?maxHeight=492&maxWidth=328&tag=c64b83b6fc5fb3eaf4a4e724dd493bde&keepAnimation=true&quality=90" group-title="Estrenos", Karate Kid: Leyendas (2025)
+http://192.168.100.19:8096/emby/videos/114922/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_114922&PlaySessionId=9c9f714ee85c4a3d86daac0aa578640e&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/110307/Images/Primary?maxHeight=492&maxWidth=328&tag=4e25a8e73b28bacc936f74a1886bc586&keepAnimation=true&quality=90" group-title="Estrenos", Encerrado (2025)
+http://192.168.100.19:8096/emby/videos/110307/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_110307&PlaySessionId=274fc364470b40b7a62d144d9beb5b72&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
