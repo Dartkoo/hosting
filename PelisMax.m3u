@@ -132,7 +132,7 @@ http://190.61.42.218:9000/play/a04d/index.m3u8
 
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117609/Images/Primary?maxHeight=492&maxWidth=328&tag=ddb78acc51a276206e2cee9430722754&keepAnimation=true&quality=90" group-title="Estrenos", La momia de Lee Cronin (2026)
+#EXTINF:-1 tvg-id="pm00001" tvg-logo="http://192.168.100.19:8096/emby/Items/117609/Images/Primary?maxHeight=492&maxWidth=328&tag=ddb78acc51a276206e2cee9430722754&keepAnimation=true&quality=90" group-title="Estrenos", La momia de Lee Cronin (2026)
 http://192.168.100.19:8096/emby/videos/117609/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117609&PlaySessionId=157dda74671849e7a2829708e8e7d649&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117584/Images/Primary?maxHeight=492&maxWidth=328&tag=62e046676902797e30847502295b9184&keepAnimation=true&quality=90" group-title="Estrenos", Super Mario Galaxy la película  (2026)
 http://192.168.100.19:8096/emby/videos/117584/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117584&PlaySessionId=8b30e797dcc8425987c063a3cb609c63&api_key=d2f48a7a1f2d468293e9757c560b77b1
@@ -152,12 +152,18 @@ http://192.168.100.19:8096/emby/videos/115463/original.mp4?DeviceId=76ac5534-f0b
 http://192.168.100.19:8096/emby/videos/115456/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115456&PlaySessionId=bb61b9b4676344bdacdcebf9d0b074e8&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115445/Images/Primary?maxHeight=492&maxWidth=328&tag=989389dab2f9b9255fc5b029cb19a895&keepAnimation=true&quality=90" group-title="Estrenos", Osiris (2025)
 http://192.168.100.19:8096/emby/videos/115445/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115445&PlaySessionId=46bcf182b09c4413a4da8d2deee331cd&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115396/Images/Primary?maxHeight=492&maxWidth=328&tag=409e737bb4caa85e0fccc4fbea8814b4&keepAnimation=true&quality=90" group-title="Estrenos", Destino: Titán (2024)
+http://192.168.100.19:8096/emby/videos/115396/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115396&PlaySessionId=3486bf72a93f492e90cedfa88af9aaca&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115375/Images/Primary?maxHeight=492&maxWidth=328&tag=fe3bbbccf16ee8497c2afffde2915d84&keepAnimation=true&quality=90" group-title="Estrenos", El último encargo (2025)
+http://192.168.100.19:8096/emby/videos/115375/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115375&PlaySessionId=64e3711176d74f1a9b87785be5e5720d&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115408/Images/Primary?maxHeight=492&maxWidth=328&tag=c62e18a130b294de8e73ad61f19fbcdf&keepAnimation=true&quality=90" group-title="Estrenos", Screamboat La Masacre Del Ratón (2025)
+http://192.168.100.19:8096/emby/videos/115408/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115408&PlaySessionId=45553f1e9f3442b69c52d95f8c9d3f23&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115333/Images/Primary?maxHeight=492&maxWidth=328&tag=1b3987b4ac2cb29784e71853fd588a18&keepAnimation=true&quality=90" group-title="Estrenos", Jurassic World: El renacer (2025)
+http://192.168.100.19:8096/emby/videos/115333/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115333&PlaySessionId=5c036b31e7994930a073ab78ad4f7330&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115310/Images/Primary?maxHeight=492&maxWidth=328&tag=064d05d033570c1a43a09b5f2b3542e3&keepAnimation=true&quality=90" group-title="Estrenos", Fritos a balazos (2025)
+http://192.168.100.19:8096/emby/videos/115310/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115310&PlaySessionId=64eef444bf2345ba9ca077e10462b763&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115261/Images/Primary?maxHeight=492&maxWidth=328&tag=ad2098aaab89cc695a38e66d6a4cdd29&keepAnimation=true&quality=90" group-title="Estrenos", 28 años después (2025)
+http://192.168.100.19:8096/emby/videos/115261/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115261&PlaySessionId=b54abedfc78846c9b43cae1b92893415&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
@@ -226,18 +232,20 @@ http://192.168.100.19:8096/emby/videos/115445/original.mp4?DeviceId=76ac5534-f0b
 
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2Y0YzU3YWMtZTY0ZC00MDI0LWFjNjItZGZlNjIzMTdmN2RhXkEyXkFqcGdeQXVyNzYxMjI1Mzg@._V1_UY268_CR2,0,182,268_AL_.jpg" group-title="Estrenos", Peligro en Redes Sociales (2018)
-https://lh3.googleusercontent.com/LKoBMGwIPxKxFzE3oVIYbjxs4fMxt8DcZ5bLerZp5a2nstLGk6AHdPbzz03f8NFSCdoefAg5n-8ZyguC-ThjMFP3CfgoJ_3PliczUm9j6LYUCoTDXFgD0NjtBLIF9obROfwzLmt1M_w=m22
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BMWI2Yjc3YmUtMzVhZS00OGM3LTgwMWItZWM1MWM0YjAxZjZhXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Estrenos", Mi Zoe mi Vida (2019)
-https://lh3.googleusercontent.com/1zr2fgAgx1mr-0XFunLq7-SGZe0W1Sr-BR9aHqOmXKKRBv9XtUUsbYNATPI5xOFwc3FqIBh0OBBu3rUdbnWCp4eLB54AYWdsKoRT8yW0LNheFUD3mLH2dPecF0976jBn0Q2XjkLZCoE=m22
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BOTdmOTQwY2MtYjJhOC00OGMwLWFmODYtNzU4ZWYzYjc5NzhhXkEyXkFqcGdeQXVyMjM4MTU4NjQ@._V1_UY268_CR7,0,182,268_AL_.jpg" group-title="Estrenos", Rise of the Mummy (2021)
-https://lh3.googleusercontent.com/fTt_O-1TEfrpUbwuEp36_sTCulA9qJOWwoAGayBq2jv1HiGJoevVIkJOfSdLEyVf8sRNKoeMMHi_DJR2qHJJ5EGlg0w0uY0a_6uGjvxRqVCz3A5xKf29k7nqAkwuGZWE2g52c_ofvZg=m22
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BMWZkM2I2NjEtNWM0Mi00MTgwLWJlYTAtYmNkZWYzNmQ1ZTBiXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Estrenos", Fuerza Trueno (2021)
-https://lh3.googleusercontent.com/kt5PIFNcqhDLg-tAtt39y9ldXONZ-Wyg_Q2ZCuB907s9Xm_klM1dqE9RC56_8xC2C19BT-KxIyaLy1oY3GMW0bRlniO3wTBE8hz3Q3D1hkVY3Lo4Wh1Y_CwieTSbZDcTY-Uhi6OnYWs=m22
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BODJlMzdlYzItMzRkNi00NTE0LTliZjQtMTllNzkxNDVhNjkxXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Estrenos", El Mauritano (2021)
-https://lh3.googleusercontent.com/C8D1a2ymsr2A4ux7EuKGRIwiR2I8J2kpabV2hzekW1H7noK3yHFtiBvHFoCV7wlIW3KuFOwNOYa3vWeW9p_yUQHzAXTGzdwjMjWqzxz8nJBlBB_pFMcHBoZHD3Pp5XJsIEg4VSgWBqQ=m22
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BM2FlZDA2YWMtMTE3ZC00MzVhLWI3NWMtYWViNjc5YTg1Zjc2XkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_UY268_CR2,0,182,268_AL_.jpg" group-title="Estrenos", Violencia Aleatoria (2019)
-https://lh3.googleusercontent.com/umToWHnB8k5t9aGgv_Wn_CKo4xIDcQrNMi9JzQcv-qADs_lDO44dAxzDcZEKIgh4XZD0_gcYtTNAurjmEKo1t0iLCwlA1-ISU-rFYju9sXCxT_C9VJQRlWCGlAy2cdiOswuKwXuQXhQ=m22
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/16966/Images/Primary?maxHeight=492&maxWidth=328&tag=e657d1d8cf04202d1597108c8f4102e8&keepAnimation=true&quality=90" group-title="Estrenos", Peligro en Redes Sociales (2018)
+http://192.168.100.19:8096/emby/videos/16966/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_16966&PlaySessionId=351f04519826460da50657696f3e3d4b&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/16918/Images/Primary?maxHeight=492&maxWidth=328&tag=588bcdbca706f7b5f573421277219a73&keepAnimation=true&quality=90" group-title="Estrenos", Mi Zoe mi Vida (2019)
+http://192.168.100.19:8096/emby/videos/16918/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_16918&PlaySessionId=71ee8e2dd3fe43b69e94f82dfc28a7c4&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/16998/Images/Primary?maxHeight=492&maxWidth=328&tag=d70d454f00752cb999388ba61233a5de&keepAnimation=true&quality=90" group-title="Estrenos", La Resurrección de la Momia (2021)
+http://192.168.100.19:8096/emby/videos/16998/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_16998&PlaySessionId=28adac2e08324ff7aedb529ecf661acd&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/109308/Images/Primary?maxHeight=492&maxWidth=328&tag=58c36fd3d172e359eb9334b9a05b46b4&keepAnimation=true&quality=90" group-title="Estrenos", Fuerza Trueno (2021)
+http://192.168.100.19:8096/emby/videos/109308/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_109308&PlaySessionId=55b37db3d9944ff683af125e291614e4&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/108613/Images/Primary?maxHeight=492&maxWidth=328&tag=38ab0e88a2790e76b285bcc27ac5e64f&keepAnimation=true&quality=90" group-title="Estrenos", El Mauritano (2021)
+http://192.168.100.19:8096/emby/videos/108613/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_108613&PlaySessionId=2df2ab7adb354e9aa5facfb3d3d17df1&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/109617/Images/Primary?maxHeight=492&maxWidth=328&tag=29d6e18c256f728bf614cba0d0113e7f&keepAnimation=true&quality=90" group-title="Estrenos", Violencia Aleatoria (2019)
+http://192.168.100.19:8096/emby/videos/109617/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_109617&PlaySessionId=237d1a46173541fa8e385bda9d729495&api_key=d2f48a7a1f2d468293e9757c560b77b1
+
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BZjM0NzMyMjUtYTE0ZS00YWNhLWFjMTItZTAwYWJkOGI5MGY3XkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Estrenos", Silk Road (2021)
 https://lh3.googleusercontent.com/Op2uCYG_czN0PqRS3kFJSepfB4AD8BvUwUFuDIHL0zlUIt7wrA8HOra4RhEvGDb58K0iHQQ6OxFbeZFVYcA8bmQxaMkPqVAA0VKX2oXMAQXmsC5o-1b1Yjo-n_cs-m0ME-aRqbg6G2E=m22
 #EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BY2QwMjFiNTAtYzE3NC00YjdjLWFhYzgtNjdjN2JjNDcwMDFkXkEyXkFqcGdeQXVyODA5MzExODI@._V1_UY268_CR4,0,182,268_AL_.jpg" group-title="Estrenos", Terror en Siria (2018)
@@ -809,68 +817,23 @@ https://www.googleapis.com/drive/v3/files/1RMRuSfKIciu_WWlSdsxPBJIeGAqmcfvv?alt=
 
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGIwMTA2ZGYtYmM3MS00OTBhLTgxYTAtMDA0NWY0NDU3MmNmXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_UY268_CR4,0,182,268_AL_.jpg" group-title="Colección", 3 Idiotas (2017)
-https://www.googleapis.com/drive/v3/files/1cSHsrqyI3QEeZmg-JW3_vdE4X_55j0fl?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzE2ZjQxNjEtNmI2ZS00ZmU0LTg4M2YtYzVhYmRiYWU0YzI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", 6 en la sombra (2019)
-https://www.googleapis.com/drive/v3/files/11lEnAt02L5e2DLP3u1PgAY-99w0cBr3f?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjExMTEzODkyN15BMl5BanBnXkFtZTcwNTU4NTc4OQ@@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", 12 años de esclavitud (2013)
-https://www.googleapis.com/drive/v3/files/10HfikuDXSnmGSP1lkpschqdd-YLAvZOp?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTEzMjk3NzkxMV5BMl5BanBnXkFtZTgwNjY2NDczNDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", 12 Valientes (2018)
-https://www.googleapis.com/drive/v3/files/1RGROcV-XnaIBq_s8SJva5JdO8jG-qTKS?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BOTlmNzY5YzgtOTBhYS00NDBlLWJhMTYtMzZmNjI4ODVkYmM4XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", 13 Fantasmas (2001)
-https://www.googleapis.com/drive/v3/files/1yDjyfP9BTrone902MTzFESoOUbzEhZkE?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc2NjMzOTE3Ml5BMl5BanBnXkFtZTcwMDE0OTc5Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", 127 Horas (2010)
-https://www.googleapis.com/drive/v3/files/1LnHajTWKb0FdTHvPhDxhW3catU9lOkz9?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGY2MmQ0YTYtNjRjOS00ZjBhLThlMDMtN2FiY2ZjODhmNzU2XkEyXkFqcGdeQXVyOTA5NzQ0MDQ@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", 22 de julio (2018)
-https://www.googleapis.com/drive/v3/files/1P8Mc5ubyIEAc6aSk0AoAeLgaP-j2HqDu?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="ivol415" tvg-logo="https://m.media-amazon.com/images/M/MV5BNWMxYTZlOTUtZDExMi00YzZmLTkwYTMtZmM2MmRjZmQ3OGY4XkEyXkFqcGdeQXVyMTAwMzUyMzUy._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", 300 (2006)
-https://www.googleapis.com/drive/v3/files/1z9EQtHmitFXYyCRTu0pcCNAc1Sj0VsU4?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="ivol416" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTEwNTU2MjAwMDdeQTJeQWpwZ15BbWU3MDk2Njc2Njk@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", 300 El Nacimiento de un Imperio (2014)
-https://www.googleapis.com/drive/v3/files/14c4gJx-rM-VNo3xhPT-luaq-LSM3n5MT?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="ivol416" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc0MjE2NzE0OV5BMl5BanBnXkFtZTgwNTU5MjE1MDE@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", 47 Ronin (2013)
-https://www.googleapis.com/drive/v3/files/16ZqAC5nqXEMDoeREOrFUOSsgtlt8SDJM?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDQ5OGZmMTUtNzBhZS00M2YzLTk3YWEtMDhjMWU3ZjU0MzZmXkEyXkFqcGdeQXVyNjQzNDI3NzY@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", A 20 millones de millas de la Tierra (1957)
-https://www.googleapis.com/drive/v3/files/1W5RZ7tDVY6TYY5IK2R30Y_ksjBpJBLjz?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="ivol379" tvg-logo="https://m.media-amazon.com/images/M/MV5BYzRkZGJmMWEtZDQwZC00ZjkzLWE3YjgtZmY1ZDhjNDUzOTdiXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", A Prueba de Hombres Big Stan (2007)
-https://www.googleapis.com/drive/v3/files/1WkcS2RW8Iy_KJCVMHQeAQAim8OvQQSIb?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BZTllZTdlOGEtZTBmMi00MGQ5LWFjN2MtOGEyZTliNGY1MzFiXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Ad Astra Hacia las Estrellas (2019)
-https://www.googleapis.com/drive/v3/files/1H5RIG0hvqNTvK0ukchCCTsEilH0KDGyb?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="ivol418" tvg-logo="https://m.media-amazon.com/images/M/MV5BYmVhNmFmOGYtZjgwNi00ZGQ0LThiMmQtOGZjMDUzNzJhMGIzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UY268_CR0,0,182,268_AL_.jpg" group-title="Colección", Ace Ventura Detective de Mascotas (1994)
-https://www.googleapis.com/drive/v3/files/1_x0b7YMtzlTX3pMc-JvuJG2FvW-9aP_9?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BNGFiYTgxZDctNGI4OS00MWU1LWIwOGUtZmMyNGQxYjVkZjQ3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Ace Ventura un Loco en África (1995)
-https://www.googleapis.com/drive/v3/files/1mNY7uESqMs-BtxuBmAbo5WHqj64U_ft9?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="ivol262" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjQxMjE5OTA3OF5BMl5BanBnXkFtZTgwMDAxNTg4NjE@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Actividad Paranormal La Dimensión Fantasma (2015)
-https://www.googleapis.com/drive/v3/files/1bmZ8eK7D7WFngPDgweDaMVHAKo_Hj2u4?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="ivol348" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjI2NTg5NDA1NF5BMl5BanBnXkFtZTgwNjEyMDk2MzI@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Actos de Venganza (2017)
-https://www.googleapis.com/drive/v3/files/1Q9bLKjoPZXf11inBsw_UmyS685CmMi_p?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BOWM4OGE4MzUtNzMxZC00ZGM3LTk5ZmMtNDM0NmQ3Y2E1YzI5XkEyXkFqcGdeQXVyNjU1ODUzOTY@._V1_UY268_CR3,0,182,268_AL_.jpg" group-title="Colección", Afterparty (2013)
-https://www.googleapis.com/drive/v3/files/1VKeqYRKSCeBuW1Gb0a_Woerjr7vS59Gy?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BZjBiNGNlNmItZTk2Zi00YjRlLTk1NzEtNDI2YTNmN2EwNDhlXkEyXkFqcGdeQXVyNDY2MTk1ODk@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Agente 007 De Rusia con Amor (1963)
-https://www.googleapis.com/drive/v3/files/1Iyqu1D77yzK8k8A97hiI-2RYsRQL_VFr?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDJhOTgyMTUtMDVhOS00MzRlLTk0MjYtYjI5NzhhMTExMTc1XkEyXkFqcGdeQXVyNDY2MTk1ODk@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Agente 007 La Espía Que Me Amó (1977)
-https://www.googleapis.com/drive/v3/files/1G3EatmOTxJCaYGxKacx_QP8VgSvPsaJB?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BODY3M2I0NGItYzJhNy00M2NiLThhMDgtNjZkNjA1NTQzMDM4XkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Agente 007 Licencia Para Matar (1989)
-https://www.googleapis.com/drive/v3/files/1QeRH19uJ9w1VmF7Gy12e7dFQTHsbDtod?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BMWZiNjE2OWItMTkwNy00ZWQzLWI0NTgtMWE0NjNiYTljN2Q1XkEyXkFqcGdeQXVyNzAwMjYxMzA@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Agente 007 Operación SkyFall (2012)
-https://www.googleapis.com/drive/v3/files/1kPo90m5VOjDiS-rSDfsT3OIIxF9AOtC9?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BYmRmMWZhZGItYzA4MC00ZDYyLWE0OTMtYmM0MWRiN2Q4NGU2XkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Agente Bajo Fuego (2019)
-https://www.googleapis.com/drive/v3/files/14BwqToPH0DhQvNWCZHiISEVGYBxlKag0AQ?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="ivol419" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTY3NTkxMTgzNV5BMl5BanBnXkFtZTgwNjg0MzE2MDE@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Ajuste de Cuentas (2013)
-https://www.googleapis.com/drive/v3/files/1K1QKub3EM798TDi9Fgys2prRvN7p_WY3?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BOWIzODA0NmUtYmQyMS00NmU3LTlkZjQtNmJlMGJlNmU0ZWIzXkEyXkFqcGdeQXVyMTA1MDIxODk4._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Ajuste de Cuentas (2019)
-https://www.googleapis.com/drive/v3/files/14svLBT3B07pU-_2qlUe-xT36IKByMP8X?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BODgxOTg5OGUtOWViMC00NjM5LWEyMTQtN2M4NTBjYWUzOWUzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Al Diablo con El Diablo (2000)
-https://www.googleapis.com/drive/v3/files/11NcVKHWjmv7raIZmF7qKh8_XXbIqHcx-?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="ivol420" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTc5OTk4MTM3M15BMl5BanBnXkFtZTgwODcxNjg3MDE@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Al Filo del Mañana (2014)
-https://www.googleapis.com/drive/v3/files/1MO1LXHDIJrAIfbHAVCBNyuaIvIl795Aj?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="ivol263" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzcyOWQxNDktYWZkOS00MzViLWI0NTYtMDZmNzZkYWI1NDFjXkEyXkFqcGdeQXVyMjI1NTg0MDY@._V1_UY268_CR3,0,182,268_AL_.jpg" group-title="Colección", Al Final del Tunel (2016)
-https://www.googleapis.com/drive/v3/files/1nunS5JsiHlUYVM3y1vb8PtLyLVyMzsTb?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="ivol242" tvg-logo="https://m.media-amazon.com/images/M/MV5BZWEyMzg4ZWUtYmZhMC00Yjk2LWEyYjktODVmN2M3YTA2ZmNjXkEyXkFqcGdeQXVyNjQ2Mjg3OTI@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Aliados (2016)
-https://www.googleapis.com/drive/v3/files/1INKVVddnKndhJzqEuQKh8iDY3SLlRQ03?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="ivol217" tvg-logo="https://m.media-amazon.com/images/M/MV5BYzVkMjRhNzctOGQxMC00OGE2LWJhN2EtNmYyODRiMDNlM2ZmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Alien Covenant (2017)
-https://www.googleapis.com/drive/v3/files/1zfJyzlJOXvgwiTEa50h-DIk7D3NDYeso?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BNWViOWNlZjQtMzJlNi00OTg0LTg3N2QtYWU0NmIxOGU2ODk4XkEyXkFqcGdeQXVyNDk0NDc0Nzk@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Alien Warfare (2019)
-https://www.googleapis.com/drive/v3/files/1ZhcnY0qErdsPrlsyC00102ClW5EH-2bcgw?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
+
+
+
+
+
+
+
+
+
+
+#EXTINF:-1 tvg-id="ivol217" tvg-logo="http://192.168.100.19:8096/emby/Items/10947/Images/Primary?maxHeight=492&maxWidth=328&tag=f96be0405b467a19db6ef29b70703e19&keepAnimation=true&quality=90" group-title="Colección", Alien Covenant (2017)
+http://192.168.100.19:8096/emby/videos/10947/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_10947&PlaySessionId=2f34854c963542959ee34b6cb0fa2868&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/10953/Images/Primary?maxHeight=492&maxWidth=328&tag=0daf03271030ad43bb154414086567d8&keepAnimation=true&quality=90" group-title="Colección", Alien Warfare (2019)
+http://192.168.100.19:8096/emby/videos/10953/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_10953&PlaySessionId=4e604fdfb7274c6ba70d45f31ea27f5e&api_key=d2f48a7a1f2d468293e9757c560b77b1
+
+
+
 #EXTINF:-1 tvg-id="ivol265" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjEyNzQ0NzM4MV5BMl5BanBnXkFtZTgwMDI0ODM2OTE@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Amigos de Armas (2016)
 https://www.googleapis.com/drive/v3/files/159SuzlfaBmACFYMIeQNWjCdV8GfDYdJE?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
 #EXTINF:-1 tvg-id="ivol421" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTQwOTg2MjU0OV5BMl5BanBnXkFtZTcwMzIzNTQzMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Amigos Salvajes (2006)
@@ -1420,7 +1383,7 @@ https://www.googleapis.com/drive/v3/files/14Nkj31GEe5FWULxhkF6Lk0yYyaTc1kQp?alt=
 #EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjQ3NTgzNjk4MF5BMl5BanBnXkFtZTgwNDE0MTUxNDM@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Insidious 4 La Ultima Llave (2018)
 https://www.googleapis.com/drive/v3/files/15AYA-reHGUt_oZayMTmKkQzU-XftpsT2?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
 #EXTINF:-1 tvg-id="ivol328" tvg-logo="https://m.media-amazon.com/images/M/MV5BNWU2NzEyMDYtM2MyOS00OGM3LWFkNzAtMzRiNzE2ZjU5ZTljXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Inteligencia Artificial (2001)
-https://www.googleapis.com/drive/v3/files/17WjpVyl00imlFqoUdWqtBTDamNXymiFb?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
+http://192.168.100.19:8096/emby/videos/89226/original.mkv?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_89226&PlaySessionId=20d74f0c5249412f8377db8ddc2468a5&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="ivol329" tvg-logo="https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Interestelar (2014)
 https://www.googleapis.com/drive/v3/files/1mTxVf0cR0I4SNzYLCe7ANWUWwbcMou7n?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
 #EXTINF:-1 tvg-id="ivol347" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTFmMjM3M2UtOTIyZC00Zjk3LTkzODUtYTdhNGRmNzFhYzcyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", IP Man (2008)
@@ -2182,12 +2145,14 @@ https://www.googleapis.com/drive/v3/files/13KWlbPhtAj9DsNFQM5DiIyel5DLoqt65?alt=
 
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="https://lh3.googleusercontent.com/9U1xdP4DczRK-CrhG2vOGGD1vb6Iyuv4ipgfd-A8wPn0mTI-ZZirk-USgISV32v2kUKzhh1FPux1VU-TMhyxWiEf3SlGog5dIa4UPIBtnCsDUKKTw6lF-8y2GyiLUUrm9hanGRVgH7s" group-title="DVJ Kadjast", Retromix 1
-https://www.googleapis.com/drive/v3/files/1FrSOS_E_MtkxHepqeswS3XxC7Mw-IPVX?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://lh3.googleusercontent.com/u_ukbB-usEDmmUd6YSBSLvn10kqMwoboo5KWZf7x8mZTuoPMb_8cQporwZp49e9wQb_ynntQc-Ce_nB_NtURNacvCRWGcKb1WVZSofhJuzXMYto2MSy6BXKUf4uZw5PcQw6gPIl6Odw" group-title="DVJ Kadjast", Retromix 2
-https://www.googleapis.com/drive/v3/files/1z9XlSmpSWbC3p66jN-rwKEHU7h_jjW8s?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
-#EXTINF:-1 tvg-id="" tvg-logo="https://lh3.googleusercontent.com/zx_Pmtrpshmt0vn_FnAOVEdA5QDdyUTUTv2Mv_b_tkFKEmdK2nSY_KqcowrSp-Fyrj7bAddjP9qIqf2y45-P4ZeS8pOe5m3bC75wTcWERI8eg4ktq3TNsw1N6TP_urIimKj6LVJQZf0" group-title="DVJ Kadjast", Retromix 3
-https://www.googleapis.com/drive/v3/files/1Qw4ZUMllbUJ3h8wk0cTNUOe04kVev3yi?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/75643/Images/Primary?maxHeight=492&maxWidth=328&tag=19902517b3eecd763c336cbe597b097d&keepAnimation=true&quality=90" group-title="DVJ Kadjast", Retromix Vol. 1
+http://192.168.100.19:8096/emby/videos/75643/main.m3u8?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_75643&PlaySessionId=155f8d68940d461d8ca42bf04058ec85&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/75650/Images/Primary?maxHeight=492&maxWidth=328&tag=729994478e8183be37f953ae0682ede0&keepAnimation=true&quality=90" group-title="DVJ Kadjast", Retromix Vol. 2
+http://192.168.100.19:8096/emby/videos/75650/main.m3u8?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_75650&PlaySessionId=f209f95e97d04329ac5ff3e094e7578e&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/75651/Images/Primary?maxHeight=492&maxWidth=328&tag=4a04df2c6a79a2e9499150a35677b926&keepAnimation=true&quality=90" group-title="DVJ Kadjast", Retromix Vol. 3
+http://192.168.100.19:8096/emby/videos/75651/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_75651&PlaySessionId=cb4c5e97e6384a00a9ad0b93f6d0f8a4&api_key=d2f48a7a1f2d468293e9757c560b77b1
+
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://lh3.googleusercontent.com/d7YjlFd69QDKxSOqoMEgzn_K9ZQ8-oJzGg1PU_XZc5N4PPaqVgjPKLE2PRYxNIPDOmMhs8nBQF_YA8uA_-JUnMQf1ZbfVWg5YR3d4R6OdvJaGGwW2mlmD7lU7mV9oSuzOXdYTGIxyh4" group-title="DVJ Kadjast", Retromix 4
 https://www.googleapis.com/drive/v3/files/1uQHgG44ZPkIrBTMHkF_x4CZjo9bRlebu?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
 #EXTINF:-1 tvg-id="" tvg-logo="https://lh3.googleusercontent.com/hIg8VC1K-xEEv-cyLiHHz1x8spXeB9ieymTOkQ2DeA6L6DiB9miXGDe3g-XZjpFgnyXqUTC2lvFAPbw21HaSKaZo1h10oHePRJpH1cUyvqdu88k5iBYABfn0GwJKf9VR7U-jWXZg6Ko" group-title="DVJ Kadjast", Retromix 5
