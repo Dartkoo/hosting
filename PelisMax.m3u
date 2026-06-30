@@ -130,7 +130,7 @@ http://190.61.42.218:9000/play/a04d/index.m3u8
  
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117661/Images/Primary?maxHeight=492&maxWidth=328&tag=000a27ea0b4fbba8a99896e62ccf5734&keepAnimation=true&quality=90" group-title="Estrenos", Strung (2026)
+#EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/117661/Images/Primary?maxHeight=492&maxWidth=328&tag=000a27ea0b4fbba8a99896e62ccf5734&keepAnimation=true&quality=90" group-title="Estrenos", Strung (2026)
 http://192.168.100.19:8096/emby/videos/117661/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117661&PlaySessionId=2fe5c0855dfb4654a45c02faf2100479&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117639/Images/Primary?maxHeight=492&maxWidth=328&tag=28ab39d513d55080f48cc6f7c6eb8b97&keepAnimation=true&quality=90" group-title="Estrenos", Dolly Juega conmigo (2026)
 http://192.168.100.19:8096/emby/videos/117639/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117639&PlaySessionId=35e14d4b0fc44f8f8f81a44578aa41e5&api_key=d2f48a7a1f2d468293e9757c560b77b1
