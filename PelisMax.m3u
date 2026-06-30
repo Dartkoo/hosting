@@ -218,7 +218,8 @@ http://192.168.100.19:8096/emby/videos/81578/original.mp4?DeviceId=76ac5534-f0b3
 http://192.168.100.19:8096/emby/videos/81546/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81546&PlaySessionId=dda59fe252e445bbaea43e8ed62ad9a5&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/81505/Images/Primary?maxHeight=492&maxWidth=328&tag=9b66a5298e72d6b08ae6fe8816835c1b&keepAnimation=true&quality=90" group-title="Estrenos", Rescate Implacable (2025)
 http://192.168.100.19:8096/emby/videos/81505/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81505&PlaySessionId=a00ad7b2b0cc47638a8e7cb460d719b6&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/81473/Images/Primary?maxHeight=492&maxWidth=328&tag=c7e2011740804475067f54814508c0e5&keepAnimation=true&quality=90" group-title="Estrenos", Sonríe 2 (2024)
+http://192.168.100.19:8096/emby/videos/81473/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81473&PlaySessionId=61f66bb785e44d5d9e735372631f3bdd&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
