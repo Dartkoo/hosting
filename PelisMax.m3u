@@ -130,7 +130,8 @@ http://190.61.42.218:9000/play/a04d/index.m3u8
  
 
 
-
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117661/Images/Primary?maxHeight=492&maxWidth=328&tag=000a27ea0b4fbba8a99896e62ccf5734&keepAnimation=true&quality=90" group-title="Estrenos", Strung (2026)
+http://192.168.100.19:8096/emby/videos/117661/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117661&PlaySessionId=2fe5c0855dfb4654a45c02faf2100479&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117639/Images/Primary?maxHeight=492&maxWidth=328&tag=28ab39d513d55080f48cc6f7c6eb8b97&keepAnimation=true&quality=90" group-title="Estrenos", Dolly Juega conmigo (2026)
 http://192.168.100.19:8096/emby/videos/117639/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117639&PlaySessionId=35e14d4b0fc44f8f8f81a44578aa41e5&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="pm00001" tvg-logo="http://192.168.100.19:8096/emby/Items/117609/Images/Primary?maxHeight=492&maxWidth=328&tag=ddb78acc51a276206e2cee9430722754&keepAnimation=true&quality=90" group-title="Estrenos", La momia de Lee Cronin (2026)
@@ -187,20 +188,32 @@ http://192.168.100.19:8096/emby/videos/114952/original.mp4?DeviceId=76ac5534-f0b
 http://192.168.100.19:8096/emby/videos/114922/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_114922&PlaySessionId=9c9f714ee85c4a3d86daac0aa578640e&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/110307/Images/Primary?maxHeight=492&maxWidth=328&tag=4e25a8e73b28bacc936f74a1886bc586&keepAnimation=true&quality=90" group-title="Estrenos", Encerrado (2025)
 http://192.168.100.19:8096/emby/videos/110307/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_110307&PlaySessionId=274fc364470b40b7a62d144d9beb5b72&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/110301/Images/Primary?maxHeight=492&maxWidth=328&tag=5fabcc99bc5d97104134a960462adf0f&keepAnimation=true&quality=90" group-title="Estrenos", El día que la Tierra explotó: Looney Tunes (2024)
+http://192.168.100.19:8096/emby/videos/110301/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_110301&PlaySessionId=9a9854dda5744116adea1e687c73dda4&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/110284/Images/Primary?maxHeight=492&maxWidth=328&tag=d5d1fbe6ebebdca43b206d2d2d13b7fb&keepAnimation=true&quality=90" group-title="Estrenos", Criatura voraz (2025)
+http://192.168.100.19:8096/emby/videos/110284/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_110284&PlaySessionId=c0595cb28e27495eab98709d9912a7ce&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/110196/Images/Primary?maxHeight=492&maxWidth=328&tag=12f29f806f3e1ad7eafb9bf945ad36e7&keepAnimation=true&quality=90" group-title="Estrenos", Mickey 17 (2025)
+http://192.168.100.19:8096/emby/videos/110196/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_110196&PlaySessionId=a5fecbefdcc74ad8862dced67a07bec8&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/110107/Images/Primary?maxHeight=492&maxWidth=328&tag=34433be20783aff7c02fe3d838407ed5&keepAnimation=true&quality=90" group-title="Estrenos", Lilo y Stitch (2025)
+http://192.168.100.19:8096/emby/videos/110107/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_110107&PlaySessionId=dc065533545c4439b5b35158cc9a962d&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/110093/Images/Primary?maxHeight=492&maxWidth=328&tag=2ec8210f2316d7b288c64f2d565aa1e1&keepAnimation=true&quality=90" group-title="Estrenos", Cómo entrenar a tu dragón (2025)
+http://192.168.100.19:8096/emby/videos/110093/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_110093&PlaySessionId=e0893230891f4da98bbffb5abd726dc8&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/107898/Images/Primary?maxHeight=492&maxWidth=328&tag=3c726b6f6f990a453da66a56acd9a7e1&keepAnimation=true&quality=90" group-title="Estrenos", Destino final: Lazos de sangre (2025)
+http://192.168.100.19:8096/emby/videos/107898/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_107898&PlaySessionId=9f3a3747a7534fd7beaf8a0bcf4ac81e&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/91851/Images/Primary?maxHeight=492&maxWidth=328&tag=ad0b74706ab6f747799b345689b11e96&keepAnimation=true&quality=90" group-title="Estrenos", Pérdida total (2025)
+http://192.168.100.19:8096/emby/videos/91851/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_91851&PlaySessionId=16092be83292445ca20c28b597963b50&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/91794/Images/Primary?maxHeight=492&maxWidth=328&tag=562c70d96416672cc6a4e69e3683edcd&keepAnimation=true&quality=90" group-title="Estrenos", El Contador 2 (2025)
+http://192.168.100.19:8096/emby/videos/91794/main.m3u8?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_91794&PlaySessionId=c0e71d4cc13f42d0a10fcd33e437398f&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/81701/Images/Primary?maxHeight=492&maxWidth=328&tag=a9cb474cca86a634f10759f94ecded1c&keepAnimation=true&quality=90" group-title="Estrenos", María, ¡Me muero! (2024)
+http://192.168.100.19:8096/emby/videos/81701/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81701&PlaySessionId=04a02cb11b0b48a6819033d84e5adf21&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/81687/Images/Primary?maxHeight=492&maxWidth=328&tag=97d8aba9bb8fba5b296a054beda9f804&keepAnimation=true&quality=90" group-title="Estrenos", Sonic 3: La película (2024)
+http://192.168.100.19:8096/emby/videos/81687/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81687&PlaySessionId=8104718a96f04d36805cc675a5467946&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/81669/Images/Primary?maxHeight=492&maxWidth=328&tag=c1ffd0d82a40446e2645f7d6b16939d2&keepAnimation=true&quality=90" group-title="Estrenos", El Jardinero (2025)
+http://192.168.100.19:8096/emby/videos/81669/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81669&PlaySessionId=1faef8a64f9e4356b4c956dc03f7b886&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/81644/Images/Primary?maxHeight=492&maxWidth=328&tag=5d53f0ebcf351e1341694b80ba3669dd&keepAnimation=true&quality=90" group-title="Estrenos", Implacable (2023)
+http://192.168.100.19:8096/emby/videos/81644/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81644&PlaySessionId=8b1a7390e5564114a92dd88338179e0c&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/81578/Images/Primary?maxHeight=492&maxWidth=328&tag=3079250da3cef682e54f211c8fa67251&keepAnimation=true&quality=90" group-title="Estrenos", Peter Pan: Pesadilla en Nunca Jamás (2025)
+http://192.168.100.19:8096/emby/videos/81578/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81578&PlaySessionId=fa4a58e5c5334868bb49db95da6097a5&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
