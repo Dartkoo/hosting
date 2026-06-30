@@ -214,8 +214,10 @@ http://192.168.100.19:8096/emby/videos/81669/original.mp4?DeviceId=76ac5534-f0b3
 http://192.168.100.19:8096/emby/videos/81644/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81644&PlaySessionId=8b1a7390e5564114a92dd88338179e0c&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/81578/Images/Primary?maxHeight=492&maxWidth=328&tag=3079250da3cef682e54f211c8fa67251&keepAnimation=true&quality=90" group-title="Estrenos", Peter Pan: Pesadilla en Nunca Jamás (2025)
 http://192.168.100.19:8096/emby/videos/81578/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81578&PlaySessionId=fa4a58e5c5334868bb49db95da6097a5&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/81546/Images/Primary?maxHeight=492&maxWidth=328&tag=0541535b33cab122995e6c6fb815a551&keepAnimation=true&quality=90" group-title="Estrenos", Una película de Minecraft (2025)
+http://192.168.100.19:8096/emby/videos/81546/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81546&PlaySessionId=dda59fe252e445bbaea43e8ed62ad9a5&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/81505/Images/Primary?maxHeight=492&maxWidth=328&tag=9b66a5298e72d6b08ae6fe8816835c1b&keepAnimation=true&quality=90" group-title="Estrenos", Rescate Implacable (2025)
+http://192.168.100.19:8096/emby/videos/81505/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81505&PlaySessionId=a00ad7b2b0cc47638a8e7cb460d719b6&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
