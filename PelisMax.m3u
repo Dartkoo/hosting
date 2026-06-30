@@ -220,11 +220,16 @@ http://100.111.130.91:8096/emby/videos/81546/original.mp4?DeviceId=76ac5534-f0b3
 http://100.111.130.91:8096/emby/videos/81505/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81505&PlaySessionId=a00ad7b2b0cc47638a8e7cb460d719b6&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/81473/Images/Primary?maxHeight=492&maxWidth=328&tag=c7e2011740804475067f54814508c0e5&keepAnimation=true&quality=90" group-title="Estrenos", Sonríe 2 (2024)
 http://100.111.130.91:8096/emby/videos/81473/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81473&PlaySessionId=61f66bb785e44d5d9e735372631f3bdd&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
+#EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/81450/Images/Primary?maxHeight=492&maxWidth=328&tag=5b01e1e17be81646bb670741aa83c5b4&keepAnimation=true&quality=90" group-title="Estrenos", Five Nights at Freddy's (2023)
+http://100.111.130.91:8096/emby/videos/81450/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81450&PlaySessionId=8ab05f92dd5b4382ae03a6ebac327362&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/81426/Images/Primary?maxHeight=492&maxWidth=328&tag=a7f6193776d1b3a384d4608bd22222ea&keepAnimation=true&quality=90" group-title="Estrenos", Longlegs (2024)
+http://100.111.130.91:8096/emby/videos/81426/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81426&PlaySessionId=f45ca7528eb646699313fb5e140e2cd9&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/81405/Images/Primary?maxHeight=492&maxWidth=328&tag=e18ec80abd9e8848bb0913201e43dfd8&keepAnimation=true&quality=90" group-title="Estrenos", La Sustancia (2024)
+http://100.111.130.91:8096/emby/videos/81405/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_81405&PlaySessionId=9dd7ca31cc4943e39b43b7ced11f790c&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/59730/Images/Primary?maxHeight=492&maxWidth=328&tag=e98d91c66b3e0c6b5d249866f3a3a570&keepAnimation=true&quality=90" group-title="Estrenos", Intensamente: Del revés (2015)
+http://100.111.130.91:8096/emby/videos/59730/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59730&PlaySessionId=beb341c358dc4144885972b024c7c470&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/59732/Images/Primary?maxHeight=492&maxWidth=328&tag=69abc36dd7f7fa41ef3455b34e957e59&keepAnimation=true&quality=90" group-title="Estrenos", Intensamente 2 (2024)
+http://100.111.130.91:8096/emby/videos/59732/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59732&PlaySessionId=1a2a89cac65b482396e2a9a9faa3f470&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
@@ -1412,6 +1417,8 @@ https://www.googleapis.com/drive/v3/files/14Nkj31GEe5FWULxhkF6Lk0yYyaTc1kQp?alt=
 https://www.googleapis.com/drive/v3/files/15AYA-reHGUt_oZayMTmKkQzU-XftpsT2?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
 #EXTINF:-1 tvg-id="ivol328" tvg-logo="https://m.media-amazon.com/images/M/MV5BNWU2NzEyMDYtM2MyOS00OGM3LWFkNzAtMzRiNzE2ZjU5ZTljXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Inteligencia Artificial (2001)
 http://100.111.130.91:8096/emby/videos/89226/original.mkv?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_89226&PlaySessionId=20d74f0c5249412f8377db8ddc2468a5&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/59730/Images/Primary?maxHeight=492&maxWidth=328&tag=e98d91c66b3e0c6b5d249866f3a3a570&keepAnimation=true&quality=90" group-title="Colección", Intensamente: Del revés (2015)
+http://100.111.130.91:8096/emby/videos/59730/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59730&PlaySessionId=beb341c358dc4144885972b024c7c470&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="ivol329" tvg-logo="https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", Interestelar (2014)
 https://www.googleapis.com/drive/v3/files/1mTxVf0cR0I4SNzYLCe7ANWUWwbcMou7n?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
 #EXTINF:-1 tvg-id="ivol347" tvg-logo="https://m.media-amazon.com/images/M/MV5BNTFmMjM3M2UtOTIyZC00Zjk3LTkzODUtYTdhNGRmNzFhYzcyXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Colección", IP Man (2008)
