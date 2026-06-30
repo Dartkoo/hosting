@@ -1,7 +1,7 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115617/Images/Primary?maxHeight=492&maxWidth=328&tag=36539da57f25b5a55a58cba0a6eb0e22&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 001
-http://192.168.100.19:8096/emby/videos/115617/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115617&PlaySessionId=03d7f83c07ce48e7a6022cd7af48a8d7&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/115617/Images/Primary?maxHeight=492&maxWidth=328&tag=36539da57f25b5a55a58cba0a6eb0e22&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 001
+http://100.111.130.91:8096/emby/videos/115617/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115617&PlaySessionId=03d7f83c07ce48e7a6022cd7af48a8d7&api_key=d2f48a7a1f2d468293e9757c560b77b1
 
 
 
