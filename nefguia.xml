@@ -16,32 +16,3 @@ Vestuario: Blusa Negra y Medias de Red Negras.</desc>
     <category lang="es">XXX</category>
   </programme>
 </tv>
-
-<?xml version="1.0" encoding="UTF-8"?>
-<catalogo>
-    <pelicula id="1">
-        <titulo>Inception</titulo>
-        <director>Christopher Nolan</director>
-        <anio>2010</anio>
-        <genero>Ciencia ficción</genero>
-        <duracion>148 min</duracion>
-        <sinopsis>Un ladrón que roba secretos corporativos a través del uso de la tecnología de sueños...</sinopsis>
-        <reparto>
-            <actor>Leonardo DiCaprio</actor>
-            <actor>Joseph Gordon-Levitt</actor>
-        </reparto>
-    </pelicula>
-    
-    <pelicula id="2">
-        <titulo>El Padrino</titulo>
-        <director>Francis Ford Coppola</director>
-        <anio>1972</anio>
-        <genero>Drama</genero>
-        <duracion>175 min</duracion>
-        <sinopsis>El patriarca envejecido de una dinastía del crimen organizado transfiere el control de su imperio clandestino a su hijo reacio.</sinopsis>
-        <reparto>
-            <actor>Marlon Brando</actor>
-            <actor>Al Pacino</actor>
-        </reparto>
-    </pelicula>
-</catalogo>
