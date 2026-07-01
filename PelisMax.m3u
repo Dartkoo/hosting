@@ -238,13 +238,14 @@ http://100.111.130.91:8096/emby/videos/59704/original.mp4?DeviceId=76ac5534-f0b3
 http://100.111.130.91:8096/emby/videos/59748/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59748&PlaySessionId=da7adc75c0bc4bf1a36f92ccbf2ec377&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/59746/Images/Primary?maxHeight=492&maxWidth=328&tag=d40c379c9cc720d049e489a685f7c6db&keepAnimation=true&quality=90" group-title="Estrenos", Megalodón 2: El gran abismo (2023)
 http://100.111.130.91:8096/emby/videos/59746/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59746&PlaySessionId=482df553168842719263daa35c2399a4&api_key=d2f48a7a1f2d468293e9757c560b77b1
-
-
-
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
+#EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/59734/Images/Primary?maxHeight=492&maxWidth=328&tag=60f2acd73ce2b76c30f79b0a52c51beb&keepAnimation=true&quality=90" group-title="Estrenos", Kung Fu Panda 4 (2024)
+http://100.111.130.91:8096/emby/videos/59734/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59734&PlaySessionId=b7f7d9a28de94619969ae10ec27202e3&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://100.111.130.91:8096/emby/Items/59716/Images/Primary?maxHeight=492&maxWidth=328&tag=295b1f3c66abcac629d0d0300f63abb4&keepAnimation=true&quality=90" group-title="Estrenos", Es por su bien (2024)
+http://100.111.130.91:8096/emby/videos/59716/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59716&PlaySessionId=1e229f4a18a3459a8b1ef70a6bf2737b&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/59718/Images/Primary?maxHeight=492&maxWidth=328&tag=49d62d21ffa5b665095726576644d73e&keepAnimation=true&quality=90" group-title="Estrenos", Firma Aquí (2024)
+http://192.168.100.19:8096/emby/videos/59718/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59718&PlaySessionId=b12e902ce813425eaca4bdcc1bfe5342&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/59770/Images/Primary?maxHeight=492&maxWidth=328&tag=a6d7e1f46c549f223fb77bfce0ce9497&keepAnimation=true&quality=90" group-title="Estrenos", Tarot de la Muerte (2024)
+http://192.168.100.19:8096/emby/videos/59770/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_59770&PlaySessionId=b29abad23df54bc2b63ba5763d5df8eb&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
