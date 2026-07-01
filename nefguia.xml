@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tv>
+  <channel id="wc001">
+    <display-name lang="es">Patty Webcam 001</display-name>
+    <url>http://www.ivolnet.esy.es/tv/</url>
+  </channel>
+    <programme start="20210115000000" stop="21001212010108" channel="wc001">
+    <title>Patty Webcam 001</title>
+    <icon src="http://100.111.130.91:8096/emby/Items/115617/Images/Primary?maxHeight=492&maxWidth=328&tag=36539da57f25b5a55a58cba0a6eb0e22&keepAnimation=true&quality=90" />
+    <desc lang="es">Patty XXXtasis en Sesión de Webcam. 
+Duración: 1:01:08
+Actor: Patty XXXtasis.
+Vestuario: Blusa Negra y Medias de Red Negras.</desc>
+    <category lang="es">Patty XXXtasis</category>
+    <category lang="es">Webcams</category>
+    <category lang="es">XXX</category>
+  </programme>
+</tv>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <pelicula id="1">
+        <titulo>Inception</titulo>
+        <director>Christopher Nolan</director>
+        <anio>2010</anio>
+        <genero>Ciencia ficción</genero>
+        <duracion>148 min</duracion>
+        <sinopsis>Un ladrón que roba secretos corporativos a través del uso de la tecnología de sueños...</sinopsis>
+        <reparto>
+            <actor>Leonardo DiCaprio</actor>
+            <actor>Joseph Gordon-Levitt</actor>
+        </reparto>
+    </pelicula>
+    
+    <pelicula id="2">
+        <titulo>El Padrino</titulo>
+        <director>Francis Ford Coppola</director>
+        <anio>1972</anio>
+        <genero>Drama</genero>
+        <duracion>175 min</duracion>
+        <sinopsis>El patriarca envejecido de una dinastía del crimen organizado transfiere el control de su imperio clandestino a su hijo reacio.</sinopsis>
+        <reparto>
+            <actor>Marlon Brando</actor>
+            <actor>Al Pacino</actor>
+        </reparto>
+    </pelicula>
+</catalogo>

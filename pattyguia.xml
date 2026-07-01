@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <pelicula id="wc001">
+        <titulo>Patty Webcam 001</titulo>
+        <director>Nefertisex</director>
+        <anio>2000</anio>
+        <genero>XXX</genero>
+        <duracion>61 min</duracion>
+        <sinopsis>Patty en Sesión de Webcam. 
+Duración: 1:01:08
+Vestuario: Blusa Negra y Medias de Red Negras.</sinopsis>
+        <reparto>
+            <actor>Actor: Patty</actor>
+			<actor>Cat.: Webcam</actor>
+			<actor>Gen.: XXX</actor>
+        </reparto>
+    </pelicula>
+</catalogo>
