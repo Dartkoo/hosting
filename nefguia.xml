@@ -2,7 +2,7 @@
 <tv>
   <channel id="wc001">
     <display-name lang="es">Patty Webcam 001</display-name>
-    <url>http://www.ivolnet.esy.es/tv/</url>
+    <url>https://dartkoo.github.io/hosting</url>
   </channel>
     <programme start="20210115000000" stop="21001212010108" channel="wc001">
     <title>Patty Webcam 001</title>
