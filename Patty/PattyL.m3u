@@ -1,12 +1,5 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="wc000" tvg-logo="" group-title="Emby Patty", Prueba1
-https://github.com/Dartkoo/hosting/raw/refs/heads/gh-pages/Patty/pattyvod2.php?token=pamsexy&id=PWP5.m3u8
-#EXTINF:-1 tvg-id="wc000" tvg-logo="" group-title="Emby Patty", Prueba2
-https://raw.githubusercontent.com/Dartkoo/hosting/refs/heads/gh-pages/Patty/pattyvod2.php?token=pamsexy&id=PWP5.m3u8
-
-
-
 #EXTINF:-1 tvg-id="wc000" tvg-logo="https://lh3.googleusercontent.com/pw/AP1GczNrgO7Bayi_0gII-KZCHhwVCQ3gfYpxGivMrI3ho7LMDtvxCqNfWiaHZs2o598PBkTmPNLOFtlnnW3bNLgC6jG4Cxa-JWNEPA92hUmfEoLELSvLHjg" group-title="Emby Patty", WEBCAMS
 https://www.googleapis.com/drive/v3/files/1kDul7FLhS3WM-e3TUG807oKVKA3ljXaa?alt=media&key=AIzaSyBUKG8tHZ1l4JnZzP-K_4q9VOneV3Gznr0
 #EXTINF:-1 tvg-id="wc001" tvg-logo="http://192.168.100.19:8096/emby/Items/115617/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 001
@@ -92,7 +85,7 @@ http://192.168.100.19:8096/emby/videos/117340/stream.mp4?api_key=fd6371be47f3400
 http://192.168.100.19:8096/emby/videos/117342/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117344/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 016
 http://192.168.100.19:8096/emby/videos/117344/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 017
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117346/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 017
 http://192.168.100.19:8096/emby/videos/117346/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117348/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 018
 http://192.168.100.19:8096/emby/videos/117348/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
