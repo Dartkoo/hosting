@@ -1,136 +1,145 @@
 #EXTM3U
+
+#EXTINF:-1 tvg-id="wc000" tvg-logo="" group-title="Emby Patty", Prueba1
+https://github.com/Dartkoo/hosting/raw/refs/heads/gh-pages/Patty/pattyvod2.php?token=pamsexy&id=PWP5.m3u8
+#EXTINF:-1 tvg-id="wc000" tvg-logo="" group-title="Emby Patty", Prueba2
+https://raw.githubusercontent.com/Dartkoo/hosting/refs/heads/gh-pages/Patty/pattyvod2.php?token=pamsexy&id=PWP5.m3u8
+
+
+
 #EXTINF:-1 tvg-id="wc000" tvg-logo="https://lh3.googleusercontent.com/pw/AP1GczNrgO7Bayi_0gII-KZCHhwVCQ3gfYpxGivMrI3ho7LMDtvxCqNfWiaHZs2o598PBkTmPNLOFtlnnW3bNLgC6jG4Cxa-JWNEPA92hUmfEoLELSvLHjg" group-title="Emby Patty", WEBCAMS
 https://www.googleapis.com/drive/v3/files/1kDul7FLhS3WM-e3TUG807oKVKA3ljXaa?alt=media&key=AIzaSyBUKG8tHZ1l4JnZzP-K_4q9VOneV3Gznr0
 #EXTINF:-1 tvg-id="wc001" tvg-logo="http://192.168.100.19:8096/emby/Items/115617/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 001
 http://192.168.100.19:8096/emby/videos/115617/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="wc002" tvg-logo="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?maxHeight=492&maxWidth=328&tag=0c6b6cf489374065ccbb9952c5ae7b84&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 002
+#EXTINF:-1 tvg-id="wc002" tvg-logo="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 002
 http://192.168.100.19:8096/emby/videos/115619/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115621/Images/Primary?maxHeight=492&maxWidth=328&tag=dfa1b9e3e89a337a1bbe0c0de556b932&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 003
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115621/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 003
 http://192.168.100.19:8096/emby/videos/115621/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115623/Images/Primary?maxHeight=492&maxWidth=328&tag=c84e051ec545879e2a80d295682fcd5a&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 004
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115623/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 004
 http://192.168.100.19:8096/emby/videos/115623/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115625/Images/Primary?maxHeight=492&maxWidth=328&tag=263550704bdd44ba459294b4340b5197&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 005
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115625/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 005
 http://192.168.100.19:8096/emby/videos/115625/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115627/Images/Primary?maxHeight=492&maxWidth=328&tag=a6f9b9076875686378bb3218ec11a6b1&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 006
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115627/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 006
 http://192.168.100.19:8096/emby/videos/115627/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115629/Images/Primary?maxHeight=492&maxWidth=328&tag=116ef0e1b4b2cfb1a5234ff3f22af668&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 007
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115629/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 007
 http://192.168.100.19:8096/emby/videos/115629/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115631/Images/Primary?maxHeight=492&maxWidth=328&tag=6ac412494eab175914fb3e4d8e5ad049&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 008
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115631/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 008
 http://192.168.100.19:8096/emby/videos/115631/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115633/Images/Primary?maxHeight=492&maxWidth=328&tag=6e1d5821002f0ec3d451b70172b1e47f&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 009
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115633/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 009
 http://192.168.100.19:8096/emby/videos/115633/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115635/Images/Primary?maxHeight=492&maxWidth=328&tag=73fe07849e3a118caeae0921eb2779b6&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 010
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115635/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 010
 http://192.168.100.19:8096/emby/videos/115635/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115637/Images/Primary?maxHeight=492&maxWidth=328&tag=eefda3ae07c2041c67316c618ada4964&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 011
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115637/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 011
 http://192.168.100.19:8096/emby/videos/115637/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115639/Images/Primary?maxHeight=492&maxWidth=328&tag=c80ff7c9ab94d20a5896b89e95eaa8d7&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 012
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115639/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 012
 http://192.168.100.19:8096/emby/videos/115639/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115641/Images/Primary?maxHeight=492&maxWidth=328&tag=5225f0aa0231d23c7668a1bdc49e1178&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 013
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115641/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 013
 http://192.168.100.19:8096/emby/videos/115641/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115642/Images/Primary?maxHeight=492&maxWidth=328&tag=05516027f7462902b58b56b0a760025a&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 014
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115642/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 014
 http://192.168.100.19:8096/emby/videos/115642/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115644/Images/Primary?maxHeight=492&maxWidth=328&tag=0b1a34e9f22ff0a86ba5a31f3f0d0880&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 015
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115644/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 015
 http://192.168.100.19:8096/emby/videos/115644/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115646/Images/Primary?maxHeight=492&maxWidth=328&tag=c35bbdd0f33141d8896a0eb3e953b96c&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 016
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115646/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 016
 http://192.168.100.19:8096/emby/videos/115646/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115648/Images/Primary?maxHeight=492&maxWidth=328&tag=d534b1a2efdb93bffad527fbbf52592d&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 017
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115648/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 017
 http://192.168.100.19:8096/emby/videos/115648/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115650/Images/Primary?maxHeight=492&maxWidth=328&tag=1a41880c3993248d29fc6d1e9839a09b&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 018
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115650/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 018
 http://192.168.100.19:8096/emby/videos/115650/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115652/Images/Primary?maxHeight=492&maxWidth=328&tag=9ef280073bd271bdd8b9006159b30a87&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 019
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115652/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 019
 http://192.168.100.19:8096/emby/videos/115652/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115654/Images/Primary?maxHeight=492&maxWidth=328&tag=acb867e12a87a8ff1799680008723303&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 020
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115654/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 020
 http://192.168.100.19:8096/emby/videos/115654/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115656/Images/Primary?maxHeight=492&maxWidth=328&tag=86e98f59d84bc6bbc188f23a0d0c0900&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 021
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115656/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 021
 http://192.168.100.19:8096/emby/videos/115656/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115658/Images/Primary?maxHeight=492&maxWidth=328&tag=833760902d1cd8006019213c705a1b9a&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 022
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115658/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 022
 http://192.168.100.19:8096/emby/videos/115658/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115660/Images/Primary?maxHeight=492&maxWidth=328&tag=34ee6c18ef7b50cf385321d79d641a6f&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 023
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115660/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 023
 http://192.168.100.19:8096/emby/videos/115660/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115662/Images/Primary?maxHeight=492&maxWidth=328&tag=515abee801243b60cf81929f21bfee2c&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 024
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115662/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 024
 http://192.168.100.19:8096/emby/videos/115662/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115746/Images/Primary?maxHeight=492&maxWidth=328&tag=583a927a7a5968cb7429ecff8990be51&keepAnimation=true&quality=90" group-title="Emby Patty", Patty Webcam 025
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115746/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 025
 http://192.168.100.19:8096/emby/videos/115746/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117314/Images/Primary?maxHeight=492&maxWidth=328&tag=8084465657d4fe50ec8c2d1ebcdef1f5&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 001
-http://192.168.100.19:8096/emby/videos/117314/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117314&PlaySessionId=d472e67083c84a9fa20e41b354f84ce4&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117316/Images/Primary?maxHeight=492&maxWidth=328&tag=9bddb67832ec545dfdd5d0f72e883e8a&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 002
-http://192.168.100.19:8096/emby/videos/117316/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117316&PlaySessionId=a4b9aa96361c4df2b692f22f0752dcb1&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117318/Images/Primary?maxHeight=492&maxWidth=328&tag=51e32b9894661be14c6d86bcfb45004b&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 003
-http://192.168.100.19:8096/emby/videos/117318/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117318&PlaySessionId=d21aa56f41c5456bbd5eed1cae97e1ba&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117320/Images/Primary?maxHeight=492&maxWidth=328&tag=8651652b7b770689d67cbb08f3838686&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 004
-http://192.168.100.19:8096/emby/videos/117320/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117320&PlaySessionId=093a79df1fe04fb9885af0c83bd3e923&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117322/Images/Primary?maxHeight=492&maxWidth=328&tag=fc9180914a3df8f6c87602e4e618a581&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 005
-http://192.168.100.19:8096/emby/videos/117322/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117322&PlaySessionId=9969bbe243eb4657a26f4a2453dd0a25&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117324/Images/Primary?maxHeight=492&maxWidth=328&tag=08fb13d082eafd49bbaef48332000d65&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 006
-http://192.168.100.19:8096/emby/videos/117324/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117324&PlaySessionId=dab76d2d9ba14ffdaf93317af7404f8d&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117326/Images/Primary?maxHeight=492&maxWidth=328&tag=0b6b81600886335df7a21d3814c38dbc&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 007
-http://192.168.100.19:8096/emby/videos/117326/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117326&PlaySessionId=1a2f7a2c01ac4275adccb2433d506903&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117328/Images/Primary?maxHeight=492&maxWidth=328&tag=8d3997d92017ca95b6664d2e39726b6c&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 008
-http://192.168.100.19:8096/emby/videos/117328/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117328&PlaySessionId=509a1377b15b4e48b4f511d1e9c0c276&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117330/Images/Primary?maxHeight=492&maxWidth=328&tag=175417b377db0580278a1c0e9e407bee&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 009
-http://192.168.100.19:8096/emby/videos/117330/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117330&PlaySessionId=600e06453f40407a8bd28a6f64cc6b2c&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117332/Images/Primary?maxHeight=492&maxWidth=328&tag=1ee91b2a1330764f1c412e91b44899b7&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 010
-http://192.168.100.19:8096/emby/videos/117332/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117332&PlaySessionId=4eb22edd8dea4602bf07d947ba42370b&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117334/Images/Primary?maxHeight=492&maxWidth=328&tag=1be41e42b29876e30ccc393988e157a8&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 011
-http://192.168.100.19:8096/emby/videos/117334/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117334&PlaySessionId=5d0fc3c9ba1a4af0880bb18253bda2ec&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117336/Images/Primary?maxHeight=492&maxWidth=328&tag=ac203ebfa8ab05275f6452e6ed69714f&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 012
-http://192.168.100.19:8096/emby/videos/117336/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117336&PlaySessionId=f73ae4fbef16488ea9b3e36e69a223fd&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117338/Images/Primary?maxHeight=492&maxWidth=328&tag=fb7dca64b4920ec8acc887731599ed99&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 013
-http://192.168.100.19:8096/emby/videos/117338/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117338&PlaySessionId=8568b27c4f704aa7becf8bacf30b5328&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117340/Images/Primary?maxHeight=492&maxWidth=328&tag=fb5e648d6f924bfce7c803191c58abf0&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 014
-http://192.168.100.19:8096/emby/videos/117340/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117340&PlaySessionId=1cd0e0893a4d41c4ab902f8cd77475c8&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117342/Images/Primary?maxHeight=492&maxWidth=328&tag=bacfed4e3c89056bd70673f1867fd8dc&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 015
-http://192.168.100.19:8096/emby/videos/117342/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117342&PlaySessionId=6010e0e5c34e4ef08c77522b71ae9523&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117344/Images/Primary?maxHeight=492&maxWidth=328&tag=2026bf1acf24870ddc65aae9aa92e397&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 016
-http://192.168.100.19:8096/emby/videos/117344/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117344&PlaySessionId=77ed22271df7474d956923b0e89a25c8&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117346/Images/Primary?maxHeight=492&maxWidth=328&tag=03522bba9cfe3adf555466e021c367b1&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 017
-http://192.168.100.19:8096/emby/videos/117346/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117346&PlaySessionId=2db69966b9164c1bbb0be9518fd1c38b&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117348/Images/Primary?maxHeight=492&maxWidth=328&tag=6a1986cccc060a2c90a40d64990e32cf&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 018
-http://192.168.100.19:8096/emby/videos/117348/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117348&PlaySessionId=a7f57e744263491c991a84426f8ceb92&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117350/Images/Primary?maxHeight=492&maxWidth=328&tag=7b06628e98c1a884c8845f215dd2ee01&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 019
-http://192.168.100.19:8096/emby/videos/117350/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117350&PlaySessionId=c07f9c1036034c26a892f42ebe3d4cb7&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117352/Images/Primary?maxHeight=492&maxWidth=328&tag=f7227b0f3feb57b30214fe7bd8ed9448&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 020
-http://192.168.100.19:8096/emby/videos/117352/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117352&PlaySessionId=7a2aa567511947bc840ea0209f7cc168&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117354/Images/Primary?maxHeight=492&maxWidth=328&tag=a6429c193cb0ed27dd3e59d52ce51c5d&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 021
-http://192.168.100.19:8096/emby/videos/117354/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117354&PlaySessionId=8a6f3fdf2494422784d06e755e0dd9bb&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117356/Images/Primary?maxHeight=492&maxWidth=328&tag=dd804b54bf9c0dbd8b70ce70eb1fb394&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 022
-http://192.168.100.19:8096/emby/videos/117356/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117356&PlaySessionId=4206d65d0ef74c22b3c5d02aab0a3913&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117358/Images/Primary?maxHeight=492&maxWidth=328&tag=250ff25dd216ef5ceb1b6c7087dacdf2&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 023
-http://192.168.100.19:8096/emby/videos/117358/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117358&PlaySessionId=9d2fa95bf92f46daa3589311d982481b&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117360/Images/Primary?maxHeight=492&maxWidth=328&tag=8b2ceb2d54ab8c4c1b18bd45be15f1f5&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 024
-http://192.168.100.19:8096/emby/videos/117360/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117360&PlaySessionId=78712cb56e1a46d4b9499eb66522680d&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117362/Images/Primary?maxHeight=492&maxWidth=328&tag=0ee2c5252e3da4f5d55c891b2eb96776&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 025
-http://192.168.100.19:8096/emby/videos/117362/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117362&PlaySessionId=07b12eb1cc36404c9cb91226b9f071b9&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117364/Images/Primary?maxHeight=492&maxWidth=328&tag=020c389c81bd924694130ce3232cc4c1&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 026
-http://192.168.100.19:8096/emby/videos/117364/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117364&PlaySessionId=56d3020a56ce4cff9c58c79809caf402&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117366/Images/Primary?maxHeight=492&maxWidth=328&tag=ea61472e51afb5e161933ca239f1e373&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 027
-http://192.168.100.19:8096/emby/videos/117366/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117366&PlaySessionId=f14200320fda43e394a7bed6241b73fe&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117368/Images/Primary?maxHeight=492&maxWidth=328&tag=bda52afab63dfe7d3b3ebdd2946eb1f5&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 028
-http://192.168.100.19:8096/emby/videos/117368/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117368&PlaySessionId=de7ae4c7cfdb44a7ab716797053c18d8&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117370/Images/Primary?maxHeight=492&maxWidth=328&tag=46df53359310dde2ac6649eb58eeac66&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 029
-http://192.168.100.19:8096/emby/videos/117370/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117370&PlaySessionId=9084c13b7852404485ad09d49c8a2e71&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117372/Images/Primary?maxHeight=492&maxWidth=328&tag=598d66b68550fb88a096346255965ed7&keepAnimation=true&quality=90" group-title="Emby Patty", Webcam Privado 030
-http://192.168.100.19:8096/emby/videos/117372/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117372&PlaySessionId=ad96c63275e147868d8debef7c3e593b&api_key=d2f48a7a1f2d468293e9757c560b77b1
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117314/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 001
+http://192.168.100.19:8096/emby/videos/117314/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117316/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 002
+http://192.168.100.19:8096/emby/videos/117316/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117318/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 003
+http://192.168.100.19:8096/emby/videos/117318/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117320/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 004
+http://192.168.100.19:8096/emby/videos/117320/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117322/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 005
+http://192.168.100.19:8096/emby/videos/117322/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117324/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 006
+http://192.168.100.19:8096/emby/videos/117324/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117326/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 007
+http://192.168.100.19:8096/emby/videos/117326/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117328/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 008
+http://192.168.100.19:8096/emby/videos/117328/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117330/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 009
+http://192.168.100.19:8096/emby/videos/117330/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117332/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 010
+http://192.168.100.19:8096/emby/videos/117332/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117334/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 011
+http://192.168.100.19:8096/emby/videos/117334/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117336/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 012
+http://192.168.100.19:8096/emby/videos/117336/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117338/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 013
+http://192.168.100.19:8096/emby/videos/117338/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117340/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 014
+http://192.168.100.19:8096/emby/videos/117340/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117342/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 015
+http://192.168.100.19:8096/emby/videos/117342/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117344/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 016
+http://192.168.100.19:8096/emby/videos/117344/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 017
+http://192.168.100.19:8096/emby/videos/117346/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117348/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 018
+http://192.168.100.19:8096/emby/videos/117348/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117350/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 019
+http://192.168.100.19:8096/emby/videos/117350/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117352/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 020
+http://192.168.100.19:8096/emby/videos/117352/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117354/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 021
+http://192.168.100.19:8096/emby/videos/117354/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117356/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 022
+http://192.168.100.19:8096/emby/videos/117356/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117358/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 023
+http://192.168.100.19:8096/emby/videos/117358/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117360/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 024
+http://192.168.100.19:8096/emby/videos/117360/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117362/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 025
+http://192.168.100.19:8096/emby/videos/117362/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117364/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 026
+http://192.168.100.19:8096/emby/videos/117364/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117366/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 027
+http://192.168.100.19:8096/emby/videos/117366/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117368/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 028
+http://192.168.100.19:8096/emby/videos/117368/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117370/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 029
+http://192.168.100.19:8096/emby/videos/117370/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117372/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 030
+http://192.168.100.19:8096/emby/videos/117372/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 
 
 
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115837/Images/Primary?maxHeight=492&maxWidth=328&tag=ed9d8516e9d8e13b8c4e33c3b829814d&keepAnimation=true&quality=90" group-title="Emby Patty", Foto-Video Pechos 001 a 100
-http://192.168.100.19:8096/emby/videos/115837/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115837&PlaySessionId=a7d42de990e24235b746502584136f65&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115838/Images/Primary?maxHeight=492&maxWidth=328&tag=ba75c8053524ec02d079207d0db888b1&keepAnimation=true&quality=90" group-title="Emby Patty", Foto-Video Pechos 101 a 200
-http://192.168.100.19:8096/emby/videos/115838/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115838&PlaySessionId=48d313654c2f42a9b36b50e377deb15d&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115839/Images/Primary?maxHeight=492&maxWidth=328&tag=d09f4e7c086021d78f64b5718ee12189&keepAnimation=true&quality=90" group-title="Emby Patty", Foto-Video Pechos 201 a 300
-http://192.168.100.19:8096/emby/videos/115839/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115839&PlaySessionId=a3736e066d1e43f49200773fcd89292f&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115831/Images/Primary?maxHeight=492&maxWidth=328&tag=a2a5633fcc03bc77b2af28efcf565e26&keepAnimation=true&quality=90" group-title="Emby Patty", Foto-Video Pantys 001 a 100
-http://192.168.100.19:8096/emby/videos/115831/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115831&PlaySessionId=f39db3b7267749f3bc25e1923d12903f&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115830/Images/Primary?maxHeight=492&maxWidth=328&tag=7be9976fff9d79e91380b1ca22b03226&keepAnimation=true&quality=90" group-title="Emby Patty", Foto-Video Pantys 101 a 200
-http://192.168.100.19:8096/emby/videos/115830/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115830&PlaySessionId=2faea9f709ca4ab5ab65ff8f89ade8dc&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115832/Images/Primary?maxHeight=492&maxWidth=328&tag=902a03c6feb3351656e2cef44f36ae00&keepAnimation=true&quality=90" group-title="Emby Patty", Foto-Video Pantys 201 a 300
-http://192.168.100.19:8096/emby/videos/115832/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115832&PlaySessionId=f4d78a1e6f884115bc4c5c47c9071e53&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Emby Patty", Foto-Video 1
-http://192.168.100.19:8096/emby/videos/115832/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_115832&PlaySessionId=f4d78a1e6f884115bc4c5c47c9071e53&api_key=d2f48a7a1f2d468293e9757c560b77b1
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Emby Patty", Foto-Video 2
-http://192.168.100.19:8096/emby/videos/115857/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115837/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Foto-Video Pechos 001 a 100
+http://192.168.100.19:8096/emby/videos/115837/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115838/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Foto-Video Pechos 101 a 200
+http://192.168.100.19:8096/emby/videos/115838/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115839/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Foto-Video Pechos 201 a 300
+http://192.168.100.19:8096/emby/videos/115839/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115831/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Foto-Video Pantys 001 a 100
+http://192.168.100.19:8096/emby/videos/115831/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115830/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Foto-Video Pantys 101 a 200
+http://192.168.100.19:8096/emby/videos/115830/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115832/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Foto-Video Pantys 201 a 300
+http://192.168.100.19:8096/emby/videos/115832/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+
+
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items//Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", 
+http://192.168.100.19:8096/emby/videos//stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+
 
 
 
