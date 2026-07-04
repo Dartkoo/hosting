@@ -38,6 +38,8 @@ http://190.61.42.218:9000/play/a05k/index.m3u8
 http://190.61.42.218:9000/play/a00s/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Discovery Science
 http://190.61.42.218:9000/play/a00h/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Discovery Theater
+http://190.61.42.218:9000/play/a04e/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Discovery Turbo
 http://190.61.42.218:9000/play/a01v/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Disney Channel
@@ -66,6 +68,12 @@ http://190.61.42.218:9000/play/a01n/index.m3u8
 http://190.61.42.218:9000/play/a00x/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Discovery HGTV
 http://190.61.42.218:9000/play/a05p/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Golden
+http://209.14.98.47:8000/play/a0u8/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Golden Edge
+http://38.211.119.30:50002/play/a0fd/index.m3u8u?hls
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Golden Premier HD
+http://miotv.cc:8080/live/RESTREAMCRUEL/T7464747/187221.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", History Channel
 http://190.61.42.218:9000/play/a05b/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", History 2
@@ -81,15 +89,13 @@ http://190.61.42.218:9000/play/a09t/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Lifetime
 http://190.61.42.218:9000/play/a0c0/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", MTV
-http://209.14.98.47:8000/play/a0u8/index.m3u8
+http://209.14.98.47:8000/play/a00i/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Nat Geo
 http://190.61.42.218:9000/play/a07y/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Golden Edge
-http://38.211.119.30:50002/play/a0fd/index.m3u8u?hls
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Golden Premier HD
-http://miotv.cc:8080/live/RESTREAMCRUEL/T7464747/187221.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Nickelodeon
 http://190.61.42.218:9000/play/a02n/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Nick Jr
+http://190.61.42.218:9000/play/a01u/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Pasiones
 http://190.61.42.218:9000/play/a05x/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Paramount Channel
@@ -417,6 +423,223 @@ http://192.168.100.19:8096/emby/videos/51451/stream.mp4?api_key=fd6371be47f34009
 http://192.168.100.19:8096/emby/videos/51076/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51557/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Inquietud (2023)
 http://192.168.100.19:8096/emby/videos/51557/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51150/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Barbie (2023)
+http://192.168.100.19:8096/emby/videos/51150/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51499/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Guardianes de la Galaxia volumen 3 (2023)
+http://192.168.100.19:8096/emby/videos/51499/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51855/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Ofrenda Al Demonio (2022)
+http://192.168.100.19:8096/emby/videos/51855/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51744/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Maquíllame Otra Vez (2023)
+http://192.168.100.19:8096/emby/videos/51744/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51827/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Reposo absoluto (2022)
+http://192.168.100.19:8096/emby/videos/51827/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51972/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Rápido y Furioso X (2023)
+http://192.168.100.19:8096/emby/videos/51972/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51505/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Habla con Jane (2022)
+http://192.168.100.19:8096/emby/videos/51505/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51711/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Los crímenes de la academia (2022)
+http://192.168.100.19:8096/emby/videos/51711/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51689/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Las Caras de la Verdad (2022)
+http://192.168.100.19:8096/emby/videos/51689/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51371/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", El menú (2022)
+http://192.168.100.19:8096/emby/videos/51371/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51738/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Mal de Ojo (2022)
+http://192.168.100.19:8096/emby/videos/51738/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51070/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", 90 Minutos (2022)
+http://192.168.100.19:8096/emby/videos/51070/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51495/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Glass Onion: Un misterio de Knives Out (2022)
+http://192.168.100.19:8096/emby/videos/51495/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52120/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Un mundo extraño (2022)
+http://192.168.100.19:8096/emby/videos/52120/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51367/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", El Matador: Misión de Rescate (2022)
+http://192.168.100.19:8096/emby/videos/51367/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51956/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Reviviendo la Navidad (2022)
+http://192.168.100.19:8096/emby/videos/51956/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51843/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Noche sin paz (2022)
+http://192.168.100.19:8096/emby/videos/51843/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51661/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", La Luz del Diablo (2022)
+http://192.168.100.19:8096/emby/videos/51661/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51707/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Los 4 Grandes (2022)
+http://192.168.100.19:8096/emby/videos/51707/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52168/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Vértigo (2022)
+http://192.168.100.19:8096/emby/videos/52168/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51233/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Corazonada (2022)
+http://192.168.100.19:8096/emby/videos/51233/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51213/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Clases particulares (2022)
+http://192.168.100.19:8096/emby/videos/51213/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51819/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Navidad sin Filtro (2022)
+http://192.168.100.19:8096/emby/videos/51819/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52134/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Una cuestión de fé (2022)
+http://192.168.100.19:8096/emby/videos/52134/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51815/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Nanny (2022)
+http://192.168.100.19:8096/emby/videos/51815/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51154/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Bardo, falsa crónica de unas cuantas verdades (2022)
+http://192.168.100.19:8096/emby/videos/51154/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51183/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Búsqueda Peligrosa (2022)
+http://192.168.100.19:8096/emby/videos/51183/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51585/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Juego Peligroso: Asesinatos Heredados (2022)
+http://192.168.100.19:8096/emby/videos/51585/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52114/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Un jefe en pañales: Especial de Navidad (2022)
+http://192.168.100.19:8096/emby/videos/52114/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52080/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Todavía creo en Santa (2022)
+http://192.168.100.19:8096/emby/videos/52080/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51778/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Mickey salva la navidad (2022)
+http://192.168.100.19:8096/emby/videos/51778/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51713/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Los espíritus de la isla (2022)
+http://192.168.100.19:8096/emby/videos/51713/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+
+
+
+
+
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51082/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Abajo el Rey (2021)
+http://192.168.100.19:8096/emby/videos/51082/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51106/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Algo de Tiffany’s (2022)
+http://192.168.100.19:8096/emby/videos/51106/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51515/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Hawa (2022)
+http://192.168.100.19:8096/emby/videos/51515/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51541/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Huevitos Congelados (2022)
+http://192.168.100.19:8096/emby/videos/51541/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51567/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Invisibles (2022)
+http://192.168.100.19:8096/emby/videos/51567/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51746/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Mar de sangre (2022)
+http://192.168.100.19:8096/emby/videos/51746/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51513/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Hasta los huesos (2022)
+http://192.168.100.19:8096/emby/videos/51513/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51084/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Abandonada (2022)
+http://192.168.100.19:8096/emby/videos/51084/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52140/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Una noche descontrolada: Tiempo de Navidad (2022)
+http://192.168.100.19:8096/emby/videos/52140/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51427/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Emancipación (2022)
+http://192.168.100.19:8096/emby/videos/51427/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51756/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Me llamo Venganza (2022)
+http://192.168.100.19:8096/emby/videos/51756/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51825/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", No Abras La Puerta (2022)
+http://192.168.100.19:8096/emby/videos/51825/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51249/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Cría siniestra (2022)
+http://192.168.100.19:8096/emby/videos/51249/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51383/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", El Paciente (2022)
+http://192.168.100.19:8096/emby/videos/51383/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51952/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Resurrección (2022)
+http://192.168.100.19:8096/emby/videos/51952/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51357/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", El Guau (2022)
+http://192.168.100.19:8096/emby/videos/51357/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51911/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Plan de estudios (2022)
+http://192.168.100.19:8096/emby/videos/51911/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51165/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Black Adam (2022)
+http://192.168.100.19:8096/emby/videos/51165/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51875/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Pantera Negra: Wakanda por siempre (2022)
+http://192.168.100.19:8096/emby/videos/51875/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51199/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Cazadora de Tiburones (2021)
+http://192.168.100.19:8096/emby/videos/51199/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51677/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", La víspera de Halloween (2013)
+http://192.168.100.19:8096/emby/videos/51677/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51641/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", La Gran Aventura de Blue en la ciudad (2022)
+http://192.168.100.19:8096/emby/videos/51641/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52066/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", The Visitor (2022)
+http://192.168.100.19:8096/emby/videos/52066/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51251/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Cuando Sea Joven (2022)
+http://192.168.100.19:8096/emby/videos/51251/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52010/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Sonríe (2022)
+http://192.168.100.19:8096/emby/videos/52010/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51933/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", ¡Que Padre… Es Mi Familia? (2022)
+http://192.168.100.19:8096/emby/videos/51933/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51431/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Emily la estafadora (2022)
+http://192.168.100.19:8096/emby/videos/51431/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52160/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Desaparecida sin rastro (2022)
+http://192.168.100.19:8096/emby/videos/52160/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51679/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", La Última Cosa que Mary Vio (2021)
+http://192.168.100.19:8096/emby/videos/51679/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51766/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Men: Terror en las sombras (2022)
+http://192.168.100.19:8096/emby/videos/51766/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51804/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Muerte muerte muerte (2022)
+http://192.168.100.19:8096/emby/videos/51804/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52032/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Temporada siniestra (2022)
+http://192.168.100.19:8096/emby/videos/52032/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51772/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Mete miedo (2022)
+http://192.168.100.19:8096/emby/videos/51772/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51237/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Corre, Cariño (2022)
+http://192.168.100.19:8096/emby/videos/51237/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51774/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", MexZombies (2022)
+http://192.168.100.19:8096/emby/videos/51774/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51623/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", La Casa del Crimen (2022)
+http://192.168.100.19:8096/emby/videos/51623/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51577/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Jaula (2022)
+http://192.168.100.19:8096/emby/videos/51577/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52126/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Un Río Muy Frío (2022)
+http://192.168.100.19:8096/emby/videos/52126/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51419/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", El Ángel de la Muerte (2022)
+http://192.168.100.19:8096/emby/videos/51419/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51929/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Pánico a la deriva (2022)
+http://192.168.100.19:8096/emby/videos/51929/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51181/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Bárbaro (2022)
+http://192.168.100.19:8096/emby/videos/51181/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52174/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Whisper (2022)
+http://192.168.100.19:8096/emby/videos/52174/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51837/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", No te preocupes cariño (2022)
+http://192.168.100.19:8096/emby/videos/51837/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51481/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Franco Escamilla: Voyerista Auditivo (2022)
+http://192.168.100.19:8096/emby/videos/51481/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52038/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Terrifier (2016)
+http://192.168.100.19:8096/emby/videos/52038/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52040/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Terrifier 2 (2022)
+http://192.168.100.19:8096/emby/videos/52040/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51841/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Noche de sustos (2022)
+http://192.168.100.19:8096/emby/videos/51841/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51829/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", No estarás sola (2022)
+http://192.168.100.19:8096/emby/videos/51829/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51355/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", El exorcismo de mi mejor amiga (2022)
+http://192.168.100.19:8096/emby/videos/51355/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51094/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", After: Amor Infinito (2022)
+http://192.168.100.19:8096/emby/videos/51094/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52200/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Última Noche (2021)
+http://192.168.100.19:8096/emby/videos/52200/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51681/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", El tubo (2021)
+http://192.168.100.19:8096/emby/videos/51681/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51207/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Piggy: Cerdita (2022)
+http://192.168.100.19:8096/emby/videos/51207/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51768/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Mentes peligrosas (1995)
+http://192.168.100.19:8096/emby/videos/51768/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51627/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", La Chica Más Afortunada del Mundo (2022)
+http://192.168.100.19:8096/emby/videos/51627/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51088/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Abracadabra 2 (2022)
+http://192.168.100.19:8096/emby/videos/51088/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51657/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", La jefa (2022)
+http://192.168.100.19:8096/emby/videos/51657/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51695/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Las Vocales (2022)
+http://192.168.100.19:8096/emby/videos/51695/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51523/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Hellraiser (2022)
+http://192.168.100.19:8096/emby/videos/51523/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51124/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Amnésico (2022)
+http://192.168.100.19:8096/emby/videos/51124/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51966/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Room 203 (2022)
+http://192.168.100.19:8096/emby/videos/51966/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51319/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", El Cataclismo (2022)
+http://192.168.100.19:8096/emby/videos/51319/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51369/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", El meme maldito (2022)
+http://192.168.100.19:8096/emby/videos/51369/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51415/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", El Vestido de La Novia (2020)
+http://192.168.100.19:8096/emby/videos/51415/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51984/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Seminario del mal (2022)
+http://192.168.100.19:8096/emby/videos/51984/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51709/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Los Ancianos (2022)
+http://192.168.100.19:8096/emby/videos/51709/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51411/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", El teléfono del señor Harrigan (2022)
+http://192.168.100.19:8096/emby/videos/51411/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51569/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Invitación al infierno (2022)
+http://192.168.100.19:8096/emby/videos/51569/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51331/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", El cuartel secreto (2022)
+http://192.168.100.19:8096/emby/videos/51331/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/52098/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Tren bala (2022)
+http://192.168.100.19:8096/emby/videos/52098/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51715/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Los Minions y sus amigos Volumen 1 (2022)
+http://192.168.100.19:8096/emby/videos/51715/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/51665/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", La Máquina infernal (2022)
+http://192.168.100.19:8096/emby/videos/51665/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+
+
+
+
 
 
 
@@ -434,23 +657,28 @@ http://192.168.100.19:8096/emby/videos/51557/stream.mp4?api_key=fd6371be47f34009
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BN2UyNGM3MDUtMTIzZi00ZDdkLThlYTktYjk0ZDMzM2JiMjMyXkEyXkFqcGdeQXVyNzE0MjkxMzA@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Estrenos", After En Mil Pedazos (2020)
-https://lh3.googleusercontent.com/Ge0TFqJFRzBlJa4RzdBovMQ7rzIIG7WX25Iop2MqFq3UhSH9GZv7c3MyJ27zpoJt0eLH8Ay7sQnO_aS3FBTpXRQojHOfK7hngV8mbCnHHYBXFsfQIxUECJJfMAgWpAZOz_0ZhrQUU68=m18
+https://lh3.googleusercontent.com/Ge0TFqJFRzBlJa4RzdBovMQ7rzIIG7WX25Iop2MqFq3UhSH9GZv7c3MyJ27zpoJt0eLH8Ay7sQnO_aS3FBTpXRQojHOfK7hngV8mbCnHHYBXFsfQIxUECJJfMAgWpAZOz_0ZhrQUU68=m22
 #EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BMjg3OGFiNTktOGQ3Ny00OTg3LWEzNGItYmUwZjY0YjlmM2U4XkEyXkFqcGdeQXVyNjI0NTE2MTg@._V1_UY268_CR17,0,182,268_AL_.jpg" group-title="Estrenos", El Secuestro del Bus 300 (2018)
 https://lh3.googleusercontent.com/_DffDGaQmJZOQn1cW6vdqM3ZNvZSavRS1Rs3OtlQt6-lkettd3lYt4405n3ruOjQUspukQKxOSkQ1NBzrD-qOKW2Awrlw0pnW27pl2jwqmDWZeTTdeETKA01kqttvyKVpdLK6RhB8DM=m22
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BMTllNmRkNzgtOTY5NC00NjczLWE3ZTEtZjczNjYxZTFiMTJjXkEyXkFqcGdeQXVyNzYxMjI1Mzg@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Estrenos", Cadena de Mentiras (2019)
-https://lh3.googleusercontent.com/k5tZmxBtCtCg6h105cSTPjsgPpnFo629J4Sglc_n94hZ7YO1XLOM5oIojKlgCtXw9c1X9W2nz7iQ59lwtA2UGS-GpmXedmuC318wr1gbKJvQCU3G4a5foBjeu4kK3YlVwv2Yl8QtDXA=m22
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BMDVjZGE2ZTEtYzI3Zi00MzY1LTg5ZGItNWRmZDY4MzM2OTM0XkEyXkFqcGdeQXVyNDExMzMxNjE@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Estrenos", Master Z El legado de Ip Man (2018)
-https://lh3.googleusercontent.com/4_jv8sHTJDYhXoJECzl6NJHGTUKXmb_jEluCYNgjrjF5XCZrEyRi7nYPofKOv8gbmVMitZwkUW1IGUh2_6ctDMrnALGZTc_YZrOfgpkMz-8gOlM-FDOhbG_8T5wGzXaoTTfszrBTWgY=m22
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/108504/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Cadena de Mentiras (2019)
+http://192.168.100.19:8096/emby/videos/108504/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/11141/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", Master Z: El legado de Ip Man (2018)
+http://192.168.100.19:8096/emby/videos/11141/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BNmM3ZTJmMmYtYjhlOS00MzkzLWJkYWQtN2E0NjZlZGM3NDc5XkEyXkFqcGdeQXVyMjM4NTM5NDY@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Estrenos", Maldición en el Tercer Piso (2019)
 https://lh3.googleusercontent.com/2ucVQrT_1iRipNX4AHj1ZJb5JtQNwpeWRNc53lkWdIM7Y16rm04xtB8F3Kf7SGU3fWNmwMB5T0ObYc7oWxHkYIwbVPhbWbIns5jCy13J-idVrGvIYre8hVhxoZbeclaYkIhnY7_0D94=m22
-#EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BNzk1OWZiMTYtNmY0Ny00YWI4LWIzMzMtZTFkNjc0MmZlNGQyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UY268_CR1,0,182,268_AL_.jpg" group-title="Estrenos", No soy Quien Crees (2019)
-https://lh3.googleusercontent.com/eM7L5pK_zFC4BVsj1rYYSQ24EuB3RaVAbeb9806AhtPMD5g3JjdWepeMpYSwg39iW7rEUu6Kil_GnWJ8pDY2BwLmRnEVP-o8mLttIYLxiSrTZJmZUTQuiyqY6AvplZac44AcWY2mRyE=m22
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/16950/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Colección", No soy quien crees (2019)
+http://192.168.100.19:8096/emby/videos/16950/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BZTNhZjU1ODItMmFkNS00ZmIzLWFiZDEtNzNmOTNkYjViN2RkXkEyXkFqcGdeQXVyNTc5OTMwOTQ@._V1_UY268_CR3,0,182,268_AL_.jpg" group-title="Estrenos", Vicious (2019)
 https://lh3.googleusercontent.com/CbhSPp9snsn4rHAkgbYeBm37c9XRCV8AbOPZLdUIKevP2EBjxhM4AJONLpGOadR5-MYiPKvNPsj4mwe2SMzML7GGnq8345mujdKn_1ezEAOdi5qeQCPZrLBk6MTu_OTHsm7PoZcr2Ck=m22
 #EXTINF:-1 tvg-id="" tvg-logo="https://spanglishmovies.com/wp-content/uploads/2020/09/Anna.jpg" group-title="Estrenos", Anna Antinarcóticos (2020)
 https://lh3.googleusercontent.com/3aj4alKh67qCgpj03uYRpEiSImjbJTN5luLHVx7-ROyotaOrxt0YlJEJr54b0AD2sXL9kyJD7OYn7dsFVf7lgTt4KYMCnpmth4ZcYdnRyAkGZDGkAa36xn1qsdg1QuTaFs2I_5IPxPM=m22
 #EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BZDA5ZGVkZGMtNzk1My00YTU5LTgxYWUtODBlYmQyZjRjZjg4XkEyXkFqcGdeQXVyMTE5MTkxMDI2._V1_UY268_CR9,0,182,268_AL_.jpg" group-title="Estrenos", Centinela (2020)
 https://lh3.googleusercontent.com/lfHYdUzp891ItHVsXPpD2sBmygJpE6FQgKhzKUc9nelit328bAdaXNPF3xSsO1krKP3xc1YEvioH3jypy-z7djATYd0o3v2txZ8YtXcHsSOOf9HV5K24Aj7UjBgJVq9GdgndSXl52B4=m22
+
+
+
+
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BZWNiOTc4NGItNGY4YS00ZGNkLThkOWEtMDE2ODcxODEwNjkwXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Estrenos", Raya y el Último Dragón (2021)
 https://lh3.googleusercontent.com/VQnvRuTSjL7lmyiCJ3aJ3MTfl3UkLT4COrInJfP_7LH_TYGjpmn3m7rJ_JYSquVwW0_tsIM4DDoS3eH5KTGKLfH-1xlVVUy7y3SzHW-LOSLnJ0aSsg7UrxH5e9HyerXqEVNvnsw0ZWI=m22
 #EXTINF:-1 tvg-id="" tvg-logo="https://m.media-amazon.com/images/M/MV5BZTMyY2Q2MDctMDFlMS00MWEzLTk1NmEtNDcxNzg1ZGJlNGU5XkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_UX182_CR0,0,182,268_AL_.jpg" group-title="Estrenos", Un Príncipe en Nueva York 2 (2021)
