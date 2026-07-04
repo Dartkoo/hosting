@@ -56,7 +56,7 @@ http://190.61.42.218:9000/play/a08d/index.m3u8
 http://190.61.42.218:9000/play/a044/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Food Network
 http://190.61.42.218:9000/play/a00j/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", HBO
+#EXTINF:-1 tvg-id="HBO.mx" tvg-logo="" group-title="TV", HBO
 http://190.61.42.218:9000/play/a049/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", HBO 2
 http://190.61.42.218:9000/play/a00v/index.m3u8
