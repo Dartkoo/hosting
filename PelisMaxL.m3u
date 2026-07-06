@@ -1,32 +1,32 @@
 ﻿#EXTM3U
 
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", A&E
+#EXTINF:-1 tvg-id="A&amp;E.mx" tvg-logo="" group-title="TV", A&E
 http://190.61.42.218:9000/play/a058/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", AMC
+#EXTINF:-1 tvg-id="AMC.mx" tvg-logo="" group-title="TV", AMC
 http://190.61.42.218:9000/play/a069/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", AXN
+#EXTINF:-1 tvg-id="AXN.mx" tvg-logo="" group-title="TV", AXN
 http://190.61.42.218:9000/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://raw.githubusercontent.com/Dartkoo/hosting/refs/heads/gh-pages/imgpelismax1/AdultSwimTV.png" group-title="TV", Adult Swim
 http://190.61.42.218:9000/play/a06r/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Animal Planet
+#EXTINF:-1 tvg-id="AnimalPlanet.mx" tvg-logo="" group-title="TV", Animal Planet
 http://190.61.42.218:9000/play/a07x/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", America TV
 http://190.61.46.92:8009/play/a09d/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Baby TV
+#EXTINF:-1 tvg-id="BabyTV.mx" tvg-logo="" group-title="TV", Baby TV
 http://190.61.42.218:9000/play/a08a/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Cartoon Network
+#EXTINF:-1 tvg-id="CartoonNetwork.mx" tvg-logo="" group-title="TV", Cartoon Network
 http://190.61.42.218:9000/play/a08b/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Cartoonito
+#EXTINF:-1 tvg-id="Cartoonito.mx" tvg-logo="" group-title="TV", Cartoonito
 http://190.61.42.218:9000/play/a05r/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Cinecanal
+#EXTINF:-1 tvg-id="Cinecanal.mx" tvg-logo="" group-title="TV", Cinecanal
 http://190.61.42.218:9000/play/a06j/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Cine Latino
+#EXTINF:-1 tvg-id="CineLatino.mx" tvg-logo="" group-title="TV", Cine Latino
 http://miotv.cc:8080/live/RESTREAMCRUEL/T7464747/187229.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Cinemax
+#EXTINF:-1 tvg-id="Cinemax.mx" tvg-logo="" group-title="TV", Cinemax
 http://190.61.42.218:9000/play/a01q/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", CNN en Español
+#EXTINF:-1 tvg-id="CNN.mx" tvg-logo="" group-title="TV", CNN en Español
 http://190.61.42.218:9000/play/a00t/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Comedy Central
+#EXTINF:-1 tvg-id="ComedyCentral.mx" tvg-logo="" group-title="TV", Comedy Central
 http://190.90.71.103:8000/play/a0at/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", DHE
 http://190.61.46.92:8009/play/a0c9/index.m3u8
@@ -144,7 +144,7 @@ http://190.61.42.218:9000/play/a04d/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="Estrenos", 
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117687/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Obsesión (2026)
-http://192.168.100.19:8096/emby/videos/117687/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+http://192.168.100.19:8096/emby/videos/117687/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117687&PlaySessionId=ca8c94befb4849408e7cefe79030d59e&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="pm00001" tvg-logo="http://192.168.100.19:8096/emby/Items/117661/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Strung (2026)
 http://192.168.100.19:8096/emby/videos/117661/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117639/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Dolly Juega conmigo (2026)
