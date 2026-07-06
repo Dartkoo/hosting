@@ -146,13 +146,13 @@ http://190.61.42.218:9000/play/a04d/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117687/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Obsesión (2026)
 http://192.168.100.19:8096/emby/videos/117687/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117687&PlaySessionId=ca8c94befb4849408e7cefe79030d59e&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="pm00001" tvg-logo="http://192.168.100.19:8096/emby/Items/117661/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Strung (2026)
-http://192.168.100.19:8096/emby/videos/117661/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+http://192.168.100.19:8096/emby/videos/117661/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117661&PlaySessionId=4c38bd58942647729861e9d5a0e8b29a&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117639/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Dolly Juega conmigo (2026)
-http://192.168.100.19:8096/emby/videos/117639/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+http://192.168.100.19:8096/emby/videos/117639/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117639&PlaySessionId=f2270116a1bb4823a4552f3af579669e&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="pm00001" tvg-logo="http://192.168.100.19:8096/emby/Items/117609/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", La momia de Lee Cronin (2026)
-http://192.168.100.19:8096/emby/videos/117609/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+http://192.168.100.19:8096/emby/videos/117609/original.mp4?DeviceId=76ac5534-f0b3-49b6-93d1-ceb0bad03791&MediaSourceId=mediasource_117609&PlaySessionId=9b51778c814e41ae9ae28a74f4d03ae2&api_key=d2f48a7a1f2d468293e9757c560b77b1
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117584/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Super Mario Galaxy la película  (2026)
-http://192.168.100.19:8096/emby/videos/117584/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+http://192.168.100.19:8096/emby/videos/117584/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117569/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Familia a la deriva (2026)
 http://192.168.100.19:8096/emby/videos/117569/stream.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117438/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Shelter: El Protector (2026)
