@@ -4,9 +4,24 @@
     <display-name>WEBCAMS</display-name>
     <icon src="https://lh3.googleusercontent.com/pw/AP1GczNrgO7Bayi_0gII-KZCHhwVCQ3gfYpxGivMrI3ho7LMDtvxCqNfWiaHZs2o598PBkTmPNLOFtlnnW3bNLgC6jG4Cxa-JWNEPA92hUmfEoLELSvLHjg"/>
   </channel>
+    <channel id="wc001">
+    <display-name>Patty Webcam 001</display-name>
+    <icon src="http://192.168.100.19:8096/emby/Items/115617/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </channel>
   <programme start="20260708010000 -0600" stop="20260708200000 -0600" channel="wc000">
     <title lang="es">WEBCAMS</title>
     <desc lang="es">Patty en Sesiónes de Webcam.</desc>
+    <category lang="es">Patty</category>
+    <category lang="es">Webcams</category>
+    <category lang="es">XXX</category>
+    <icon src="https://lh3.googleusercontent.com/pw/AP1GczNrgO7Bayi_0gII-KZCHhwVCQ3gfYpxGivMrI3ho7LMDtvxCqNfWiaHZs2o598PBkTmPNLOFtlnnW3bNLgC6jG4Cxa-JWNEPA92hUmfEoLELSvLHjg"/>
+  </programme>
+    <programme start="20260708010000 -0600" stop="20260708200000 -0600" channel="wc001">
+    <title lang="es">Patty Webcam 001</title>
+    <desc lang="es">Patty en Sesión de Webcam.
+Duración: 1:01:08
+Actor: Patty.
+Vestuario: Blusa Negra y Medias de Red Negras.</desc>
     <category lang="es">Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
