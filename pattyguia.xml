@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<tv>
+<tv source-info-name="dartkoo.github.io" source-info-url="https://dartkoo.github.io/hosting/">
 
-  <programme start="20260703000001" stop="20270703100000" channel="wc001">
-    <title lang="es">Patty Webcam 001</title>
-    <desc lang="es">Patty en Sesión de Webcam. 
-Duración: 1:01:08
-Vestuario: Blusa Negra y Medias de Red Negras.</desc>
+  <channel id="wc000">
+    <display-name>WEBCAMS</display-name>
+    <icon src="https://lh3.googleusercontent.com/pw/AP1GczNrgO7Bayi_0gII-KZCHhwVCQ3gfYpxGivMrI3ho7LMDtvxCqNfWiaHZs2o598PBkTmPNLOFtlnnW3bNLgC6jG4Cxa-JWNEPA92hUmfEoLELSvLHjg"/>
+  </channel>
+    <channel id="wc001">
+    <display-name>Patty", Patty Webcam 001</display-name>
+    <icon src="http://192.168.100.19:8096/emby/Items/115617/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </channel>
+    <channel id="wc002">
+    <display-name>Patty", Patty Webcam 002</display-name>
+    <icon src="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </channel>
+   <programme start="20260708010000 -0600" stop="20260708200000 -0600" channel="wc000">
+    <title lang="es">El Nombre de la Película</title>
+    <desc lang="es">Sinopsis detallada de la película que se va a transmitir.</desc>
     <category lang="es">Película</category>
     <category lang="es">Acción</category>
-    <icon src="http://192.168.100.19:8096/emby/Items/115617/Images/Primary?maxHeight=492&maxWidth=328&tag=36539da57f25b5a55a58cba0a6eb0e22&keepAnimation=true&quality=90"/>
+    <icon src="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
-
-  <!-- Película 2: Transmite inmediatamente después, de 16:30 a 19:15 -->
-  <programme start="20260703000001" stop="20270703100000" channel="wc002">
-    <title lang="es">Patty Webcam 002</title>
-    <desc lang="es">Un equipo de exploradores viaja a través de un agujero de gusano en el espacio en un intento por asegurar la supervivencia de la humanidad.</desc>
-    <category lang="es">Película</category>
-    <category lang="es">Ciencia Ficción</category>
-    <icon src="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?maxHeight=492&maxWidth=328&tag=0c6b6cf489374065ccbb9952c5ae7b84&keepAnimation=true&quality=90"/>
-  </programme>
-
 </tv>
 
