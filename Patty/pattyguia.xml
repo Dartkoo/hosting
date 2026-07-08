@@ -13,7 +13,7 @@
     <display-name>Patty", Patty Webcam 002</display-name>
     <icon src="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </channel>
-   <programme start="20260703180000 -0600" stop="20260705200000 -0600" channel="wc000">
+   <programme start="20260708010000 -0600" stop="20260708200000 -0600" channel="wc000">
     <title lang="es">El Nombre de la Película</title>
     <desc lang="es">Sinopsis detallada de la película que se va a transmitir.</desc>
     <category lang="es">Película</category>
