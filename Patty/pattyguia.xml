@@ -6,13 +6,13 @@
   </channel>
     <channel id="wc001">
     <display-name>Patty Webcam 001</display-name>
-    <icon src="http://192.168.100.19:8096/emby/Items/115617/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+    <icon src="https://lh3.googleusercontent.com/i_ImAKGyXTS2ctro7VeDu0__-zqkqerlNJ9WnAHWDr8EY5W_eMKaRANNlb7elFw2DouHWwbPY2S2TmqKqaF47nBWrWk92-EBnvotkMwDBWrPUAkNwGfU-4NBYzTMVQ-H84XZlRGkWzs"/>
   </channel>
 	<channel id="wc002">
     <display-name>Patty Webcam 002</display-name>
-    <icon src="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+    <icon src="https://lh3.googleusercontent.com/A6VKHqU2W8k6cLyE0UqOY5c0zGYL0X0KxtDPzgrG5oZ8e-wETS6hdtZEH3fcrRBYtdFyqcqAILPMzNAYolq9aqiz6ZGHklUz-stM5CMAx5-SAYhsFX67sA_FvDBqEpqSZyw_M08d8KE"/>
   </channel>
-	<programme start="20260708010000 -0600" stop="20260708200000 -0600" channel="wc000">
+	<programme start="20260101000000 +0000" stop="20300101000000 +0000" channel="wc000">
     <title lang="es">Patty Webcams</title>
     <desc lang="es">Patty en Sesiónes de Webcam.</desc>
     <category lang="es">Patty</category>
@@ -20,7 +20,7 @@
     <category lang="es">XXX</category>
     <icon src="https://lh3.googleusercontent.com/pw/AP1GczNrgO7Bayi_0gII-KZCHhwVCQ3gfYpxGivMrI3ho7LMDtvxCqNfWiaHZs2o598PBkTmPNLOFtlnnW3bNLgC6jG4Cxa-JWNEPA92hUmfEoLELSvLHjg"/>
   </programme>
-    <programme start="20260708010000 -0600" stop="20260708200000 -0600" channel="wc001">
+    <programme start="20260101000000 +0000" stop="20300101000000 +0000" channel="wc001">
     <title lang="es">Patty Webcam 001</title>
     <desc lang="es">Patty en Sesión de Webcam.
 Duración: 1:01:08
@@ -29,9 +29,9 @@ Vestuario: Blusa Negra y Medias de Red Negras.</desc>
     <category lang="es">Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
-    <icon src="https://lh3.googleusercontent.com/pw/AP1GczNrgO7Bayi_0gII-KZCHhwVCQ3gfYpxGivMrI3ho7LMDtvxCqNfWiaHZs2o598PBkTmPNLOFtlnnW3bNLgC6jG4Cxa-JWNEPA92hUmfEoLELSvLHjg"/>
+    <icon src="https://lh3.googleusercontent.com/i_ImAKGyXTS2ctro7VeDu0__-zqkqerlNJ9WnAHWDr8EY5W_eMKaRANNlb7elFw2DouHWwbPY2S2TmqKqaF47nBWrWk92-EBnvotkMwDBWrPUAkNwGfU-4NBYzTMVQ-H84XZlRGkWzs"/>
   </programme>
-  <programme start="20200101000000 +0000" stop="20300101000000 +0000" channel="wc002">
+  <programme start="20260101000000 +0000" stop="20300101000000 +0000" channel="wc002">
     <title lang="es">Patty Webcam 002</title>
     <desc lang="es">Patty en Sesión de Webcam. 
 Duración: 1:19:42
@@ -40,6 +40,7 @@ Vestuario: Blusa Blanca.</desc>
     <category lang="es">Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	    <icon src="https://lh3.googleusercontent.com/A6VKHqU2W8k6cLyE0UqOY5c0zGYL0X0KxtDPzgrG5oZ8e-wETS6hdtZEH3fcrRBYtdFyqcqAILPMzNAYolq9aqiz6ZGHklUz-stM5CMAx5-SAYhsFX67sA_FvDBqEpqSZyw_M08d8KE"/>
   </programme>
 </tv>
 
