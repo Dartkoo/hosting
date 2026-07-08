@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tv source-info-name="dartkoo.github.io" source-info-url="https://dartkoo.github.io/hosting/">
-  <channel id="wc000">
+	<channel id="wc000">
     <display-name>WEBCAMS</display-name>
     <icon src="https://lh3.googleusercontent.com/pw/AP1GczNrgO7Bayi_0gII-KZCHhwVCQ3gfYpxGivMrI3ho7LMDtvxCqNfWiaHZs2o598PBkTmPNLOFtlnnW3bNLgC6jG4Cxa-JWNEPA92hUmfEoLELSvLHjg"/>
   </channel>
@@ -8,7 +8,7 @@
     <display-name>Patty Webcam 001</display-name>
     <icon src="http://192.168.100.19:8096/emby/Items/115617/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </channel>
-  <channel id="wc002">
+	<channel id="wc002">
     <display-name>Patty Webcam 002</display-name>
     <icon src="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </channel>
@@ -31,7 +31,7 @@ Vestuario: Blusa Negra y Medias de Red Negras.</desc>
     <category lang="es">XXX</category>
     <icon src="https://lh3.googleusercontent.com/pw/AP1GczNrgO7Bayi_0gII-KZCHhwVCQ3gfYpxGivMrI3ho7LMDtvxCqNfWiaHZs2o598PBkTmPNLOFtlnnW3bNLgC6jG4Cxa-JWNEPA92hUmfEoLELSvLHjg"/>
   </programme>
-  <programme start="20260708010000 -0600" stop="20270708200000 -0600" channel="wc002">
+  <programme start="20260708010000 -0600" stop="20260708200000 -0600" channel="wc002">
     <title lang="es">Patty Webcam 002</title>
     <desc lang="es">Patty en Sesión de Webcam. 
 Duración: 1:19:42
