@@ -1,24 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<tv source-info-name="IPTV-EPG.org" source-info-url="https://iptv-epg.org">
-
-  <programme start="20260703000001" stop="20270703100000" channel="wc001">
-    <title lang="es">Patty Webcam 001</title>
-    <desc lang="es">Patty en Sesión de Webcam. 
-Duración: 1:01:08
-Vestuario: Blusa Negra y Medias de Red Negras.</desc>
-    <category lang="es">Película</category>
-    <category lang="es">Acción</category>
+<tv>
+  <channel id="wc001">
+    <display-name>Patty Webcam 001</display-name>
     <icon src="http://192.168.100.19:8096/emby/Items/115617/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
-  </programme>
-
-  <!-- Película 2: Transmite inmediatamente después, de 16:30 a 19:15 -->
-  <programme start="20260703000001" stop="20270703100000" channel="wc002">
-    <title lang="es">Patty Webcam 002</title>
-    <desc lang="es">Un equipo de exploradores viaja a través de un agujero de gusano en el espacio en un intento por asegurar la supervivencia de la humanidad.</desc>
-    <category lang="es">Película</category>
-    <category lang="es">Ciencia Ficción</category>
+  </channel>
+  <channel id="wc002">
+    <display-name>Patty Webcam 002</display-name>
     <icon src="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
-  </programme>
+  </channel>
 
 </tv>
 
