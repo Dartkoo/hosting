@@ -700,10 +700,9 @@
     <display-name>WEBCAMS</display-name>
     <icon src="https://lh3.googleusercontent.com/pw/AP1GczNrgO7Bayi_0gII-KZCHhwVCQ3gfYpxGivMrI3ho7LMDtvxCqNfWiaHZs2o598PBkTmPNLOFtlnnW3bNLgC6jG4Cxa-JWNEPA92hUmfEoLELSvLHjg"/>
   </channel>
-  <programme start="20260708010000 -0600" stop="20270708010000 -0600" channel="wc000">
+  <programme start="20260708010000 -0600" stop="20260708200000 -0600" channel="wc000">
     <title lang="es">WEBCAMS</title>
-    <desc lang="es">Patty XXXtasis Trailers de Sesiónes de Webcam. 
-Actor: Patty.</desc>
+    <desc lang="es">Patty en Sesiónes de Webcam.</desc>
     <category lang="es">Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
