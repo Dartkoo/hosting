@@ -696,18 +696,6 @@
     <display-name>MX - Más Chic</display-name>
     <icon src="https://iptv-epg.org/images/WaTeFRkOpLr2THgubfilsYJ2sywzwkfFvk9BUhYWdL0Ro1Vvc7eS-YD1ccLs83kQbPCaJoMKPE0KmM0BUb6FoeLLJFr3Y6vFJaGJ2sfNWR-Jxx3jVA"/>
   </channel>
-  <channel id="wc000">
-    <display-name>WEBCAMS</display-name>
-    <icon src="https://lh3.googleusercontent.com/pw/AP1GczNrgO7Bayi_0gII-KZCHhwVCQ3gfYpxGivMrI3ho7LMDtvxCqNfWiaHZs2o598PBkTmPNLOFtlnnW3bNLgC6jG4Cxa-JWNEPA92hUmfEoLELSvLHjg"/>
-  </channel>
-  <programme start="20260708010000 -0600" stop="20260708200000 -0600" channel="wc000">
-    <title lang="es">WEBCAMS</title>
-    <desc lang="es">Patty en Sesiónes de Webcam.</desc>
-    <category lang="es">Patty</category>
-    <category lang="es">Webcams</category>
-    <category lang="es">XXX</category>
-    <icon src="https://lh3.googleusercontent.com/pw/AP1GczNrgO7Bayi_0gII-KZCHhwVCQ3gfYpxGivMrI3ho7LMDtvxCqNfWiaHZs2o598PBkTmPNLOFtlnnW3bNLgC6jG4Cxa-JWNEPA92hUmfEoLELSvLHjg"/>
-  </programme>
   <programme start="20260629161500 +0000" stop="20260629164000 +0000" channel="A&amp;E.mx">
     <desc lang="es">S3 E6 — Gas Station Blowout
 En Woodland Hills, California, unos buenos samaritanos intentan acorralar a un conductor involucrado en múltiples accidentes cerca de un paso elevado de la autopista.</desc>
