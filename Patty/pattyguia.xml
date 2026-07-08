@@ -13,39 +13,12 @@
     <display-name>Patty", Patty Webcam 002</display-name>
     <icon src="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </channel>
-    <programme start="20260115000000" stop="20271212010000" channel="wc000">
-    <title>WEBCAMS</title>
-    <icon src="https://lh3.googleusercontent.com/pw/AP1GczNrgO7Bayi_0gII-KZCHhwVCQ3gfYpxGivMrI3ho7LMDtvxCqNfWiaHZs2o598PBkTmPNLOFtlnnW3bNLgC6jG4Cxa-JWNEPA92hUmfEoLELSvLHjg" />
-    <desc lang="es">Patty en Sesiónes de Webcam. 
-Actor: Patty XXXtasis.</desc>
-    <category lang="es">Patty XXXtasis</category>
-    <category lang="es">Webcams</category>
-    <category lang="es">XXX</category>
-    <category lang="es">Trailer</category>
-  </programme>
-    <programme start="20260115000000" stop="20271212010000" channel="wc001">
-    <title>Patty Webcam</title>
-    <icon src="http://192.168.100.19:8096/emby/Items/115617/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" />
-    <desc lang="es">Patty Webcam 001.
-Duración: 1:01:08
-Actor: Patty XXXtasis.
-Vestuario: Blusa Negra y Medias de Red Negras.</desc>
-    <category lang="es">Patty XXXtasis</category>
-    <category lang="es">Webcams</category>
-    <category lang="es">XXX</category>
-    <category lang="es">Trailer</category>
-  </programme>
-    <programme start="20260115000000" stop="20271212010000" channel="wc002">
-    <title>Patty Webcam 001.</title>
-    <icon src="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" />
-    <desc lang="es">Patty Webcam 002.
-Duración: 3:31
-Actor: Patty XXXtasis.
-Vestuario: Blusa Negra y Medias de Red Negras.</desc>
-    <category lang="es">Patty XXXtasis</category>
-    <category lang="es">Webcams</category>
-    <category lang="es">XXX</category>
-    <category lang="es">Trailer</category>
+   <programme start="20260703180000 -0600" stop="20260705200000 -0600" channel="wc000">
+    <title lang="es">El Nombre de la Película</title>
+    <desc lang="es">Sinopsis detallada de la película que se va a transmitir.</desc>
+    <category lang="es">Película</category>
+    <category lang="es">Acción</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
 </tv>
 
