@@ -135965,4 +135965,13 @@ Dud conoce a los miembros de la logia, y Ernie discute con su compañero Lynx so
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT"/>
     <title lang="es">Lodge 49</title>
   </programme>
+  <programme start="20260703000001 +0000" stop="20270703100000 +0000" channel="wc001">
+    <title lang="es">Patty Webcam 001</title>
+    <desc lang="es">Patty en Sesión de Webcam. 
+Duración: 1:01:08
+Vestuario: Blusa Negra y Medias de Red Negras.</desc>
+    <category lang="es">Película</category>
+    <category lang="es">Acción</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/115617/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
 </tv>
