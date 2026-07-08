@@ -6,11 +6,11 @@ https://www.googleapis.com/drive/v3/files/1kDul7FLhS3WM-e3TUG807oKVKA3ljXaa?alt=
 http://192.168.100.19:8096/emby/videos/115617/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="wc002" tvg-logo="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 002
 http://192.168.100.19:8096/emby/videos/115619/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115621/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 003
+#EXTINF:-1 tvg-id="wc003" tvg-logo="http://192.168.100.19:8096/emby/Items/115621/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 003
 http://192.168.100.19:8096/emby/videos/115621/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115623/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 004
+#EXTINF:-1 tvg-id="wc004" tvg-logo="http://192.168.100.19:8096/emby/Items/115623/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 004
 http://192.168.100.19:8096/emby/videos/115623/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115625/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 005
+#EXTINF:-1 tvg-id="wc005" tvg-logo="http://192.168.100.19:8096/emby/Items/115625/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 005
 http://192.168.100.19:8096/emby/videos/115625/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115627/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 006
 http://192.168.100.19:8096/emby/videos/115627/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
