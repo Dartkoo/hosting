@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tv source-info-name="dartkoo.github.io" source-info-url="https://dartkoo.github.io/hosting/">
+    <channel id="wc001">
+    <display-name>Patty Webcam 001</display-name>
+    <icon src="https://lh3.googleusercontent.com/pw/AP1GczP7Q59ZHO9eJqrYtoJbBe0M23lvmrUjTpyHttmQtLETyK-OYK_aVQf98jMZ7moXOCEOjbyOzkngnqnPnOd3i-3tVpFP6G5BO5wVESQDSTYJT1CN07G8"/>
+  </channel>
+	<channel id="wc002">
+    <display-name>Patty Webcam 002</display-name>
+    <icon src="https://lh3.googleusercontent.com/pw/AP1GczMs7nvzgpgE0y9jqgYp4hU32-mGQs4X0oSFuDu6PKEkNndOG64mGRZWs4t4LJntDWQ6lsmB_A1ZYuNaeXpVPkpgsw7dQshzrbdsi-Z_ZsQF2soexPLR"/>
+  </channel>
+  	<channel id="wc003">
+    <display-name>Patty Webcam 003</display-name>
+    <icon src="https://lh3.googleusercontent.com/pw/AP1GczNxrZR4xwgKo39NZGn8xMv7OXnCWlZDzgyXPGCmFJpxfX3y59Ul_3wYGL7Ev5VgHeWVgvJ52P_0lJg5G2JOp0C7aSakDgf0JbZQS9MhEBBQ7IunjSJb"/>
+  </channel>
+    </channel>
+  	<channel id="wc003">
+    <display-name>Patty Webcam 004</display-name>
+    <icon src="https://lh3.googleusercontent.com/pw/AP1GczNx4afUBHtUYZKR9lPBMJJ3ExRTxaJRAWuAnrqLsg1mmSMq-oH8TyKV8Y7VIRWim91rMrmGBFVe6EuJ0rrxTX-91BBWCX48GUsv3KIo1-WuF2LyFDmM"/>
+  </channel>
+    <programme start="20260709010000 +0000" stop="20260709240000 +0000" channel="wc001">
+    <title lang="es">Patty Webcam 001</title>
+    <desc lang="es">Patty en Sesión de Webcam. 
+Duración: 1:01:08
+Actor: Patty.
+Vestuario: Blusa Negra y Medias de Red Negras,</desc>
+    <category lang="es">Patty</category>
+    <category lang="es">Webcams</category>
+    <category lang="es">XXX</category>
+    <icon src="https://lh3.googleusercontent.com/pw/AP1GczP7Q59ZHO9eJqrYtoJbBe0M23lvmrUjTpyHttmQtLETyK-OYK_aVQf98jMZ7moXOCEOjbyOzkngnqnPnOd3i-3tVpFP6G5BO5wVESQDSTYJT1CN07G8"/>
+  </programme>
+	<programme start="20260709010000 +0000" stop="20260709240000 +0000" channel="wc002">
+    <title lang="es">Patty Webcam 002</title>
+    <desc lang="es">Patty en Sesión de Webcam, 
+Duración: 1:19:42
+Actor: Patty XXXtasis.
+Vestuario: Blusa Blanca.</desc>
+    <category lang="es">Patty</category>
+    <category lang="es">Webcams</category>
+    <category lang="es">XXX</category>
+	<icon src="https://lh3.googleusercontent.com/pw/AP1GczMs7nvzgpgE0y9jqgYp4hU32-mGQs4X0oSFuDu6PKEkNndOG64mGRZWs4t4LJntDWQ6lsmB_A1ZYuNaeXpVPkpgsw7dQshzrbdsi-Z_ZsQF2soexPLR"/>
+  </programme>
+	<programme start="20260709010000 +0000" stop="20260709240000 +0000" channel="wc003">
+    <title lang="es">Patty Webcam 003
+Usa un Babydoll Negro y Medias de Red Negras, 
+Duración: 1:22:30
+Actor: Patty XXXtasis.
+Vestuario: Babydoll Negro y Medias de Red Negras.</desc>
+    <category lang="es">Patty XXXtasis</category>
+    <category lang="es">Webcams</category>
+    <category lang="es">XXX</category>
+		<icon src="https://lh3.googleusercontent.com/pw/AP1GczNxrZR4xwgKo39NZGn8xMv7OXnCWlZDzgyXPGCmFJpxfX3y59Ul_3wYGL7Ev5VgHeWVgvJ52P_0lJg5G2JOp0C7aSakDgf0JbZQS9MhEBBQ7IunjSJb"/>
+  </programme>
+  	<programme start="20260709010000 +0000" stop="20260709240000 +0000" channel="wc004">
+    <title lang="es">Patty Webcam 004, Usa un Babydoll Rojo con Encaje Negro y Medias de Red Negras.
+Duración: 41:21
+Actor: Patty XXXtasis.
+Vestuario: Babydoll Rojo con Encaje Negro y Medias de Red Negras.</desc>
+    <category lang="es">Patty XXXtasis</category>
+    <category lang="es">Webcams</category>
+    <category lang="es">XXX</category>
+  		<icon src="https://lh3.googleusercontent.com/pw/AP1GczNx4afUBHtUYZKR9lPBMJJ3ExRTxaJRAWuAnrqLsg1mmSMq-oH8TyKV8Y7VIRWim91rMrmGBFVe6EuJ0rrxTX-91BBWCX48GUsv3KIo1-WuF2LyFDmM"/>
+  </programme>
+</tv>
+
