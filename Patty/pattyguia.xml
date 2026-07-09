@@ -12,7 +12,7 @@
     <display-name>Patty Webcam 003</display-name>
     <icon src="https://lh3.googleusercontent.com/pw/AP1GczNxrZR4xwgKo39NZGn8xMv7OXnCWlZDzgyXPGCmFJpxfX3y59Ul_3wYGL7Ev5VgHeWVgvJ52P_0lJg5G2JOp0C7aSakDgf0JbZQS9MhEBBQ7IunjSJb=w1920-h1080"/>
   </channel>
-    <programme start="20260708010000 +0000" stop="20261231240000" channel="wc001">
+    <programme start="20260708010000 +0000" stop="20261231240000 +0000" channel="wc001">
     <title lang="es">Patty Webcam 001</title>
     <desc lang="es">Patty en Sesión de Webcam. 
 Duración: 1:01:08
@@ -23,7 +23,7 @@ Vestuario: Blusa Negra y Medias de Red Negras.</desc>
     <category lang="es">XXX</category>
     <icon src="https://lh3.googleusercontent.com/pw/AP1GczP7Q59ZHO9eJqrYtoJbBe0M23lvmrUjTpyHttmQtLETyK-OYK_aVQf98jMZ7moXOCEOjbyOzkngnqnPnOd3i-3tVpFP6G5BO5wVESQDSTYJT1CN07G8=w1920-h1080"/>
   </programme>
-	<programme start="20260708010000 +0000" stop="20261231240000" channel="wc002">
+	<programme start="20260708010000 +0000" stop="20261231240000 +0000" channel="wc002">
     <title lang="es">Patty Webcam 002</title>
     <desc lang="es">Patty en Sesión de Webcam. 
 Duración: 1:19:42
@@ -34,7 +34,7 @@ Vestuario: Blusa Blanca.</desc>
     <category lang="es">XXX</category>
 	<icon src="https://lh3.googleusercontent.com/pw/AP1GczMs7nvzgpgE0y9jqgYp4hU32-mGQs4X0oSFuDu6PKEkNndOG64mGRZWs4t4LJntDWQ6lsmB_A1ZYuNaeXpVPkpgsw7dQshzrbdsi-Z_ZsQF2soexPLR=w1920-h1080"/>
   </programme>
-	<programme start="20260708010000 +0000" stop="20261231240000" channel="wc003">
+	<programme start="20260708010000 +0000" stop="20261231240000 +0000" channel="wc003">
     <title lang="es">Patty Webcam 003
 Usa un Babydoll Negro y Medias de Red Negras. 
 Duración: 1:22:30
