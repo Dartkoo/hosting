@@ -133,6 +133,8 @@ http://190.61.42.218:9000/play/a00r/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Warner TV
 http://190.61.42.218:9000/play/a04d/index.m3u8
 
+#EXTINF:-1 tvg-id="wc001" tvg-logo="http://192.168.100.19:8096/emby/Items/115617/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 001
+http://192.168.100.19:8096/emby/videos/115617/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 
 
 
