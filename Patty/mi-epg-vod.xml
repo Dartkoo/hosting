@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="CreadorEPG_VOD">
+  
+  <!-- ======================================================= -->
+  <!-- BLOQUE 1: LISTADO DE PELÍCULAS/SERIES                   -->
+  <!-- ======================================================= -->
+  
+  <channel id="vod.patty.webcam001">
+    <display-name>Patty Webcam 001</display-name>
+    <icon src="https://tuservidor.com" />
+  </channel>
+
+  <channel id="vod.patty.webcam002">
+    <display-name>Patty Webcam 002</display-name>
+    <icon src="https://tuservidor.com" />
+  </channel>
+
+  <channel id="vod.patty.webcam003">
+    <display-name>Patty Webcam 003</display-name>
+    <icon src="https://tuservidor.com" />
+  </channel>
+
+  <!-- ======================================================= -->
+  <!-- BLOQUE 2: INFORMACIÓN Y SINOPSIS (Validez 2026 - 2028)  -->
+  <!-- ======================================================= -->
+
+  <!-- Película 1 -->
+  <programme start="20260101000000 +0000" stop="20280101000000 +0000" channel="vod.patty.webcam001">
+    <title lang="es">Patty Webcam 001</title>
+    <desc lang="es">Patty en Sesión de Webcam 
+Duración: 1:01:08
+Actor: Patty.
+Vestuario: Blusa Negra y Medias de Red Negras.</desc>
+    <category lang="es">Patty</category>
+    <category lang="es">Webcams</category>
+    <category lang="es">XXX</category>
+    <icon src="https://lh3.googleusercontent.com/pw/AP1GczP7Q59ZHO9eJqrYtoJbBe0M23lvmrUjTpyHttmQtLETyK-OYK_aVQf98jMZ7moXOCEOjbyOzkngnqnPnOd3i-3tVpFP6G5BO5wVESQDSTYJT1CN07G8" />
+</programme>
+
+  <!-- Película 2 -->
+  <programme start="20260101000000 +0000" stop="20280101000000 +0000" channel="vod.patty.webcam002">
+    <title lang="es">Patty Webcam 002</title>
+    <desc lang="es">Patty en Sesión de Webcam 
+Duración: 1:19:42
+Actor: Patty.
+Vestuario: Blusa Blanca.</desc>
+    <category lang="es">Patty</category>
+    <category lang="es">Webcams</category>
+    <category lang="es">XXX</category>
+	<icon src="https://lh3.googleusercontent.com/pw/AP1GczPNBLInVFytN9r5CuxbQ7_Lap2xhXjeWNt0F3c_MmoHGYdK_e15cZCczDbj3sLVyudzeDHCFz8qXeYkaR7gy-5nmf8X-kto530zmP6I3TpRRntAKSf9"/>
+  </programme>
+
+  <!-- Serie (Ejemplo de un episodio) -->
+  <programme start="20260101000000 +0000" stop="20280101000000 +0000" channel="vod.patty.webcam003">
+    <title lang="es">Patty Webcam 003</title>
+    <desc lang="es">Patty en Sesión de Webcam 
+Duración: 41:21
+Actor: Patty.
+Vestuario: Babydoll Rojo con Encaje Negro y Medias de Red Negras.</desc>
+    <category lang="es">Patty</category>
+    <category lang="es">Webcams</category>
+    <category lang="es">XXX</category>
+	<icon src="https://lh3.googleusercontent.com/pw/AP1GczMT6i_WNt7Okwd7AU64SSCbL2Z7cWxyZJNjPqMGLh1YbXwLyMokN0BeHvRiy8rlNCSyVkYk6WKKQ7Cwd44NzZ2HL2LwHiKbXIKRcH-BDosRjUdbesrz"/>
+  </programme>
+</tv>
