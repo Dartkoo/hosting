@@ -32,105 +32,105 @@ http://190.90.71.103:8000/play/a0at/index.m3u8
 http://190.61.46.92:8009/play/a0c9/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", De Película
 http://190.61.42.218:9000/play/a080/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Discovery Channel
+#EXTINF:-1 tvg-id="DiscoveryChannel.mx" tvg-logo="" group-title="TV", Discovery Channel
 http://190.61.42.218:9000/play/a05k/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Discovery Kids
+#EXTINF:-1 tvg-id="DiscoveryKids.mx" tvg-logo="" group-title="TV", Discovery Kids
 http://190.61.42.218:9000/play/a00s/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Discovery Science
+#EXTINF:-1 tvg-id="DiscoveryScience.mx" tvg-logo="" group-title="TV", Discovery Science
 http://190.61.42.218:9000/play/a00h/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Discovery Theater
+#EXTINF:-1 tvg-id="DiscoveryTheater.mx" tvg-logo="" group-title="TV", Discovery Theater
 http://190.61.42.218:9000/play/a04e/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Discovery Turbo
+#EXTINF:-1 tvg-id="DiscoveryTurbo.mx" tvg-logo="" group-title="TV", Discovery Turbo
 http://190.61.42.218:9000/play/a01v/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Disney Channel
+#EXTINF:-1 tvg-id="DisneyChannel.mx" tvg-logo="" group-title="TV", Disney Channel
 http://190.61.46.92:8009/play/a0ex/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Disney Jr.
+#EXTINF:-1 tvg-id="DisneyJunior.mx" tvg-logo="" group-title="TV", Disney Jr.
 http://190.61.42.218:9000/play/a00z/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", E! Entertainment
+#EXTINF:-1 tvg-id="E!.mx" tvg-logo="" group-title="TV", E! Entertainment
 http://190.61.42.218:9000/play/a019/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", El Gourmet
+#EXTINF:-1 tvg-id="ElGourmet.mx" tvg-logo="" group-title="TV", El Gourmet
 http://190.61.42.218:9000/play/a0as/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Europa Europa
+#EXTINF:-1 tvg-id="EuropaEuropa.mx" tvg-logo="" group-title="TV", Europa Europa
 http://190.61.42.218:9000/play/a08d/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", FX
+#EXTINF:-1 tvg-id="FX.mx" tvg-logo="" group-title="TV", FX
 http://190.61.42.218:9000/play/a044/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Food Network
 http://190.61.42.218:9000/play/a00j/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", HBO
+#EXTINF:-1 tvg-id="HBO.mx" tvg-logo="" group-title="TV", HBO
 http://190.61.42.218:9000/play/a049/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", HBO 2
+#EXTINF:-1 tvg-id="HBO2.mx" tvg-logo="" group-title="TV", HBO 2
 http://190.61.42.218:9000/play/a00v/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", HBO Family
+#EXTINF:-1 tvg-id="HBOFamily.mx" tvg-logo="" group-title="TV", HBO Family
 http://190.61.42.218:9000/play/a02s/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", HBO POP
+#EXTINF:-1 tvg-id="HBOPOP.mx" tvg-logo="" group-title="TV", HBO POP
 http://190.61.42.218:9000/play/a01n/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", HBO Xtreme
+#EXTINF:-1 tvg-id="HBOXtreme.mx" tvg-logo="" group-title="TV", HBO Xtreme
 http://190.61.42.218:9000/play/a00x/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Discovery HGTV
 http://190.61.42.218:9000/play/a05p/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Golden
+#EXTINF:-1 tvg-id="Golden.mx" tvg-logo="" group-title="TV", Golden
 http://209.14.98.47:8000/play/a0u8/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Golden Edge
+#EXTINF:-1 tvg-id="GoldenEdge.mx" tvg-logo="" group-title="TV", Golden Edge
 http://38.211.119.30:50002/play/a0fd/index.m3u8u?hls
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Golden Premier HD
+#EXTINF:-1 tvg-id="GoldenPremier.mx" tvg-logo="" group-title="TV", Golden Premier HD
 http://miotv.cc:8080/live/RESTREAMCRUEL/T7464747/187221.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", History Channel
+#EXTINF:-1 tvg-id="History.mx" tvg-logo="" group-title="TV", History Channel
 http://190.61.42.218:9000/play/a05b/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", History 2
+#EXTINF:-1 tvg-id="History2.mx" tvg-logo="" group-title="TV", History 2
 http://190.61.46.92:8009/play/a0fd/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Home & Health
+#EXTINF:-1 tvg-id="DiscoveryHome&amp;Health.mx" tvg-logo="" group-title="TV", Home & Health
 http://190.61.42.218:9000/play/a00u/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", HTV
 http://190.61.42.218:9000/play/a0ax/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", ID
+#EXTINF:-1 tvg-id="InvestigationDiscovery.mx" tvg-logo="" group-title="TV", ID
 http://190.61.42.218:9000/play/a04h/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Las Estrellas
+#EXTINF:-1 tvg-id="LasEstrellas.mx" tvg-logo="" group-title="TV", Las Estrellas
 http://190.61.42.218:9000/play/a09t/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Lifetime
+#EXTINF:-1 tvg-id="Lifetime.mx" tvg-logo="" group-title="TV", Lifetime
 http://190.61.42.218:9000/play/a0c0/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", MTV
+#EXTINF:-1 tvg-id="MTV.mx" tvg-logo="" group-title="TV", MTV
 http://209.14.98.47:8000/play/a00i/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Nat Geo
+#EXTINF:-1 tvg-id="NationalGeographic.mx" tvg-logo="" group-title="TV", Nat Geo
 http://190.61.42.218:9000/play/a07y/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Nickelodeon
+#EXTINF:-1 tvg-id="Nick.mx" tvg-logo="" group-title="TV", Nickelodeon
 http://190.61.42.218:9000/play/a02n/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Nick Jr
+#EXTINF:-1 tvg-id="NickJr.mx" tvg-logo="" group-title="TV", Nick Jr
 http://190.61.42.218:9000/play/a01u/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Pasiones
 http://190.61.42.218:9000/play/a05x/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Paramount Channel
+#EXTINF:-1 tvg-id="ParamountNetwork.mx" tvg-logo="" group-title="TV", Paramount Channel
 http://miotv.cc:8080/live/RESTREAMCRUEL/T7464747/187225.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Sony Channel
+#EXTINF:-1 tvg-id="Sony.mx" tvg-logo="" group-title="TV", Sony Channel
 http://190.61.46.92:8009/play/a0cb/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Sony Movies
 http://38.211.119.30:50002/play/a0g4/index.m3u8u?hls
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Space
+#EXTINF:-1 tvg-id="Space.mx" tvg-logo="" group-title="TV", Space
 http://190.61.42.218:9000/play/a05l/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Star Channel
+#EXTINF:-1 tvg-id="StarChannel.mx" tvg-logo="" group-title="TV", Star Channel
 http://190.61.42.218:9000/play/a07t/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Studio Universal
+#EXTINF:-1 tvg-id="StudioUniversal.mx" tvg-logo="" group-title="TV", Studio Universal
 http://190.61.46.92:8009/play/a0ce/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", TCM
+#EXTINF:-1 tvg-id="TCM.mx" tvg-logo="" group-title="TV", TCM
 http://190.61.42.218:9000/play/a00l/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", TLC
+#EXTINF:-1 tvg-id="TLC.mx" tvg-logo="" group-title="TV", TLC
 http://190.61.42.218:9000/play/a01g/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", TNT
+#EXTINF:-1 tvg-id="TNT.mx" tvg-logo="" group-title="TV", TNT
 http://190.61.42.218:9000/play/a060/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", TNT Novelas
+#EXTINF:-1 tvg-id="TNTNovelas.mx" tvg-logo="" group-title="TV", TNT Novelas
 http://190.61.42.218:9000/play/a07d/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", TNT Series
+#EXTINF:-1 tvg-id="TNTSeries.mx" tvg-logo="" group-title="TV", TNT Series
 http://190.61.42.218:9000/play/a022/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Telemundo
+#EXTINF:-1 tvg-id="Telemundo.mx" tvg-logo="" group-title="TV", Telemundo
 http://190.61.42.218:9000/play/a01l/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", TLnovelas
+#EXTINF:-1 tvg-id="TLNovelas.mx" tvg-logo="" group-title="TV", TLnovelas
 http://190.61.42.218:9000/play/a00k/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Tooncast
+#EXTINF:-1 tvg-id="Tooncast.mx" tvg-logo="" group-title="TV", Tooncast
 http://190.61.42.218:9000/play/a06i/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Universal Channel
+#EXTINF:-1 tvg-id="UniversalTV.mx" tvg-logo="" group-title="TV", Universal Channel
 http://190.61.42.218:9000/play/a00g/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", USA Network
 http://190.61.42.218:9000/play/a00r/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Warner TV
+#EXTINF:-1 tvg-id="WarnerChannel.mx" tvg-logo="" group-title="TV", Warner TV
 http://190.61.42.218:9000/play/a04d/index.m3u8
 
 
