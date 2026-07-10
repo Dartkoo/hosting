@@ -696,9 +696,6 @@
     <display-name>MX - Más Chic</display-name>
     <icon src="https://iptv-epg.org/images/WaTeFRkOpLr2THgubfilsYJ2sywzwkfFvk9BUhYWdL0Ro1Vvc7eS-YD1ccLs83kQbPCaJoMKPE0KmM0BUb6FoeLLJFr3Y6vFJaGJ2sfNWR-Jxx3jVA"/>
   </channel>
-  
-      <!-- Patty Guia Programacion -->
-	
   <channel id="wc001">
     <display-name>Patty Webcam 001</display-name>
     <icon src="https://lh3.googleusercontent.com/pw/AP1GczP7Q59ZHO9eJqrYtoJbBe0M23lvmrUjTpyHttmQtLETyK-OYK_aVQf98jMZ7moXOCEOjbyOzkngnqnPnOd3i-3tVpFP6G5BO5wVESQDSTYJT1CN07G8"/>
@@ -135972,9 +135969,6 @@ Dud conoce a los miembros de la logia, y Ernie discute con su compañero Lynx so
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT"/>
     <title lang="es">Lodge 49</title>
   </programme>
-  
-    <!-- Patty Guia Programacion -->
-	
   <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="wc001">
     <title lang="es">Patty Webcam 001</title>
     <desc lang="es">Patty en Sesión de Webcam. 
