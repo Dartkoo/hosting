@@ -17,7 +17,7 @@
     <display-name>Patty Webcam 004</display-name>
     <icon src="https://lh3.googleusercontent.com/pw/AP1GczOlOgqSVEn18Mgou6_zscoeSlxvVhITnnMRvpn-u4yansFzWSrHFe2MpVOTuQiZXkFsMM1hd8bB6V_7Y9T3NQu8xR_ldtsLRCRrqesjyyEJ1mmuVltz"/>
   </channel>
-  <programme start="20260710100000 +0000" stop="20261230030108 +0000" channel="wc001">
+  <programme start="20260710030000 +0000" stop="20260710070000 +0000" channel="wc001">
     <title lang="es">Patty Webcam 001</title>
     <desc lang="es">Patty en Sesión de Webcam 
 Duración: 1:01:08
