@@ -13,9 +13,13 @@
     <display-name>Patty Webcam 003</display-name>
     <icon src="https://lh3.googleusercontent.com/pw/AP1GczMT6i_WNt7Okwd7AU64SSCbL2Z7cWxyZJNjPqMGLh1YbXwLyMokN0BeHvRiy8rlNCSyVkYk6WKKQ7Cwd44NzZ2HL2LwHiKbXIKRcH-BDosRjUdbesrz"/>
   </channel>
+  <channel id="wc004">
+    <display-name>Patty Webcam 004</display-name>
+    <icon src="https://lh3.googleusercontent.com/pw/AP1GczOlOgqSVEn18Mgou6_zscoeSlxvVhITnnMRvpn-u4yansFzWSrHFe2MpVOTuQiZXkFsMM1hd8bB6V_7Y9T3NQu8xR_ldtsLRCRrqesjyyEJ1mmuVltz"/>
+  </channel>
   <programme start="20260710010000 +0000" stop="20270101000000 +0000" channel="wc001">
     <title lang="es">Patty Webcam 001</title>
-    <desc lang="es">Patty en Sesión de Webcam. 
+    <desc lang="es">Patty en Sesión de Webcam 
 Duración: 1:01:08
 Actor: Patty.
 Vestuario: Blusa Negra y Medias de Red Negras,</desc>
@@ -26,7 +30,7 @@ Vestuario: Blusa Negra y Medias de Red Negras,</desc>
   </programme>
   <programme start="20260710010000 +0000" stop="20270101000000 +0000" channel="wc002">
     <title lang="es">Patty Webcam 002</title>
-    <desc lang="es">Patty en Sesión de Webcam. 
+    <desc lang="es">Patty en Sesión de Webcam 
 Duración: 1:19:42
 Actor: Patty XXXtasis.
 Vestuario: Blusa Blanca.</desc>
@@ -37,7 +41,7 @@ Vestuario: Blusa Blanca.</desc>
   </programme>
   <programme start="20260710010000 +0000" stop="20270101000000 +0000" channel="wc003">
     <title lang="es">Patty Webcam 003</title>
-    <desc lang="es">Patty en Sesión de Webcam. 
+    <desc lang="es">Patty en Sesión de Webcam 
 Duración: 1:22:30
 Actor: Patty XXXtasis.
 Vestuario: Babydoll Negro y Medias de Red Negras.</desc>
@@ -45,5 +49,16 @@ Vestuario: Babydoll Negro y Medias de Red Negras.</desc>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
 	<icon src="https://lh3.googleusercontent.com/pw/AP1GczMT6i_WNt7Okwd7AU64SSCbL2Z7cWxyZJNjPqMGLh1YbXwLyMokN0BeHvRiy8rlNCSyVkYk6WKKQ7Cwd44NzZ2HL2LwHiKbXIKRcH-BDosRjUdbesrz"/>
+  </programme>
+  <programme start="20260710010000 +0000" stop="20270101000000 +0000" channel="wc004">
+    <title lang="es">Patty Webcam 004</title>
+    <desc lang="es">Patty en Sesión de Webcam 
+Duración: 41:21
+Actor: Patty XXXtasis.
+Vestuario: Babydoll Rojo con Encaje Negro y Medias de Red Negras.</desc>
+    <category lang="es">Patty XXXtasis</category>
+    <category lang="es">Webcams</category>
+    <category lang="es">XXX</category>
+	<icon src="https://lh3.googleusercontent.com/pw/AP1GczOlOgqSVEn18Mgou6_zscoeSlxvVhITnnMRvpn-u4yansFzWSrHFe2MpVOTuQiZXkFsMM1hd8bB6V_7Y9T3NQu8xR_ldtsLRCRrqesjyyEJ1mmuVltz"/>
   </programme>
 </tv>
