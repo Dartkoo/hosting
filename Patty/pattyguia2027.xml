@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <tv generator-info-name="MiEPGVOD">
   
-      <channel id="wc001">
+  <channel id="wc001">
     <display-name>Patty Webcam 001</display-name>
     <icon src="https://lh3.googleusercontent.com/pw/AP1GczP7Q59ZHO9eJqrYtoJbBe0M23lvmrUjTpyHttmQtLETyK-OYK_aVQf98jMZ7moXOCEOjbyOzkngnqnPnOd3i-3tVpFP6G5BO5wVESQDSTYJT1CN07G8"/>
   </channel>
@@ -16,13 +16,4 @@ Vestuario: Blusa Negra y Medias de Red Negras,</desc>
     <category lang="es">XXX</category>
     <icon src="https://lh3.googleusercontent.com/pw/AP1GczP7Q59ZHO9eJqrYtoJbBe0M23lvmrUjTpyHttmQtLETyK-OYK_aVQf98jMZ7moXOCEOjbyOzkngnqnPnOd3i-3tVpFP6G5BO5wVESQDSTYJT1CN07G8"/>
   </programme>
-
-  <!-- 2. PROGRAMACIÓN HORARIA (Simulada para VOD) -->
-  <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="vod.peli.matrix">
-    <title lang="es">The Matrix</title>
-    <desc lang="es">Un programador de computación descubre que el mundo que conoce es una simulación controlada por máquinas cibernéticas.</desc>
-    <category lang="es">Ciencia Ficción</category>
-    <category lang="es">Acción</category>
-  </programme>
-
 </tv>
