@@ -2,11 +2,11 @@
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://lh3.googleusercontent.com/pw/AP1GczNrgO7Bayi_0gII-KZCHhwVCQ3gfYpxGivMrI3ho7LMDtvxCqNfWiaHZs2o598PBkTmPNLOFtlnnW3bNLgC6jG4Cxa-JWNEPA92hUmfEoLELSvLHjg" group-title="Emby Patty", WEBCAMS
 https://www.googleapis.com/drive/v3/files/1kDul7FLhS3WM-e3TUG807oKVKA3ljXaa?alt=media&key=AIzaSyBUKG8tHZ1l4JnZzP-K_4q9VOneV3Gznr0
-#EXTINF:-1 tvg-id="wc001" tvg-logo="http://192.168.100.19:8096/emby/Items/115617/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 001
+#EXTINF:-1 tvg-id="vod.patty.webcam001" tvg-logo="http://192.168.100.19:8096/emby/Items/115617/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 001
 http://192.168.100.19:8096/emby/videos/115617/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="wc002" tvg-logo="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 002
+#EXTINF:-1 tvg-id="vod.patty.webcam002" tvg-logo="http://192.168.100.19:8096/emby/Items/115619/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 002
 http://192.168.100.19:8096/emby/videos/115619/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="wc003" tvg-logo="http://192.168.100.19:8096/emby/Items/115621/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 003
+#EXTINF:-1 tvg-id="vod.patty.webcam003" tvg-logo="http://192.168.100.19:8096/emby/Items/115621/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 003
 http://192.168.100.19:8096/emby/videos/115621/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="wc004" tvg-logo="http://192.168.100.19:8096/emby/Items/115623/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Patty Webcam 004
 http://192.168.100.19:8096/emby/videos/115623/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
@@ -113,6 +113,51 @@ http://192.168.100.19:8096/emby/videos/117368/original.mp4?api_key=fd6371be47f34
 http://192.168.100.19:8096/emby/videos/117370/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117372/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam Privado 030
 http://192.168.100.19:8096/emby/videos/117372/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+
+
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116989/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 001
+http://192.168.100.19:8096/emby/videos/116989/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116945/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 002
+http://192.168.100.19:8096/emby/videos/116945/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116946/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 003
+http://192.168.100.19:8096/emby/videos/116946/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116947/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 004
+http://192.168.100.19:8096/emby/videos/116947/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116948/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 005
+http://192.168.100.19:8096/emby/videos/116948/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116949/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 006
+http://192.168.100.19:8096/emby/videos/116949/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116950/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 007
+http://192.168.100.19:8096/emby/videos/116950/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116951/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 008
+http://192.168.100.19:8096/emby/videos/116951/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116952/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 009
+http://192.168.100.19:8096/emby/videos/116952/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116953/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 010
+http://192.168.100.19:8096/emby/videos/116953/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116954/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 011
+http://192.168.100.19:8096/emby/videos/116954/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116955/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 012
+http://192.168.100.19:8096/emby/videos/116955/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116956/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 013
+http://192.168.100.19:8096/emby/videos/116956/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116957/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 014
+http://192.168.100.19:8096/emby/videos/116957/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116958/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 015
+http://192.168.100.19:8096/emby/videos/116958/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116959/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 016
+http://192.168.100.19:8096/emby/videos/116959/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116960/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Single 017
+http://192.168.100.19:8096/emby/videos/116960/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+
+
+
+
+
+
+
+
+
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/117378/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 001
@@ -335,25 +380,64 @@ http://192.168.100.19:8096/emby/videos/116865/original.mp4?api_key=fd6371be47f34
 http://192.168.100.19:8096/emby/videos/116867/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116869/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 110
 http://192.168.100.19:8096/emby/videos/116869/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116871/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 111
+http://192.168.100.19:8096/emby/videos/116871/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116873/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 112
+http://192.168.100.19:8096/emby/videos/116873/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116875/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 113
+http://192.168.100.19:8096/emby/videos/116875/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116877/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 114
+http://192.168.100.19:8096/emby/videos/116877/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116879/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 115
+http://192.168.100.19:8096/emby/videos/116879/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116881/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 116
+http://192.168.100.19:8096/emby/videos/116881/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116883/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 117
+http://192.168.100.19:8096/emby/videos/116883/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116885/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 118
+http://192.168.100.19:8096/emby/videos/116885/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116887/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 119
+http://192.168.100.19:8096/emby/videos/116887/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116889/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 120
+http://192.168.100.19:8096/emby/videos/116889/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116891/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 121
+http://192.168.100.19:8096/emby/videos/116891/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116893/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 122
+http://192.168.100.19:8096/emby/videos/116893/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116895/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 123
+http://192.168.100.19:8096/emby/videos/116895/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116897/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 124
+http://192.168.100.19:8096/emby/videos/116897/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116899/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 125
+http://192.168.100.19:8096/emby/videos/116899/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116901/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 126
+http://192.168.100.19:8096/emby/videos/116901/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116903/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 127
+http://192.168.100.19:8096/emby/videos/116903/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116905/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 128
+http://192.168.100.19:8096/emby/videos/116905/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116907/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 129
+http://192.168.100.19:8096/emby/videos/116907/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116909/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 130
+http://192.168.100.19:8096/emby/videos/116909/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116911/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 131
+http://192.168.100.19:8096/emby/videos/116911/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116913/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 132
+http://192.168.100.19:8096/emby/videos/116913/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116915/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 133
+http://192.168.100.19:8096/emby/videos/116915/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116917/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 134
+http://192.168.100.19:8096/emby/videos/116917/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116919/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 135
+http://192.168.100.19:8096/emby/videos/116919/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116921/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 136
+http://192.168.100.19:8096/emby/videos/116921/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116923/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 137
+http://192.168.100.19:8096/emby/videos/116923/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116925/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 138
+http://192.168.100.19:8096/emby/videos/116925/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/116927/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Couple 139
+http://192.168.100.19:8096/emby/videos/116927/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="http://192.168.100.19:8096/emby/Items/115837/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Foto-Video Pechos 001 a 100
