@@ -135965,4 +135965,19 @@ Dud conoce a los miembros de la logia, y Ernie discute con su compañero Lynx so
     <icon src="https://iptv-epg.org/images/ykgAdBBB4ngYwYLEU01QMu8mTNKfQXtxHYZk75jsAp4iczbdrmKDhGyeOE9T5YCk1swt_9tEeqNZijck28p2uB844NDCpPEkdaIvXU_u8rCZ3WQ7WPnsqjeT"/>
     <title lang="es">Lodge 49</title>
   </programme>
+  <channel id="wc001">
+    <display-name>Patty Webcam 001</display-name>
+    <icon src="https://lh3.googleusercontent.com/pw/AP1GczP7Q59ZHO9eJqrYtoJbBe0M23lvmrUjTpyHttmQtLETyK-OYK_aVQf98jMZ7moXOCEOjbyOzkngnqnPnOd3i-3tVpFP6G5BO5wVESQDSTYJT1CN07G8"/>
+  </channel>
+  <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="wc001">
+    <title lang="es">Patty Webcam 001</title>
+    <desc lang="es">Patty en Sesión de Webcam. 
+Duración: 1:01:08
+Actor: Patty.
+Vestuario: Blusa Negra y Medias de Red Negras,</desc>
+    <category lang="es">Patty</category>
+    <category lang="es">Webcams</category>
+    <category lang="es">XXX</category>
+    <icon src="https://lh3.googleusercontent.com/pw/AP1GczP7Q59ZHO9eJqrYtoJbBe0M23lvmrUjTpyHttmQtLETyK-OYK_aVQf98jMZ7moXOCEOjbyOzkngnqnPnOd3i-3tVpFP6G5BO5wVESQDSTYJT1CN07G8"/>
+  </programme>
 </tv>
