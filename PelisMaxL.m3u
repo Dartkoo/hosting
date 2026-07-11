@@ -134,6 +134,12 @@ http://190.61.42.218:9000/play/a00r/index.m3u8
 http://190.61.42.218:9000/play/a04d/index.m3u8
 
 
+
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="TV", Una Familia de Diez TV
+http://192.168.100.14:8409/iptv/session/51/hls.m3u8
+
+
+
 #EXTINF:-1 tvg-id="pm00001" tvg-logo="http://192.168.100.19:8096/emby/Items/117609/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", La momia de Lee Cronin (2026)
 https://www.googleapis.com/drive/v3/files/1wrIQlNTTM6lcrQrd_mp4ftcGxL5n_KVQ?alt=media&key=AIzaSyBUKG8tHZ1l4JnZzP-K_4q9VOneV3Gznr0
 #EXTINF:-1 tvg-id="pm00001" tvg-logo="http://192.168.100.19:8096/emby/Items/117609/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", La momia de Lee Cronin (2026)
