@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="Mi Servidor Emby">
+
+  <!-- 1. REGISTRO DE CANALES (Deben coincidir con tu lista M3U) -->
+  <channel id="webcam.001">
+    <display-name>Patty Webcam 001</display-name>
+  </channel>
+
+  <channel id="webcam.002">
+    <display-name>Patty Webcam 002</display-name>
+  </channel>
+
+  <channel id="webcam.003">
+    <display-name>Patty Webcam 003</display-name>
+  </channel>
+
+
+  <!-- 2. PROGRAMACIÓN HORARIA (Simulación de transmisión continua hasta el año 2035) -->
+  
+  <!-- Video 1 -->
+  <programme start="20260101000000 +0000" stop="20350101000000 +0000" channel="webcam.001">
+    <title lang="es">Patty Webcam 001</title>
+    <desc lang="es">Patty XXXtasis en Sesión de Webcam. Viste: Blusa y Medias en color negro. Grabación hecha durante la presentación de sesión de webcam.</desc>
+    <category lang="es">Adult+18</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118502/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
+
+  <!-- Video 2 -->
+  <programme start="20260101000000 +0000" stop="20350101000000 +0000" channel="webcam.002">
+    <title lang="es">Patty Webcam 002</title>
+    <desc lang="es">Patty XXXtasis en Sesión de Webcam. Viste: Solamente una Blusa Blanca. Grabación hecha durante la presentación de sesión de webcam.</desc>
+    <category lang="es">Adult+18</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118504/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
+
+  <!-- Video 3 -->
+  <programme start="20260101000000 +0000" stop="20350101000000 +0000" channel="webcam.003">
+    <title lang="es">Patty Webcam 003</title>
+    <desc lang="es">Patty XXXtasis en Sesión de Webcam. Viste: Babydoll Negro y Medias de Red Negras. Grabación hecha durante la presentación de sesión de webcam.</desc>
+    <category lang="es">Adult+18</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118506/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
+
+</tv>
