@@ -3,7 +3,6 @@
 #EXT-X-INDEPENDENT-SEGMENTS
 #EXT-X-PLAYLIST-TYPE:VOD
 #EXT-X-MEDIA-SEQUENCE:0
-#EXTINF:-1, Patty Webcam 001
 http://192.168.100.19:8096/emby/videos/118502/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1, Patty Webcam 002
 http://192.168.100.19:8096/emby/videos/118504/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
