@@ -14,7 +14,7 @@
     <display-name>Patty Webcam 003</display-name>
     <icon src="https://tuservidor.com" />
   </channel>
-  <programme start="20260101000000 +0000" stop="20280101000000 +0000" channel="pwc001">
+  <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="pwc001">
     <title lang="es">Patty Webcam 001</title>
     <desc lang="es">Patty en Sesión de Webcam 
 Duración: 1:01:08
@@ -25,7 +25,7 @@ Vestuario: Blusa Negra y Medias de Red Negras.</desc>
     <category lang="es">XXX</category>
     <icon src="https://lh3.googleusercontent.com/pw/AP1GczP7Q59ZHO9eJqrYtoJbBe0M23lvmrUjTpyHttmQtLETyK-OYK_aVQf98jMZ7moXOCEOjbyOzkngnqnPnOd3i-3tVpFP6G5BO5wVESQDSTYJT1CN07G8" />
 </programme>
-  <programme start="20260101000000 +0000" stop="20280101000000 +0000" channel="pwc002">
+  <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="pwc002">
     <title lang="es">Patty Webcam 002</title>
     <desc lang="es">Patty en Sesión de Webcam 
 Duración: 1:19:42
@@ -36,7 +36,7 @@ Vestuario: Blusa Blanca.</desc>
     <category lang="es">XXX</category>
 	<icon src="https://lh3.googleusercontent.com/pw/AP1GczPNBLInVFytN9r5CuxbQ7_Lap2xhXjeWNt0F3c_MmoHGYdK_e15cZCczDbj3sLVyudzeDHCFz8qXeYkaR7gy-5nmf8X-kto530zmP6I3TpRRntAKSf9"/>
   </programme>
-  <programme start="20260101000000 +0000" stop="20280101000000 +0000" channel="pwc003">
+  <programme start="20260101000000 +0000" stop="20270101000000 +0000" channel="pwc003">
     <title lang="es">Patty Webcam 003</title>
     <desc lang="es">Patty en Sesión de Webcam 
 Duración: 41:21
