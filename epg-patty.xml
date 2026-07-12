@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="MiEPG_VOD">
+<tv source-info-name="IPTV-EPG.org" source-info-url="https://iptv-epg.org">
 	<channel id="AMC.mx">
     <display-name>MX - AMC</display-name>
     <icon src="https://iptv-epg.org/images/qLCLhpsRDIzf8Plvy1zwxKGb1DTzs33p6UgOoH1c9mn1_Yf6yU4dZzUiIveVGKgx_DHGHJp4866ra0mQblUQY9FL4Oi1x_oL7FkG3A"/>
