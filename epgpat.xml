@@ -21,6 +21,9 @@
   <channel id="webcam.007">
     <display-name>Webcam 007</display-name>
   </channel>
+  <channel id="webcam.008">
+    <display-name>Webcam 008</display-name>
+  </channel>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.001">
     <title lang="es">Webcam 001</title>
     <desc lang="es">Patty en Sesión de Webcam. Viste: Blusa y Medias en color negro. Grabación hecha durante la presentación de sesión de webcam. Duración: 1:01:08</desc>
@@ -75,6 +78,17 @@
 	Viste: Pijama y  Medias de Red Negras.
 	Grabación hecha durante la presentación de sesión de webcam.
 	Duración: 37:44.</desc>
+    <category lang="es">Emby Patty</category>
+    <category lang="es">Webcams</category>
+    <category lang="es">XXX</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118514/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.008">
+    <title lang="es">Webcam 008</title>
+    <desc lang="es">Patty en Sesión de Webcam.
+	Viste: Blusa Negra, Tanga en Colores y Medias de Red Negras.
+	Grabación hecha durante la presentación de sesión de webcam.
+	Duración: 1:13:51.</desc>
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
