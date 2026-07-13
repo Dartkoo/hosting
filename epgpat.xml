@@ -12,6 +12,12 @@
   <channel id="webcam.004">
     <display-name>Webcam 004</display-name>
   </channel>
+  <channel id="webcam.005">
+    <display-name>Webcam 005</display-name>
+  </channel>
+  <channel id="webcam.006">
+    <display-name>Webcam 006</display-name>
+  </channel>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.001">
     <title lang="es">Webcam 001</title>
     <desc lang="es">Patty en Sesión de Webcam. Viste: Blusa Negra y Medias de Red Negras. Duración: 1:01:08</desc>
@@ -39,6 +45,22 @@
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.004">
     <title lang="es">Webcam 004</title>
     <desc lang="es">Patty en Sesión de Webcam. Viste: Babydoll Negro y Medias de Red Negras. Duración: 41:21</desc>
+    <category lang="es">Emby Patty</category>
+    <category lang="es">Webcams</category>
+    <category lang="es">XXX</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118508/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.005">
+    <title lang="es">Webcam 005</title>
+    <desc lang="es">Usa solo un Babydoll Usa solo un Babydoll Azul muy Sensual. Duración: 42:04</desc>
+    <category lang="es">Emby Patty</category>
+    <category lang="es">Webcams</category>
+    <category lang="es">XXX</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118508/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.006">
+    <title lang="es">Webcam 006</title>
+    <desc lang="es">Patty en Sesión de Webcam. Usa un Babydoll Negro y Medias de Red Negras. Duración: 1:38:40</desc>
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
