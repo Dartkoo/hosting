@@ -18,6 +18,9 @@
   <channel id="webcam.006">
     <display-name>Webcam 006</display-name>
   </channel>
+  <channel id="webcam.007">
+    <display-name>Webcam 007</display-name>
+  </channel>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.001">
     <title lang="es">Webcam 001</title>
     <desc lang="es">Patty en Sesión de Webcam. Viste: Blusa y Medias en color negro. Grabación hecha durante la presentación de sesión de webcam. Duración: 1:01:08</desc>
@@ -28,10 +31,7 @@
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.002">
     <title lang="es">Webcam 002</title>
-    <desc lang="es">Patty en Sesión de Webcam, Usa solo una Blusa Blanca muy sexy. 
-Duración: 1:19:42
-Actor: Patty.
-Vestuario: Blusa Blanca.</desc>
+    <desc lang="es">Patty en Sesión de Webcam. Viste: Solamente una Blusa Blanca. Grabación hecha durante la presentación de sesión de webcam. Duración: 1:19:42</desc>
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
