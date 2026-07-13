@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="Emby" generator-info-url="http://192.168.100.19:8096">
+<tv generator-info-name="Emby" generator-info-url="http://192.168.100.19">
 
   <channel id="webcam.001">
     <display-name>Patty Webcam 001</display-name>
