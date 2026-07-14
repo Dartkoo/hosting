@@ -9,6 +9,18 @@
   <channel id="117661">
     <display-name>Strung</display-name>
   </channel>
+  <channel id="117639">
+    <display-name>Dolly</display-name>
+  </channel>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="117639">
+    <title lang="es">Dolly</title>
+    <desc lang="es">Macy, una joven mujer, es secuestrada por una figura monstruosa que pretende criarla como si fuera su propia hija.</desc>
+    <category lang="es">2026</category>
+    <category lang="es">Terror</category>
+    <category lang="es">Suspenso</category>
+    <category lang="es">MX-C</category>
+    <icon src="http://192.168.100.19:8096/emby/videos/117639/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="117687">
     <title lang="es">Obsesión</title>
     <desc lang="es">El anhelo romántico desesperado de un chico por su amor platónico de toda la vida desencadena un siniestro hechizo: Niki se vuelve irracionalmente obsesiva hasta convertirse en la sombra de Bear. Una fantasía aparentemente inofensiva que se convertirá en una perturbadora pesadilla.</desc>
