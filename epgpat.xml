@@ -90,12 +90,6 @@
   <channel id="webcampriv.005">
     <display-name>Privado 005</display-name>
   </channel>
-  <channel id="117687">
-    <display-name>Obsesión</display-name>
-  </channel>
-  <channel id="117609">
-    <display-name>La momia de Lee Cronin</display-name>
-  </channel>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.001">
     <title lang="es">Webcam 001</title>
     <desc lang="es">Patty en Sesión de Webcam. Viste: Blusa y Medias en color negro. Duración: 1:01:08</desc>
@@ -335,23 +329,5 @@
     <category lang="es">Privados</category>
     <category lang="es">XXX</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118560/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
-  </programme>
-  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="117687">
-    <title lang="es">Obsesión</title>
-    <desc lang="es">El anhelo romántico desesperado de un chico por su amor platónico de toda la vida desencadena un siniestro hechizo: Niki se vuelve irracionalmente obsesiva hasta convertirse en la sombra de Bear. Una fantasía aparentemente inofensiva que se convertirá en una perturbadora pesadilla.</desc>
-    <category lang="es">2026</category>
-    <category lang="es">Terror</category>
-    <category lang="es">Suspenso</category>
-	<category lang="es">MX-C</category>
-    <icon src="http://192.168.100.19:8096/emby/Items/117687/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
-  </programme>
-  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="117609">
-    <title lang="es">La momia de Lee Cronin</title>
-    <desc lang="es">La joven hija de un periodista desaparece en el desierto sin dejar rastro—ocho años más tarde, la familia rota se conmociona cuando ella es devuelta a ellos, y lo que debiera haber sido una reunión jubilosa se convierte en una auténtica pesadilla.</desc>
-    <category lang="es">2026</category>
-    <category lang="es">Terror</category>
-    <category lang="es">Misterio</category>
-	<category lang="es">MX-B-15</category>
-    <icon src="http://192.168.100.19:8096/emby/Items/117609/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
 </tv>
