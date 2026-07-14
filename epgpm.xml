@@ -15,6 +15,18 @@
   <channel id="117584">
     <display-name>Super Mario Galaxy la película</display-name>
   </channel>
+  <channel id="117569">
+    <display-name>Familia a la deriva</display-name>
+  </channel>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="117569">
+    <title lang="es">Familia a la deriva</title>
+    <desc lang="es">Para recuperar el tiempo perdido con sus cuatro hijos, un carismático vendedor de coches organiza un viaje en yate por el Caribe que rápidamente se convierte en una aventura descontrolada llena de confusiones, risas y segundas oportunidades.</desc>
+    <category lang="es">2026</category>
+    <category lang="es">Familia</category>
+    <category lang="es">Comedia</category>
+    <category lang="es">MX-B-15</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/117569/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="117584">
     <title lang="es">Super Mario Galaxy la película</title>
     <desc lang="es">Secuela de 'Super Mario Bros: La película', basada en la saga 'Mario Galaxy'. Los hermanos Mario y Luigi y la princesa Peach emprenden una aventura hasta los confines del espacio y a través de la galaxia.</desc>
