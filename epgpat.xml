@@ -96,6 +96,9 @@
   <channel id="webcampriv.007">
     <display-name>Privado 007</display-name>
   </channel>
+  <channel id="webcampriv.008">
+    <display-name>Privado 008</display-name>
+  </channel>
   <programme start="20260713000000 -0000" stop="20300730220000 -0000" channel="webcam.001">
     <title lang="es">Webcam 001</title>
     <desc lang="es">Patty en Sesión de Webcam. Viste: Blusa y Medias en color negro. Duración: 1:01:08</desc>
@@ -383,5 +386,14 @@
     <category lang="es">XXX</category>
 	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118564/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
+  <programme start="20260713000000 -0000" stop="20300730220000 -0000" channel="webcampriv.008">
+    <title lang="es">Privado 008</title>
+    <desc lang="es">Patty en Sesión de Webcam Privado para seguidores. Ella está totalmente desnuda haciendo sexo oral en pareja. Duración: 3:01.</desc>
+    <category lang="es">Emby Patty</category>
+    <category lang="es">Privados</category>
+    <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118566/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
 </tv>
