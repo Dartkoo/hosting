@@ -93,12 +93,16 @@
   <channel id="webcampriv.006">
     <display-name>Privado 006</display-name>
   </channel>
+  <channel id="webcampriv.007">
+    <display-name>Privado 007</display-name>
+  </channel>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.001">
     <title lang="es">Webcam 001</title>
     <desc lang="es">Patty en Sesión de Webcam. Viste: Blusa y Medias en color negro. Duración: 1:01:08</desc>
 	<category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
         <icon src="http://192.168.100.19:8096/emby/Items/118502/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.002">
@@ -107,6 +111,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118504/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.003">
@@ -115,6 +120,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118506/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.004">
@@ -123,6 +129,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118508/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.005">
@@ -131,6 +138,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118508/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.006">
@@ -139,6 +147,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118512/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.007">
@@ -147,6 +156,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118514/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.008">
@@ -155,6 +165,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118516/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.009">
@@ -163,6 +174,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118518/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.010">
@@ -171,6 +183,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118520/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.011">
@@ -179,6 +192,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118522/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.012">
@@ -187,6 +201,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118524/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.013">
@@ -195,6 +210,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118526/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.014">
@@ -203,6 +219,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118528/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.015">
@@ -211,6 +228,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118530/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.016">
@@ -219,6 +237,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118532/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.017">
@@ -227,6 +246,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118534/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.018">
@@ -235,6 +255,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118536/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.019">
@@ -243,6 +264,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118538/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.020">
@@ -251,6 +273,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118540/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.021">
@@ -259,6 +282,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118542/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.022">
@@ -267,6 +291,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118544/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.023">
@@ -275,6 +300,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118546/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.024">
@@ -283,6 +309,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118548/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcam.025">
@@ -291,6 +318,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118550/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcampriv.001">
@@ -299,6 +327,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Privados</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118552/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcampriv.002">
@@ -307,6 +336,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Privados</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118554/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcampriv.003">
@@ -315,6 +345,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Privados</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118556/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcampriv.004">
@@ -323,6 +354,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Privados</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118558/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcampriv.005">
@@ -331,6 +363,7 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Privados</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118560/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcampriv.006">
@@ -339,6 +372,16 @@
     <category lang="es">Emby Patty</category>
     <category lang="es">Privados</category>
     <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118562/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcampriv.007">
+    <title lang="es">Privado 007</title>
+    <desc lang="es">Patty en Sesión de Webcam Privado para seguidores. Ella está totalmente desnuda haciendo sexo oral en pareja para después ser penetrada de perrito. Duración: 6:02.</desc>
+    <category lang="es">Emby Patty</category>
+    <category lang="es">Privados</category>
+    <category lang="es">XXX</category>
+	<category lang="es">Adult+18</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118564/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
 </tv>
