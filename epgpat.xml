@@ -75,7 +75,7 @@
   <channel id="118550">
     <display-name>Webcam 025</display-name>
   </channel>
-  <channel id="webcampriv.001">
+  <channel id="118552">
     <display-name>Privado 001</display-name>
   </channel>
   <channel id="webcampriv.002">
@@ -588,7 +588,7 @@
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="118550">
     <title lang="es">Webcam 025</title>
-    <desc lang="es">Patty en Sesión de Webcam. Viste: Babydoll Blanco solamente. Grabación hecha durante la presentación de sesión de webcam. Duración: #EXTINF:-1 tvg-id="118548" tvg-logo="http://192.168.100.19:8096/emby/Items/118548/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Emby Patty", Webcam 024 (2000)</desc>
+    <desc lang="es">Patty en Sesión de Webcam. Viste: Babydoll Blanco solamente. Grabación hecha durante la presentación de sesión de webcam. Duración: 25:22.</desc>
     <category lang="es">2000</category>
     <category lang="es">Emby Patty</category>
     <category lang="es">Webcams</category>
@@ -596,13 +596,14 @@
     <category lang="es">MX-D-Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118550/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
-  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcampriv.001">
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="118552">
     <title lang="es">Privado 001</title>
-    <desc lang="es">Patty en Sesión de Webcam Privado para seguidores. Ella está totalmente desnuda haciendo sexo oral en pareja. Duración: 3:12.</desc>
+    <desc lang="es">Patty en Sesión de Webcam Privado para seguidores. Ella está totalmente desnuda haciendo sexo oral en pareja. Duración: 3:12</desc>
+    <category lang="es">2000</category>
     <category lang="es">Emby Patty</category>
     <category lang="es">Privados</category>
     <category lang="es">XXX</category>
-	<category lang="es">Adult+18</category>
+    <category lang="es">MX-D-Adult+18</category>
     <icon src="http://192.168.100.19:8096/emby/Items/118552/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
   </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="webcampriv.002">
