@@ -21,6 +21,18 @@
   <channel id="117438">
     <display-name>Shelter: El Protector</display-name>
   </channel>
+  <channel id="117435">
+    <display-name>¿Quieres ser mi novia?</display-name>
+  </channel>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="117435">
+    <title lang="es">¿Quieres ser mi novia?</title>
+    <desc lang="es">La relación de Javi y Lu enfrenta pruebas cuando surgen tentaciones: una joven con quien Javi tiene química, y un hombre maduro que persigue a Lu. Entre humor y enredos, su amor es puesto a prueba. Duración: 8:09</desc>
+    <category lang="es">2026</category>
+    <category lang="es">Comedia</category>
+    <category lang="es">Romance</category>
+    <category lang="es">MX-B-15</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/117435/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="117438">
     <title lang="es">Shelter: El Protector</title>
     <desc lang="es">Un recluso en una remota isla escocesa rescata a una niña del mar, desencadenando una peligrosa secuencia de acontecimientos.</desc>
