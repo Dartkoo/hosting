@@ -24,9 +24,21 @@
   <channel id="117435">
     <display-name>¿Quieres ser mi novia?</display-name>
   </channel>
+  <channel id="115520">
+    <display-name>Five Nights at Freddy's 2</display-name>
+  </channel>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="115520">
+    <title lang="es">Five Nights at Freddy's 2</title>
+    <desc lang="es">Un año después de la pesadilla sobrenatural en Freddy Fazbear's Pizza, las historias sobre lo ocurrido allí se han convertido en una leyenda local extravagante, inspirando el primer Fazfest del pueblo. Con la verdad oculta, Abby se escapa para reencontrarse con Freddy, Bonnie, Chica y Foxy, desencadenando una serie de eventos aterradores que revelarán oscuros secretos sobre el verdadero origen de Freddy's y desatarán un horror oculto durante décadas.</desc>
+    <category lang="es">2025</category>
+    <category lang="es">Terror</category>
+    <category lang="es">Suspenso</category>
+    <category lang="es">MX-B</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/115520/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="117435">
     <title lang="es">¿Quieres ser mi novia?</title>
-    <desc lang="es">La relación de Javi y Lu enfrenta pruebas cuando surgen tentaciones: una joven con quien Javi tiene química, y un hombre maduro que persigue a Lu. Entre humor y enredos, su amor es puesto a prueba. Duración: 8:09</desc>
+    <desc lang="es">La relación de Javi y Lu enfrenta pruebas cuando surgen tentaciones: una joven con quien Javi tiene química, y un hombre maduro que persigue a Lu. Entre humor y enredos, su amor es puesto a prueba.</desc>
     <category lang="es">2026</category>
     <category lang="es">Comedia</category>
     <category lang="es">Romance</category>
