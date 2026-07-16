@@ -27,6 +27,33 @@
   <channel id="115520">
     <display-name>Five Nights at Freddy's 2</display-name>
   </channel>
+  <channel id="118615">
+    <display-name>Backrooms Sin salida</display-name>
+  </channel>
+  <channel id="118644">
+    <display-name>Papá a Cargo</display-name>
+  </channel>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="118644">
+    <title lang="es">Papá a Cargo</title>
+    <desc lang="es">Una supermamá consigue un lucrativo contrato laboral y cambia los papeles con su marido, que es el sostén de la familia. Él lucha por adaptarse como padre que se queda en casa con sus tres hijas.</desc>
+    <category lang="es">Año: 2026</category>
+    <category lang="es">Dur. 1h 39min</category>
+    <category lang="es">Comedia</category>
+    <category lang="es">Familia</category>
+    <category lang="es">MX-A</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118644/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="118615">
+    <title lang="es">Backrooms Sin salida</title>
+    <desc lang="es">Una puerta extraña aparece en el sótano de una sala de exposición de muebles.</desc>
+    <category lang="es">Año: 2026</category>
+    <category lang="es">Dur. 1h 50min</category>
+    <category lang="es">Terror</category>
+    <category lang="es">Misterio</category>
+    <category lang="es">Ciencia Ficción</category>
+    <category lang="es">MX-B-15</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118615/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="115520">
     <title lang="es">Five Nights at Freddy's 2</title>
     <desc lang="es">Un año después de la pesadilla sobrenatural en Freddy Fazbear's Pizza, las historias sobre lo ocurrido allí se han convertido en una leyenda local extravagante, inspirando el primer Fazfest del pueblo. Con la verdad oculta, Abby se escapa para reencontrarse con Freddy, Bonnie, Chica y Foxy, desencadenando una serie de eventos aterradores que revelarán oscuros secretos sobre el verdadero origen de Freddy's y desatarán un horror oculto durante décadas.</desc>
