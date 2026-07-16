@@ -273,6 +273,45 @@
   <channel id="118200">
     <display-name>Single 017</display-name>
   </channel>
+  <channel id="118201">
+    <display-name>Single 018</display-name>
+  </channel>
+  <channel id="118202">
+    <display-name>Single 019</display-name>
+  </channel>
+  <channel id="118203">
+    <display-name>Single 020</display-name>
+  </channel>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="118203">
+    <title lang="es">Single 020</title>
+    <desc lang="es">Patty Video Ella Sola: Modelando sus hermosas nalguitas y su puchita en lencería sexy para ti. Duración: 8:09</desc>
+    <category lang="es">2000</category>
+    <category lang="es">Emby Patty</category>
+    <category lang="es">Single</category>
+    <category lang="es">XXX</category>
+    <category lang="es">MX-D-Adult+18</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118203/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="118202">
+    <title lang="es">Single 019</title>
+    <desc lang="es">Patty Video Ella Sola: Video tras camaras en una de sus sesiones de webcam. Duración: 54:40</desc>
+    <category lang="es">2000</category>
+    <category lang="es">Emby Patty</category>
+    <category lang="es">Single</category>
+    <category lang="es">XXX</category>
+    <category lang="es">MX-D-Adult+18</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118202/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="118201">
+    <title lang="es">Single 018</title>
+    <desc lang="es">Patty Video Ella Sola: Video tras camaras en una de sus sesiones de webcam. Duración: 1:25:00</desc>
+    <category lang="es">2000</category>
+    <category lang="es">Emby Patty</category>
+    <category lang="es">Single</category>
+    <category lang="es">XXX</category>
+    <category lang="es">MX-D-Adult+18</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118201/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="118200">
     <title lang="es">Single 017</title>
     <desc lang="es">Patty Video Ella Sola: Video tras camaras en una de sus sesiones de webcam. Duración: 2:13:58</desc>
