@@ -33,6 +33,45 @@
   <channel id="118644">
     <display-name>Papá a Cargo</display-name>
   </channel>
+  <channel id="118694">
+    <display-name>El pasajero del diablo</display-name>
+  </channel>
+  <channel id="118709">
+    <display-name>No Entrar</display-name>
+  </channel>
+  <channel id="118711">
+    <display-name>Zona de riesgo</display-name>
+  </channel>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="118711">
+    <title lang="es">Zona de riesgo</title>
+    <desc lang="es">Unos obreros de la construcción encuentran una bomba de la Segunda Guerra Mundial sin explotar en pleno centro de Londres, lo que les obliga a evacuar la ciudad para salvar a la multitud de transeúntes inocentes que se encuentran en las inmediaciones. Unos ladrones oportunistas aprovecharán el caos para llevar a cabo un elaborado atraco.</desc>
+    <category lang="es">Año: 2026</category>
+    <category lang="es">Dur. 1h 36min</category>
+    <category lang="es">Acción</category>
+    <category lang="es">Drama</category>
+    <category lang="es">Suspenso</category>
+    <category lang="es">MX-B</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118711/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="118709">
+    <title lang="es">No Entrar</title>
+    <desc lang="es">Un grupo de exploradores investiga un viejo hotel abandonado y se encuentran con un extraño ser sobrenatural y un grupo competidor que busca un legendario tesoro escondido.</desc>
+    <category lang="es">Año: 2026</category>
+    <category lang="es">Dur. 1h 31min</category>
+    <category lang="es">Terror</category>
+    <category lang="es">MX-C</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118709/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
+  <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="118694">
+    <title lang="es">El pasajero del diablo</title>
+    <desc lang="es">Después de presenciar un brutal accidente nocturno en la carretera, una joven pareja comprende que algo los ha seguido. Una presencia demoníaca, conocida como El Pasajero Nocturno, se ha unido a ellos y no se detendrá hasta reclamarlos a ambos, convirtiendo su viaje en una auténtica pesadilla.</desc>
+    <category lang="es">Año: 2026</category>
+    <category lang="es">Dur. 1h 37min</category>
+    <category lang="es">Terror</category>
+    <category lang="es">Suspenso</category>
+    <category lang="es">MX-B-15</category>
+    <icon src="http://192.168.100.19:8096/emby/Items/118694/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23"/>
+  </programme>
   <programme start="20260713000000 -0000" stop="20260730220000 -0000" channel="118644">
     <title lang="es">Papá a Cargo</title>
     <desc lang="es">Una supermamá consigue un lucrativo contrato laboral y cambia los papeles con su marido, que es el sostén de la familia. Él lucha por adaptarse como padre que se queda en casa con sus tres hijas.</desc>
