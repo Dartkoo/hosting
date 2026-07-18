@@ -1,16 +1,11 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-INDEPENDENT-SEGMENTS
-#EXT-X-PLAYLIST-TYPE:VOD
-#EXT-X-MEDIA-SEQUENCE:0
-#EXTINF:-1, Patty Webcam 001
+#EXTINF:3668, Patty Webcam 001
 https://www.dropbox.com/scl/fi/i6ogxt1qiffdjr8tbz87p/Patty-Webcam-001.mp4?rlkey=40oai95sw80ig1l98zh4sdsoj&st=55jchll2&dl=1
-#EXTINF:-1, Patty Webcam 002
+#EXTINF:4782, Patty Webcam 002
 https://dl.dropbox.com/scl/fi/vd6n694lxdxlb1gxsmpj8/Patty-Webcam-002.mp4?rlkey=zlhgnyrbiins62ofvj6gpr2ys&st=ckygzdck&dl=1
-#EXTINF:-1, Patty Webcam 003
+#EXTINF:4950, Patty Webcam 003
 https://dl.dropbox.com/scl/fi/r02x6hsdcsscawynwkke3/Patty-Webcam-003.mp4?rlkey=zl1xv3a92f24i2hw1xq9eayk6&st=8fqs1y94&dl=1
-#EXTINF:-1, Patty Webcam 004
+#EXTINF:2481, Patty Webcam 004
 https://www.googleapis.com/drive/v3/files/1_F-QDrTT9j3YV08Sw-HTpDKMcTaM2bBf?alt=media&key=AIzaSyBUKG8tHZ1l4JnZzP-K_4q9VOneV3Gznr0
-#EXTINF:-1, Patty Webcam 005
+#EXTINF:2524, Patty Webcam 005
 https://www.googleapis.com/drive/v3/files/1mO8EYDfxRn8r6BT-3P4mHFOE5jN-bwY_?alt=media&key=AIzaSyBUKG8tHZ1l4JnZzP-K_4q9VOneV3Gznr0
-#EXT-X-ENDLIST
