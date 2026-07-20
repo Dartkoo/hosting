@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Pelis-Max - Una Familia de Diez Temp 9</title> 
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <script src='playerjs.js' type='text/javascript'></script>
+	</head>
+	<body>
+    <style>
+        html,body{
+            margin:0;padding:0;width:100%;height:100%;
+        }
+    </style>
+        
+    <div id="playerjs" style="width:100%;height:100%;"></div>
+        
+    <script type="text/javascript">
+            
+        var ps = location.href.substr(location.href.indexOf("html?")+5).split("&");
+            
+        var vs = {id:"playerjs"};
+            
+        for(var i = 0; i<ps.length; i++){
+            var p = ps[i].substr(0,ps[i].indexOf("="));
+            var v = ps[i].substr(ps[i].indexOf("=")+1);
+            if(p!=v){
+                vs[p] = decodeURIComponent(v);
+            }
+        }
+            
+        var player = new Playerjs({
+   id:"playerjs",
+   file:
+   
+   [{"title":"E01-Que bonita Familia","file":"https://lh3.googleusercontent.com/o23STK1OANe4ejNJIphqRtbLq80wjNkwDS6iZdMCRCjGfvMFV3ug0Lj0UdO8L-E8hUMQHZuD_xD9IQgVCfuqfBo1ltSl2MrZldsI2LB0LxJ6zf1D88i5j7e1SOrFLqbePoI5BNBT6HU=m18"},{"title":"E02-Nuevos Huespedes","file":"https://lh3.googleusercontent.com/DpDrt39rOaDLyVm-UcafXXlTKq0jcgu-KE2Wz9DcpxEM8zYk33Vt8TxvrTEAM1tSNeTroaIWMfZuVsdJVkc3inhm_C_QlvbZTiEmt3CSIeOdHGuz38Njn2Z17ShN0cOdRhF8sBXFmL8=m18"},{"title":"E03-Buscando Trabajo","file":"https://lh3.googleusercontent.com/mTpbf5EI65_rTi1HQGPW56QJ_cr8u2C9z3F6s4UBgM96J9Q1XdX5xTEw7kV-w9SOZdbE2XpJhfdm_CY1rrjiwyLDaW4CS2jZk9gXiFwl6mbSCZ7QWk5MtguIWjP4kyHUBNBNy9dvIiU=m18"},{"title":"E04-La Despedida El Video","file":"https://lh3.googleusercontent.com/nLac6SlsziDLL-bWPMFK67gsJjWqnzuM3ktd6UZgouxAiDIp_ycsqTMtmGGlwPD2SlXz-0hEYiALyyNYmmIXeqecz91Os4lGeHPYxfPz6byJMaJmkeuO7MJGnRR_zt6JMyXcOT5i5tw=m18"},{"title":"E05-Destapando el Baño","file":"https://lh3.googleusercontent.com/ym1cUzS9a1QI26sZC8htUuKxTq7QNs_EyLxwSceOH6UaOhVLtqdyvwthzPp167EU-84q1fRwkgE0mWcY7qfgBZlBKZbNqbckSPDjLXJBeeGFjhbSyJ30XdLElQtI0SOAzyPPR-xZBkc=m18"},{"title":"E06-TV por Cable","file":"https://lh3.googleusercontent.com/NzIhLK4-zGJEeHJRKUyNRYDwBIb5YQwE9GbyKyR3AryteXPA0d39ZuOMhR2STjR1UsmO8IyiwNr4Leq0fCOE0iPVs68HuOZwz8fRhIt9pUz4GFlahAaU5nmNuPJgFm4MABrxL70tCj0=m18"},{"title":"E07-El Abuelo se vá a Morir","file":"https://lh3.googleusercontent.com/_cRhrPW2TyWRU7FovnkpREmSC3IFvhH1jNN-AC09igHp9gkkAUsiJc9E2F-NGQVPXmNgTmvuR_jrC3JSj_F3z0j6hiljLp-dQZcoYh4rsaTZAp0HmokIEG28Eh_HRUZhnBMXZwgBvg4=m18"},{"title":"E08-Cuando llegó el Abuelo","file":"https://lh3.googleusercontent.com/pIsqoRjVDERNIJrgpwlfNOOdbrMOM26jW-GHWlGb0ubp7YkBrrw_sQ_Xhs64HV2WX_6cTssilVJIAvBhtEwKi6aVAwJX4VjFwV2VlAzyiDG83JzMzR71mFL2Ztu12t3AboZDW2y_LLA=m18"},{"title":"E09-Gaby y Plutarco Enojados","file":"https://lh3.googleusercontent.com/U-ldRNvmIVFwh2As6AlyNOH_NJCf8io7rcKu2Ba8C1dcqrhipwby6Gfc9o6xLdADkShhrZ8HBqkv-iP_wHY8FzT-3azOZHTe64ttug8giOc6Ico0GD-tfaMKzOFIBsD8Oad11OHhnyM=m18"},{"title":"E10-Preparativos para la Boda","file":"https://lh3.googleusercontent.com/Z1TAJ0TPuVO0FhGDe0M-Qn5czyd_9rrve8FHBmGlX36PuhNFIDZ5Xlq0FNUmQ90FFD0N4WfRUposWBO5QrBQR5sTOGXsiuZpwtXvnTa0J9EWRVQPEiE8CNATtnbX7kvIPegg7abWd7k=m18"},{"title":"E11-El Papá de la Nena","file":"https://lh3.googleusercontent.com/cqV-tFBOWEIt7WVgnaMPSTZ7FMQ_5OYNQrHkLleRLHtsutas9NMez7y4FspuEjexttpEobfeCqUctXd5aU1XLSeocAqiYEXvWWGOb6XyBDQivcwbcSfZePFiUpkXwASsaq4ETa0YsWQ=m18"},{"title":"E11-El Papá de la Nena","file":"https://lh3.googleusercontent.com/rinDJcCyErYPCrwA85DKR5BWk6Xb7rIC6Isf19fYgVVi9GCsuiT8a6b2jW8FqZpDpOUrVwNT7dsT5HMuo_w0WbPaKr0T_1cZmRjlrqD_Gaw5M4gv3NBdWqhGjY7EXPOzbO1abwTw2L0=m18"},{"title":"E12-El Amigo de Martina","file":"https://lh3.googleusercontent.com/TqgHT9gimEEOJVVfc_hvnfimUNXvHoIynENwPBAIvj5i87y5aByC7pjJdA64PtW8GKp1Ruw10-UUm6eboUGgw0-24iz45TvGkPap_fWHJaOhcfUuZW27ehN-rlYcDxrB_1x6Q_Qyz_8=m18"}]
+   
+});
+            
+    </script>
+</body>
+</html>

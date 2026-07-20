@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Pelis-Max - Una Familia de Diez Temp 9</title> 
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <script src='playerjs.js' type='text/javascript'></script>
+	</head>
+	<body>
+    <style>
+        html,body{
+            margin:0;padding:0;width:100%;height:100%;
+        }
+    </style>
+        
+    <div id="playerjs" style="width:100%;height:100%;"></div>
+        
+    <script type="text/javascript">
+            
+        var ps = location.href.substr(location.href.indexOf("html?")+5).split("&");
+            
+        var vs = {id:"playerjs"};
+            
+        for(var i = 0; i<ps.length; i++){
+            var p = ps[i].substr(0,ps[i].indexOf("="));
+            var v = ps[i].substr(ps[i].indexOf("=")+1);
+            if(p!=v){
+                vs[p] = decodeURIComponent(v);
+            }
+        }
+            
+        var player = new Playerjs({
+   id:"playerjs",
+   file:
+   
+   [{"title":"E13-Cambio de Personalidades El Sueño","file":"https://lh3.googleusercontent.com/xFGGjXFzrZOzCLOdbk6pnmre5--OEDOcsU6S_U_cYXOby72HWumc7y7YcwGn15MEIF6OOBm8iZuayCnUp3R8eRr_-ehk9W_QOpkmqiJBA524m3x2mJXQqS0qSI0fmtprQ5tpOCEXulQ=m18"},{"title":"E14-La Dieta","file":"https://lh3.googleusercontent.com/45eJk5RqUT3DhCYeYmw4LqUV-NryJml6PWIV493BGeFPEUacI0eX04knfvoxMJGu958takhzhvNIaGDNKrLxd09TCrT1ikFMVl9OqBX8TtqtoriNgbOuJLc8DT_ieQGS7UeJNq7Fr3A=m18"},{"title":"E15-Los Cinco Puntos","file":"https://lh3.googleusercontent.com/DSnf-FOaFcTYhptCAkl3Z_djj-_fZhN1gSebFExCI0fSmOAk_VpTtyGvtXDEQ-H0yxTmHBqpphuzD6ykpq7iqMsj8P3AlK8YPl1o_CRB66EKtlGBJWfkqXy9ZbwoegicK3RvhML4fAk=m18"},{"title":"E16-Doble Chantaje","file":"https://lh3.googleusercontent.com/3Z6kKyYbhYm972zcL6-i3HphsnY2dsuERSFhBbvjUcKiQmb2P6KGRuND92usYpSPNRmah5paxU_EwpDZwrnpbWNxTqNOd6UaoW4ymZqLbJyYPRHgmO2-Mly9Fs0_wup6G3EqLqQSdGU=m18"},{"title":"E17-Confusión de Novio","file":"https://lh3.googleusercontent.com/3Z6kKyYbhYm972zcL6-i3HphsnY2dsuERSFhBbvjUcKiQmb2P6KGRuND92usYpSPNRmah5paxU_EwpDZwrnpbWNxTqNOd6UaoW4ymZqLbJyYPRHgmO2-Mly9Fs0_wup6G3EqLqQSdGU=m18"},{"title":"E18-Recordar lo Vivido","file":"https://lh3.googleusercontent.com/q_aoasjYFsPXayyyLiYqdsn0oiBbvXDb2NiEDcM2LehbuisQpkfhDscjeAaJAPKoKfFR5YU3gYmHqwVV4ONZqPH3h517JzmCJt4yPZ0MFZe3oemn_4mV0EFmgy2BOg0kByt2ow1e63s=m18"},{"title":"E19-Prueba de Embarazo","file":"https://lh3.googleusercontent.com/qTm_lKomTxupCZQu4HO8sHKMQLcuYttRVKf9zwD18uLTBpne8yZG_XW65bG5I1btfBDSFhqY1JZX2j0YtMnSlakhspm2qawGm1WUEfMtqqkxUNYc7gycZeoHAy2F0CwPEQdebMx599I=m18"},{"title":"E20-Fuera de Casa","file":"https://lh3.googleusercontent.com/eZSU8e094LkujCRMdz8pYZ2-zhZhOwBHv8z0YY9OB0DW0Ljc2QpIpEi25xSLWeVq9TNPI_ld-55e61Rj0aCyh7NkuMptEagFu950H9-jmVpVZxrS2qxOYwpF2XYjLn5YuBRVYTHWmPc=m18"},{"title":"E21-La Nueva Dueña","file":"https://lh3.googleusercontent.com/GXKqyx8ExLZ7SbMbRlml1XoIND2DtZSqFWIXyTdtRCvggv7-gZ_dr1zbUNb-yKjneCuLrFbOm8GMoavr-JGtUJwH5Wl7Myenoi55PhfN8z_3ne8p56s-vKgyGSM-icwNqX2u-ftdyf4=m18"},{"title":"E22-Ahorro de Energia","file":"https://lh3.googleusercontent.com/hbttP_mS7rw-Bnlw2sC13q91FRoF1Tcs3g7rwACI9GoK7yBsY_lTfC7OKv81rc8cJ4CMaATlV9kKM0naoConEuHC-CR6bquPWFhZHPl8JYyCC3a0t9V_HnTdKwndL0dpvqV29HCcNuU=m18"},{"title":"E23-Una Solución para cada Problema","file":"https://lh3.googleusercontent.com/JmEqrPDEcjCbEDnWqcceJdmnU7ZDy1pVbSt19EbFsagdrjtP9Gf5qO97SSYcyuMsROd8EL0j8AajhUc15MSMrqED4ePLSCrtombg4LVAa_Rot6UqjCHyaQijrxtPfF2rAxYZ9TKyaYs=m18"},{"title":"E24-La Casa del Millón","file":"https://lh3.googleusercontent.com/3tiI_Ila9e722IIoqEsVwQrooA_QWYFUGjErdh3PJDTcA8Ld1HjH0MIIh21mMbArFE5qKOF-u6xfOj3qOcEUGds7GWcfcMM1NDsjV_6v1BhJhp7b-7vJoDhnaq3Ju0e8RSJkvSXx9x8=m18"}]
+   
+});
+            
+    </script>
+</body>
+</html>
