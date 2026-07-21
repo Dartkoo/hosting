@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<title>Pelis-Max - Una Familia de Diez Temp 8</title> 
+		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <script src='playerjs.js' type='text/javascript'></script>
+	</head>
+	<body>
+    <style>
+        html,body{
+            margin:0;padding:0;width:100%;height:100%;
+        }
+    </style>
+        
+    <div id="playerjs" style="width:100%;height:100%;"></div>
+        
+    <script type="text/javascript">
+            
+        var ps = location.href.substr(location.href.indexOf("html?")+5).split("&");
+            
+        var vs = {id:"playerjs"};
+            
+        for(var i = 0; i<ps.length; i++){
+            var p = ps[i].substr(0,ps[i].indexOf("="));
+            var v = ps[i].substr(ps[i].indexOf("=")+1);
+            if(p!=v){
+                vs[p] = decodeURIComponent(v);
+            }
+        }
+            
+        var player = new Playerjs({
+   id:"playerjs",
+   file:
+   
+   [{"title":"E1-Niño envuelto","file":"https://bit.ly/3j2iSk0"},{"title":"E2-Acuérdate de acapulco","file":"https://bit.ly/3Pmq0UH"},{"title":"E3-Madre sólo hay una","file":"https://bit.ly/3VURNxX"},{"title":"E4-Éramos muchos","file":"https://bit.ly/3uMHGiJ"},{"title":"E5-Depa confiscado","file":"https://bit.ly/3HvqkOP"},{"title":"E6-No hay mal que por más peor no venga","file":"https://bit.ly/3UOJQJe"},{"title":"E7-Aceite de coco","file":"https://bit.ly/3WcKWzI"},{"title":"E8-Me dieron charal por langosta","file":"https://bit.ly/3iUszkx"},{"title":"E9-Pirámide de arena","file":"https://bit.ly/3FpPvQm"},{"title":"E10-Nace una estrella","file":"https://bit.ly/3W9vjJ2"},{"title":"E11-Los expedientes de Gertru","file":"https://bit.ly/3VX1LyE"},{"title":"E12-El cumple de Martina","file":"https://bit.ly/3j2sXxD"},{"title":"E13-Chef al vapor","file":"https://bit.ly/3FOBEEq"},{"title":"E14-La ropa nueva se revuelve en casa","file":"https://bit.ly/3FPvDrm"},{"title":"E15-Llegó el gusanitito","file":"https://bit.ly/3UPMfDn"}]
+   
+});
+            
+    </script>
+</body>
+</html>
