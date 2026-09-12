@@ -135,6 +135,16 @@ http://190.61.42.218:9000/play/a04d/index.m3u8
 
 
 
+#EXTINF:-1 tvg-id="118882" tvg-logo="http://192.168.100.19:8096/emby/Items/118882/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Toy Story 5 (2026)
+http://192.168.100.19:8096/emby/videos/118882/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="118834" tvg-logo="http://192.168.100.19:8096/emby/Items/118834/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Soulm8te (2026)
+http://192.168.100.19:8096/emby/videos/118834/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="118832" tvg-logo="http://192.168.100.19:8096/emby/Items/118832/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Posesión infernal: En llamas (2026)
+http://192.168.100.19:8096/emby/videos/118832/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="118820" tvg-logo="http://192.168.100.19:8096/emby/Items/118820/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", La Boca del Diablo (2026)
+http://192.168.100.19:8096/emby/videos/118820/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="118784" tvg-logo="http://192.168.100.19:8096/emby/Items/118784/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", El día de la revelación (2026)
+http://192.168.100.19:8096/emby/videos/118784/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="118711" tvg-logo="http://192.168.100.19:8096/emby/Items/118711/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", Zona de riesgo (2026)
 http://192.168.100.19:8096/emby/videos/118711/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="118709" tvg-logo="http://192.168.100.19:8096/emby/Items/118709/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Estrenos", No Entrar (2026)
@@ -2583,7 +2593,7 @@ http://192.168.100.19:8096/emby/videos/75651/original.mp4?DeviceId=76ac5534-f0b3
 
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://lh3.googleusercontent.com/d7YjlFd69QDKxSOqoMEgzn_K9ZQ8-oJzGg1PU_XZc5N4PPaqVgjPKLE2PRYxNIPDOmMhs8nBQF_YA8uA_-JUnMQf1ZbfVWg5YR3d4R6OdvJaGGwW2mlmD7lU7mV9oSuzOXdYTGIxyh4" group-title="DVJ Kadjast", Retromix 4
-https://www.googleapis.com/drive/v3/files/1uQHgG44ZPkIrBTMHkF_x4CZjo9bRlebu?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
+http://100.111.130.91:8096/emby/Items/75652/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="" tvg-logo="https://lh3.googleusercontent.com/hIg8VC1K-xEEv-cyLiHHz1x8spXeB9ieymTOkQ2DeA6L6DiB9miXGDe3g-XZjpFgnyXqUTC2lvFAPbw21HaSKaZo1h10oHePRJpH1cUyvqdu88k5iBYABfn0GwJKf9VR7U-jWXZg6Ko" group-title="DVJ Kadjast", Retromix 5
 https://www.googleapis.com/drive/v3/files/1mpqvYLasz8wnJhllPJFz52VVgvZabhr3?alt=media&key=AIzaSyD739-eb6NzS_KbVJq1K8ZAxnrMfkIqPyw
 #EXTINF:-1 tvg-id="" tvg-logo="https://lh3.googleusercontent.com/5Rb3mM7EnRSEVUxsmgh1TXupmVrogPzcp_-mhE1kKGbVlmvUYYuMZotQt3p88MAAX9x2KIYiq4AvmVmxfHoNMxcoWP1e2npyj2xhmF8M79boNZaqBpgUwUguY6m34ph_Z0l4eva946M" group-title="DVJ Kadjast", Retromix 6
