@@ -3725,120 +3725,110 @@ http://192.168.100.19:8096/emby/videos/71061/original.mp4?api_key=fd6371be47f340
 http://192.168.100.19:8096/emby/videos/71062/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="71063" tvg-logo="http://192.168.100.19:8096/emby/Items/71063/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S1E24 La Casa del Millón (2007)
 http://192.168.100.19:8096/emby/videos/71063/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="71064" tvg-logo="http://192.168.100.19:8096/emby/Items/71064/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E01 El regreso (2007)
+#EXTINF:-1 tvg-id="71064" tvg-logo="http://192.168.100.19:8096/emby/Items/71064/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E01 El regreso (2019)
 http://192.168.100.19:8096/emby/videos/71064/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="71065" tvg-logo="http://192.168.100.19:8096/emby/Items/71065/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E02 Los muebles (2007)
+#EXTINF:-1 tvg-id="71065" tvg-logo="http://192.168.100.19:8096/emby/Items/71065/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E02 Los muebles (2019)
 http://192.168.100.19:8096/emby/videos/71065/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="71066" tvg-logo="http://192.168.100.19:8096/emby/Items/71066/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E03 A trabajar todos (2007)
+#EXTINF:-1 tvg-id="71066" tvg-logo="http://192.168.100.19:8096/emby/Items/71066/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E03 A trabajar todos (2019)
 http://192.168.100.19:8096/emby/videos/71066/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="71067" tvg-logo="http://192.168.100.19:8096/emby/Items/71067/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E04 La venta del edificio (2007)
+#EXTINF:-1 tvg-id="71067" tvg-logo="http://192.168.100.19:8096/emby/Items/71067/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E04 La venta del edificio (2019)
 http://192.168.100.19:8096/emby/videos/71067/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="71068" tvg-logo="http://192.168.100.19:8096/emby/Items/71068/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E05 Ahí va el agua (2007)
+#EXTINF:-1 tvg-id="71068" tvg-logo="http://192.168.100.19:8096/emby/Items/71068/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E05 Ahí va el agua (2019)
 http://192.168.100.19:8096/emby/videos/71068/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="71069" tvg-logo="http://192.168.100.19:8096/emby/Items/71069/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E06 Tome su turno (2007)
+#EXTINF:-1 tvg-id="71069" tvg-logo="http://192.168.100.19:8096/emby/Items/71069/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E06 Tome su turno (2019)
 http://192.168.100.19:8096/emby/videos/71069/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="71070" tvg-logo="http://192.168.100.19:8096/emby/Items/71070/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E07 Embarazo no deseado (2007)
+#EXTINF:-1 tvg-id="71070" tvg-logo="http://192.168.100.19:8096/emby/Items/71070/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E07 Embarazo no deseado (2019)
 http://192.168.100.19:8096/emby/videos/71070/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="71071" tvg-logo="http://192.168.100.19:8096/emby/Items/71071/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E08 El socio (2007)
+#EXTINF:-1 tvg-id="71071" tvg-logo="http://192.168.100.19:8096/emby/Items/71071/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E08 El socio (2019)
 http://192.168.100.19:8096/emby/videos/71071/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="71072" tvg-logo="http://192.168.100.19:8096/emby/Items/71072/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E09 Quién se comió los tamales (2007)
+#EXTINF:-1 tvg-id="71072" tvg-logo="http://192.168.100.19:8096/emby/Items/71072/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E09 Quién se comió los tamales (2019)
 http://192.168.100.19:8096/emby/videos/71072/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="71073" tvg-logo="http://192.168.100.19:8096/emby/Items/71073/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E10 Las vacaciones (2007)
+#EXTINF:-1 tvg-id="71073" tvg-logo="http://192.168.100.19:8096/emby/Items/71073/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E10 Las vacaciones (2019)
 http://192.168.100.19:8096/emby/videos/71073/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="71074" tvg-logo="http://192.168.100.19:8096/emby/Items/71074/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E11 El abuelo pierde la memoria (2007)
+#EXTINF:-1 tvg-id="71074" tvg-logo="http://192.168.100.19:8096/emby/Items/71074/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E11 El abuelo pierde la memoria (2019)
 http://192.168.100.19:8096/emby/videos/71074/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="71075" tvg-logo="http://192.168.100.19:8096/emby/Items/71075/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E12 Cartas a la bruja (2007)
+#EXTINF:-1 tvg-id="71075" tvg-logo="http://192.168.100.19:8096/emby/Items/71075/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E12 Cartas a la bruja (2019)
 http://192.168.100.19:8096/emby/videos/71075/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="71076" tvg-logo="http://192.168.100.19:8096/emby/Items/71076/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E13 Esperando a Justo (2007)
+#EXTINF:-1 tvg-id="71076" tvg-logo="http://192.168.100.19:8096/emby/Items/71076/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S2E13 Esperando a Justo (2019)
 http://192.168.100.19:8096/emby/videos/71076/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-#EXTINF:-1 tvg-id="71081" tvg-logo="http://192.168.100.19:8096/emby/Items/71081/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S3E01 Cenizas quedan (2007)
+#EXTINF:-1 tvg-id="71081" tvg-logo="http://192.168.100.19:8096/emby/Items/71081/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S3E01 Cenizas quedan (2019)
 http://192.168.100.19:8096/emby/videos/71081/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
-
-
-
-
-
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T3E02 El ultimátum
-https://lh3.googleusercontent.com/Vo4LKsY7_69RMa7uRb8We2-MLMC-J7r_9cp_drOCgVWN0tmyfR7zrDSpf0tkM2WiJHGbEgOx47tuMei1hBHHfzYOdzBc4uj4BnYlfppIX3mja7M3W1rL7ULBSkaPV0sW5bvwp7CbP7o=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T3E03 El huequito
-https://lh3.googleusercontent.com/rLRx6j8-7vu1oKTMVTATh5CRQd5qq-JepEb68HypLnoAWMho1ibr9BZ6UaCYIfJUVi7q1qfJdB5s6XEMBIJqPQgzLfuY6IcYv-BJCYXGXV8zCjhxnb8Asq6vI_GOVBX1pcik7N02KCg=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T3E04 La llegada
-https://lh3.googleusercontent.com/SoWDSwJMH9Jow66H-r9IQtd7lLZlHRCjRGTut5V0l_53mH_oEdqyNxQUmrCJOCxx-ijHgr1bxm1sRFumBq3TPbkCUEAo9ka2O575YSKUpC3V_UJdDXF0YF4IlUvYrd6X-8zMpee3Nas=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T3E05 Un fantasma de diez
-https://lh3.googleusercontent.com/Y6oThtD57Wg8c88QiTKoSbt4m3QCgrv_BnLB492J4kTFKTKMuChrg2y_1Z9Nc6WJrFgAn2WxNCLvNCy3TzzRGopYSVu7CLvIwU3y5ELXdIDJjS8Crj8BnfR8dM-QYUo3aj1Raux-Wrk=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T3E06 Ácido fólico
-https://lh3.googleusercontent.com/dAwBVHMiqHnfg_lyn-BIp2mGw_vvdvyjdzxaaK_teahZ0ea2SChRe_eQ2bDLiPvjIxaPGmEUOiknVCY9wHrGU9DDM5KNSvIdA1xJgoJy4HlRnbdNPhAZI2YOS0wBMXZHX-zKcwQB0AA=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T3E07 Plácido inactivo
-https://lh3.googleusercontent.com/ET4n-FQqfcnm_CAfgNvNwQhpS7ixsMfRmGElccf1DMkCSvTxb8LREe2JqvPv9YspeadBarhM9_ll9_8Xy8YX6DiQ8Yaj2_je4-JQjGXqtsSyNc5hHRl6sJFdbYEBJzhWybn8L3jxCMs=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T3E08 Justo para todos
-https://lh3.googleusercontent.com/IM6pJW4QPZaVJPPkFJwXDqOG2MTXcgyzK1_ovkk3phRL96SWuqWSZeprp3sTisiZurfySjyF-plg8O9Pcurz9zQHBvBW7KfFGvDzDfPxnYcL5e15lPJWBCVOWAurGC1rOS15YLqf3mw=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T3E09 Una noche de estreno
-https://lh3.googleusercontent.com/GMkFlWJQNnAL_TBCjwljaiJyVzFRPlVZbR-vcug1EDkuHEskE3ALGPLljKBUIoDJNMF3abWcgf46qNywdSXxGVVSWwbkUnly-CHvTcuZKtDlmST5jC4pNqRvY8piMCrR9dkIggAUxQs=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T3E10 El yerberito llegó
-https://lh3.googleusercontent.com/EGr4_3utIioDHZbubNFqN_wrnUzebqYs5eNzZIMvRc_3AQ1RZQnBD4jD2re7Yom5JWO24X1zcHTT9mrDtcTIQyEeUomhPkU33x0cAddl2_e3L4cV2-LQpme-ZaxsdOAroymMTmZ-anM=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T3E11 Renata indiscreta
-https://lh3.googleusercontent.com/XlXVxsArObqnyzZpBqpgnWWrY_mL5uLUzWSXX97iJ83aTbLq_k5WnwqfD8zCBvpwR45x5ocQ7TQFuOaTnT1TruP5LVaEfAIP9brMSSkx_BIRl6O8cjCapj-je4mBTMK-Zx7A3q7jJQY=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T3E12 La enfermera
-https://lh3.googleusercontent.com/12KY-gV2MUOpMBHVLj9JK1Ck8e1Kyb9YwIe0kMvK8Kz3NSBzqQIdDwlSZmP9fKYwSFx0hanIXLCHokoQCLvunJca_3DGKsczvuxgeUsR7mhnjQ2vMvpRim3l-88ofyVJIWjzgY49NX0=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T3E13 La cereza del pastel
-https://lh3.googleusercontent.com/lKXVS_CboUkJGEkfYmR2U5SXaHB_yKxIXRId5SLZH-OJeLr2dKFNsrV3EUM0rftfmQVpxpS3ELpaRsjVRPXI9YTbVkg9gNeB_ONc2_2LeFg0gnP5_Rjf70lf6KrnVhQKlrX2fGFUBWQ=m18
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T4E01 Entre el bote y el agujero
-https://lh3.googleusercontent.com/KfcUANoC232hwCSzeNJvhPYx4My_Gcvt5MBQn0Yzqip_wSLSGtdqKNrSFzJDf1ll_8Cgvu0LzyDY3859IoispLEg469e0MgvQBc5nLLnIcjGQN-1AQDibCtgw4uMrrga286ZhqZ2GWk=m22
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T4E02 El regreso de la Licha viviente
-https://lh3.googleusercontent.com/llwxqFAG4gTcYngrEqMIBxH8Y0249ne-u7SFgfUpe8d2ffCJVILOJZuGNEWHufw3sKB7A9uR_oTXDC37Mm4aBaFlzMUBarEgfCc2JXWCGk5JrpN3cVmtTJPzRL4-hfn-xLBo6tWuFDU=m22
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T4E03 El Departa-miento
-https://lh3.googleusercontent.com/3Rv2DOSZuHsGShT9OdmXqj2HPp_f1d4FswUIguP5y_24RZvlpbeEDXWS_-JGAA_usr87WnwuqNB2j54e4HqeunUNSxzF3rDNZvqLftxR5GE-3ClSWLGz4NpwOTDeGzwnRoe4iiRiiGo=m22
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T4E04 Renata liberada
-https://lh3.googleusercontent.com/SOsfRRXGpTFoFFFm_by47C7kZE6wEKVhBihD5nIOQzOLj87hLnYNmRbacYR1775ZB1NxhDgVLd8DxP8PFBEJGZCfvCDz06ByI9ozeWDtVRT-leHyI_gDR6jH7Louib0yDMCv92kFN2w=m22
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T4E05 Volando bajo
-https://lh3.googleusercontent.com/uOvERoah32YknX9vjjPNX9U8-DaddNfF-Opvjp6h2x5zu0ynhv5z82pMcMZ8xBfcynG_SyTmP70Ck0EPqO7f_I4xUGS9r5v-Oo9gxQAu4TY1AqhB7Ux_ijJUr4mSKAGIcm3WEC8LCxs=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T4E06 Ajolotito en riesgo
-https://lh3.googleusercontent.com/OBioMIIwvyIVK3jysLR3zIhcx-u4jzbhXx46SuRBfoVLiwqwQakeTm_Zq9rqRsus9BPpJbIpO7-BIIp5NEGoXy-eypfr3I-ruAZWDhdeFJ2sTSIxCabARbv4i9c7twDEyFXJBKQRT6k=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T4E07 Nos cayó El Rorro
-https://lh3.googleusercontent.com/mF_QuLhWU1NItyDWyfFz4cRKyY99Vb0BclG-qQLYgks4f5aJPrlNBtFZ9gYkf1GJ_9ph_CbDEqJ76zfJkTY-EXTRmtBvYsweIYmtck_dMsmD4AcoNA-EgaKdMub9pMC1fQjBP_5WpGw=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T4E08 Una Martina de diez… semanas
-https://lh3.googleusercontent.com/cDYWUIW11mSkHyOn3_ke9Kz2yHHGBGQhFP8zBxEujTR8l1lxHY5ZaruWaJHD1E9mQfu6KMLiEakRFRCbxydCjfLQku84Ldt0fu1DGs8RzRiaMYD12uTmapZsAn-Gc4wo_EudUSxeZEw=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T4E09 De vuelta al clóset
-https://lh3.googleusercontent.com/HDY6j_t9T2H1jDZ_91gGR-Dz3a6xYW-4oK3BhvcZg_xhWliBji2SowcxdnARINp7XJm_qcCVpEPLyQOpMTwQOA8U1spGreaW-Lt_7GTRESntmtZAwFNO12SBNhlLfTeo1AaW6I6Gp0Y=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T4E10 Las tres Nenas
-https://lh3.googleusercontent.com/kTLlVrAj03eVWoKIpd17zHJKb0i5z--f_Nd02gu0NcGSV9g3nMUtWVToK08tU6sBz6zUXnU8Jt8VJa8tzndNIenKjhSnM-dc1aBQ0DdcUO5QBzOlqZTRczy6kcD7EFW4ZVKr-rU9hJE=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T4E11 La Victoria del Sinsimito
-https://lh3.googleusercontent.com/B3TIk-hTc7ld4lIiMGVip7kJeIg6_UMwy8crkIWKGJ8Bc1MZqm7JkaqKIAxb5zphyEEwB6Hety8rfzFFLGX-sR-qj9SZmMlPzjmFX6TUfSATZ8WnrtYdj4EpdUpXtIm35EIHdeOTfQU=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T4E12 La Despedida de soltera
-https://lh3.googleusercontent.com/_R3yOGeN9yR-D-LwNOU0F0k7mgp6I47Re4-RLo9i2XPwaXJIS3QuzioUDN0g5q-v6i0m-75cD-5Mg-DQ5nTDdONrVk8uUUw1jZ8xA05nimpVLO7S6IJXmQFp16UWb8DrLdfmE_gpGNw=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T4E13 Y fueron felices… ¿Para siempre?
-https://lh3.googleusercontent.com/pqihTXXQFELqUCkrb2bzYEOPtsESypAcUjmbh7QhUkDRoX2UC9ZJiOa8O7i-KJsyTMQnUyoCX4FAXlgaxNvpm7Ddr3mXUCV6qT4IW0TIAQagVv5xfbNEJ_fRyC2S54CEaQRYIN5-MA0=m18
-
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T5E01 La Depre de Martina
-https://lh3.googleusercontent.com/Y_QRz30UIuQWkt0AQYt1S7sE15mzcJ6nqx-Bfq338S5vAGH39pZnV_K10DYnYgYxaVzrVTWAOOxR8g5N68IPojjnKBV3RKy4qV-qq2NDCN5JiYKpidAEv2EgVyBkackCy1uql3zHdtA=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T5E02 Unos gemelos de diez
-https://lh3.googleusercontent.com/qpCpv7qgKUwBYD4ZPB-Rcp7FpnJvGRDkjfnU4DQ_xCZUqTebB4x0ldhmfwJeIzeKU9Zg0e6eRk-KKxjAL_zURSO3dla7QYSBtqL87eJsGcwgEyIYMl9iwv_sv8ZDXpbojNl2KEDN4f0=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T5E03 El museo López
-https://lh3.googleusercontent.com/gLD4c2OT7eyKTHSJszgxaNdN70urmI3RewLTbjuMrDcBRhxiyBJ-7TH0KijFMTJAWCCJ7K8AE8CCcMFhYzlpVKDHVv1XCDn6P58wIgCN5H2fUb3PuTDRKauRPftLy335R6XoBybiWLg=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T5E04 ADN vas que más valgas
-https://lh3.googleusercontent.com/Xz_Yk_oQZ1jPYpMVVwZlTJQD0PApAh8zyiQdkB2UlyrKsTo5W2Nrm357WgM4RRZOFXg0O_uZaONX74aAvO1G83sy8-rMSP-Obboq3lSHi1w8hqGO6cHNSpLk-PL1uBK67wKW_4wmJZM=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T5E05 La plaza de La Nena
-https://lh3.googleusercontent.com/W5noo4mjr3aIWJAX7PGRQOGkuMLJbWUQytAhSTtY34tZAaimY91mZNj68Waeob38gmsdtuN9gxvbqwcbwjY7jnB6ex_0c-Ehypl78MjOq2E6zKI0Q7kawXIwmJeCE7ahHZqU_b2lLbk=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T5E06 El aumento y la tarea
-https://lh3.googleusercontent.com/kfxoXXrHnMOoQDzgpJNYBZ9Y_OFGU_Xd8QzIBoLSjqyJnJO98di3MuawFbRBieMMNNB7La9k_KfRVTFylzpFBGCKw_j1QpZMSw8vYF5tswEF12kLHblYGo8mRHREBqNKMy_0nXF9qrY=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T5E07 Elotito
-https://lh3.googleusercontent.com/thqPl954rkQh91Qj5CL_i_5Cdmfc4pZU-L4Qv6QuGskKbT_0qtwnpIXTsS_X_NM97sa9zi1UpIt06QmDBW2Mh87UYu5Cn7tewERiZTxrTkYJxq0SRuSh2kN0W8JqbuALoA4vzVmbmJM=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T5E08 El Portafolio
-https://lh3.googleusercontent.com/1SnkO0bHrzABZ0EUsmCr88s-K1GllwwK_yCrCk3zSfXknO19boH9qwffYY0elbv1gPzCR-1aYeFS5OC8vZFO4HryjQSG49rKN5tbqhRsuqxPjaICB9cN7zdlF2BboFEsEWcskbMcOmA=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T5E09 El regreso de Fu Man Chú
-https://lh3.googleusercontent.com/4JqHSPc74eweg-_UkV0R0mch_XYYz_peBY0u3Hx_CFvMU8aQ7P28PMLX6SRfX_xEEa_A2oi4PuyorYO5jtjES1WA6EzZlJc1gHoCzN3kk1hr3H2AxJjfCiPpV8VDFrd2k05hQgRYxAo=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T5E10 Licha Reptiliana
-https://lh3.googleusercontent.com/1oVXi7rDoVJLJnQFPhC1tAuXRNARzPR5p6W_DcVPiB-Hw7Lv09iKE9s6Y_hjlYK2zIrkfMOHG-aHSJMrKIATeL0U0Akv937IM-k8c3_1fnTuoDE42uqhAOANVFE2fpmWou7_7okU6eA=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T5E11 El Justo precio por trabajar
-https://lh3.googleusercontent.com/NNvoLJmaBIEvLGT3Ks5sW25l_yaf2OMfrISkiQT6UgHFay4eIgIEC7BngVN_mRFC8VtXGQW0vpnwdjIVZzjhV5FFWmrWtcyKAMBX3FJ5LNCWrT9LFU0arwwPohXbd8TzneBb-gio1cU=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T5E12 Un Plácido cumpleaños
-https://lh3.googleusercontent.com/a2qZWjmo5-Xfpweco-hnX_ZwdGpPSNIkwy77PqNWtcZ9_ezg9Q5-ylD0Der-LLzVCwUSLGtSGum3gbJjmDdRDeRHdhtCmQQmbdEtzl4XX3P0JVRumZpi3rD7Rw_k-ppQYN-bkcppGr4=m18
-#EXTINF:-1 tvg-id="" tvg-logo="https://drive.google.com/uc?export=download&id=1LJvKTCBVD2tSvpsu0RSXb0o6M-ZHOjBT" group-title="Una Familia de 10", T5E13 De lo perdido, lo que aparezca
-https://lh3.googleusercontent.com/JQXSvVvrg4Odm7cgZPGOMizD5s21lDdnkQ7MamDIyUkOOo1pbUiwTI8a-FFaUAh3y8LzDSPex6eww69IuKxcmuhc7bgfjNDec458O2UV_XuKSkrnVYm_wNqFmjOwQBOaoHlP7mNbVME=m18
-
+#EXTINF:-1 tvg-id="71082" tvg-logo="http://192.168.100.19:8096/emby/Items/71082/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S3E02 El ultimátum (2019)
+http://192.168.100.19:8096/emby/videos/71082/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71083" tvg-logo="http://192.168.100.19:8096/emby/Items/71083/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S3E03 El hueco (2019)
+http://192.168.100.19:8096/emby/videos/71083/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71084" tvg-logo="http://192.168.100.19:8096/emby/Items/71084/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S3E04 La llegada (2019)
+http://192.168.100.19:8096/emby/videos/71084/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71085" tvg-logo="http://192.168.100.19:8096/emby/Items/71085/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S3E05 Un fantasma de diez (2019)
+http://192.168.100.19:8096/emby/videos/71085/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71086" tvg-logo="http://192.168.100.19:8096/emby/Items/71086/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S3E06 Ácido fólico (2019)
+http://192.168.100.19:8096/emby/videos/71086/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71087" tvg-logo="http://192.168.100.19:8096/emby/Items/71087/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S3E07 Plácido inactivo (2019)
+http://192.168.100.19:8096/emby/videos/71087/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71088" tvg-logo="http://192.168.100.19:8096/emby/Items/71088/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S3E08 Justo para todos (2019)
+http://192.168.100.19:8096/emby/videos/71088/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71089" tvg-logo="http://192.168.100.19:8096/emby/Items/71089/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S3E09 Una noche de estreno (2019)
+http://192.168.100.19:8096/emby/videos/71089/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71090" tvg-logo="http://192.168.100.19:8096/emby/Items/71090/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S3E10 El yerberito llegó (2019)
+http://192.168.100.19:8096/emby/videos/71090/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71091" tvg-logo="http://192.168.100.19:8096/emby/Items/71091/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S3E11 Renata indiscreta (2019)
+http://192.168.100.19:8096/emby/videos/71091/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71092" tvg-logo="http://192.168.100.19:8096/emby/Items/71092/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S3E12 La enfermera (2019)
+http://192.168.100.19:8096/emby/videos/71092/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71093" tvg-logo="http://192.168.100.19:8096/emby/Items/71093/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S3E13 La cereza en el pastel (2019)
+http://192.168.100.19:8096/emby/videos/71093/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71094" tvg-logo="http://192.168.100.19:8096/emby/Items/71094/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S4E01 Entre el bote y el agujero (2019)
+http://192.168.100.19:8096/emby/videos/71094/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71095" tvg-logo="http://192.168.100.19:8096/emby/Items/71095/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S4E02 El regreso de la Licha viviente (2019)
+http://192.168.100.19:8096/emby/videos/71095/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71096" tvg-logo="http://192.168.100.19:8096/emby/Items/71096/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S4E03 El Departa-miento (2019)
+http://192.168.100.19:8096/emby/videos/71096/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71097" tvg-logo="http://192.168.100.19:8096/emby/Items/71097/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S4E04 Renata liberada (2019)
+http://192.168.100.19:8096/emby/videos/71097/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71098" tvg-logo="http://192.168.100.19:8096/emby/Items/71098/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S4E05 Volando bajo (2019)
+http://192.168.100.19:8096/emby/videos/71098/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71099" tvg-logo="http://192.168.100.19:8096/emby/Items/71099/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S4E06 Ajolotito en riesgo (2019)
+http://192.168.100.19:8096/emby/videos/71099/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71100" tvg-logo="http://192.168.100.19:8096/emby/Items/71100/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S4E07 Nos cayó 'El Rorro' (2019)
+http://192.168.100.19:8096/emby/videos/71100/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71101" tvg-logo="http://192.168.100.19:8096/emby/Items/71101/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S4E08 Una Martina de diez… semanas (2019)
+http://192.168.100.19:8096/emby/videos/71101/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71102" tvg-logo="http://192.168.100.19:8096/emby/Items/71102/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S4E09 De vuelta al clóset (2019)
+http://192.168.100.19:8096/emby/videos/71102/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71103" tvg-logo="http://192.168.100.19:8096/emby/Items/71103/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S4E10 Las tres Nenas (2019)
+http://192.168.100.19:8096/emby/videos/71103/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71104" tvg-logo="http://192.168.100.19:8096/emby/Items/71104/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S4E11 La Victoria del Sinsimito (2019)
+http://192.168.100.19:8096/emby/videos/71104/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71105" tvg-logo="http://192.168.100.19:8096/emby/Items/71105/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S4E12 La Despedida de soltera (2019)
+http://192.168.100.19:8096/emby/videos/71105/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71106" tvg-logo="http://192.168.100.19:8096/emby/Items/71106/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S4E13 Y fueron felices… ¿Para siempre? (2019)
+http://192.168.100.19:8096/emby/videos/71106/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71107" tvg-logo="http://192.168.100.19:8096/emby/Items/71107/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S5E01 La Depre de Martina (2020)
+http://192.168.100.19:8096/emby/videos/71107/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71108" tvg-logo="http://192.168.100.19:8096/emby/Items/71108/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S5E02 Unos gemelos de diez (2020)
+http://192.168.100.19:8096/emby/videos/71108/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71109" tvg-logo="http://192.168.100.19:8096/emby/Items/71109/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S5E03 El museo López (2020)
+http://192.168.100.19:8096/emby/videos/71109/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71110" tvg-logo="http://192.168.100.19:8096/emby/Items/71110/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S5E04 ADN vas que más valgas (2020)
+http://192.168.100.19:8096/emby/videos/71110/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71111" tvg-logo="http://192.168.100.19:8096/emby/Items/71111/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S5E05 La plaza de La Nena (2020)
+http://192.168.100.19:8096/emby/videos/71111/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71112" tvg-logo="http://192.168.100.19:8096/emby/Items/71112/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S5E06 El aumento y la tarea (2020)
+http://192.168.100.19:8096/emby/videos/71112/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71113" tvg-logo="http://192.168.100.19:8096/emby/Items/71113/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S5E07 El desfile de modas (2020)
+http://192.168.100.19:8096/emby/videos/71113/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71114" tvg-logo="http://192.168.100.19:8096/emby/Items/71114/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S5E08 El Portafolio (2020)
+http://192.168.100.19:8096/emby/videos/71114/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71115" tvg-logo="http://192.168.100.19:8096/emby/Items/71115/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S5E09 El regreso de Fu Man Chú (2020)
+http://192.168.100.19:8096/emby/videos/71115/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71116" tvg-logo="http://192.168.100.19:8096/emby/Items/71116/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S5E10 Licha Reptiliana (2020)
+http://192.168.100.19:8096/emby/videos/71116/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71117" tvg-logo="http://192.168.100.19:8096/emby/Items/71117/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S5E11 El Justo precio por trabajar (2020)
+http://192.168.100.19:8096/emby/videos/71117/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71118" tvg-logo="http://192.168.100.19:8096/emby/Items/71118/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S5E12 Un Plácido cumpleaños (2020)
+http://192.168.100.19:8096/emby/videos/71118/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71119" tvg-logo="http://192.168.100.19:8096/emby/Items/71119/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S5E13 De lo perdido, lo que aparezca (2020)
+http://192.168.100.19:8096/emby/videos/71119/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="71120" tvg-logo="http://192.168.100.19:8096/emby/Items/71120/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S6E01 El hijo pródigo (2021)
 http://192.168.100.19:8096/emby/videos/71120/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="71121" tvg-logo="http://192.168.100.19:8096/emby/Items/71121/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S6E02 Pagan justos por pecadores (2021)
@@ -3869,6 +3859,39 @@ http://192.168.100.19:8096/emby/videos/71132/original.mp4?api_key=fd6371be47f340
 http://192.168.100.19:8096/emby/videos/71133/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 #EXTINF:-1 tvg-id="71134" tvg-logo="http://192.168.100.19:8096/emby/Items/71134/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S6E15 A pujar se ha dicho (2021)
 http://192.168.100.19:8096/emby/videos/71134/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71136" tvg-logo="http://192.168.100.19:8096/emby/Items/71136/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E01 ¡Ah cómo chilla el niño! (2021)
+http://192.168.100.19:8096/emby/videos/71136/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71137" tvg-logo="http://192.168.100.19:8096/emby/Items/71137/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E02 Es todo Tulio (2021)
+http://192.168.100.19:8096/emby/videos/71137/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71138" tvg-logo="http://192.168.100.19:8096/emby/Items/71138/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E03 Gambito de babas (2021)
+http://192.168.100.19:8096/emby/videos/71138/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71139" tvg-logo="http://192.168.100.19:8096/emby/Items/71139/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E04 Le toca bailar con la más fea (2021)
+http://192.168.100.19:8096/emby/videos/71139/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71140" tvg-logo="http://192.168.100.19:8096/emby/Items/71140/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E05 Dilema culinario (2021)
+http://192.168.100.19:8096/emby/videos/71140/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71141" tvg-logo="http://192.168.100.19:8096/emby/Items/71141/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E06 El futbolito (2021)
+http://192.168.100.19:8096/emby/videos/71141/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71142" tvg-logo="http://192.168.100.19:8096/emby/Items/71142/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E07 Santos López de Santa Anna (2021)
+http://192.168.100.19:8096/emby/videos/71142/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71143" tvg-logo="http://192.168.100.19:8096/emby/Items/71143/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E08 El nuevo administragón (2021)
+http://192.168.100.19:8096/emby/videos/71143/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71144" tvg-logo="http://192.168.100.19:8096/emby/Items/71144/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E09 Una familia de cien (2021)
+http://192.168.100.19:8096/emby/videos/71144/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71145" tvg-logo="http://192.168.100.19:8096/emby/Items/71145/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E10 Yani Lachifle (2021)
+http://192.168.100.19:8096/emby/videos/71145/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71146" tvg-logo="http://192.168.100.19:8096/emby/Items/71146/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E11 El exorcismo de Martini Rouse (2021)
+http://192.168.100.19:8096/emby/videos/71146/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71147" tvg-logo="http://192.168.100.19:8096/emby/Items/71147/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E12 No hay peor lucha (2021)
+http://192.168.100.19:8096/emby/videos/71147/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71148" tvg-logo="http://192.168.100.19:8096/emby/Items/71148/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E13 Cuando los sonsos se van (2021)
+http://192.168.100.19:8096/emby/videos/71148/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71149" tvg-logo="http://192.168.100.19:8096/emby/Items/71149/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E14 Una Navidad de diez (2021)
+http://192.168.100.19:8096/emby/videos/71149/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+#EXTINF:-1 tvg-id="71150" tvg-logo="http://192.168.100.19:8096/emby/Items/71150/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S7E15 Especial de Año Nuevo (2021)
+http://192.168.100.19:8096/emby/videos/71150/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
+
+
+
 
 
 
