@@ -4038,6 +4038,8 @@ http://192.168.100.19:8096/emby/videos/115585/original.mp4?api_key=fd6371be47f34
 #EXTINF:-1 tvg-id="115586" tvg-logo="http://192.168.100.19:8096/emby/Items/115586/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="Una Familia de 10", S12E14 Te pasapps (2024)
 http://192.168.100.19:8096/emby/videos/115586/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 
+#EXTINF:-1 tvg-id="68459" tvg-logo="http://192.168.100.19:8096/emby/Items/68459/Images/Primary?api_key=fd6371be47f340099a44e8e79c6a1c23" group-title="El Chavo del 8", S1E01 El Ropavejero (1973)
+http://192.168.100.19:8096/emby/videos/68459/original.mp4?api_key=fd6371be47f340099a44e8e79c6a1c23
 
 
 
