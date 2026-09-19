@@ -217,13 +217,13 @@ async function createOrder(){
    const paymentId=$('payment_method')?.value||'';selectedPaymentMethod=paymentMethods.find(m=>m.id===paymentId)||null;if(!selectedPaymentMethod)return alert('Selecciona una forma de pago.');const taxRate=Number($('tax_option')?.value||0);const taxLabel=taxRate===16?'Requiero Factura':'Sin Factura';const unit=getTierPrice(selectedProduct,qty);const optionCost=getOptionCostTotal();const subtotal=(qty*unit)+optionCost;const taxAmount=subtotal*(taxRate/100);const shippingCost=Number(selectedShippingRate.cost||0);const details={...readProductDetails(),shipping_type:selectedShippingRate.type,shipping_cost:shippingCost,shipping_receiver:$('shipping_receiver')?.value.trim()||'',shipping_address:$('shipping_address')?.value.trim()||'',shipping_city:$('shipping_city')?.value.trim()||'',shipping_state:$('shipping_state')?.value.trim()||'',shipping_zip:zip,tax_option:taxLabel,tax_rate:taxRate,tax_amount:taxAmount,subtotal:subtotal,payment_method_id:selectedPaymentMethod.id,payment_method:selectedPaymentMethod.name,payment_details:selectedPaymentMethod.description||''};
    if(!details.shipping_receiver||!details.shipping_address||!details.shipping_city||!details.shipping_state||!details.shipping_zip)return alert('Completa todos los datos de la dirección de envío.');
    let cid=await customerId();
-   let o=await sb.from('orders').insert({customer_id:cid,product_id:selectedProduct.id,product_name:selectedProduct.name,quantity:qty,print_sides:(hasPrintField(selectedProduct)?($('detail_print_sides')?.value||''):($('print')?.value||'')),design_type:$('design').value,total:subtotal+taxAmount+shippingCost,unit_price:unit,status:'Recibido',order_details:details}).select('id').single();
+   let o=await sb.from('orders').insert({customer_id:cid,product_id:selectedProduct.id,product_name:selectedProduct.name,quantity:qty,print_sides:(hasPrintField(selectedProduct)?($('detail_print_sides')?.value||''):($('print')?.value||'')),design_type:$('design').value,total:subtotal+taxAmount+shippingCost,unit_price:unit,status:'Recibido',order_details:details}).select('id,order_number').single();
    if(o.error)throw o.error;
    if(type==='credentials'){
      for(const p of people.filter(p=>p.name?.trim())){let photoPath=null;if(p.file)photoPath=await uploadPhoto(p.file,o.data.id);let r=await sb.from('order_people').insert({order_id:o.data.id,full_name:p.name,position:p.position||'',employee_number:p.employee||'',photo_path:photoPath});if(r.error)throw r.error}
    }
    for(const kind of ['logo','design','other']){for(const f of orderFiles[kind])await uploadOrderFile(f,o.data.id,kind)}
-   alert('Pedido enviado: '+num);people=[];selectedProduct=null;resetOrderFiles();show('mine');loadMine()
+   alert('Pedido enviado: '+(o.data?.order_number||'Pedido registrado'));people=[];selectedProduct=null;resetOrderFiles();show('mine');loadMine()
  }catch(e){alert('No se pudo guardar el pedido: '+e.message)}
 }
 async function signedPhoto(path){if(!path)return null;const r=await sb.storage.from('jsk-photos').createSignedUrl(path,3600);return r.error?null:r.data.signedUrl}
