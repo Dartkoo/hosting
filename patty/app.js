@@ -346,6 +346,16 @@ async function loadDashboard(){
   if(error){box.innerHTML=`<div class="empty">${esc(error.message)}</div>`;return}
   const photos=imageMedia().length,videos=videoMedia().length,blocked=(users||[]).filter(u=>u.access_enabled===false).length,admins=(users||[]).filter(u=>u.role==='admin').length;
   box.innerHTML=[['Usuarios registrados',(users||[]).length],['Administradores',admins],['Usuarios bloqueados',blocked],['Fotografías',photos],['Videos',videos],['Video Listas',videoLists.filter(x=>x.active).length],['Entretenimiento',entertainmentLists.filter(x=>x.active).length],['Full Movies',fullMoviesLists.filter(x=>x.active).length]].map(x=>`<div class="stat-card"><span>${x[0]}</span><strong>${x[1]}</strong></div>`).join('');
+  const photoCounts=photoCategories.map(c=>({name:c.name,count:imageMedia().filter(m=>m.photo_category_id===c.id).length}));
+  const videoCounts=videoCategories.map(c=>({name:c.name,count:videoMedia().filter(m=>m.category_id===c.id).length}));
+  const entertainmentActive=entertainmentLists.filter(x=>x.active);
+  const entertainmentCounts=entertainmentThemes.map(t=>({name:t.name,count:entertainmentActive.filter(x=>x.theme_id===t.id).length}));
+  const photoUnassigned=imageMedia().filter(m=>!m.photo_category_id).length;
+  const videoUnassigned=videoMedia().filter(m=>!m.category_id).length;
+  const entertainmentUnassigned=entertainmentActive.filter(x=>!x.theme_id).length;
+  const themeSection=(title,items,unassignedLabel,unassignedCount)=>`<section class="dashboard-theme-card"><h3>${title}</h3><div class="dashboard-theme-list">${items.length?items.map(x=>`<div class="dashboard-theme-row"><span>${esc(x.name)}</span><strong>${x.count}</strong></div>`).join(''): '<div class="muted">No hay temas creados.</div>'}${unassignedCount?`<div class="dashboard-theme-row unassigned"><span>${unassignedLabel}</span><strong>${unassignedCount}</strong></div>`:''}</div></section>`;
+  const themeBox=$('dashboardThemeStats');
+  if(themeBox)themeBox.innerHTML=themeSection('Fotografías por tema',photoCounts,'Sin tema',photoUnassigned)+themeSection('Videos por tema',videoCounts,'Sin tema',videoUnassigned)+themeSection('Entretenimiento por tema',entertainmentCounts,'Sin tema',entertainmentUnassigned);
   const recent=(users||[]).slice(0,8);$('dashboardRecent').innerHTML=`<h3>Usuarios recientes</h3>`+(recent.length ? recent.map(u=>`<div class="user-row"><div><b>${esc(u.full_name||'Sin nombre')}</b><div>${esc(u.email||'')}</div></div><span class="muted">${u.access_enabled===false?'Bloqueado':u.role==='admin'?'Administrador':'Usuario'}</span></div>`).join('') : '<div class="empty">No hay usuarios.</div>');
 }
 function enforceAccess(){
@@ -356,6 +366,13 @@ function startSecurityCheck(){clearInterval(securityTimer);securityTimer=setInte
 
 function setViewerScale(scale){viewerScale=Math.min(4,Math.max(1,scale));const img=$('viewerImage');if(!img)return;if(viewerScale===1){img.style.width='auto';img.style.transform='scale(1)';img.classList.remove('zoomed');img.parentElement.classList.remove('is-zoomed')}else{img.classList.add('zoomed');img.parentElement.classList.add('is-zoomed');img.style.width=(Math.round(viewerScale*100))+'%';img.style.transform='none'}}
 boot();
+
+// El año final del footer se actualiza automáticamente cada año.
+function updateFooterYear(){
+  const year=new Date().getFullYear();
+  document.querySelectorAll('.footer-year').forEach(el=>{el.textContent=year});
+}
+updateFooterYear();
 
 $('viewerClose').onclick=closeViewer;
 $('viewerPrev').onclick=()=>viewerMove(-1);
