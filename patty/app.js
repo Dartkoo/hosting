@@ -75,7 +75,14 @@ async function loadVideoCategories(){
   if(!videoCategories.some(c=>c.id===activeVideoCategory)) activeVideoCategory=videoCategories[0]?.id||null;
   if(!photoCategories.some(c=>c.id===activePhotoCategory)) activePhotoCategory=photoCategories[0]?.id||null;
   renderVideoCategoryTabs(); renderPhotoCategoryTabs(); renderVideoCategoryAdmin(); renderPhotoCategoryAdmin();
+  populateUploadCategorySelects();
 }
+function populateUploadCategorySelects(){
+  const ps=$('photoCategorySelect'),vs=$('videoCategorySelect');
+  if(ps){const current=ps.value;ps.innerHTML='<option value="">Sin tema</option>'+photoCategories.map(c=>`<option value="${escAttr(c.id)}">${esc(c.name)}</option>`).join('');if(photoCategories.some(c=>c.id===current))ps.value=current;}
+  if(vs){const current=vs.value;vs.innerHTML='<option value="">Sin tema</option>'+videoCategories.map(c=>`<option value="${escAttr(c.id)}">${esc(c.name)}</option>`).join('');if(videoCategories.some(c=>c.id===current))vs.value=current;}
+}
+
 function renderVideoCategoryTabs(){const box=$('videoCategories');if(!box)return;box.innerHTML=videoCategories.map(c=>`<button class="category-tab ${activeVideoCategory===c.id?'active':''}" onclick="selectVideoCategory('${c.id}')">${esc(c.name)}</button>`).join('');}
 function renderPhotoCategoryTabs(){const box=$('photoCategories');if(!box)return;box.innerHTML=photoCategories.map(c=>`<button class="category-tab ${activePhotoCategory===c.id?'active':''}" onclick="selectPhotoCategory('${c.id}')">${esc(c.name)}</button>`).join('');}
 function renderVideoCategoryAdmin(){const box=$('videoCategoryAdminList');if(!box)return;box.innerHTML=videoCategories.map((c,i)=>`<div class="category-admin-row"><input id="vcat_${c.id}" value="${escAttr(c.name)}"><button class="small-btn" onclick="moveVideoCategory('${c.id}',-1)" ${i===0?'disabled':''}>↑</button><button class="small-btn" onclick="moveVideoCategory('${c.id}',1)" ${i===videoCategories.length-1?'disabled':''}>↓</button><button class="small-btn" onclick="saveVideoCategory('${c.id}')">Guardar</button><button class="small-btn delete" onclick="deleteVideoCategory('${c.id}')">Eliminar</button></div>`).join('');}
