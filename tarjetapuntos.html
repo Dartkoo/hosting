@@ -257,7 +257,7 @@
     <div class="card-container">
         <!-- Logotipo circular superior -->
         <div class="logo-header">
-            <img src="DR0016_11.jpg" alt="La Junta Veracruz Botanero" onerror="this.style.display='none'">
+            <img src="DR0016_11.png" alt="La Junta Veracruz Botanero" onerror="this.style.display='none'">
         </div>
 
         <h1 id="storeTitle">La Junta Veracruz</h1>
@@ -284,19 +284,19 @@
             
             <div class="form-group">
                 <label for="clientSelect">Seleccionar Cliente:</label>
-                <select id="clientSelect" onchange="seleccionarClienteAdmin(this.value)">
+                <select id="clientSelect" onChange="seleccionarClienteAdmin(this.value)">
                 </select>
             </div>
 
-            <button class="btn-new-client" onclick="registrarNuevoCliente()">+ Registrar Nuevo Cliente</button>
-            <button class="btn-share" onclick="copiarLinkCliente()">🔗 Copiar Link del Cliente</button>
+            <button class="btn-new-client" onClick="registrarNuevoCliente()">+ Registrar Nuevo Cliente</button>
+            <button class="btn-share" onClick="copiarLinkCliente()">🔗 Copiar Link del Cliente</button>
 
             <div class="admin-controls">
-                <button class="btn-reset" onclick="resetCard()">Reiniciar</button>
-                <button class="btn-add" onclick="addStamp()">+ Sello</button>
+                <button class="btn-reset" onClick="resetCard()">Reiniciar</button>
+                <button class="btn-add" onClick="addStamp()">+ Sello</button>
             </div>
 
-            <button class="btn-logout" onclick="cerrarSesionAdmin()">Cerrar Panel</button>
+            <button class="btn-logout" onClick="cerrarSesionAdmin()">Cerrar Panel</button>
         </div>
     </div>
 
