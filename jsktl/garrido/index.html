@@ -541,10 +541,11 @@
             if (!activeClient) return;
 
             const baseUrl = window.location.href.split('?')[0];
-            const linkPersonal = `${baseUrl}?c=${encodeURIComponent(activeClient.name)}&s=${activeClient.stamps}&r=${encodeURIComponent(currentReward)}`;
+            // Modificado para que termine únicamente en el parámetro del cliente (c=...)
+            const linkPersonal = `${baseUrl}?c=${encodeURIComponent(activeClient.name)}`;
 
             navigator.clipboard.writeText(linkPersonal).then(() => {
-                alert(`¡Link copiado con el premio actualizado para ${activeClient.name}!`);
+                alert(`¡Link copiado para ${activeClient.name}!`);
             }).catch(err => {
                 prompt("Copia este enlace:", linkPersonal);
             });
