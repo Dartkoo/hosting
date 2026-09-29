@@ -474,8 +474,12 @@
         }
 
         function getPvcUnitPrice(cantidad) {
-            if (cantidad >= 1 && cantidad <= 4) return 170.00;
-            if (cantidad >= 5 && cantidad <= 9) return 180.00;
+            if (cantidad >= 1 && cantidad <= 1) return 190.00;
+			if (cantidad >= 2 && cantidad <= 2) return 90.00;
+			if (cantidad >= 3 && cantidad <= 3) return 57.00;
+			if (cantidad >= 4 && cantidad <= 4) return 40.00;
+			if (cantidad >= 5 && cantidad <= 5) return 30.00;
+            if (cantidad >= 6 && cantidad <= 9) return 40.00;
             if (cantidad >= 10 && cantidad <= 19) return 17.00;
             if (cantidad >= 20 && cantidad <= 29) return 16.60;
             if (cantidad >= 30 && cantidad <= 39) return 16.00;
