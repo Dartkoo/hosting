@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotizador - JSK Diseño y Publicidad</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @media print {
+            @page {
+                size: letter;
+                margin: 10mm;
+            }
+            body {
+                background-color: white !important;
+                color: black !important;
+                font-size: 11pt;
+            }
+            header, .no-print {
+                display: none !important;
+            }
+            main {
+                max-width: 100% !important;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+            .print-container {
+                display: block !important;
+                width: 100% !important;
+                box-shadow: none !important;
+                border: 1px solid #cbd5e1 !important;
+                border-radius: 8px !important;
+                padding: 20px !important;
+                background: white !important;
+                color: black !important;
+            }
+            .print-container *, .print-container {
+                color: black !important;
+            }
+            .print-container .bg-slate-900 {
+                background-color: #0f172a !important;
+                color: white !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .print-container .bg-slate-900 * {
+                color: white !important;
+            }
+            .print-container .text-brand-400 {
+                color: #16a34a !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .print-container .bg-brand-50 {
+                background-color: #f0fdf4 !important;
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            .print-container .border {
+                border-color: #cbd5e1 !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="bg-slate-900 text-white shadow-md no-print">
+        <div class="max-w-4xl mx-auto px-4 py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="flex items-center space-x-3">
+                <div class="bg-brand-600 text-white p-3 rounded-xl shadow-lg">
+                    <i class="fa-solid fa-print text-2xl"></i>
+                </div>
+                <div>
+                    <h1 class="text-2xl font-bold tracking-tight">JSK Diseño y Publicidad</h1>
+                    <p class="text-slate-400 text-sm">Sistema de Cotización Rápida</p>
+                </div>
+            </div>
+            <div class="flex items-center gap-2 bg-slate-800 px-4 py-2 rounded-lg border border-slate-700 text-sm text-slate-300">
+                <i class="fa-solid fa-calculator text-brand-500"></i>
+                <span>Folios, Recetarios, Hojas, PVC y Lealtad</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="flex-grow max-w-4xl w-full mx-auto px-4 py-8 print-container">
+        
+        <!-- Tabs Navigation -->
+        <div class="flex flex-wrap rounded-xl bg-slate-200 p-1 mb-8 shadow-inner no-print gap-1">
+            <button onClick="switchTab('folios')" id="tab-folios" class="flex-1 min-w-[90px] py-3 px-2 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-1.5 bg-white text-brand-700 shadow-sm">
+                <i class="fa-solid fa-receipt"></i> Folios
+            </button>
+            <button onClick="switchTab('recetarios')" id="tab-recetarios" class="flex-1 min-w-[90px] py-3 px-2 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-1.5 text-slate-600 hover:text-slate-900">
+                <i class="fa-solid fa-file-medical"></i> Recetarios
+            </button>
+            <button onClick="switchTab('recetarios-copia')" id="tab-recetarios-copia" class="flex-1 min-w-[90px] py-3 px-2 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-1.5 text-slate-600 hover:text-slate-900">
+                <i class="fa-solid fa-copy"></i> Recetarios Autocopia
+            </button>
+            <button onClick="switchTab('hojas')" id="tab-hojas" class="flex-1 min-w-[90px] py-3 px-2 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-1.5 text-slate-600 hover:text-slate-900">
+                <i class="fa-solid fa-file-lines"></i> Hojas Memb.
+            </button>
+            <button onClick="switchTab('pvc')" id="tab-pvc" class="flex-1 min-w-[90px] py-3 px-2 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-1.5 text-slate-600 hover:text-slate-900">
+                <i class="fa-solid fa-id-card-clip"></i> PVC
+            </button>
+            <button onClick="switchTab('lealtad')" id="tab-lealtad" class="flex-1 min-w-[90px] py-3 px-2 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-1.5 text-slate-600 hover:text-slate-900">
+                <i class="fa-solid fa-id-card"></i> Lealtad
+            </button>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+            
+            <!-- Left Column: Form / Inputs -->
+            <div class="md:col-span-7 bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+                <h2 id="section-title" class="text-lg font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-2">
+                    <i class="fa-solid fa-sliders text-brand-600"></i> Parámetros de Cotización
+                </h2>
+
+                <form id="quote-form" onSubmit="return false;" class="space-y-5">
+                    
+                    <!-- Cantidad / Unidades -->
+                    <div>
+                        <label id="label-cantidad" class="block text-sm font-semibold text-slate-700 mb-1">
+                            FOLIOS PARA SISTEMA DE LLENADO DE FORMATOS<br>
+                            Cantidad de Folios (Unidades)
+                        </label>
+                        <div class="relative">
+                            <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                                <i class="fa-solid fa-hashtag"></i>
+                            </span>
+                            <input type="number" id="cantidad" min="100" value="100" oninput="calculate()" class="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-brand-500 text-slate-900 font-medium transition">
+                        </div>
+                        <p id="precio-unitario-text" class="text-xs text-slate-500 mt-1">Precio unitario base: $0.50 MXN (Mínimo: 100)</p>
+                    </div>
+
+                    <!-- Programa / Opciones / Orientación -->
+                    <div id="wrapper-programa">
+                        <label id="label-programa" class="block text-sm font-semibold text-slate-700 mb-1">Programa de llenado / Folios / Impresion / Base de Datos</label>
+                        <div class="relative">
+                            <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </span>
+                            <select id="opcion-programa" onChange="calculate()" class="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-brand-500 text-slate-900 font-medium transition">
+                                <option value="0">Sin Programa</option>
+                                <option value="500">Programa</option>
+								<option value="1000">Programa+Impresión Total</option>
+                                <option value="1500">Programa+Impresión Total+Folios</option>
+                                <option value="3000">Programa+Impresión Total+Folios+Base de Datos</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Campo Adicional exclusivo para PVC: Perforación -->
+                    <div id="wrapper-perforacion" class="hidden">
+                        <label class="block text-sm font-semibold text-slate-700 mb-1">Perforación</label>
+                        <div class="relative">
+                            <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                                <i class="fa-solid fa-circle-dot"></i>
+                            </span>
+                            <select id="opcion-perforacion" onChange="calculate()" class="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-brand-500 text-slate-900 font-medium transition">
+                                <option value="0">Sin Perforación</option>
+                                <option value="0">Perforación Circular</option>
+								<option value="0">Perforación Ovalada</option>
+								<option value="0">Perforación Tipo T</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Options specific to Recetarios & Hojas Membretadas -->
+                    <div id="recetarios-options" class="space-y-5 hidden">
+                        <!-- Tamaño (Solo visible en Hojas Membretadas mediante JS) -->
+                        <div id="wrapper-tamano" class="hidden">
+                            <label class="block text-sm font-semibold text-slate-700 mb-1">Tamaño</label>
+                            <div class="relative">
+                                <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                                    <i class="fa-solid fa-expand"></i>
+                                </span>
+                                <!-- Costo adicional por pieza para Oficio -->
+                                <select id="receta-tamano" onChange="calculate()" class="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-brand-500 text-slate-900 font-medium transition">
+                                    <option value="0">Carta</option>
+                                    <option value="0.30">Oficio</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Tipo de Papel -->
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-1">Tipo de Papel</label>
+                            <div class="relative">
+                                <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                                    <i class="fa-solid fa-file-lines"></i>
+                                </span>
+                                <select id="receta-papel" onChange="calculate()" class="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-brand-500 text-slate-900 font-medium transition">
+                                    <option value="0">Papel Bond de 75grs.</option>
+                                    <option value="0.20">Papel Bond de 90grs.</option>
+                                    <option value="0.40">Papel Opalina de 90grs.</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Acabado / Impresión de Folio -->
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-1">Impresión de Folio</label>
+                            <div class="relative">
+                                <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                                    <i class="fa-solid fa-layer-group"></i>
+                                </span>
+                                <select id="receta-acabado" onChange="calculate()" class="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-brand-500 text-slate-900 font-medium transition">
+                                    <option value="0">Sin Folio</option>
+                                    <option value="0">Con Folio</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Observaciones Adicionales -->
+                        <div>
+                            <label class="block text-sm font-semibold text-slate-700 mb-1">Observaciones Adicionales (Opcional)</label>
+                            <div class="relative">
+                                <span class="absolute top-3 left-3 pointer-events-none text-slate-400">
+                                    <i class="fa-solid fa-pen"></i>
+                                </span>
+                                <textarea id="receta-observaciones" placeholder="Ej. Tinta a color, diseño personalizado..." rows="2" class="w-full pl-10 pr-4 py-2 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-brand-500 text-slate-900 font-medium transition text-sm"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Opción de Cargo por Envío (Independiente por producto) -->
+                    <div>
+                        <label class="block text-sm font-semibold text-slate-700 mb-1">Cargo por Envío</label>
+                        <div class="relative">
+                            <span class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                                <i class="fa-solid fa-truck-fast"></i>
+                            </span>
+                            <select id="opcion-envio" onChange="calculate()" class="w-full pl-10 pr-4 py-2.5 bg-slate-50 border border-slate-300 rounded-xl focus:ring-2 focus:ring-brand-500 focus:border-brand-500 text-slate-900 font-medium transition">
+                                <!-- Se llena dinámicamente según la pestaña activa -->
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Opciones de IVA -->
+                    <div class="pt-2 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-sm font-medium text-slate-700 flex items-center gap-2">
+                            <i class="fa-solid fa-percent text-slate-400"></i> Con Factura Aplicar IVA (16%)
+                        </span>
+                        <label class="relative inline-flex items-center cursor-pointer">
+                            <input type="checkbox" id="aplicar-iva" onChange="calculate()" class="sr-only peer">
+                            <div class="w-11 h-6 bg-slate-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-brand-600"></div>
+                        </label>
+                    </div>
+
+                </form>
+            </div>
+
+            <!-- Right Column: Summary & Total -->
+            <div class="md:col-span-5 flex flex-col gap-6">
+                
+                <div class="bg-slate-900 text-white rounded-2xl shadow-lg p-6 flex flex-col justify-between border border-slate-800">
+                    <div>
+                        <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+                            <span class="text-xs font-semibold tracking-wider uppercase text-brand-400">Resumen de Cotización</span>
+                            <span id="badge-tipo" class="bg-brand-500/20 text-brand-400 text-xs px-2.5 py-1 rounded-full font-medium">Folios</span>
+                        </div>
+
+                        <div class="mt-4 space-y-3 text-sm">
+                            <div class="flex justify-between text-slate-300">
+                                <span id="label-resumen-cant">Cantidad:</span>
+                                <span id="res-cantidad" class="font-semibold text-white">0</span>
+                            </div>
+                            <div id="row-programa" class="flex justify-between text-slate-300 hidden">
+                                <span id="label-res-programa">Programa:</span>
+                                <span id="res-programa" class="font-semibold text-white">Sin Programa</span>
+                            </div>
+                            <div id="row-perforacion" class="flex justify-between text-slate-300 hidden">
+                                <span>Perforación:</span>
+                                <span id="res-perforacion" class="font-semibold text-white">Sin Perforación</span>
+                            </div>
+                            <div id="row-tamano" class="flex justify-between text-slate-300 hidden">
+                                <span>Tamaño:</span>
+                                <span id="res-tamano" class="font-semibold text-white">Carta</span>
+                            </div>
+                            <div class="flex justify-between text-slate-300">
+                                <span>Costo Base:</span>
+                                <span id="res-base" class="font-semibold text-white">$0.00</span>
+                            </div>
+                            <div id="row-extra" class="flex justify-between text-slate-300 hidden">
+                                <span id="label-extra">Adicionales / Papel:</span>
+                                <span id="res-extra" class="font-semibold text-white">$0.00</span>
+                            </div>
+                            <div id="row-envio" class="flex justify-between text-slate-300 hidden">
+                                <span>Envío:</span>
+                                <span id="res-envio" class="font-semibold text-white">$0.00</span>
+                            </div>
+                            <div id="row-iva" class="flex justify-between text-slate-300 hidden">
+                                <span>IVA (16%):</span>
+                                <span id="res-iva" class="font-semibold text-white">$0.00</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 pt-4 border-t border-slate-800">
+                        <div class="flex items-baseline justify-between">
+                            <span class="text-sm font-medium text-slate-400">Total Final:</span>
+                            <span id="res-total" class="text-3xl font-black text-brand-400">$0.00</span>
+                        </div>
+                        <p class="text-[10px] text-slate-500 text-right mt-0.5">Precios expresados en MXN</p>
+                    </div>
+
+                    <div class="mt-6 flex flex-col gap-2">
+                        <button onClick="copyQuote()" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-semibold py-2.5 px-4 rounded-xl shadow-md transition flex items-center justify-center gap-2 text-sm no-print">
+                            <i class="fa-solid fa-copy"></i> Copiar Cotización
+                        </button>
+                        <button onClick="window.print()" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-300 font-medium py-2 px-4 rounded-xl transition flex items-center justify-center gap-2 text-xs border border-slate-700 no-print">
+                            <i class="fa-solid fa-file-pdf"></i> Imprimir en PDF
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Payment Details Section -->
+        <div class="mt-10 bg-white rounded-2xl shadow-sm border border-slate-200 p-6 md:p-8">
+            <h3 class="text-lg font-bold text-slate-900 mb-4 flex items-center gap-2">
+                <i class="fa-solid fa-credit-card text-brand-600"></i> Datos para Pagos y Transferencias
+            </h3>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                    <span class="block text-xs font-medium text-slate-400 uppercase tracking-wider">Banco</span>
+                    <span id="pay-banco" class="text-base font-bold text-slate-800">BBVA</span>
+                </div>
+                <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                    <span class="block text-xs font-medium text-slate-400 uppercase tracking-wider">Titular</span>
+                    <span id="pay-titular" class="text-base font-bold text-slate-800">Rogelio Herrera Arellano</span>
+                </div>
+                <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                    <span class="block text-xs font-medium text-slate-400 uppercase tracking-wider">Número de Cuenta</span>
+                    <span id="pay-cuenta" class="text-base font-bold text-slate-800 font-mono">1541805147</span>
+                </div>
+                <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                    <span class="block text-xs font-medium text-slate-400 uppercase tracking-wider">CLABE Interbancaria</span>
+                    <span id="pay-clabe" class="text-base font-bold text-slate-800 font-mono">012180015418051476</span>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-slate-50 p-4 rounded-xl border border-slate-100 flex items-center justify-between">
+                    <div>
+                        <span class="block text-xs font-medium text-slate-400 uppercase tracking-wider">Pagos en OXXO Tarjeta</span>
+                        <span id="pay-tarjeta" class="text-base font-bold text-slate-800 font-mono">4152 3140 2464 6773</span>
+                    </div>
+                </div>
+                <div class="bg-brand-50 p-4 rounded-xl border border-brand-100 flex items-center gap-3 text-brand-900">
+                    <div class="bg-brand-600 text-white p-3 rounded-xl flex items-center justify-center shadow-sm">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                    </div>
+                    <div>
+                        <span class="block text-xs font-semibold text-brand-700 uppercase tracking-wider">Confirmación de Pago</span>
+                        <p class="text-sm font-medium">Después de realizar su pago envíe su comprobante a: <strong class="font-bold underline"><a href="https://wa.me/528142508370" target="_blank">8142508370</a></strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-200 py-6 mt-12 text-center text-slate-500 text-sm no-print">
+        <p>&copy; 2026 JSK Diseño y Publicidad. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="fixed bottom-5 right-5 bg-slate-900 text-white px-5 py-3 rounded-xl shadow-xl transform translate-y-20 opacity-0 transition-all duration-300 flex items-center gap-2 z-50 text-sm font-medium no-print">
+        <i class="fa-solid fa-circle-check text-brand-500"></i>
+        <span id="toast-msg">¡Copiado al portapapeles!</span>
+    </div>
+
+    <!-- Application Script -->
+    <script>
+        let currentMode = 'folios'; // 'folios', 'recetarios', 'recetarios-copia', 'hojas', 'pvc', or 'lealtad'
+
+        const PRICES = {
+            folios: 0.50,
+            lealtad: 790.00
+        };
+
+        // Definición de opciones de envío personalizadas por cada producto
+        const SHIPPING_OPTIONS = {
+            folios: [
+                { value: 0, text: "Envio de Archivo Digital" }
+            ],
+            recetarios: [
+                { value: 0, text: "Local en Durango, Dgo. Centro" },
+                { value: 50, text: "Envío Express Local (Uber)" },
+                { value: 190, text: "Foranea Paq. Nac. Terrestre" },
+				{ value: 250, text: "Foranea Paq. Nac. Express" }
+            ],
+            'recetarios-copia': [
+                { value: 0, text: "Local en Durango, Dgo. Centro" },
+                { value: 50, text: "Envío Express Local (Uber)" },
+                { value: 190, text: "Foranea Paq. Nac. Terrestre" },
+				{ value: 250, text: "Foranea Paq. Nac. Express" }
+            ],
+            hojas: [
+                { value: 0, text: "Local en Durango, Dgo. Centro" },
+                { value: 50, text: "Envío Express Local (Uber)" },
+                { value: 210, text: "Foranea Paq. Nac. Terrestre" },
+				{ value: 290, text: "Foranea Paq. Nac. Express" }
+            ],
+            pvc: [
+                { value: 0, text: "Local en Durango, Dgo. Centro" },
+                { value: 50, text: "Envío Express Local (Uber)" },
+                { value: 120, text: "Foranea Paq. Nac. Terrestre" },
+				{ value: 190, text: "Foranea Paq. Nac. Express" }
+            ],
+            lealtad: [
+                { value: 0, text: "Envio de Archivo Digital" }
+            ]
+        };
+
+        function getRecetariosUnitPrice(cantidad) {
+            if (cantidad >= 500 && cantidad <= 999) return 0.98;
+            if (cantidad >= 1000 && cantidad <= 1999) return 0.62;
+            if (cantidad >= 2000 && cantidad <= 2999) return 0.57;
+            if (cantidad >= 3000 && cantidad <= 3999) return 0.55;
+            if (cantidad >= 4000 && cantidad <= 4999) return 0.52;
+            return 0.49;
+        }
+
+        // Precios unitarios modificables para Recetarios con Copia
+        function getRecetariosCopiaUnitPrice(cantidad) {
+            if (cantidad >= 500 && cantidad <= 999) return 1.48;
+            if (cantidad >= 1000 && cantidad <= 1999) return 1.29;
+            if (cantidad >= 2000 && cantidad <= 2999) return 1.26;
+            if (cantidad >= 3000 && cantidad <= 3999) return 1.23;
+            if (cantidad >= 4000 && cantidad <= 4999) return 1.20;
+            return 1.29;
+        }
+
+        function getHojasUnitPrice(cantidad) {
+            if (cantidad >= 500 && cantidad <= 999) return 1.38;
+            if (cantidad >= 1000 && cantidad <= 1999) return 1.19;
+            if (cantidad >= 2000 && cantidad <= 2999) return 1.09;
+            if (cantidad >= 3000 && cantidad <= 3999) return 1.06;
+            if (cantidad >= 4000 && cantidad <= 4999) return 1.02;
+            return 0.92;
+        }
+
+        function getPvcUnitPrice(cantidad) {
+            if (cantidad >= 1 && cantidad <= 4) return 170.00;
+            if (cantidad >= 5 && cantidad <= 9) return 180.00;
+            if (cantidad >= 10 && cantidad <= 19) return 17.00;
+            if (cantidad >= 20 && cantidad <= 29) return 16.60;
+            if (cantidad >= 30 && cantidad <= 39) return 16.00;
+            if (cantidad >= 40 && cantidad <= 49) return 15.60;
+			if (cantidad >= 50 && cantidad <= 59) return 15.00;
+			if (cantidad >= 60 && cantidad <= 69) return 14.60;
+			if (cantidad >= 70 && cantidad <= 79) return 14.00;
+			if (cantidad >= 80 && cantidad <= 89) return 13.60;
+			if (cantidad >= 90 && cantidad <= 99) return 13.00;
+            return 12.90;
+        }
+
+        function updateShippingOptions(mode) {
+            const envioSelect = document.getElementById('opcion-envio');
+            envioSelect.innerHTML = '';
+            const options = SHIPPING_OPTIONS[mode] || SHIPPING_OPTIONS['folios'];
+            
+            options.forEach(opt => {
+                const optionElement = document.createElement('option');
+                optionElement.value = opt.value;
+                optionElement.textContent = opt.text;
+                envioSelect.appendChild(optionElement);
+            });
+        }
+
+        function switchTab(mode) {
+            currentMode = mode;
+            const btnFolios = document.getElementById('tab-folios');
+            const btnRecetarios = document.getElementById('tab-recetarios');
+            const btnRecetariosCopia = document.getElementById('tab-recetarios-copia');
+            const btnHojas = document.getElementById('tab-hojas');
+            const btnPvc = document.getElementById('tab-pvc');
+            const btnLealtad = document.getElementById('tab-lealtad');
+            const labelCantidad = document.getElementById('label-cantidad');
+            const precioUnitarioText = document.getElementById('precio-unitario-text');
+            const recetariosOptions = document.getElementById('recetarios-options');
+            const wrapperPrograma = document.getElementById('wrapper-programa');
+            const wrapperPerforacion = document.getElementById('wrapper-perforacion');
+            const wrapperTamano = document.getElementById('wrapper-tamano');
+            const labelPrograma = document.getElementById('label-programa');
+            const selectPrograma = document.getElementById('opcion-programa');
+            const badgeTipo = document.getElementById('badge-tipo');
+            const labelResCant = document.getElementById('label-resumen-cant');
+            const rowTamano = document.getElementById('row-tamano');
+            const inputCantidad = document.getElementById('cantidad');
+            const selectPapel = document.getElementById('receta-papel');
+
+            [btnFolios, btnRecetarios, btnRecetariosCopia, btnHojas, btnPvc, btnLealtad].forEach(btn => {
+                btn.className = "flex-1 min-w-[90px] py-3 px-2 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-1.5 text-slate-600 hover:text-slate-900";
+            });
+
+            // Actualizar opciones del selector de envío según la pestaña seleccionada
+            updateShippingOptions(mode);
+
+            if (mode === 'folios') {
+                btnFolios.className = "flex-1 min-w-[90px] py-3 px-2 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-1.5 bg-white text-brand-700 shadow-sm";
+                
+				labelCantidad.innerHTML = "FOLIOS PARA SISTEMA DE LLENADO DE FORMATOS<br>Cantidad de Folios (Unidades)";
+                precioUnitarioText.textContent = "Precio unitario base: $0.50 MXN (Mínimo: 100)";
+                inputCantidad.min = "100";
+                inputCantidad.value = "100";
+                
+                labelPrograma.textContent = "Programa de llenado / Folios / Impresion / Base de Datos";
+                selectPrograma.innerHTML = `
+                    <option value="0">Sin Programa</option>
+                    <option value="500">Programa</option>
+					<option value="1000">Programa+Impresión Total</option>
+                    <option value="1500">Programa+Impresión Total+Folios</option>
+                    <option value="3000">Programa+Impresión Total+Folios+Base de Datos</option>
+                `;
+
+                recetariosOptions.classList.add('hidden');
+                wrapperPrograma.classList.remove('hidden');
+                wrapperPerforacion.classList.add('hidden');
+                wrapperTamano.classList.add('hidden');
+                rowTamano.classList.add('hidden');
+                badgeTipo.textContent = "Folios";
+                labelResCant.textContent = "Cantidad de Folios:";
+            } else if (mode === 'recetarios') {
+                btnRecetarios.className = "flex-1 min-w-[90px] py-3 px-2 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-1.5 bg-white text-brand-700 shadow-sm";
+                
+				labelCantidad.innerHTML = "RECETARIOS MEDICOS EN PAPEL BOND<br>Cantidad de Piezas (Unidades)";
+                precioUnitarioText.textContent = "Precios por volumen según escala por unidad (Mínimo: 500)";
+                inputCantidad.min = "500";
+                inputCantidad.value = "500";
+                
+                labelPrograma.textContent = "Orientación del diseño";
+                selectPrograma.innerHTML = `
+                    <option value="0">A criterio del diseño/diseñador</option>
+					<option value="0">Vertical</option>
+                    <option value="0">Horizontal</option>
+                `;
+
+                // Opciones de papel estándar
+                selectPapel.innerHTML = `
+                    <option value="0">Papel Bond de 75grs.</option>
+                    <option value="0.20">Papel Bond de 90grs.</option>
+                    <option value="0.40">Papel Opalina de 90grs.</option>
+                `;
+
+                recetariosOptions.classList.remove('hidden');
+                wrapperPrograma.classList.remove('hidden');
+                wrapperPerforacion.classList.add('hidden');
+                wrapperTamano.classList.add('hidden');
+                rowTamano.classList.add('hidden');
+                badgeTipo.textContent = "Recetarios";
+                labelResCant.textContent = "Cantidad de Recetarios:";
+            } else if (mode === 'recetarios-copia') {
+                btnRecetariosCopia.className = "flex-1 min-w-[90px] py-3 px-2 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-1.5 bg-white text-brand-700 shadow-sm";
+                
+				labelCantidad.innerHTML = "RECETARIOS EN AUTOCOPIA<br>(DUPLICADO/TRIPLICADO)<br>Cantidad de Piezas (Unidades)";
+                precioUnitarioText.textContent = "Precios por volumen según escala por unidad (Mínimo: 500)";
+                inputCantidad.min = "500";
+                inputCantidad.value = "500";
+                
+                labelPrograma.textContent = "Orientación del diseño";
+                selectPrograma.innerHTML = `
+                    <option value="0">A criterio del diseño/diseñador</option>
+					<option value="0">Vertical</option>
+                    <option value="0">Horizontal</option>
+                `;
+
+                // Opción exclusiva requerida: Color de copia
+                selectPapel.innerHTML = `
+                    <option value="0.1">Original+Amarillo</option>
+                    <option value="0.1">Original+Azul</option>
+                    <option value="0.1">Original+Rosa</option>
+					<option value="0.1">Original+Verde</option>
+					<option value="0.45">Original+Amarillo+Amarillo</option>
+					<option value="0.45">Original+Amarillo+Azul</option>
+					<option value="0.45">Original+Amarillo+Rosa</option>
+					<option value="0.45">Original+Amarillo+Verde</option>
+					<option value="0.45">Original+Azul+Azul</option>
+					<option value="0.45">Original+Azul+Amarillo</option>
+					<option value="0.45">Original+Azul+Rosa</option>
+					<option value="0.45">Original+Azul+Verde</option>
+					<option value="0.45">Original+Rosa+Rosa</option>
+					<option value="0.45">Original+Rosa+Amarillo</option>
+					<option value="0.45">Original+Rosa+Azul</option>
+					<option value="0.45">Original+Rosa+Verde</option>
+					<option value="0.45">Original+Verde+Verde</option>
+					<option value="0.45">Original+Verde+Amarillo</option>
+					<option value="0.45">Original+Verde+Azul</option>
+					<option value="0.45">Original+Verde+Rosa</option>
+                `;
+
+                recetariosOptions.classList.remove('hidden');
+                wrapperPrograma.classList.remove('hidden');
+                wrapperPerforacion.classList.add('hidden');
+                wrapperTamano.classList.add('hidden');
+                rowTamano.classList.add('hidden');
+                badgeTipo.textContent = "Recetarios c/ Copia";
+                labelResCant.textContent = "Cantidad de Recetarios c/ Copia:";
+            } else if (mode === 'hojas') {
+                btnHojas.className = "flex-1 min-w-[90px] py-3 px-2 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-1.5 bg-white text-brand-700 shadow-sm";
+                
+                labelCantidad.innerHTML = "HOJAS MEMBRETADAS PARA EMPRESAS Y NEGOCIOS<br>Cantidad de Piezas (Unidades)";
+                precioUnitarioText.textContent = "Precios por volumen según escala por unidad (Mínimo: 500)";
+                inputCantidad.min = "500";
+                inputCantidad.value = "500";
+                
+                labelPrograma.textContent = "Orientación del diseño";
+                selectPrograma.innerHTML = `
+                    <option value="0">A criterio del diseño/diseñador</option>
+					<option value="0">Vertical</option>
+                    <option value="0">Horizontal</option>
+                `;
+
+                selectPapel.innerHTML = `
+                    <option value="0">Papel Bond de 75grs.</option>
+                    <option value="0.20">Papel Bond de 90grs.</option>
+                    <option value="0.40">Papel Opalina de 90grs.</option>
+                `;
+
+                recetariosOptions.classList.remove('hidden');
+                wrapperPrograma.classList.remove('hidden');
+                wrapperPerforacion.classList.add('hidden');
+                wrapperTamano.classList.remove('hidden');
+                rowTamano.classList.remove('hidden');
+                badgeTipo.textContent = "Hojas Membretadas";
+                labelResCant.textContent = "Cantidad de Hojas:";
+            } else if (mode === 'pvc') {
+                btnPvc.className = "flex-1 min-w-[90px] py-3 px-2 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-1.5 bg-white text-brand-700 shadow-sm";
+                
+                labelCantidad.innerHTML = "CREDENCIALES / GAFETES / TARJETAS EN PVC<br>Cantidad de Piezas (Unidades)";
+                precioUnitarioText.textContent = "Precios por volumen según escala por unidad (Mínimo: 1)";
+                inputCantidad.min = "1";
+                inputCantidad.value = "1";
+                
+                labelPrograma.textContent = "Orientación del diseño";
+                selectPrograma.innerHTML = `
+                    <option value="0">A criterio del diseño/diseñador</option>
+					<option value="0">Vertical</option>
+                    <option value="0">Horizontal</option>
+                `;
+
+                recetariosOptions.classList.add('hidden');
+                wrapperPrograma.classList.remove('hidden');
+                wrapperPerforacion.classList.remove('hidden');
+                wrapperTamano.classList.add('hidden');
+                rowTamano.classList.add('hidden');
+                badgeTipo.textContent = "Credenciales PVC";
+                labelResCant.textContent = "Cantidad de Credenciales:";
+            } else if (mode === 'lealtad') {
+                btnLealtad.className = "flex-1 min-w-[90px] py-3 px-2 rounded-lg font-semibold text-xs sm:text-sm transition-all duration-200 flex items-center justify-center gap-1.5 bg-white text-brand-700 shadow-sm";
+                
+                labelCantidad.innerHTML = "PROGRAMA DE TARJETAS DIGITALES DE LEALTAD<br>con este programa puede generar la cantidad de tarjetas de Lealtad para sus clientes que requiera. (Programa por Negocio) (Incluye Diseño Gratis)<br>Cantidad de Programas (Unidades)";
+								
+                precioUnitarioText.textContent = "Precio unitario base: $790.00 MXN (Mínimo: 1)";
+                inputCantidad.min = "1";
+                inputCantidad.value = "1";
+                
+                labelPrograma.textContent = "Orientación de la tarjeta";
+                selectPrograma.innerHTML = `
+                    <option value="0">A criterio del diseño/diseñador</option>
+					<option value="0">Vertical</option>
+                    <option value="0">Horizontal</option>
+                `;
+
+                recetariosOptions.classList.add('hidden');
+                wrapperPrograma.classList.remove('hidden');
+                wrapperPerforacion.classList.add('hidden');
+                wrapperTamano.classList.add('hidden');
+                rowTamano.classList.add('hidden');
+                badgeTipo.textContent = "Tarj. de Lealtad";
+                labelResCant.textContent = "Cantidad de Tarjetas:";
+            }
+            calculate();
+        }
+
+        function calculate() {
+            const inputCantidad = document.getElementById('cantidad');
+            const minVal = parseInt(inputCantidad.min) || 1;
+            let cantidad = parseFloat(inputCantidad.value);
+
+            if (isNaN(cantidad) || cantidad < minVal) {
+                cantidad = minVal;
+            }
+
+            let unitPrice = 0;
+            if (currentMode === 'pvc') {
+                unitPrice = getPvcUnitPrice(cantidad);
+                document.getElementById('precio-unitario-text').textContent = `Precio unitario aplicado por volumen: $${unitPrice.toFixed(2)} MXN (Mínimo 1)`;
+            } else if (currentMode === 'recetarios') {
+                unitPrice = getRecetariosUnitPrice(cantidad);
+                document.getElementById('precio-unitario-text').textContent = `Precio unitario aplicado por volumen: $${unitPrice.toFixed(2)} MXN (Mínimo 500)`;
+            } else if (currentMode === 'recetarios-copia') {
+                unitPrice = getRecetariosCopiaUnitPrice(cantidad);
+                document.getElementById('precio-unitario-text').textContent = `Precio unitario aplicado por volumen: $${unitPrice.toFixed(2)} MXN (Mínimo 500)`;
+            } else if (currentMode === 'hojas') {
+                unitPrice = getHojasUnitPrice(cantidad);
+                document.getElementById('precio-unitario-text').textContent = `Precio unitario aplicado por volumen: $${unitPrice.toFixed(2)} MXN (Mínimo 500)`;
+            } else {
+                unitPrice = PRICES[currentMode];
+            }
+
+            let baseCost = cantidad * unitPrice;
+
+            let extraCost = 0;
+            let programaText = "";
+            let perforacionText = "";
+
+            if (currentMode === 'folios' || currentMode === 'recetarios' || currentMode === 'recetarios-copia' || currentMode === 'hojas' || currentMode === 'lealtad' || currentMode === 'pvc') {
+                const programaSelect = document.getElementById('opcion-programa');
+                const programaCost = parseFloat(programaSelect.value) || 0;
+                programaText = programaSelect.options[programaSelect.selectedIndex].text.split(' $')[0];
+                extraCost += programaCost;
+            } 
+            
+            if (currentMode === 'pvc') {
+                const perforacionSelect = document.getElementById('opcion-perforacion');
+                const perforacionUnitario = parseFloat(perforacionSelect.value) || 0;
+                perforacionText = perforacionSelect.options[perforacionSelect.selectedIndex].text.split(' $')[0];
+                
+                extraCost += perforacionUnitario * cantidad;
+            }
+
+            if (currentMode === 'recetarios' || currentMode === 'recetarios-copia' || currentMode === 'hojas') {
+                let tamanoCost = 0;
+                if (currentMode === 'hojas') {
+                    const tamanoSelect = document.getElementById('receta-tamano');
+                    const tamanoText = parseFloat(tamanoSelect.value) > 0 ? "Oficio" : "Carta";
+                    document.getElementById('res-tamano').textContent = tamanoText;
+                    tamanoCost = (parseFloat(tamanoSelect.value) || 0) * cantidad;
+                }
+
+                const papelSelect = document.getElementById('receta-papel');
+                const acabadoSelect = document.getElementById('receta-acabado');
+                
+                const papelCost = (parseFloat(papelSelect.value) || 0) * cantidad;
+                const acabadoCost = parseFloat(acabadoSelect.value) || 0;
+
+                extraCost += tamanoCost + papelCost + acabadoCost;
+            }
+
+            // Subtotal sujeto a IVA (Base + Adicionales de producción)
+            const subtotal = baseCost + extraCost;
+            
+            const aplicarIva = document.getElementById('aplicar-iva').checked;
+            const ivaAmount = aplicarIva ? subtotal * 0.16 : 0;
+
+            // Obtener costo de envío (se suma al final sin aplicar IVA)
+            const envioSelect = document.getElementById('opcion-envio');
+            const costoEnvio = parseFloat(envioSelect.value) || 0;
+            const envioText = envioSelect.options[envioSelect.selectedIndex].text.split(' $')[0];
+
+            const total = subtotal + ivaAmount + costoEnvio;
+
+            // Update UI
+            document.getElementById('res-cantidad').textContent = cantidad.toLocaleString();
+            document.getElementById('res-base').textContent = `$${baseCost.toFixed(2)}`;
+
+            const rowPrograma = document.getElementById('row-programa');
+            const labelResProg = document.getElementById('label-res-programa');
+            if (currentMode === 'pvc' || currentMode === 'lealtad' || currentMode === 'recetarios' || currentMode === 'recetarios-copia' || currentMode === 'hojas' || (currentMode === 'folios' && parseFloat(document.getElementById('opcion-programa').value) > 0)) {
+                rowPrograma.classList.remove('hidden');
+                labelResProg.textContent = (currentMode === 'pvc' || currentMode === 'recetarios' || currentMode === 'recetarios-copia' || currentMode === 'hojas' || currentMode === 'lealtad') ? "Orientación:" : "Programa:";
+                document.getElementById('res-programa').textContent = programaText;
+            } else {
+                rowPrograma.classList.add('hidden');
+            }
+
+            const rowPerforacion = document.getElementById('row-perforacion');
+            if (currentMode === 'pvc') {
+                rowPerforacion.classList.remove('hidden');
+                document.getElementById('res-perforacion').textContent = perforacionText;
+            } else {
+                rowPerforacion.classList.add('hidden');
+            }
+
+            const rowExtra = document.getElementById('row-extra');
+            if (extraCost > 0) {
+                rowExtra.classList.remove('hidden');
+                let extraLabel = (currentMode === 'recetarios' || currentMode === 'recetarios-copia' || currentMode === 'hojas') ? "Adicionales (Tamaño/Papel/Acabado):" : (currentMode === 'pvc' ? "Adicionales por Perforación:" : "Adicionales (Opciones):");
+                document.getElementById('label-extra').textContent = extraLabel;
+                document.getElementById('res-extra').textContent = `$${extraCost.toFixed(2)}`;
+            } else {
+                rowExtra.classList.add('hidden');
+            }
+
+            // Mostrar fila de envío en el resumen
+            const rowEnvio = document.getElementById('row-envio');
+            rowEnvio.classList.remove('hidden');
+            document.getElementById('res-envio').textContent = `$${costoEnvio.toFixed(2)} (${envioText})`;
+
+            const rowIva = document.getElementById('row-iva');
+            if (aplicarIva) {
+                rowIva.classList.remove('hidden');
+                document.getElementById('res-iva').textContent = `$${ivaAmount.toFixed(2)}`;
+            } else {
+                rowIva.classList.add('hidden');
+            }
+
+            document.getElementById('res-total').textContent = `$${total.toFixed(2)}`;
+        }
+
+        function getQuoteText() {
+            const cantidad = document.getElementById('cantidad').value;
+            const total = document.getElementById('res-total').textContent;
+            const aplicarIva = document.getElementById('aplicar-iva').checked;
+            
+            let productoNombre = 'Cotización de Folios';
+            if (currentMode === 'recetarios') productoNombre = 'Cotización de Recetarios';
+            if (currentMode === 'recetarios-copia') productoNombre = 'Cotización de Recetarios con Copia';
+            if (currentMode === 'hojas') productoNombre = 'Cotización de Hojas Membretadas';
+            if (currentMode === 'pvc') productoNombre = 'Cotización de Credenciales y Gafetes en PVC';
+            if (currentMode === 'lealtad') productoNombre = 'Cotización de Tarjeta de Lealtad Digital';
+
+            const envioSelect = document.getElementById('opcion-envio');
+            const envioText = envioSelect.options[envioSelect.selectedIndex].text;
+
+            let text = `*JSK Diseño y Publicidad - Cotización*\n`;
+            text += `----------------------------------------\n`;
+            text += `• Producto: ${productoNombre}\n`;
+            text += `• Cantidad: ${cantidad} unidades\n`;
+            
+            if (currentMode === 'pvc') {
+                let unitP = getPvcUnitPrice(parseFloat(cantidad));
+                text += `• Precio Unitario (Volumen): $${unitP.toFixed(2)} MXN\n`;
+            } else if (currentMode === 'recetarios') {
+                let unitP = getRecetariosUnitPrice(parseFloat(cantidad));
+                text += `• Precio Unitario (Volumen): $${unitP.toFixed(2)} MXN\n`;
+            } else if (currentMode === 'recetarios-copia') {
+                let unitP = getRecetariosCopiaUnitPrice(parseFloat(cantidad));
+                text += `• Precio Unitario (Volumen): $${unitP.toFixed(2)} MXN\n`;
+            } else if (currentMode === 'hojas') {
+                let unitP = getHojasUnitPrice(parseFloat(cantidad));
+                text += `• Precio Unitario (Volumen): $${unitP.toFixed(2)} MXN\n`;
+            }
+
+            if (currentMode === 'folios' || currentMode === 'pvc' || currentMode === 'lealtad' || currentMode === 'recetarios' || currentMode === 'recetarios-copia' || currentMode === 'hojas') {
+                const programaSelect = document.getElementById('opcion-programa');
+                const programaText = programaSelect.options[programaSelect.selectedIndex].text;
+                if (currentMode !== 'folios' || programaSelect.value !== '0') {
+                    let labelOpt = (currentMode === 'pvc' || currentMode === 'recetarios' || currentMode === 'recetarios-copia' || currentMode === 'hojas' || currentMode === 'lealtad') ? 'Orientación' : 'Programa';
+                    text += `• ${labelOpt}: ${programaText}\n`;
+                }
+            }
+
+            if (currentMode === 'pvc') {
+                const perforacionSelect = document.getElementById('opcion-perforacion');
+                const perforacionText = perforacionSelect.options[perforacionSelect.selectedIndex].text;
+                text += `• Perforación: ${perforacionText}\n`;
+            }
+            
+            if (currentMode === 'recetarios' || currentMode === 'recetarios-copia' || currentMode === 'hojas') {
+                if (currentMode === 'hojas') {
+                    const tamanoSelect = document.getElementById('receta-tamano');
+                    const tamanoText = parseFloat(tamanoSelect.value) > 0 ? "Oficio" : "Carta";
+                    text += `• Tamaño: ${tamanoText}\n`;
+                }
+                const papelSelect = document.getElementById('receta-papel');
+                const acabadoSelect = document.getElementById('receta-acabado');
+                const obs = document.getElementById('receta-observaciones').value.trim();
+                
+                text += `• Papel: ${papelSelect.options[papelSelect.selectedIndex].text}\n`;
+                text += `• Acabado: ${acabadoSelect.options[acabadoSelect.selectedIndex].text}\n`;
+                if(obs) text += `• Observaciones: ${obs}\n`;
+            }
+            
+            text += `• Envío: ${envioText}\n`;
+            text += `• IVA Incluido: ${aplicarIva ? 'Sí (16%)' : 'No'}\n`;
+            text += `*• Total Final: ${total} MXN*\n\n`;
+            text += `*Datos para Pago:*\n`;
+            text += `• Banco: BBVA\n`;
+            text += `• Titular: Rogelio Herrera Arellano\n`;
+            text += `• Cuenta: 1541805147\n`;
+            text += `• CLABE: 012180015418051476\n`;
+            text += `• Pagos en OXXO Tarjeta: 4152 3140 2464 6773\n\n`;
+            text += `💬 Después de realizar su pago envíe su comprobante al WhatsApp: *8142508370*\n`;
+            text += `----------------------------------------`;
+            return text;
+        }
+
+        function copyQuote() {
+            const text = getQuoteText();
+            navigator.clipboard.writeText(text).then(() => {
+                showToast("¡Cotización copiada al portapapeles!");
+            }).catch(err => {
+                showToast("Error al copiar");
+            });
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toast-msg').textContent = msg;
+            toast.classList.remove('translate-y-20', 'opacity-0');
+            setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0');
+            }, 3000);
+        }
+
+        window.onload = function() {
+            updateShippingOptions(currentMode);
+            calculate();
+        };
+    </script>
+</body>
+</html>
