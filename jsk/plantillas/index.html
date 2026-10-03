@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Llenado de Formatos — V24</title>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+<style>
+:root{--blue:#1237ff;--bg:#eef1f7;--border:#d8dde6;--green:#14804a;--red:#b42318}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font-family:Arial,Helvetica,sans-serif;color:#222}
+header{background:#fff;border-bottom:1px solid var(--border);padding:13px 18px;display:flex;justify-content:space-between;align-items:center;gap:12px;position:sticky;top:0;z-index:20}h1{margin:0;color:var(--blue);font-size:22px}header small{color:#666}
+.layout{max-width:1500px;margin:18px auto;padding:0 16px;display:grid;grid-template-columns:350px minmax(500px,1fr);gap:18px}.panel{background:#fff;border:1px solid var(--border);border-radius:12px;padding:17px;box-shadow:0 3px 12px #0000000d;height:max-content}h2{margin:0 0 14px;font-size:18px}
+.format-card{border:1px solid #cfd5df;border-radius:9px;padding:11px;margin-bottom:16px;background:#fafbfc}.format-card strong{display:block}.format-card span{font-size:12px;color:#666}
+.group{margin-bottom:15px}.group-title{font-weight:700;font-size:14px;padding-bottom:6px;margin-bottom:7px;border-bottom:1px solid #eee}label{display:block;font-size:13px;font-weight:700;margin:7px 0 4px}
+input,textarea,select{width:100%;border:1px solid #c8cdd7;border-radius:7px;padding:8px 9px;font:inherit;outline:none;background:#fff}textarea{min-height:105px;resize:vertical}input:focus,textarea:focus,select:focus{border-color:var(--blue);box-shadow:0 0 0 2px #1237ff1a}
+.buttons{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px}button{border:0;border-radius:7px;padding:10px 13px;font-weight:700;cursor:pointer}.primary{background:var(--blue);color:#fff}.secondary{background:#e9edf5;color:#222}.danger{background:#fee4e2;color:#b42318}.success{background:#dcfae6;color:#087443}
+.status{font-size:12px;color:#666;min-height:16px;margin-top:9px}.help{font-size:11px;color:#666;line-height:1.4;margin-top:10px}.muted{color:#667085;font-size:12px}.folio-box{background:#f2f4ff;border:1px solid #cdd5ff;border-radius:9px;padding:10px;margin-bottom:12px}
+.folio-support{margin-top:10px;padding:10px;border:1px solid #d8dde6;border-radius:9px;background:#fafbfc}
+.folio-support strong{display:block;margin-bottom:3px}
+.folio-support .muted{margin-bottom:8px}
+.folio-box b{font-size:20px;color:var(--blue)}
+.login-wrap{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}.login-card{width:min(420px,100%);background:#fff;border:1px solid var(--border);border-radius:14px;padding:25px;box-shadow:0 8px 30px #00000014}.login-card h1{margin-bottom:4px}.login-card .primary{width:100%;margin-top:12px}.error{color:var(--red);font-size:13px;margin-top:10px}.success-text{color:var(--green);font-size:13px;margin-top:10px}
+.admin{max-width:1500px;margin:18px auto;padding:0 16px}.admin-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.admin-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:17px;box-shadow:0 3px 12px #0000000d}.admin-card h2{margin-bottom:10px}.table-wrap{overflow:auto;max-height:420px}table{width:100%;border-collapse:collapse;font-size:12px}th,td{padding:8px;border-bottom:1px solid #eaecf0;text-align:left;vertical-align:top}th{background:#f8f9fb;position:sticky;top:0}.admin-actions{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.admin-actions button{padding:7px 10px}.badge{display:inline-block;padding:3px 7px;border-radius:999px;font-size:11px;background:#eef2ff}.badge.ok{background:#dcfae6;color:#087443}.badge.off{background:#f2f4f7;color:#667085}
+.preview-wrap{background:#cfd4dd;border:1px solid #c2c7d0;border-radius:12px;padding:18px;overflow:auto;min-height:900px}.toolbar{display:flex;justify-content:center;gap:7px;margin-bottom:12px}.toolbar button{padding:7px 10px}.sheet{position:relative;width:min(100%,643px);margin:0 auto;aspect-ratio:1286/2048;background:#fff;box-shadow:0 5px 22px #0000002e;overflow:hidden}.sheet img{position:absolute;inset:0;width:100%;height:100%;display:block}.field{position:absolute;color:#000;font-family:Arial,Helvetica,sans-serif;font-weight:400;line-height:1.12;white-space:pre-wrap;overflow:hidden;pointer-events:none}
+#outName{left:14.20%;top:14.1%;width:53%;height:3.1%}#outDx{left:3.10%;top:18.30%;width:70%;height:32%}#outDate{left:83.10%;top:14.0%;width:15%;height:3.1%}#outAge{left:82.20%;top:18.75%;width:11.5%;height:3.0%}#outWeight{left:82.20%;top:21.10%;width:11.5%;height:3.0%}#outHeight{left:82.20%;top:23.40%;width:11.5%;height:3.0%}#outTA{left:82.20%;top:25.80%;width:15%;height:3.0%}#outFC{left:82.20%;top:28.10%;width:15%;height:3.0%}#outFR{left:82.20%;top:30.45%;width:15%;height:3.0%}#outTemp{left:82.20%;top:32.77%;width:15%;height:3.0%}#outAllergies{left:74.75%;top:37.10%;width:22%;height:12%;font-size:12px;text-align:left}
+.hidden{display:none!important}@media(max-width:1000px){.admin-grid{grid-template-columns:1fr}}@media(max-width:900px){header{position:static}.layout{grid-template-columns:1fr}.preview-wrap{min-height:600px}}
+@media print{html,body{width:5.5in;height:8.5in;margin:0!important;padding:0!important;background:#fff;overflow:hidden}header,.panel,.toolbar,.no-print{display:none!important}.layout{display:block;width:5.5in;height:8.5in;margin:0!important;padding:0!important}.preview-wrap{display:block!important;background:#fff;border:0!important;border-radius:0!important;padding:0!important;overflow:visible!important;min-height:0!important}.sheet{width:5.5in!important;height:8.5in!important;max-width:none!important;aspect-ratio:auto!important;margin:0!important;box-shadow:none!important;border:0!important}#outName{left:0.78in!important;top:1.171in!important}#outDate{left:4.58in!important;top:1.171in!important}#outAge{left:4.51in!important;top:1.579in!important}#outWeight{left:4.51in!important;top:1.779in!important}#outHeight{left:4.51in!important;top:1.979in!important}#outTA{left:4.51in!important;top:2.1779in!important}#outFC{left:4.51in!important;top:2.3779in!important}#outFR{left:4.51in!important;top:2.5779in!important}#outTemp{left:4.51in!important;top:2.7779in!important}@page{size:5.5in 8.5in;margin:0}}
+.purchase-modal{position:fixed;inset:0;background:#0008;display:flex;align-items:center;justify-content:center;padding:20px;z-index:9999}.purchase-modal-card{width:min(460px,100%);max-height:90vh;overflow:auto;background:#fff;border-radius:14px;padding:20px;box-shadow:0 15px 50px #0005}.purchase-modal-card h2{margin:0 0 6px}.purchase-modal-card .buttons{margin-top:12px}
+@media print{
+  #outFolio{
+    display:block !important;
+    visibility:visible !important;
+    opacity:1 !important;
+  }
+}
+</style>
+</head>
+<body>
+<div id="loginView" class="login-wrap">
+  <div class="login-card">
+    <h1>Llenado de Formatos</h1><div class="muted">Acceso seguro mediante Supabase</div>
+    <label>Correo electrónico</label><input id="loginEmail" type="email" autocomplete="username">
+    <label>Contraseña</label><input id="loginPassword" type="password" autocomplete="current-password">
+    <button class="primary" onclick="login()">Iniciar sesión</button>
+    <div id="loginStatus"></div>
+  </div>
+</div>
+
+<div id="appView" class="hidden">
+<header>
+  <div><h1 id="appTitle">Recetario Médico</h1><small id="userInfo">Cargando usuario...</small></div>
+  <div class="no-print">
+    <button class="secondary" onclick="showUserApp()">🩺 Formulario</button>
+    <button id="adminBtn" class="secondary hidden" onclick="showAdmin()">⚙️ Administración</button>
+    <button class="secondary" onclick="logout()">Cerrar sesión</button>
+  </div>
+</header>
+
+<div id="userApp" class="layout">
+<section class="panel">
+<h2>Recetario médico</h2>
+<label>Plantilla asignada</label><select id="templateSelect" onchange="selectTemplate()"></select>
+<div id="templateInfo" class="format-card"></div>
+<div class="folio-box">Folio actual<br><b id="currentFolio">Sin asignar</b><div class="muted" id="folioHint">El folio se obtiene de tu bloque asignado al generar uno nuevo.</div></div>
+<button class="primary" style="width:100%" onclick="newFolio()">➕ Obtener nuevo folio</button>
+
+<div class="group" style="margin-top:15px"><div class="group-title">Datos del paciente</div>
+<label>Nombre</label><input id="name" autocomplete="off"><label>Dx.</label><textarea id="dx"></textarea></div>
+<div class="group"><div class="group-title">Signos vitales</div>
+<label>Fecha</label><input id="date" type="date" readonly title="La fecha se coloca automáticamente"><label>Edad</label><input id="age"><label>Peso</label><input id="weight"><label>Talla</label><input id="height"><label>T/A</label><input id="ta"><label>F/C</label><input id="fc"><label>F/R</label><input id="fr"><label>T°</label><input id="temp"><label>Alergias</label><textarea id="allergies"></textarea></div>
+<div class="buttons"><button class="secondary" onclick="clearForm()">Borrar</button><button class="primary" onclick="saveDraft()">Guardar</button></div>
+<div class="buttons"><button class="secondary" onclick="testData()">Datos de prueba</button><button class="primary" onclick="printForm()">🖨️ Imprimir / PDF</button></div>
+<div id="demoBanner" class="folio-support hidden" style="border:2px solid #f0b400;background:#fff9df;margin-bottom:10px">
+<strong>🧪 Cuenta Demo</strong>
+<div class="muted" id="demoBannerText">Consultando periodo de prueba...</div>
+</div>
+<div class="folio-support">
+<strong>¿Necesitas más folios?</strong>
+<div class="muted" id="folioAvailability">Consultando folios disponibles...</div>
+<button id="buyFoliosBtn" class="secondary" style="width:100%" onclick="openPurchaseModal()">🛒 Comprar folios</button>
+<button id="buySystemBtn" class="primary" style="width:100%;margin-top:8px" onclick="openSystemPurchaseModal()">💻 Comprar / Activar sistema</button>
+</div>
+<div id="status" class="status"></div>
+<div id="printHelp" class="help">La impresión conserva el tamaño y orientación de la plantilla seleccionada, sin márgenes. El folio pertenece al bloque asignado al usuario y a la plantilla seleccionada.</div>
+<div class="help">Pulsa <strong>“Datos de prueba”</strong> para un ejemplo en el llenado del formulario.<br>
+<strong>JSK Diseño y Publicidad © <span id="footerYear"></span></strong></div>
+</section>
+<section class="preview-wrap"><div class="toolbar"><button class="secondary" onclick="zoom(-.1)">−</button><button class="secondary" onclick="zoom(0)">100%</button><button class="secondary" onclick="zoom(.1)">+</button></div>
+<div class="sheet" id="sheet"><img id="baseImage" src="recetario_base.png" alt="Formato base"><div class="field" id="outName"></div><div class="field" id="outDx"></div><div class="field" id="outDate"></div><div class="field" id="outAge"></div><div class="field" id="outWeight"></div><div class="field" id="outHeight"></div><div class="field" id="outTA"></div><div class="field" id="outFC"></div><div class="field" id="outFR"></div><div class="field" id="outTemp"></div><div class="field" id="outAllergies"></div><div class="field" id="outFolio"></div></div></section>
+</div>
+
+<div id="purchaseModal" class="purchase-modal hidden no-print">
+<div class="purchase-modal-card">
+<h2>🛒 Comprar folios</h2>
+<div class="muted">Plantilla: <strong id="purchaseTemplateName">—</strong></div>
+<div class="muted">Usuario: <strong id="purchaseUserName">—</strong></div>
+<div class="help">Selecciona un paquete. La solicitud quedará pendiente hasta que el administrador confirme el pago.</div>
+<label>Paquete</label>
+<select id="purchasePackage" onchange="updatePurchaseAmount()"></select>
+<label>Factura</label>
+<select id="purchaseInvoice" onchange="updatePurchaseAmount()">
+<option value="false" selected>Sin Factura</option>
+<option value="true">Con Factura (+16%)</option>
+</select>
+<label>Importe $</label>
+<input id="purchaseAmount" value="$0.00" readonly>
+<div class="help" id="purchaseAmountDetail"></div>
+<label>Forma de pago</label>
+<select id="purchasePayment"></select>
+<label>Cuenta para pago</label>
+<select id="purchaseAccount" onchange="renderSelectedPaymentAccount()"></select>
+<div class="help" id="paymentAccountData"><strong>Datos de la cuenta</strong><br>Banco: —<br>Nombre: —<br>Cuenta: —<br>CLABE: —<br>Pagos en OXXO: —</div>
+<label>Referencia / nota del pago</label>
+<input id="purchaseReference" placeholder="Ej. transferencia 1234">
+<div class="help" style="margin-top:8px"><strong>Después de realizar su pago, envíe su comprobante por WhatsApp:</strong><br>
+<a href="https://wa.me/528142508370" target="_blank" rel="noopener">💬 8142508370</a></div>
+<div class="buttons"><button class="secondary" onclick="closePurchaseModal()">Cancelar</button><button class="primary" onclick="requestFolioPurchase()">Solicitar compra</button></div>
+<div id="purchaseStatus" class="status"></div>
+</div>
+</div>
+
+
+
+<div id="demoExpiredModal" class="purchase-modal hidden no-print">
+<div class="purchase-modal-card">
+<h2>🧪 Tu periodo de demostración ha finalizado</h2>
+<p>Gracias por probar nuestro Sistema de Llenado de Formatos.</p>
+<p>Para continuar utilizando el formulario, activa tu servicio.</p>
+<div class="buttons"><button class="primary" onclick="document.getElementById('demoExpiredModal').classList.add('hidden');openSystemPurchaseModal()">💻 Comprar / Activar sistema</button></div>
+<div class="help" style="margin-top:12px">JSK Diseño y Publicidad · Diseño + Tecnología para tu negocio</div>
+</div></div>
+
+<div id="systemPurchaseModal" class="purchase-modal hidden no-print">
+<div class="purchase-modal-card">
+<h2>💻 Comprar / Activar sistema</h2>
+<div class="muted">Usuario: <strong id="systemPurchaseUser">—</strong></div>
+<div class="help">Selecciona el paquete que deseas contratar. La solicitud quedará pendiente hasta que el administrador confirme el pago.</div>
+<label>Paquete del sistema</label>
+<select id="systemPurchasePlan" onchange="updateSystemPurchaseAmount()"></select>
+<div class="help" id="systemPlanDescription"></div>
+<label>Factura</label>
+<select id="systemPurchaseInvoice" onchange="updateSystemPurchaseAmount()">
+<option value="false" selected>Sin Factura</option>
+<option value="true">Con Factura (+16%)</option>
+</select>
+<label>Importe $</label><input id="systemPurchaseAmount" value="$0.00" readonly>
+<div class="help" id="systemPurchaseAmountDetail"></div>
+<label>Forma de pago</label><select id="systemPurchasePayment"></select>
+<label>Cuenta para pago</label><select id="systemPurchaseAccount" onchange="renderSystemPaymentAccount()"></select>
+<div class="help" id="systemPaymentAccountData"><strong>Datos de la cuenta</strong><br>Banco: —<br>Nombre: —<br>Cuenta: —<br>CLABE: —<br>Pagos en OXXO: —</div>
+<label>Referencia / nota del pago</label><input id="systemPurchaseReference" placeholder="Ej. transferencia 1234">
+<div class="help" style="margin-top:8px"><strong>Después de realizar su pago, envíe su comprobante por WhatsApp:</strong><br>
+<a href="https://wa.me/528142508370" target="_blank" rel="noopener">💬 8142508370</a></div>
+<div class="buttons"><button class="secondary" onclick="closeSystemPurchaseModal()">Cancelar</button><button class="primary" onclick="requestSystemPurchase()">Solicitar compra</button></div>
+<div id="systemPurchaseStatus" class="status"></div>
+</div></div>
+
+<div id="adminView" class="admin hidden no-print">
+<div class="admin-grid">
+<section class="admin-card"><h2>👤 Administrar usuarios</h2><div class="help">La creación de cuentas Auth se hará mediante una función segura de Supabase. No se guarda ninguna clave secreta en este archivo.</div><label>Nombre</label><input id="newUserName"><label>Correo</label><input id="newUserEmail" type="email"><label>Contraseña temporal</label><input id="newUserPassword" type="password"><div class="buttons"><button class="primary" onclick="createUserAdmin()">Crear usuario</button><button class="secondary" onclick="loadAdminUsers()">Actualizar</button></div><div id="userAdminStatus" class="status"></div><div class="table-wrap"><table><thead><tr><th>Nombre</th><th>Correo</th></tr></thead><tbody id="userRows"></tbody></table></div></section>
+<section class="admin-card"><h2>👥 Asignaciones de usuarios</h2>
+<div class="admin-actions"><button class="secondary" onclick="loadAdminAssignments()">↻ Actualizar</button></div>
+<label>Usuario</label><select id="assignUser"></select><label>Plantilla</label><select id="assignTemplate"></select>
+<label style="display:flex;align-items:center;gap:8px;margin-top:10px"><input id="assignPrintFolio" type="checkbox" style="width:auto" checked> Imprimir folio para este usuario</label><div class="help">Esta opción pertenece a la asignación usuario–plantilla. El folio siempre se genera y registra; aquí decides si aparece en pantalla y en el PDF.</div>
+<div class="buttons"><button class="primary" onclick="saveAssignment()">Asignar / Reactivar plantilla</button><button class="secondary" onclick="loadAdminAssignments()">Actualizar</button></div>
+<div class="table-wrap"><table><thead><tr><th>Usuario</th><th>Plantilla</th><th>Estado</th><th>Folio</th><th>Acciones</th></tr></thead><tbody id="assignmentRows"></tbody></table></div></section>
+
+<section class="admin-card"><h2>🔢 Bloques de folios</h2>
+<label>Usuario</label><select id="blockUser"></select><label>Plantilla</label><select id="blockTemplate"></select>
+<div class="buttons"><div><label>Desde</label><input id="blockStart" type="number" min="1"></div><div><label>Hasta</label><input id="blockEnd" type="number" min="1"></div></div>
+<div class="buttons"><button class="primary" onclick="createBlock()">Crear bloque</button><button class="secondary" onclick="loadAdminBlocks()">Actualizar</button></div>
+<div class="help">No se permiten rangos activos superpuestos para el mismo usuario y plantilla. La base de datos aplica esta regla.</div>
+<div class="table-wrap"><table><thead><tr><th>Usuario</th><th>Plantilla</th><th>Bloque</th><th>Siguiente</th><th>Estado</th><th>Acciones</th></tr></thead><tbody id="blockRows"></tbody></table></div></section>
+
+<section class="admin-card"><h2>🏦 Cuentas para pagos</h2>
+<div class="help">Agrega varias cuentas. Solo las cuentas activas aparecerán al usuario al comprar folios.</div>
+<input id="payAccountEditId" type="hidden">
+<label>Banco</label><input id="payAccountBank" placeholder="Nombre del banco">
+<label>Nombre</label><input id="payAccountName" placeholder="Nombre del titular">
+<label>Cuenta</label><input id="payAccountNumber" placeholder="Número de cuenta">
+<label>CLABE</label><input id="payAccountClabe" placeholder="CLABE interbancaria">
+<label>Pagos en OXXO</label><input id="payAccountCard" placeholder="Datos para pagos en OXXO">
+<div class="buttons"><button class="primary" onclick="savePaymentAccount()">Agregar cuenta</button><button class="secondary" onclick="clearPaymentAccountEdit()">Cancelar edición</button></div>
+<div id="paymentAccountStatus" class="status"></div>
+<div class="table-wrap"><table><thead><tr><th>Banco</th><th>Nombre</th><th>Cuenta</th><th>CLABE</th><th>OXXO</th><th>Estado</th><th>Acciones</th></tr></thead><tbody id="paymentAccountRows"></tbody></table></div>
+</section>
+
+<section class="admin-card"><h2>💳 Formas de pago</h2>
+<div class="help">Administra las opciones que aparecerán en Comprar folios, por ejemplo Transferencia, Efectivo, Mercado Pago, Depósito u OXXO.</div>
+<input id="paymentMethodEditId" type="hidden">
+<label>Nombre de la forma de pago</label><input id="paymentMethodName" placeholder="Ej. Mercado Pago">
+<div class="buttons"><button class="primary" onclick="savePaymentMethod()">Agregar forma de pago</button><button class="secondary" onclick="clearPaymentMethodEdit()">Cancelar edición</button></div>
+<div id="paymentMethodStatus" class="status"></div>
+<div class="table-wrap"><table><thead><tr><th>Forma de pago</th><th>Estado</th><th>Acciones</th></tr></thead><tbody id="paymentMethodRows"></tbody></table></div>
+</section>
+
+<section class="admin-card"><h2>📦 Paquetes de folios</h2>
+<div class="help">Cada paquete tiene su propia cantidad y precio total. Solo los paquetes activos aparecen al usuario.</div>
+<div class="grid2"><div><label>Cantidad de folios</label><input id="packageQty" type="number" min="1" step="1" placeholder="Ej. 1000"></div><div><label>Precio $</label><input id="packagePrice" type="number" min="0" step="0.01" placeholder="Ej. 300.00"></div></div>
+<input id="packageEditId" type="hidden">
+<div class="buttons"><button class="primary" onclick="saveFolioPackage()">Agregar paquete</button><button class="secondary" onclick="clearPackageEdit()">Cancelar edición</button></div>
+<div id="packageStatus" class="status"></div>
+<div class="table-wrap"><table><thead><tr><th>Folios</th><th>Precio</th><th>Estado</th><th>Acciones</th></tr></thead><tbody id="packageRows"></tbody></table></div>
+</section>
+
+<section class="admin-card"><h2>🛒 Compras de folios</h2>
+<div class="help">Las solicitudes quedan pendientes hasta que confirmes el pago. Al aprobar, el bloque activo del usuario y plantilla se amplía automáticamente.</div>
+<div class="admin-actions"><button class="secondary" onclick="loadAdminPurchases()">↻ Actualizar</button></div>
+<div class="table-wrap"><table><thead><tr><th>Usuario</th><th>Plantilla</th><th>Cantidad</th><th>Factura</th><th>IVA</th><th>Importe</th><th>Pago</th><th>Referencia</th><th>Estado</th><th>Acciones</th></tr></thead><tbody id="purchaseRows"></tbody></table></div>
+</section>
+
+
+
+<section class="admin-card"><h2>🧪 Cuentas Demo</h2>
+<div class="help">Asigna una prueba gratuita a un usuario. Puedes definir los días de vigencia y los folios incluidos.</div>
+<label>Usuario</label><select id="demoUser"></select>
+<div class="grid2">
+<div><label>Días de prueba</label><input id="demoDays" type="number" min="1" value="7"></div>
+<div><label>Folios de prueba</label><input id="demoFolios" type="number" min="1" value="10"></div>
+</div>
+<div class="buttons"><button class="primary" onclick="assignDemo()">🧪 Asignar / Reiniciar Demo</button><button class="secondary" onclick="loadAdminDemos()">↻ Actualizar</button></div>
+<div id="demoAdminStatus" class="status"></div>
+<div class="table-wrap"><table><thead><tr><th>Usuario</th><th>Inicio</th><th>Vence</th><th>Folios</th><th>Estado</th><th>Acciones</th></tr></thead><tbody id="demoRows"></tbody></table></div>
+</section>
+
+<section class="admin-card"><h2>💻 Paquetes del sistema</h2>
+<div class="help">Administra los paquetes que aparecerán en “Comprar / Activar sistema”. Los precios pueden modificarse cuando lo necesites.</div>
+<input id="systemPlanEditId" type="hidden">
+<label>Nombre del paquete</label><input id="systemPlanName" placeholder="Ej. Programa de llenado">
+<label>Descripción</label><input id="systemPlanDescriptionInput" placeholder="Ej. Solo captura de datos">
+<label>Precio $</label><input id="systemPlanPrice" type="number" min="0" step="0.01">
+<div class="buttons"><button class="primary" onclick="saveSystemPlan()">Agregar paquete</button><button class="secondary" onclick="clearSystemPlanEdit()">Cancelar edición</button></div>
+<div id="systemPlanStatus" class="status"></div>
+<div class="table-wrap"><table><thead><tr><th>Paquete</th><th>Descripción</th><th>Precio</th><th>Estado</th><th>Acciones</th></tr></thead><tbody id="systemPlanRows"></tbody></table></div>
+</section>
+
+<section class="admin-card"><h2>🛒 Compras del sistema</h2>
+<div class="help">Solicitudes de compra/activación realizadas por los usuarios.</div>
+<div class="admin-actions"><button class="secondary" onclick="loadAdminSystemPurchases()">↻ Actualizar</button></div>
+<div class="table-wrap"><table><thead><tr><th>Usuario</th><th>Paquete</th><th>Factura</th><th>IVA</th><th>Importe</th><th>Pago</th><th>Referencia</th><th>Estado</th><th>Acciones</th></tr></thead><tbody id="systemPurchaseRows"></tbody></table></div>
+</section>
+
+<section class="admin-card"><h2>📄 Administrar plantillas</h2>
+<div class="help">Importa un ZIP que contenga <b>index.html</b> y una imagen PNG/JPG. El sistema registra la plantilla y guarda su configuración de campos.</div>
+<label>Archivo ZIP</label><input id="templateZip" type="file" accept=".zip">
+<div class="grid2"><div><label>Nombre</label><input id="templateName" placeholder="Ej. Recetario MC 003"></div><div><label>Descripción</label><input id="templateDesc" placeholder="Descripción"></div></div>
+<div class="grid2"><div><label>Ancho (pulgadas)</label><input id="templateWidth" type="number" step="0.01" placeholder="8.5"></div><div><label>Alto (pulgadas)</label><input id="templateHeight" type="number" step="0.01" placeholder="5.5"></div></div>
+<div class="help"><b>Folio integrado:</b> todas las plantillas deben incluir <b>#outFolio</b> en su index.html. Su posición y formato se leen automáticamente al importar. La decisión de imprimirlo se configura por usuario en <b>Asignaciones de usuarios</b>.</div>
+<input id="templateEditId" type="hidden"><div class="buttons"><button class="primary" onclick="importTemplateZip()">Importar plantilla ZIP</button><button class="secondary" onclick="saveTemplateEdit()">Guardar cambios</button><button class="secondary" onclick="clearTemplateEdit()">Cancelar edición</button><button class="secondary" onclick="loadAdminTemplates()">Actualizar</button></div>
+<div id="templateAdminStatus" class="status"></div>
+<div class="table-wrap"><table><thead><tr><th>Nombre</th><th>Medida</th><th>Estado</th><th>Acciones</th></tr></thead><tbody id="templateRows"></tbody></table></div></section>
+
+<section class="admin-card"><h2>🧾 Historial de folios</h2><div class="admin-actions"><button class="secondary" onclick="loadAdminHistory()">↻ Actualizar</button></div><div class="table-wrap"><table><thead><tr><th>Folio</th><th>Usuario</th><th>Plantilla</th><th>Fecha</th></tr></thead><tbody id="folioRows"></tbody></table></div></section>
+</div>
+<div id="adminStatus" class="status"></div>
+</div>
+</div>
+
+<script>
+const SUPABASE_URL='https://ywwhvdcpjitwwcsyymyg.supabase.co';
+const SUPABASE_PUBLISHABLE_KEY='sb_publishable_5WVPnZb6q5zdjdkHgZT4Mw_kLoU9vnq';
+const sb=window.supabase.createClient(SUPABASE_URL,SUPABASE_PUBLISHABLE_KEY,{
+ auth:{
+  autoRefreshToken:true,
+  persistSession:true,
+  detectSessionInUrl:true,
+  storage:window.localStorage
+ }
+});
+const ids=['name','dx','date','age','weight','height','ta','fc','fr','temp','allergies'];
+let zoomFactor=1,currentUser=null,currentProfile=null,isAdmin=false,templates=[],assignments=[],currentTemplate=null,currentFolio=null;
+const FOLIOS_WHATSAPP='528142508370';
+function esc(v){return String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]))}
+function status(t){const s=document.getElementById('status');s.textContent=t;setTimeout(()=>s.textContent='',3000)}
+function adminStatus(t,err=false){const s=document.getElementById('adminStatus');s.textContent=t;s.style.color=err?'#b42318':'#667085';setTimeout(()=>s.textContent='',4000)}
+function mxDate(v){if(!v)return'';const [y,m,d]=v.split('-');return `${d}/${m}/${y}`}
+function setOut(id,value){const map={name:'outName',dx:'outDx',date:'outDate',age:'outAge',weight:'outWeight',height:'outHeight',ta:'outTA',fc:'outFC',fr:'outFR',temp:'outTemp',allergies:'outAllergies'};document.getElementById(map[id]).textContent=value??''}
+function updateFontScale(){document.querySelectorAll('.field').forEach(el=>el.style.fontSize='12px')}
+function syncFolioOnForm(){const fol=document.getElementById('outFolio');if(!fol)return;const a=assignments.find(x=>x.plantilla_id===currentTemplate?.id);const enabled=a?.imprimir_folio!==false;fol.style.display=enabled?'block':'none';fol.textContent=enabled&&currentFolio?.folio?('No: '+currentFolio.folio):'';}
+function update(){setOut('name',document.getElementById('name').value);setOut('dx',document.getElementById('dx').value);setOut('date',mxDate(document.getElementById('date').value));['age','weight','height','ta','fc','fr','temp','allergies'].forEach(id=>setOut(id,document.getElementById(id).value));syncFolioOnForm();const d={};ids.forEach(id=>d[id]=document.getElementById(id).value);d.folio=currentFolio?.folio||'';d.template_id=currentTemplate?.id||'';localStorage.setItem('llenado_v24_'+(currentUser?.id||'anon'),JSON.stringify(d));updateFontScale()}
+function testData(){const d={name:'JUAN PÉREZ GARCÍA',dx:'Hipertensión arterial\nControl de seguimiento',date:new Date().toISOString().slice(0,10),age:'45',weight:'78 kg',height:'1.72 m',ta:'120/80',fc:'72',fr:'18',temp:'36.5 °C',allergies:'Penicilina'};ids.forEach(id=>document.getElementById(id).value=d[id]||'');update();status('Datos de prueba cargados.')}
+function clearForm(){if(!confirm('¿Desea borrar todos los datos?'))return;ids.forEach(id=>document.getElementById(id).value='');currentFolio=null;document.getElementById('currentFolio').textContent='Sin asignar';setToday();update();status('Formulario limpio. La fecha se actualizó automáticamente.')}
+function saveDraft(){update();status('✓ Borrador guardado en este dispositivo.')}
+function zoom(v){if(v===0)zoomFactor=1;else zoomFactor=Math.max(.7,Math.min(1.5,zoomFactor+v));const base=currentTemplate?templateLayout(currentTemplate).screenWidth:643;document.getElementById('sheet').style.width=(base*zoomFactor)+'px';updateFontScale()}
+function setToday(){const now=new Date();const localDate=new Date(now.getTime()-now.getTimezoneOffset()*60000).toISOString().slice(0,10);document.getElementById('date').value=localDate}
+function loadDraft(){try{const d=JSON.parse(localStorage.getItem('llenado_v24_'+(currentUser?.id||'anon'))||'{}');ids.forEach(id=>{if(d[id]!==undefined)document.getElementById(id).value=d[id]});if(d.folio) {currentFolio={folio:d.folio};document.getElementById('currentFolio').textContent=d.folio}}catch(e){}setToday();update()}
+async function login(){
+ const email=document.getElementById('loginEmail').value.trim(),password=document.getElementById('loginPassword').value;
+ const st=document.getElementById('loginStatus');st.className='';st.textContent='Iniciando sesión...';
+ const {data,error}=await sb.auth.signInWithPassword({email,password});
+ if(error){st.className='error';st.textContent='No fue posible iniciar sesión: '+error.message;return}
+ const session=data?.session;
+ if(!session?.user){st.className='error';st.textContent='Supabase no devolvió una sesión válida.';return}
+ st.className='success-text';st.textContent='Acceso correcto.';
+ await startApp(session.user);
+}
+async function logout(){await sb.auth.signOut();location.reload()}
+async function initSession(){
+ const loginView=document.getElementById('loginView');
+ const appView=document.getElementById('appView');
+
+ // Restauración inmediata desde la sesión que Supabase ya guardó en Local Storage.
+ // Esto evita dejar la página en blanco si getSession tarda o se bloquea.
+ try{
+  const key=Object.keys(localStorage).find(k=>k.startsWith('sb-')&&k.endsWith('-auth-token'));
+  if(key){
+   const saved=JSON.parse(localStorage.getItem(key)||'null');
+   const user=saved?.user || saved?.currentSession?.user || saved?.session?.user;
+   if(user){
+    startApp(user).catch(err=>console.error('Error iniciando aplicación:',err));
+   }
+  }
+ }catch(err){
+  console.error('Error leyendo sesión local:',err);
+ }
+
+ // Supabase confirma/actualiza la sesión en segundo plano.
+ sb.auth.onAuthStateChange((event,session)=>{
+  if(event==='SIGNED_OUT'){
+   currentUser=null;
+   appView.classList.add('hidden');
+   loginView.classList.remove('hidden');
+   return;
+  }
+  if((event==='INITIAL_SESSION'||event==='SIGNED_IN'||event==='TOKEN_REFRESHED') && session?.user && !currentUser){
+   setTimeout(()=>startApp(session.user).catch(console.error),0);
+  }
+ });
+}
+async function startApp(user){currentUser=user;document.getElementById('loginView').classList.add('hidden');document.getElementById('appView').classList.remove('hidden');
+ const {data:profile,error:pe}=await sb.from('profiles').select('*').eq('id',user.id).maybeSingle();if(pe){document.getElementById('userInfo').textContent=user.email}else{currentProfile=profile;document.getElementById('userInfo').textContent=(profile?.nombre||user.email)+' · '+user.email}
+ const {data:adminData}=await sb.rpc('is_admin');isAdmin=adminData===true;document.getElementById('adminBtn').classList.toggle('hidden',!isAdmin);
+ await loadTemplatesAndAssignments();await Promise.all([loadFolioPackages(),loadPaymentAccounts(),loadPaymentMethods()]);await loadMyDemoStatus();loadDraft();}
+async function loadTemplatesAndAssignments(){const {data:ups,error}=await sb.from('usuario_plantillas').select('id,usuario_id,plantilla_id,activa,imprimir_folio,plantillas(id,nombre,descripcion,imagen_path,ancho_pulgadas,alto_pulgadas,activa,layout_config)').eq('usuario_id',currentUser.id).eq('activa',true);if(error){status('Error cargando plantillas: '+error.message);return}assignments=ups||[];templates=assignments.map(x=>x.plantillas).filter(Boolean).filter(x=>x.activa!==false);const sel=document.getElementById('templateSelect');sel.innerHTML='';templates.forEach(t=>{const o=document.createElement('option');o.value=t.id;o.textContent=t.nombre;sel.appendChild(o)});if(!templates.length){sel.innerHTML='<option>Sin plantillas asignadas</option>';document.getElementById('templateInfo').innerHTML='<strong>Sin plantilla asignada</strong><span>Solicita al administrador una plantilla y un bloque de folios.</span>';currentTemplate=null;return}currentTemplate=templates[0];sel.value=currentTemplate.id;renderTemplate();refreshFolioAvailability();}
+function selectTemplate(){currentTemplate=templates.find(t=>t.id===document.getElementById('templateSelect').value)||null;currentFolio=null;document.getElementById('currentFolio').textContent='Sin asignar';renderTemplate();update();refreshFolioAvailability()}
+function templateLayout(t){
+ if(t?.layout_config && typeof t.layout_config==='object'){
+  const c=t.layout_config;
+  const screen={...(c.screen||{})},print={...(c.print||{})};const horizontal=Number(t.ancho_pulgadas)>Number(t.alto_pulgadas);if(!screen.outFolio)screen.outFolio=horizontal?['78%','7%','18%','4%','right','14px','700']:['68%','6%','27%','4%','right','14px','700'];
+   // V9.5.32: el folio del PDF usa la MISMA posición relativa que se ve en pantalla.
+   // Esto corrige plantillas antiguas donde screen.outFolio y print.outFolio quedaron distintos.
+   if(screen.outFolio){
+     const pct=(v)=>parseFloat(String(v||'0').replace('%',''));
+     const lx=pct(screen.outFolio[0]), ty=pct(screen.outFolio[1]);
+     if(Number.isFinite(lx)&&Number.isFinite(ty)){
+       {
+       const pxSize=parseFloat(String(screen.outFolio[5]||'13px'))||13;
+       const ptSize=(pxSize*0.75).toFixed(2)+'pt';
+       const weight=String(screen.outFolio[6]||'700');
+       const color=String(screen.outFolio[7]||'#FF0000');
+       print.outFolio=[(Number(t.ancho_pulgadas)*lx/100).toFixed(4)+'in',
+                       (Number(t.alto_pulgadas)*ty/100).toFixed(4)+'in',
+                       ptSize,weight,color,screen.outFolio[4]||'left'];
+     }
+     }
+   }if(!print.outFolio)print.outFolio=horizontal?['6.60in','0.38in','12pt','700','#000','right']:['3.75in','0.45in','12pt','700','#000','right'];return {width:Number(t.ancho_pulgadas),height:Number(t.alto_pulgadas),screenWidth:c.screenWidth||943,image:t.imagen_path||c.image,screen,print};
+ }
+ const horizontal=Number(t?.ancho_pulgadas)>Number(t?.alto_pulgadas);
+ if(horizontal)return{
+  width:8.5,height:5.5,screenWidth:943,image:(t.imagen_path||'RecMedH0002.png'),
+  screen:{outFolio:['78%','7%','18%','4%','right','14px','700'],outName:['9.80%','21.80%','53%','3.1%','left'],outDx:['2.60%','28.90%','77%','32%','left'],outDate:['87.10%','21.80%','15%','3.1%','left'],outAge:['86.40%','29.20%','10%','3.0%','left'],outWeight:['86.40%','32.90%','10%','3.0%','left'],outHeight:['86.40%','36.60%','10%','3.0%','left'],outTA:['86.40%','40.20%','10%','3.0%','left'],outFC:['86.40%','43.84%','10%','3.0%','left'],outFR:['86.40%','47.50%','10%','3.0%','left'],outTemp:['86.40%','51.10%','10%','3.0%','left'],outAllergies:['81.75%','57.80%','14.5%','18%','justify']},
+  print:{outFolio:['6.60in','0.38in','12pt','700','#000','right'],outName:['0.82in','1.19in'],outDate:['7.40in','1.19in'],outAge:['7.34in','1.598in'],outWeight:['7.34in','1.80in'],outHeight:['7.34in','2.00in'],outTA:['7.34in','2.20in'],outFC:['7.34in','2.40in'],outFR:['7.34in','2.60in'],outTemp:['7.34in','2.80in']}
+ };
+ return{
+  width:5.5,height:8.5,screenWidth:643,image:(t?.imagen_path&&/^https?:\/\//i.test(t.imagen_path)?t.imagen_path:'recetario_base.png'),
+  screen:{outFolio:['68%','6%','27%','4%','right','14px','700'],outName:['14.20%','14.1%','53%','3.1%','left'],outDx:['3.10%','18.30%','70%','32%','left'],outDate:['83.10%','14.0%','15%','3.1%','left'],outAge:['82.20%','18.75%','11.5%','3.0%','left'],outWeight:['82.20%','21.10%','11.5%','3.0%','left'],outHeight:['82.20%','23.40%','11.5%','3.0%','left'],outTA:['82.20%','25.80%','15%','3.0%','left'],outFC:['82.20%','28.10%','15%','3.0%','left'],outFR:['82.20%','30.45%','15%','3.0%','left'],outTemp:['82.20%','32.77%','15%','3.0%','left'],outAllergies:['74.75%','37.10%','22%','12%','left']},
+  print:{outFolio:['3.75in','0.45in','12pt','700','#000','right'],outName:['0.78in','1.171in'],outDate:['4.58in','1.171in'],outAge:['4.51in','1.579in'],outWeight:['4.51in','1.779in'],outHeight:['4.51in','1.979in'],outTA:['4.51in','2.1779in'],outFC:['4.51in','2.3779in'],outFR:['4.51in','2.5779in'],outTemp:['4.51in','2.7779in']}
+ };
+}
+function applyTemplateLayout(){
+ if(!currentTemplate)return;const c=templateLayout(currentTemplate),sheet=document.getElementById('sheet'),img=document.getElementById('baseImage');
+ zoomFactor=1;sheet.style.width='min(100%,'+c.screenWidth+'px)';sheet.style.aspectRatio=c.width+'/'+c.height;img.src=c.image;
+ for(const [id,v] of Object.entries(c.screen)){const e=document.getElementById(id);e.style.left=v[0];e.style.top=v[1];e.style.width=v[2];e.style.height=v[3];e.style.textAlign=v[4]||'left';if(v[5])e.style.fontSize=v[5];if(v[6])e.style.fontWeight=v[6];if(v[7])e.style.color=v[7]}
+ let st=document.getElementById('dynamicPrintStyle');if(!st){st=document.createElement('style');st.id='dynamicPrintStyle';document.head.appendChild(st)}
+ let rules=`@media print{html,body{width:${c.width}in!important;height:${c.height}in!important}.layout{width:${c.width}in!important;height:${c.height}in!important}.sheet{width:${c.width}in!important;height:${c.height}in!important}@page{size:${c.width}in ${c.height}in;margin:0}}`;
+ for(const [id,v] of Object.entries(c.print)){let extra='';if(v[2])extra+=`font-size:${v[2]}!important;`;if(v[3])extra+=`font-weight:${v[3]}!important;`;if(v[4])extra+=`color:${v[4]}!important;`;if(v[5])extra+=`text-align:${v[5]}!important;`;rules+=`@media print{#${id}{left:${v[0]}!important;top:${v[1]}!important;${extra}}}`;}
+ st.textContent=rules;syncFolioOnForm();
+}
+function renderTemplate(){if(!currentTemplate)return;document.getElementById('templateInfo').innerHTML='<strong>🩺 '+esc(currentTemplate.nombre)+'</strong><span>'+esc(currentTemplate.descripcion||'Plantilla asignada por administración')+' · '+esc(currentTemplate.ancho_pulgadas)+' × '+esc(currentTemplate.alto_pulgadas)+' pulgadas</span>';document.getElementById('appTitle').textContent=currentTemplate.nombre||'Recetario Médico';const w=Number(currentTemplate.ancho_pulgadas),h=Number(currentTemplate.alto_pulgadas),ori=w>h?'horizontal':'vertical';const ph=document.getElementById('printHelp');if(ph)ph.innerHTML='La impresión conserva el formato <strong>'+ori+' exacto de '+esc(currentTemplate.ancho_pulgadas)+' × '+esc(currentTemplate.alto_pulgadas)+' pulgadas</strong>, sin márgenes. El folio pertenece al bloque asignado al usuario y a la plantilla seleccionada.';applyTemplateLayout()}
+
+let paymentAccounts=[];
+let paymentMethods=[];
+
+function renderSelectedPaymentAccount(){
+ const id=document.getElementById('purchaseAccount')?.value;
+ const x=paymentAccounts.find(a=>a.id===id);
+ const box=document.getElementById('paymentAccountData');
+ if(!box)return;
+ if(!x){box.innerHTML='<strong>Datos de la cuenta</strong><br>Sin cuenta seleccionada';return}
+ box.innerHTML='<strong>Datos de la cuenta</strong><br>Banco: '+esc(x.banco||'—')+
+   '<br>Nombre: '+esc(x.nombre||'—')+
+   '<br>Cuenta: '+esc(x.cuenta||'—')+
+   '<br>CLABE: '+esc(x.clabe||'—')+
+   '<br>Pagos en OXXO: '+esc(x.tarjeta||'—');
+}
+
+async function loadPaymentAccounts(){
+ const {data,error}=await sb.from('cuentas_pago_folios')
+   .select('id,banco,nombre,cuenta,clabe,tarjeta,activo,created_at')
+   .eq('activo',true).order('created_at');
+ paymentAccounts=error?[]:(data||[]);
+ const sel=document.getElementById('purchaseAccount');
+ if(sel){
+   sel.innerHTML=paymentAccounts.map(x=>`<option value="${x.id}">${esc(x.banco||'Cuenta')}</option>`).join('');
+   if(!paymentAccounts.length)sel.innerHTML='<option value="">Sin cuentas disponibles</option>';
+ }
+ renderSelectedPaymentAccount();
+}
+
+async function loadAdminPaymentAccounts(){
+ const tbody=document.getElementById('paymentAccountRows'); if(!tbody)return;
+ const {data,error}=await sb.from('cuentas_pago_folios')
+   .select('id,banco,nombre,cuenta,clabe,tarjeta,activo,created_at').order('created_at');
+ if(error){tbody.innerHTML='<tr><td colspan="7">Error: '+esc(error.message)+'</td></tr>';return}
+ window._adminPaymentAccounts=data||[];
+ tbody.innerHTML=window._adminPaymentAccounts.map(x=>`<tr>
+ <td>${esc(x.banco||'—')}</td><td>${esc(x.nombre||'—')}</td><td>${esc(x.cuenta||'—')}</td>
+ <td>${esc(x.clabe||'—')}</td><td>${esc(x.tarjeta||'—')}</td>
+ <td><span class="badge ${x.activo?'ok':'off'}">${x.activo?'Activa':'Inactiva'}</span></td>
+ <td><button class="secondary" onclick="editPaymentAccount('${x.id}')">Editar</button>
+ <button class="secondary" onclick="togglePaymentAccount('${x.id}',${!x.activo})">${x.activo?'Desactivar':'Activar'}</button>
+ <button class="danger" onclick="deletePaymentAccount('${x.id}')">Eliminar</button></td></tr>`).join('')||'<tr><td colspan="7">Sin cuentas</td></tr>';
+}
+
+function editPaymentAccount(id){
+ const x=(window._adminPaymentAccounts||[]).find(a=>a.id===id); if(!x)return;
+ document.getElementById('payAccountEditId').value=x.id;
+ document.getElementById('payAccountBank').value=x.banco||'';
+ document.getElementById('payAccountName').value=x.nombre||'';
+ document.getElementById('payAccountNumber').value=x.cuenta||'';
+ document.getElementById('payAccountClabe').value=x.clabe||'';
+ document.getElementById('payAccountCard').value=x.tarjeta||'';
+}
+function clearPaymentAccountEdit(){
+ for(const id of ['payAccountEditId','payAccountBank','payAccountName','payAccountNumber','payAccountClabe','payAccountCard']){
+   const el=document.getElementById(id); if(el)el.value='';
+ }
+}
+async function savePaymentAccount(){
+ const st=document.getElementById('paymentAccountStatus');
+ const {error}=await sb.rpc('admin_guardar_cuenta_pago_folios',{
+   p_id:document.getElementById('payAccountEditId').value||null,
+   p_banco:document.getElementById('payAccountBank').value.trim(),
+   p_nombre:document.getElementById('payAccountName').value.trim(),
+   p_cuenta:document.getElementById('payAccountNumber').value.trim(),
+   p_clabe:document.getElementById('payAccountClabe').value.trim(),
+   p_tarjeta:document.getElementById('payAccountCard').value.trim()
+ });
+ if(error){st.textContent='No se pudo guardar: '+error.message;return}
+ st.textContent='✓ Cuenta guardada.'; clearPaymentAccountEdit();
+ await Promise.all([loadAdminPaymentAccounts(),loadPaymentAccounts()]);
+}
+async function togglePaymentAccount(id,activo){
+ const {error}=await sb.rpc('admin_estado_cuenta_pago_folios',{p_id:id,p_activo:activo});
+ if(error){document.getElementById('paymentAccountStatus').textContent='No se pudo cambiar: '+error.message;return}
+ await Promise.all([loadAdminPaymentAccounts(),loadPaymentAccounts()]);
+}
+async function deletePaymentAccount(id){
+ if(!confirm('¿Eliminar esta cuenta?'))return;
+ const {error}=await sb.rpc('admin_eliminar_cuenta_pago_folios',{p_id:id});
+ if(error){document.getElementById('paymentAccountStatus').textContent='No se pudo eliminar: '+error.message;return}
+ await Promise.all([loadAdminPaymentAccounts(),loadPaymentAccounts()]);
+}
+
+async function loadPaymentMethods(){
+ const {data,error}=await sb.from('formas_pago_folios').select('id,nombre,activo').eq('activo',true).order('nombre');
+ paymentMethods=error?[]:(data||[]);
+ const sel=document.getElementById('purchasePayment');
+ if(sel){
+   sel.innerHTML=paymentMethods.map(x=>`<option value="${esc(x.nombre)}">${esc(x.nombre)}</option>`).join('');
+   if(!paymentMethods.length)sel.innerHTML='<option value="">Sin formas de pago</option>';
+ }
+}
+async function loadAdminPaymentMethods(){
+ const tbody=document.getElementById('paymentMethodRows'); if(!tbody)return;
+ const {data,error}=await sb.from('formas_pago_folios').select('id,nombre,activo,created_at').order('nombre');
+ if(error){tbody.innerHTML='<tr><td colspan="3">Error: '+esc(error.message)+'</td></tr>';return}
+ window._adminPaymentMethods=data||[];
+ tbody.innerHTML=window._adminPaymentMethods.map(x=>`<tr><td>${esc(x.nombre)}</td>
+ <td><span class="badge ${x.activo?'ok':'off'}">${x.activo?'Activa':'Inactiva'}</span></td>
+ <td><button class="secondary" onclick="editPaymentMethod('${x.id}')">Editar</button>
+ <button class="secondary" onclick="togglePaymentMethod('${x.id}',${!x.activo})">${x.activo?'Desactivar':'Activar'}</button>
+ <button class="danger" onclick="deletePaymentMethod('${x.id}')">Eliminar</button></td></tr>`).join('')||'<tr><td colspan="3">Sin formas de pago</td></tr>';
+}
+function editPaymentMethod(id){
+ const x=(window._adminPaymentMethods||[]).find(m=>m.id===id); if(!x)return;
+ document.getElementById('paymentMethodEditId').value=x.id;
+ document.getElementById('paymentMethodName').value=x.nombre||'';
+}
+function clearPaymentMethodEdit(){
+ document.getElementById('paymentMethodEditId').value='';
+ document.getElementById('paymentMethodName').value='';
+}
+async function savePaymentMethod(){
+ const st=document.getElementById('paymentMethodStatus');
+ const nombre=document.getElementById('paymentMethodName').value.trim();
+ if(!nombre){st.textContent='Indica el nombre de la forma de pago.';return}
+ const {error}=await sb.rpc('admin_guardar_forma_pago_folios',{
+   p_id:document.getElementById('paymentMethodEditId').value||null,p_nombre:nombre
+ });
+ if(error){st.textContent='No se pudo guardar: '+error.message;return}
+ st.textContent='✓ Forma de pago guardada.'; clearPaymentMethodEdit();
+ await Promise.all([loadAdminPaymentMethods(),loadPaymentMethods()]);
+}
+async function togglePaymentMethod(id,activo){
+ const {error}=await sb.rpc('admin_estado_forma_pago_folios',{p_id:id,p_activo:activo});
+ if(error){document.getElementById('paymentMethodStatus').textContent='No se pudo cambiar: '+error.message;return}
+ await Promise.all([loadAdminPaymentMethods(),loadPaymentMethods()]);
+}
+async function deletePaymentMethod(id){
+ if(!confirm('¿Eliminar esta forma de pago?'))return;
+ const {error}=await sb.rpc('admin_eliminar_forma_pago_folios',{p_id:id});
+ if(error){document.getElementById('paymentMethodStatus').textContent='No se pudo eliminar: '+error.message;return}
+ await Promise.all([loadAdminPaymentMethods(),loadPaymentMethods()]);
+}
+
+let folioPackages=[];
+async function loadFolioPackages(){
+ const {data,error}=await sb.from('paquetes_folios').select('id,cantidad,precio,activo').eq('activo',true).order('cantidad');
+ if(error){console.error(error);folioPackages=[]}else folioPackages=data||[];
+ const sel=document.getElementById('purchasePackage');
+ if(sel){
+  sel.innerHTML=folioPackages.map(x=>`<option value="${x.id}">${x.cantidad} folios</option>`).join('');
+  if(!folioPackages.length)sel.innerHTML='<option value="">Sin paquetes disponibles</option>';
+ }
+ updatePurchaseAmount();
+}
+function updatePurchaseAmount(){
+ const id=document.getElementById('purchasePackage')?.value;
+ const pkg=folioPackages.find(x=>x.id===id);
+ const out=document.getElementById('purchaseAmount');
+ const detail=document.getElementById('purchaseAmountDetail');
+ if(!pkg){if(out)out.value='$0.00';if(detail)detail.textContent='';return}
+ const subtotal=Number(pkg.precio);
+ const conFactura=document.getElementById('purchaseInvoice')?.value==='true';
+ const iva=conFactura?subtotal*0.16:0;
+ const total=subtotal+iva;
+ if(out)out.value='$'+total.toFixed(2);
+ if(detail)detail.textContent=conFactura?`Subtotal $${subtotal.toFixed(2)} + IVA 16% $${iva.toFixed(2)} = Total $${total.toFixed(2)}`:`Total $${subtotal.toFixed(2)} · Sin Factura`;
+}
+async function saveFolioPackage(){
+ const id=document.getElementById('packageEditId').value;
+ const cantidad=Number(document.getElementById('packageQty').value);
+ const precio=Number(document.getElementById('packagePrice').value);
+ const st=document.getElementById('packageStatus');
+ if(!Number.isInteger(cantidad)||cantidad<=0||!Number.isFinite(precio)||precio<0){st.textContent='Indica cantidad y precio válidos.';return}
+ const {error}=await sb.rpc('admin_guardar_paquete_folios',{p_id:id||null,p_cantidad:cantidad,p_precio:precio});
+ if(error){st.textContent='No se pudo guardar: '+error.message;return}
+ st.textContent='✓ Paquete guardado.';clearPackageEdit();await loadAdminPackages();await loadFolioPackages();
+}
+function editFolioPackage(id){
+ const x=(window._adminPackages||[]).find(p=>p.id===id);if(!x)return;
+ document.getElementById('packageEditId').value=x.id;
+ document.getElementById('packageQty').value=x.cantidad;
+ document.getElementById('packagePrice').value=Number(x.precio).toFixed(2);
+}
+function clearPackageEdit(){
+ document.getElementById('packageEditId').value='';
+ document.getElementById('packageQty').value='';
+ document.getElementById('packagePrice').value='';
+}
+async function toggleFolioPackage(id,activo){
+ const {error}=await sb.rpc('admin_estado_paquete_folios',{p_id:id,p_activo:activo});
+ if(error){document.getElementById('packageStatus').textContent='No se pudo cambiar: '+error.message;return}
+ await loadAdminPackages();await loadFolioPackages();
+}
+async function deleteFolioPackage(id){
+ if(!confirm('¿Eliminar este paquete? Si ya tiene compras registradas, se conservará y se desactivará.'))return;
+ const {error}=await sb.rpc('admin_eliminar_paquete_folios',{p_id:id});
+ if(error){document.getElementById('packageStatus').textContent='No se pudo eliminar: '+error.message;return}
+ await loadAdminPackages();await loadFolioPackages();
+}
+function openPurchaseModal(){
+ if(!currentTemplate){status('Selecciona una plantilla.');return}
+ document.getElementById('purchaseTemplateName').textContent=currentTemplate.nombre||'Plantilla seleccionada';
+ document.getElementById('purchaseUserName').textContent=currentProfile?.nombre||currentUser?.email||'Usuario';
+ document.getElementById('purchaseStatus').textContent='';
+ updatePurchaseAmount();
+ document.getElementById('purchaseModal').classList.remove('hidden');
+}
+function closePurchaseModal(){
+ document.getElementById('purchaseModal').classList.add('hidden');
+}
+async function requestFolioPurchase(){
+ const st=document.getElementById('purchaseStatus');
+ if(!currentUser||!currentTemplate){st.textContent='Selecciona una plantilla.';return}
+ const paquete_id=document.getElementById('purchasePackage').value;
+ if(!paquete_id){st.textContent='No hay un paquete disponible.';return}
+ const forma_pago=document.getElementById('purchasePayment').value;
+ const con_factura=document.getElementById('purchaseInvoice').value==='true';
+ const referencia=document.getElementById('purchaseReference').value.trim();
+ st.textContent='Registrando solicitud...';
+ const {error}=await sb.rpc('solicitar_compra_folios',{
+  p_plantilla_id:currentTemplate.id,
+  p_paquete_id:paquete_id,
+  p_con_factura:con_factura,
+  p_forma_pago:forma_pago,
+  p_referencia:referencia||null
+ });
+ if(error){st.textContent='No se pudo registrar: '+error.message;return}
+ st.textContent='✓ Solicitud registrada. Pendiente de confirmación del administrador.';
+ document.getElementById('purchaseReference').value='';
+ setTimeout(closePurchaseModal,1200);
+}
+async function refreshFolioAvailability(){
+ const el=document.getElementById('folioAvailability');if(!el)return;
+ if(!currentTemplate||!currentUser){el.textContent='Selecciona una plantilla.';return}
+
+ // V9.5.40: una Cuenta Demo muestra únicamente su saldo de prueba.
+ if(currentDemo?.activa && !currentActivation?.activa){
+   el.textContent='Folios de prueba disponibles: '+Number(currentDemo.folios_disponibles||0)+' de '+Number(currentDemo.folios_incluidos||0);
+   return;
+ }
+
+ const {data,error}=await sb.from('bloques_folios').select('numero_fin,siguiente_numero,activo').eq('usuario_id',currentUser.id).eq('plantilla_id',currentTemplate.id).eq('activo',true);
+ if(error){el.textContent='Puedes solicitar un nuevo bloque por WhatsApp.';return}
+ const rows=data||[];
+ const disponibles=rows.reduce((n,b)=>n+Math.max(0,Number(b.numero_fin)-Number(b.siguiente_numero)+1),0);
+ const sig=rows.filter(b=>Number(b.siguiente_numero)<=Number(b.numero_fin)).sort((a,b)=>Number(a.siguiente_numero)-Number(b.siguiente_numero))[0];
+ el.textContent='Folios disponibles: '+disponibles+(sig?' · Siguiente: '+String(sig.siguiente_numero).padStart(3,'0'):' · Sin folios disponibles');
+}
+function requestFoliosWhatsApp(){
+ if(!currentTemplate){status('Selecciona una plantilla.');return}
+ const nombre=currentProfile?.nombre||currentUser?.email||'Usuario';
+ const msg=`Hola, soy ${nombre}. Solicito un nuevo bloque de folios para la plantilla ${currentTemplate.nombre}. Gracias.`;
+ window.open(`https://wa.me/${FOLIOS_WHATSAPP}?text=${encodeURIComponent(msg)}`,'_blank','noopener');
+}
+async function newFolio(){if(!currentTemplate){status('No tienes una plantilla asignada.');return}if(currentFolio?.folio&&!confirm('Ya tienes el folio '+currentFolio.folio+' en este formulario. ¿Deseas obtener otro?'))return;status('Obteniendo folio...');const {data,error}=await sb.rpc((currentDemo?.activa&&!currentActivation?.activa)?'obtener_siguiente_folio_demo':'obtener_siguiente_folio',{p_plantilla_id:currentTemplate.id});if(error){status('No se pudo obtener el folio: '+error.message);return}const row=Array.isArray(data)?data[0]:data;if(!row){status('Supabase no devolvió un folio.');return}currentFolio=row;document.getElementById('currentFolio').textContent=row.folio;document.getElementById('folioHint').textContent='Folio asignado a este formulario.';update();applyTemplateLayout();if(currentDemo?.activa&&!currentActivation?.activa){await loadMyDemoStatus();}else{await refreshFolioAvailability();}status('✓ Folio '+row.folio+' asignado.');}
+function printForm(){
+ if(!demoCanUseSystem()){document.getElementById('demoExpiredModal').classList.remove('hidden');return}
+
+ if(!currentFolio?.folio){status('Primero pulsa “Obtener nuevo folio”.');return}
+ update();
+ applyTemplateLayout();
+ syncFolioOnForm();
+ const fol=document.getElementById('outFolio');
+ if(fol){
+   fol.textContent='No: '+currentFolio.folio;
+   fol.style.visibility='visible';
+   fol.style.opacity='1';
+ }
+ requestAnimationFrame(()=>requestAnimationFrame(()=>window.print()));
+}
+
+
+let currentDemo=null, currentActivation=null;
+
+async function loadMyDemoStatus(){
+ if(!currentUser)return;
+ const box=document.getElementById('demoBanner'), txt=document.getElementById('demoBannerText');
+ try{
+   const {data,error}=await sb.rpc('obtener_estado_demo');
+   if(error)throw error;
+   const d=Array.isArray(data)?data[0]:data;
+   currentActivation=d?.sistema_activo?{activa:true}:null;
+   currentDemo=d?.es_demo?{
+     activa:true,
+     fecha_inicio:d.fecha_inicio,
+     fecha_fin:d.fecha_fin,
+     folios_incluidos:d.folios_incluidos,
+     folios_usados:Number(d.folios_usados||0),
+     folios_disponibles:Number(d.folios_disponibles||0)
+   }:null;
+   if(currentActivation?.activa){box?.classList.add('hidden');syncPurchaseButtonsForDemo();return}
+   if(!currentDemo?.activa){box?.classList.add('hidden');syncPurchaseButtonsForDemo();return}
+   const end=new Date(currentDemo.fecha_fin), now=new Date(), expired=now>end;
+   const days=Math.max(0,Math.ceil((end-now)/86400000));
+   if(box){
+     box.classList.remove('hidden');
+     txt.textContent=expired
+       ?'Prueba finalizada. Activa el sistema para continuar.'
+       :`Prueba vigente · ${days} día(s) restante(s) · ${currentDemo.folios_disponibles} de ${currentDemo.folios_incluidos} folios de prueba disponibles.`;
+   }
+   if(expired)document.getElementById('demoExpiredModal')?.classList.remove('hidden');
+   await refreshFolioAvailability();
+   syncPurchaseButtonsForDemo();
+ }catch(e){
+   console.error('Estado Demo:',e);
+   if(box){box.classList.add('hidden')}
+ }
+}
+function syncPurchaseButtonsForDemo(){
+ const foliosBtn=document.getElementById('buyFoliosBtn');
+ const systemBtn=document.getElementById('buySystemBtn');
+ const demoActiva=!!(currentDemo?.activa && !currentActivation?.activa);
+ const sistemaActivo=!!currentActivation?.activa;
+ if(foliosBtn) foliosBtn.classList.toggle('hidden',demoActiva);
+ if(systemBtn) systemBtn.classList.toggle('hidden',sistemaActivo);
+}
+
+function demoCanUseSystem(){
+ if(currentActivation?.activa)return true;
+ if(!currentDemo?.activa)return true; // usuarios existentes sin Demo conservan funcionamiento actual
+ return new Date()<=new Date(currentDemo.fecha_fin);
+}
+
+async function loadAdminDemos(){
+ const tbody=document.getElementById('demoRows');if(!tbody)return;
+ const sel=document.getElementById('demoUser');
+ if(!(window._adminProfiles||[]).length)await loadAdminUsers();
+ if(sel)sel.innerHTML=(window._adminProfiles||[]).filter(x=>x.email!=='jskpublicidadml@gmail.com').map(x=>`<option value="${x.id}">${esc(x.nombre||x.email)}</option>`).join('');
+ const {data,error}=await sb.from('cuentas_demo').select('id,usuario_id,fecha_inicio,fecha_fin,folios_incluidos,activa').order('fecha_fin',{ascending:false});
+ if(error){tbody.innerHTML='<tr><td colspan="6">Error: '+esc(error.message)+'</td></tr>';return}
+ tbody.innerHTML=(data||[]).map(x=>{
+  const expired=new Date()>new Date(x.fecha_fin), state=!x.activa?'Desactivada':expired?'Vencida':'Vigente';
+  return `<tr><td>${esc(adminUserName(x.usuario_id))}</td><td>${new Date(x.fecha_inicio).toLocaleDateString()}</td><td>${new Date(x.fecha_fin).toLocaleDateString()}</td><td>${x.folios_incluidos}</td><td><span class="badge ${state==='Vigente'?'ok':'off'}">${state}</span></td><td><button class="secondary" onclick="toggleDemo('${x.id}',${!x.activa})">${x.activa?'Desactivar':'Activar'}</button></td></tr>`
+ }).join('')||'<tr><td colspan="6">Sin cuentas Demo</td></tr>';
+}
+async function assignDemo(){
+ const st=document.getElementById('demoAdminStatus'), uid=document.getElementById('demoUser').value;
+ const days=Number(document.getElementById('demoDays').value), folios=Number(document.getElementById('demoFolios').value);
+ if(!uid||days<1||folios<1){st.textContent='Selecciona usuario, días y folios.';return}
+ const {error}=await sb.rpc('admin_asignar_demo',{p_usuario_id:uid,p_dias:days,p_folios:folios});
+ if(error){st.textContent='Error: '+error.message;return}
+ st.textContent='✓ Cuenta Demo asignada.';await loadAdminDemos();await loadAdminBlocks();
+}
+async function toggleDemo(id,activo){
+ const {error}=await sb.rpc('admin_estado_demo',{p_demo_id:id,p_activa:activo});
+ if(error){adminStatus(error.message,true);return} await loadAdminDemos();
+}
+
+let systemPlans=[], selectedSystemPlan=null;
+
+async function loadSystemPlans(){
+ const {data,error}=await sb.from('paquetes_sistema').select('id,nombre,descripcion,precio,activo').eq('activo',true).order('precio');
+ if(error){systemPlans=[];return}
+ systemPlans=data||[];
+}
+async function openSystemPurchaseModal(){
+ if(!currentUser)return;
+ const st=document.getElementById('systemPurchaseStatus');st.textContent='';
+ document.getElementById('systemPurchaseUser').textContent=currentProfile?.nombre||currentUser.email||'Usuario';
+ await Promise.allSettled([loadSystemPlans(),loadPaymentAccounts(),loadPaymentMethods()]);
+ const sel=document.getElementById('systemPurchasePlan');
+ sel.innerHTML=systemPlans.map(x=>`<option value="${x.id}">${esc(x.nombre)} — $${Number(x.precio).toFixed(2)}</option>`).join('');
+ const pm=document.getElementById('systemPurchasePayment');
+ pm.innerHTML=(paymentMethods||[]).map(x=>`<option value="${esc(x.nombre)}">${esc(x.nombre)}</option>`).join('');
+ const ac=document.getElementById('systemPurchaseAccount');
+ ac.innerHTML=(paymentAccounts||[]).map(x=>`<option value="${x.id}">${esc(x.banco||'Cuenta')}</option>`).join('');
+ document.getElementById('systemPurchaseReference').value='';
+ document.getElementById('systemPurchaseInvoice').value='false';
+ updateSystemPurchaseAmount();renderSystemPaymentAccount();
+ document.getElementById('systemPurchaseModal').classList.remove('hidden');
+}
+function closeSystemPurchaseModal(){document.getElementById('systemPurchaseModal').classList.add('hidden')}
+function updateSystemPurchaseAmount(){
+ const id=document.getElementById('systemPurchasePlan').value;
+ selectedSystemPlan=systemPlans.find(x=>x.id===id)||systemPlans[0]||null;
+ const inv=document.getElementById('systemPurchaseInvoice').value==='true';
+ const sub=Number(selectedSystemPlan?.precio||0), iva=inv?Math.round(sub*16)/100:0, total=sub+iva;
+ document.getElementById('systemPurchaseAmount').value='$'+total.toFixed(2);
+ document.getElementById('systemPurchaseAmountDetail').textContent=`Subtotal $${sub.toFixed(2)} · ${inv?'IVA $'+iva.toFixed(2):'Sin Factura'} · Total $${total.toFixed(2)}`;
+ document.getElementById('systemPlanDescription').textContent=selectedSystemPlan?.descripcion||'';
+}
+function renderSystemPaymentAccount(){
+ const id=document.getElementById('systemPurchaseAccount').value;
+ const x=(paymentAccounts||[]).find(a=>a.id===id);
+ document.getElementById('systemPaymentAccountData').innerHTML=x?`<strong>Datos de la cuenta</strong><br>Banco: ${esc(x.banco||'—')}<br>Nombre: ${esc(x.nombre||'—')}<br>Cuenta: ${esc(x.cuenta||'—')}<br>CLABE: ${esc(x.clabe||'—')}<br>Pagos en OXXO: ${esc(x.tarjeta||'—')}`:'<strong>Datos de la cuenta</strong><br>Sin cuenta disponible';
+}
+async function requestSystemPurchase(){
+ const st=document.getElementById('systemPurchaseStatus');
+ const plan=document.getElementById('systemPurchasePlan').value;
+ if(!plan){st.textContent='Selecciona un paquete.';return}
+ st.textContent='Registrando solicitud...';
+ const {error}=await sb.rpc('solicitar_compra_sistema',{
+  p_paquete_id:plan,
+  p_con_factura:document.getElementById('systemPurchaseInvoice').value==='true',
+  p_forma_pago:document.getElementById('systemPurchasePayment').value||'',
+  p_cuenta_pago_id:document.getElementById('systemPurchaseAccount').value||null,
+  p_referencia:document.getElementById('systemPurchaseReference').value.trim()
+ });
+ if(error){st.textContent='Error: '+error.message;return}
+ st.textContent='✓ Solicitud registrada. Pendiente de confirmación del administrador.';
+}
+
+async function loadAdminSystemPlans(){
+ const tbody=document.getElementById('systemPlanRows'); if(!tbody)return;
+ const {data,error}=await sb.from('paquetes_sistema').select('id,nombre,descripcion,precio,activo,created_at').order('precio');
+ if(error){tbody.innerHTML='<tr><td colspan="5">Error: '+esc(error.message)+'</td></tr>';return}
+ window._adminSystemPlans=data||[];
+ tbody.innerHTML=window._adminSystemPlans.map(x=>`<tr><td>${esc(x.nombre)}</td><td>${esc(x.descripcion||'—')}</td><td>$${Number(x.precio).toFixed(2)}</td><td><span class="badge ${x.activo?'ok':'off'}">${x.activo?'Activo':'Inactivo'}</span></td><td><button class="secondary" onclick="editSystemPlan('${x.id}')">Editar</button> <button class="secondary" onclick="toggleSystemPlan('${x.id}',${!x.activo})">${x.activo?'Desactivar':'Activar'}</button> <button class="danger" onclick="deleteSystemPlan('${x.id}')">Eliminar</button></td></tr>`).join('')||'<tr><td colspan="5">Sin paquetes</td></tr>';
+}
+function clearSystemPlanEdit(){['systemPlanEditId','systemPlanName','systemPlanDescriptionInput','systemPlanPrice'].forEach(id=>document.getElementById(id).value='')}
+function editSystemPlan(id){const x=(window._adminSystemPlans||[]).find(y=>y.id===id);if(!x)return;document.getElementById('systemPlanEditId').value=x.id;document.getElementById('systemPlanName').value=x.nombre||'';document.getElementById('systemPlanDescriptionInput').value=x.descripcion||'';document.getElementById('systemPlanPrice').value=x.precio}
+async function saveSystemPlan(){
+ const st=document.getElementById('systemPlanStatus'), nombre=document.getElementById('systemPlanName').value.trim(), precio=Number(document.getElementById('systemPlanPrice').value);
+ if(!nombre||!Number.isFinite(precio)){st.textContent='Captura nombre y precio.';return}
+ const {error}=await sb.rpc('admin_guardar_paquete_sistema',{p_id:document.getElementById('systemPlanEditId').value||null,p_nombre:nombre,p_descripcion:document.getElementById('systemPlanDescriptionInput').value.trim(),p_precio:precio});
+ if(error){st.textContent='Error: '+error.message;return} st.textContent='✓ Paquete guardado.';clearSystemPlanEdit();await loadAdminSystemPlans();
+}
+async function toggleSystemPlan(id,activo){const {error}=await sb.rpc('admin_estado_paquete_sistema',{p_id:id,p_activo:activo});if(error){adminStatus(error.message,true);return}await loadAdminSystemPlans()}
+async function deleteSystemPlan(id){if(!confirm('¿Eliminar este paquete?'))return;const {error}=await sb.rpc('admin_eliminar_paquete_sistema',{p_id:id});if(error){adminStatus(error.message,true);return}await loadAdminSystemPlans()}
+
+async function loadAdminSystemPurchases(){
+ const tbody=document.getElementById('systemPurchaseRows');if(!tbody)return;
+ tbody.innerHTML='<tr><td colspan="9">Cargando...</td></tr>';
+ const {data,error}=await sb.from('compras_sistema').select('id,usuario_id,paquete_id,paquete_nombre,subtotal,con_factura,iva,importe,forma_pago,referencia,estado,created_at').order('created_at',{ascending:false});
+ if(error){tbody.innerHTML='<tr><td colspan="9">Error: '+esc(error.message)+'</td></tr>';return}
+ if(!(window._adminProfiles||[]).length)await loadAdminUsers();
+ tbody.innerHTML=(data||[]).map(x=>`<tr><td>${esc(adminUserName(x.usuario_id))}</td><td>${esc(x.paquete_nombre||'—')}</td><td>${x.con_factura?'Sí':'No'}</td><td>$${Number(x.iva||0).toFixed(2)}</td><td>$${Number(x.importe||0).toFixed(2)}</td><td>${esc(x.forma_pago||'—')}</td><td>${esc(x.referencia||'—')}</td><td><span class="badge ${x.estado==='Pagado'?'ok':x.estado==='Cancelado'?'off':''}">${esc(x.estado||'—')}</span></td><td>${x.estado==='Pendiente'?`<button class="success" onclick="approveSystemPurchase('${x.id}')">Aprobar / Activar</button> <button class="danger" onclick="cancelSystemPurchase('${x.id}')">Cancelar</button>`:'—'}</td></tr>`).join('')||'<tr><td colspan="9">Sin solicitudes</td></tr>';
+}
+async function approveSystemPurchase(id){if(!confirm('¿Confirmar pago y activar el sistema para este usuario?'))return;const {error}=await sb.rpc('admin_aprobar_compra_sistema',{p_compra_id:id});if(error){adminStatus(error.message,true);return}adminStatus('✓ Compra aprobada y sistema activado.');await loadAdminSystemPurchases()}
+async function cancelSystemPurchase(id){if(!confirm('¿Cancelar esta solicitud?'))return;const {error}=await sb.rpc('admin_cancelar_compra_sistema',{p_compra_id:id});if(error){adminStatus(error.message,true);return}await loadAdminSystemPurchases()}
+
+async function showAdmin(){
+ if(!isAdmin)return;
+ document.getElementById('userApp').classList.add('hidden');
+ document.getElementById('adminView').classList.remove('hidden');
+ await Promise.allSettled([loadAdminUsers(),loadAdminTemplates(),loadAdminPackages(),loadAdminSystemPlans(),loadAdminDemos()]);
+ await Promise.allSettled([loadAdminAssignments(),loadAdminBlocks(),loadAdminHistory(),loadAdminPurchases(),loadAdminPaymentAccounts(),loadAdminPaymentMethods(),loadAdminSystemPurchases()]);
+}
+async function showUserApp(){document.getElementById('adminView').classList.add('hidden');document.getElementById('userApp').classList.remove('hidden');await loadMyDemoStatus()}
+function adminUserName(id){const x=(window._adminProfiles||[]).find(y=>y.id===id);return x?.nombre||x?.email||id||'—'}
+function adminTemplateName(id){const x=(window._adminTemplates||[]).find(y=>y.id===id);return x?.nombre||id||'—'}
+async function loadAdminUsers(){
+ const tbody=document.getElementById('userRows');
+ const {data,error}=await sb.from('profiles').select('id,nombre,email').order('nombre');
+ if(error){if(tbody)tbody.innerHTML='<tr><td colspan="2">Error: '+esc(error.message)+'</td></tr>';return}
+ window._adminProfiles=data||[];
+ fillSelect('assignUser',window._adminProfiles);fillSelect('blockUser',window._adminProfiles);
+ if(tbody)tbody.innerHTML=window._adminProfiles.map(x=>`<tr><td>${esc(x.nombre||'—')}</td><td>${esc(x.email||'—')}</td></tr>`).join('')||'<tr><td colspan="2">Sin usuarios</td></tr>';
+}
+async function loadAdminTemplates(){
+ const tbody=document.getElementById('templateRows');
+ const {data,error}=await sb.from('plantillas').select('id,nombre,descripcion,imagen_path,ancho_pulgadas,alto_pulgadas,activa,layout_config').order('nombre');
+ if(error){if(tbody)tbody.innerHTML='<tr><td colspan="4">Error: '+esc(error.message)+'</td></tr>';return}
+ window._adminTemplates=data||[];
+ fillSelect('assignTemplate',window._adminTemplates);fillSelect('blockTemplate',window._adminTemplates);
+ if(tbody)tbody.innerHTML=window._adminTemplates.map(x=>`<tr><td>${esc(x.nombre)}</td><td>${x.ancho_pulgadas||'—'} × ${x.alto_pulgadas||'—'} in</td><td><span class="badge ${x.activa?'ok':'off'}">${x.activa?'Activa':'Inactiva'}</span></td><td><button class="secondary" onclick="editTemplate('${x.id}')">Editar</button> <button class="secondary" onclick="toggleTemplate('${x.id}',${!x.activa})">${x.activa?'Desactivar':'Activar'}</button> <button class="danger" onclick="deleteTemplate('${x.id}')">Eliminar</button></td></tr>`).join('')||'<tr><td colspan="4">Sin plantillas</td></tr>';
+}
+async function loadAdminAssignments(){
+ const tbody=document.getElementById('assignmentRows');
+ const {data,error}=await sb.from('usuario_plantillas').select('id,usuario_id,plantilla_id,activa,imprimir_folio').order('created_at',{ascending:false});
+ if(error){if(tbody)tbody.innerHTML='<tr><td colspan="5">Error: '+esc(error.message)+'</td></tr>';return}
+ window._adminAssignments=data||[];
+ if(tbody)tbody.innerHTML=window._adminAssignments.map(x=>`<tr><td>${esc(adminUserName(x.usuario_id))}</td><td>${esc(adminTemplateName(x.plantilla_id))}</td><td><span class="badge ${x.activa?'ok':'off'}">${x.activa?'Activa':'Inactiva'}</span></td><td><span class="badge ${x.imprimir_folio!==false?'ok':'off'}">${x.imprimir_folio!==false?'Sí':'No'}</span> <button class="secondary" onclick="toggleAssignmentFolio('${x.id}')">${x.imprimir_folio!==false?'Ocultar':'Mostrar'}</button></td><td><button class="secondary" onclick="setAssignmentActive('${x.id}',${!x.activa})">${x.activa?'Desactivar':'Activar'}</button> <button class="danger" onclick="deleteAssignment('${x.id}')">Eliminar</button></td></tr>`).join('')||'<tr><td colspan="5">Sin asignaciones</td></tr>';
+}
+async function loadAdminBlocks(){
+ const tbody=document.getElementById('blockRows');
+ const {data,error}=await sb.from('bloques_folios').select('id,usuario_id,plantilla_id,numero_inicio,numero_fin,siguiente_numero,activo').order('created_at',{ascending:false});
+ if(error){if(tbody)tbody.innerHTML='<tr><td colspan="6">Error: '+esc(error.message)+'</td></tr>';return}
+ window._adminBlocks=data||[];
+ if(tbody)tbody.innerHTML=window._adminBlocks.map(x=>`<tr><td>${esc(adminUserName(x.usuario_id))}</td><td>${esc(adminTemplateName(x.plantilla_id))}</td><td>${x.numero_inicio}–${x.numero_fin}</td><td>${x.siguiente_numero}</td><td><span class="badge ${x.activo?'ok':'off'}">${x.activo?'Activo':'Inactivo'}</span></td><td>${x.activo?`<button class="secondary" onclick="extendBlock('${x.id}')">➕ Agregar folios</button>`:'—'}</td></tr>`).join('')||'<tr><td colspan="6">Sin bloques</td></tr>';
+}
+async function loadAdminHistory(){
+ const tbody=document.getElementById('folioRows');
+ const {data,error}=await sb.from('folios').select('folio,numero,usado_en,usuario_id,plantilla_id').order('usado_en',{ascending:false}).limit(200);
+ if(error){if(tbody)tbody.innerHTML='<tr><td colspan="4">Error: '+esc(error.message)+'</td></tr>';return}
+ if(tbody)tbody.innerHTML=(data||[]).map(x=>`<tr><td><b>${esc(x.folio)}</b></td><td>${esc(adminUserName(x.usuario_id))}</td><td>${esc(adminTemplateName(x.plantilla_id))}</td><td>${x.usado_en?new Date(x.usado_en).toLocaleString('es-MX'):'—'}</td></tr>`).join('')||'<tr><td colspan="4">Sin folios</td></tr>';
+}
+async function loadAdminPurchases(){
+ const tbody=document.getElementById('purchaseRows');
+ if(!tbody)return;
+ tbody.innerHTML='<tr><td colspan="10">Cargando solicitudes...</td></tr>';
+ const {data,error}=await sb.from('compras_folios')
+   .select('id,usuario_id,plantilla_id,cantidad,subtotal,con_factura,iva,importe,forma_pago,referencia,estado,created_at')
+   .order('created_at',{ascending:false});
+ if(error){tbody.innerHTML='<tr><td colspan="10">Error al cargar compras: '+esc(error.message)+'</td></tr>';return}
+ const rows=data||[];
+ if(!(window._adminProfiles||[]).length)await loadAdminUsers();
+ if(!(window._adminTemplates||[]).length)await loadAdminTemplates();
+ const profiles=window._adminProfiles||[];
+ const templates=window._adminTemplates||[];
+ tbody.innerHTML=rows.map(x=>{
+   const u=profiles.find(y=>y.id===x.usuario_id);
+   const t=templates.find(y=>y.id===x.plantilla_id);
+   const uname=u?.nombre||u?.email||x.usuario_id||'—';
+   const tname=t?.nombre||x.plantilla_id||'—';
+   return `<tr><td>${esc(uname)}</td><td>${esc(tname)}</td><td>${x.cantidad??'—'}</td><td>${x.con_factura?'Sí':'No'}</td><td>$${Number(x.iva||0).toFixed(2)}</td><td>$${Number(x.importe||0).toFixed(2)}</td><td>${esc(x.forma_pago||'—')}</td><td>${esc(x.referencia||'—')}</td><td><span class="badge ${x.estado==='Pagado'?'ok':x.estado==='Cancelado'?'off':''}">${esc(x.estado||'—')}</span></td><td>${x.estado==='Pendiente'?`<button class="success" onclick="approveFolioPurchase('${x.id}')">Aprobar y agregar</button> <button class="danger" onclick="cancelFolioPurchase('${x.id}')">Cancelar</button>`:'—'}</td></tr>`;
+ }).join('')||'<tr><td colspan="10">Sin solicitudes</td></tr>';
+}
+async function loadAdminPackages(){
+ const tbody=document.getElementById('packageRows');
+ if(!tbody)return;
+ const {data,error}=await sb.from('paquetes_folios').select('id,cantidad,precio,activo,created_at').order('cantidad');
+ if(error){
+  tbody.innerHTML='<tr><td colspan="4">Error al cargar paquetes: '+esc(error.message)+'</td></tr>';
+  return;
+ }
+ window._adminPackages=data||[];
+ tbody.innerHTML=window._adminPackages.map(x=>`<tr><td>${x.cantidad}</td><td>$${Number(x.precio).toFixed(2)}</td><td><span class="badge ${x.activo?'ok':'off'}">${x.activo?'Activo':'Inactivo'}</span></td><td><button class="secondary" onclick="editFolioPackage('${x.id}')">Editar</button> <button class="secondary" onclick="toggleFolioPackage('${x.id}',${!x.activo})">${x.activo?'Desactivar':'Activar'}</button> <button class="danger" onclick="deleteFolioPackage('${x.id}')">Eliminar</button></td></tr>`).join('')||'<tr><td colspan="4">Sin paquetes</td></tr>';
+}
+async function loadAdmin(){if(!isAdmin)return;const [p,t,a,b,f,c,pk]=await Promise.all([
+ sb.from('profiles').select('id,nombre,email').order('nombre'),
+ sb.from('plantillas').select('id,nombre,descripcion,imagen_path,ancho_pulgadas,alto_pulgadas,activa,layout_config').order('nombre'),
+ sb.from('usuario_plantillas').select('id,usuario_id,plantilla_id,activa,imprimir_folio,profiles(nombre,email),plantillas(nombre)').order('created_at',{ascending:false}),
+ sb.from('bloques_folios').select('id,usuario_id,plantilla_id,numero_inicio,numero_fin,siguiente_numero,activo,profiles(nombre,email),plantillas(nombre)').order('created_at',{ascending:false}),
+ sb.from('folios').select('folio,numero,usado_en,profiles(nombre,email),plantillas(nombre)').order('usado_en',{ascending:false}).limit(200),
+ sb.from('compras_folios').select('id,usuario_id,plantilla_id,cantidad,precio_unitario,subtotal,con_factura,iva,importe,forma_pago,referencia,estado,created_at,profiles(nombre,email),plantillas(nombre)').order('created_at',{ascending:false}),
+ sb.from('paquetes_folios').select('id,cantidad,precio,activo,created_at').order('cantidad')
+ ]);
+ for(const r of [p,t,a,b,f,c,pk])if(r.error){adminStatus('Error: '+r.error.message,true);return}
+ const profiles=p.data||[], pls=t.data||[];window._adminProfiles=profiles;window._adminTemplates=pls;window._adminAssignments=a.data||[];window._adminBlocks=b.data||[];window._adminPackages=pk.data||[];
+ fillSelect('assignUser',profiles);fillSelect('blockUser',profiles);fillSelect('assignTemplate',pls);fillSelect('blockTemplate',pls);
+ document.getElementById('userRows').innerHTML=profiles.map(x=>`<tr><td>${esc(x.nombre||'—')}</td><td>${esc(x.email||'—')}</td></tr>`).join('')||'<tr><td colspan="2">Sin usuarios</td></tr>';
+ document.getElementById('assignmentRows').innerHTML=window._adminAssignments.map(x=>`<tr><td>${esc(x.profiles?.nombre||x.profiles?.email||x.usuario_id)}</td><td>${esc(x.plantillas?.nombre||x.plantilla_id)}</td><td><span class="badge ${x.activa?'ok':'off'}">${x.activa?'Activa':'Inactiva'}</span></td><td><span class="badge ${x.imprimir_folio!==false?'ok':'off'}">${x.imprimir_folio!==false?'Sí':'No'}</span> <button class="secondary" onclick="toggleAssignmentFolio('${x.id}')">${x.imprimir_folio!==false?'Ocultar':'Mostrar'}</button></td><td><button class="secondary" onclick="setAssignmentActive('${x.id}',${!x.activa})">${x.activa?'Desactivar':'Activar'}</button> <button class="danger" onclick="deleteAssignment('${x.id}')">Eliminar</button></td></tr>`).join('')||'<tr><td colspan="5">Sin asignaciones</td></tr>';
+ document.getElementById('blockRows').innerHTML=window._adminBlocks.map(x=>`<tr><td>${esc(x.profiles?.nombre||x.profiles?.email||x.usuario_id)}</td><td>${esc(x.plantillas?.nombre||x.plantilla_id)}</td><td>${x.numero_inicio}–${x.numero_fin}</td><td>${x.siguiente_numero}</td><td><span class="badge ${x.activo?'ok':'off'}">${x.activo?'Activo':'Inactivo'}</span></td><td>${x.activo?`<button class="secondary" onclick="extendBlock('${x.id}')">➕ Agregar folios</button>`:'—'}</td></tr>`).join('')||'<tr><td colspan="6">Sin bloques</td></tr>';
+ document.getElementById('packageRows').innerHTML=window._adminPackages.map(x=>`<tr><td>${x.cantidad}</td><td>$${Number(x.precio).toFixed(2)}</td><td><span class="badge ${x.activo?'ok':'off'}">${x.activo?'Activo':'Inactivo'}</span></td><td><button class="secondary" onclick="editFolioPackage('${x.id}')">Editar</button> <button class="secondary" onclick="toggleFolioPackage('${x.id}',${!x.activo})">${x.activo?'Desactivar':'Activar'}</button> <button class="danger" onclick="deleteFolioPackage('${x.id}')">Eliminar</button></td></tr>`).join('')||'<tr><td colspan="4">Sin paquetes</td></tr>';
+ document.getElementById('purchaseRows').innerHTML=(c.data||[]).map(x=>`<tr><td>${esc(x.profiles?.nombre||x.profiles?.email||x.usuario_id)}</td><td>${esc(x.plantillas?.nombre||x.plantilla_id)}</td><td>${x.cantidad}</td><td>${x.con_factura?'Sí':'No'}</td><td>$${Number(x.iva||0).toFixed(2)}</td><td>$${Number(x.importe||0).toFixed(2)}</td><td>${esc(x.forma_pago||'—')}</td><td>${esc(x.referencia||'—')}</td><td><span class="badge ${x.estado==='Pagado'?'ok':x.estado==='Cancelado'?'off':''}">${esc(x.estado)}</span></td><td>${x.estado==='Pendiente'?`<button class="success" onclick="approveFolioPurchase('${x.id}')">Aprobar y agregar</button> <button class="danger" onclick="cancelFolioPurchase('${x.id}')">Cancelar</button>`:'—'}</td></tr>`).join('')||'<tr><td colspan="10">Sin solicitudes</td></tr>';
+ document.getElementById('templateRows').innerHTML=pls.map(x=>`<tr><td>${esc(x.nombre)}</td><td>${x.ancho_pulgadas||'—'} × ${x.alto_pulgadas||'—'} in</td><td><span class="badge ${x.activa?'ok':'off'}">${x.activa?'Activa':'Inactiva'}</span></td><td><button class="secondary" onclick="editTemplate('${x.id}')">Editar</button> <button class="secondary" onclick="toggleTemplate('${x.id}',${!x.activa})">${x.activa?'Desactivar':'Activar'}</button> <button class="danger" onclick="deleteTemplate('${x.id}')">Eliminar</button></td></tr>`).join('')||'<tr><td colspan="4">Sin plantillas</td></tr>';
+ document.getElementById('folioRows').innerHTML=(f.data||[]).map(x=>`<tr><td><b>${esc(x.folio)}</b></td><td>${esc(x.profiles?.nombre||x.profiles?.email||'—')}</td><td>${esc(x.plantillas?.nombre||'—')}</td><td>${new Date(x.usado_en).toLocaleString('es-MX')}</td></tr>`).join('')||'<tr><td colspan="4">Sin folios</td></tr>';
+}
+
+async function createUserAdmin(){
+ const nombre=document.getElementById('newUserName').value.trim(),email=document.getElementById('newUserEmail').value.trim(),password=document.getElementById('newUserPassword').value;
+ const st=document.getElementById('userAdminStatus'); st.textContent='';
+ if(!nombre||!email||password.length<6){st.style.color='#b42318';st.textContent='Indica nombre, correo y una contraseña temporal de al menos 6 caracteres.';return}
+ st.style.color='#667085';st.textContent='Creando usuario...';
+ const {data,error}=await sb.functions.invoke('crear-usuario-admin',{body:{nombre,email,password}});
+ if(error){st.style.color='#b42318';st.textContent='No se pudo crear: '+error.message;return}
+ if(data?.error){st.style.color='#b42318';st.textContent='No se pudo crear: '+data.error;return}
+ st.style.color='#087443';st.textContent='✓ Usuario creado correctamente.';
+ document.getElementById('newUserName').value='';document.getElementById('newUserEmail').value='';document.getElementById('newUserPassword').value='';await loadAdminUsers();
+}
+
+function templateImportStatus(t,err=false){const e=document.getElementById('templateAdminStatus');e.textContent=t;e.style.color=err?'#b42318':'#087443'}
+function cssVal(style,prop,def=''){const v=style.getPropertyValue(prop)?.trim();return v||def}
+function extractLayoutFromHtml(html,w,h){
+ const doc=new DOMParser().parseFromString(html,'text/html');
+ const idsOut=['outName','outDx','outDate','outAge','outWeight','outHeight','outTA','outFC','outFR','outTemp','outAllergies','outFolio'];
+ const screen={},print={};
+ const allCss=[...doc.querySelectorAll('style')].map(x=>x.textContent||'').join('\n');
+ for(const id of idsOut){
+  const el=doc.getElementById(id);
+  if(!el)continue;
+  const st=el.style;
+  // Solo usar estilos inline cuando realmente contienen posición.
+  if(cssVal(st,'left')||cssVal(st,'top')){
+   screen[id]=[cssVal(st,'left','0%'),cssVal(st,'top','0%'),cssVal(st,'width','20%'),cssVal(st,'height','3%'),st.textAlign||'left',cssVal(st,'font-size',''),cssVal(st,'font-weight',''),cssVal(st,'color','')];
+  }
+  // Leer todas las reglas #campo {...}. La regla normal alimenta pantalla y la que usa pulgadas alimenta impresión.
+  const re=new RegExp('#'+id+'\\s*\\{([^}]*)\\}','ig');let m;
+  while((m=re.exec(allCss))){
+   const tmp=doc.createElement('div');tmp.setAttribute('style',m[1]);const cs=tmp.style;
+   const left=cssVal(cs,'left'),top=cssVal(cs,'top');
+   if(!left&&!top)continue;
+   if((left&&left.includes('in'))||(top&&top.includes('in'))){print[id]=[left||'0in',top||'0in',cssVal(cs,'font-size',''),cssVal(cs,'font-weight',''),cssVal(cs,'color',''),cs.textAlign||''];}
+   else if(!screen[id]){screen[id]=[left||'0%',top||'0%',cssVal(cs,'width','20%'),cssVal(cs,'height','3%'),cs.textAlign||'left',cssVal(cs,'font-size',''),cssVal(cs,'font-weight',''),cssVal(cs,'color','')];}
+  }
+ }
+ return {screenWidth:Number(w)>Number(h)?943:643,screen,print};
+}
+async function importTemplateZip(){
+ const input=document.getElementById('templateZip'),file=input.files?.[0],nombre=document.getElementById('templateName').value.trim(),descripcion=document.getElementById('templateDesc').value.trim(),w=Number(document.getElementById('templateWidth').value),h=Number(document.getElementById('templateHeight').value);
+ if(!file||!nombre||!w||!h){templateImportStatus('Selecciona ZIP e indica nombre, ancho y alto.',true);return}
+ try{
+  templateImportStatus('Leyendo ZIP...');const zip=await JSZip.loadAsync(file);const htmlEntry=Object.values(zip.files).find(x=>!x.dir&&/(^|\/)index\.html$/i.test(x.name));const imgEntry=Object.values(zip.files).find(x=>!x.dir&&/\.(png|jpe?g|webp)$/i.test(x.name));
+  if(!htmlEntry||!imgEntry)throw new Error('El ZIP debe contener index.html y una imagen PNG/JPG/WEBP.');
+  const html=await htmlEntry.async('text'),blob=await imgEntry.async('blob'),ext=(imgEntry.name.split('.').pop()||'png').toLowerCase(),safe=nombre.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  const path=`${Date.now()}-${safe}.${ext}`;templateImportStatus('Subiendo imagen...');
+  const {error:upErr}=await sb.storage.from('plantillas').upload(path,blob,{contentType:blob.type||('image/'+ext),upsert:false});if(upErr)throw upErr;
+  const {data:pub}=sb.storage.from('plantillas').getPublicUrl(path);const imageUrl=pub.publicUrl;const layout=extractLayoutFromHtml(html,w,h);layout.image=imageUrl;if(!layout.screen?.outFolio&&!layout.print?.outFolio)throw new Error('El index.html debe incluir #outFolio con su posición para pantalla o impresión.');
+  const payload={descripcion,imagen_path:imageUrl,ancho_pulgadas:w,alto_pulgadas:h,activa:true,layout_config:layout,zip_path:file.name,index_path:htmlEntry.name};
+  const {data:existing,error:findErr}=await sb.from('plantillas').select('id').eq('nombre',nombre).maybeSingle();if(findErr)throw findErr;
+  if(existing?.id){
+   const {error:updErr}=await sb.from('plantillas').update(payload).eq('id',existing.id);if(updErr)throw updErr;
+   templateImportStatus('✓ Plantilla actualizada correctamente. Las asignaciones y bloques existentes se conservaron.');
+  }else{
+   const {error:insErr}=await sb.from('plantillas').insert({...payload,nombre,created_by:currentUser.id});if(insErr)throw insErr;
+   templateImportStatus('✓ Plantilla importada correctamente.');
+  }
+  input.value='';await loadAdmin();
+ }catch(e){templateImportStatus('No se pudo importar: '+(e?.message||e),true)}
+}
+
+
+function editTemplate(id){
+ const t=(window._adminTemplates||[]).find(x=>x.id===id);if(!t)return;
+ document.getElementById('templateEditId').value=t.id;
+ document.getElementById('templateName').value=t.nombre||'';
+ document.getElementById('templateDesc').value=t.descripcion||'';
+ document.getElementById('templateWidth').value=t.ancho_pulgadas||'';
+ document.getElementById('templateHeight').value=t.alto_pulgadas||'';
+ templateImportStatus('Editando “'+(t.nombre||'plantilla')+'”. Modifica los datos y pulsa Guardar cambios.');
+ document.getElementById('templateName').scrollIntoView({behavior:'smooth',block:'center'});
+}
+function clearTemplateEdit(){
+ document.getElementById('templateEditId').value='';document.getElementById('templateName').value='';document.getElementById('templateDesc').value='';document.getElementById('templateWidth').value='';document.getElementById('templateHeight').value='';document.getElementById('templateZip').value='';templateImportStatus('');
+}
+async function saveTemplateEdit(){
+ const id=document.getElementById('templateEditId').value,nombre=document.getElementById('templateName').value.trim(),descripcion=document.getElementById('templateDesc').value.trim(),w=Number(document.getElementById('templateWidth').value),h=Number(document.getElementById('templateHeight').value);
+ if(!id){templateImportStatus('Primero pulsa Editar en una plantilla.',true);return}if(!nombre||!w||!h){templateImportStatus('Indica nombre, ancho y alto.',true);return}
+ const t=(window._adminTemplates||[]).find(x=>x.id===id);const layout={...(t?.layout_config||{})};if(!layout.screen?.outFolio&&!layout.print?.outFolio){templateImportStatus('Esta plantilla no tiene configurada la posición #outFolio. Vuelve a importarla con un index.html que incluya #outFolio.',true);return}const {error}=await sb.from('plantillas').update({nombre,descripcion,ancho_pulgadas:w,alto_pulgadas:h,layout_config:layout,updated_at:new Date().toISOString()}).eq('id',id);
+ if(error){templateImportStatus('No se pudo guardar: '+error.message,true);return}templateImportStatus('✓ Cambios guardados correctamente.');document.getElementById('templateEditId').value='';await loadAdminTemplates();
+}
+async function toggleTemplate(id,activa){
+ const t=(window._adminTemplates||[]).find(x=>x.id===id);if(!t)return;if(!confirm((activa?'¿Activar ':'¿Desactivar ')+(t.nombre||'esta plantilla')+'?'))return;
+ const {error}=await sb.from('plantillas').update({activa,updated_at:new Date().toISOString()}).eq('id',id);if(error){templateImportStatus(error.message,true);return}templateImportStatus('✓ Plantilla '+(activa?'activada':'desactivada')+'.');await loadAdminTemplates();
+}
+async function deleteTemplate(id){
+ const t=(window._adminTemplates||[]).find(x=>x.id===id);if(!t)return;
+ templateImportStatus('Verificando si “'+t.nombre+'” puede eliminarse...');
+ const [a,aa,b,ba,f]=await Promise.all([
+  sb.from('usuario_plantillas').select('id',{count:'exact',head:true}).eq('plantilla_id',id),
+  sb.from('usuario_plantillas').select('id',{count:'exact',head:true}).eq('plantilla_id',id).eq('activa',true),
+  sb.from('bloques_folios').select('id',{count:'exact',head:true}).eq('plantilla_id',id),
+  sb.from('bloques_folios').select('id',{count:'exact',head:true}).eq('plantilla_id',id).eq('activo',true),
+  sb.from('folios').select('id',{count:'exact',head:true}).eq('plantilla_id',id)
+ ]);
+ for(const r of [a,aa,b,ba,f])if(r.error){templateImportStatus('No se pudo verificar la plantilla: '+r.error.message,true);return}
+ const asignaciones=a.count||0, asignacionesActivas=aa.count||0, bloques=b.count||0, bloquesActivos=ba.count||0, folios=f.count||0;
+ if(asignaciones+bloques+folios>0){
+  const detalle=[
+   'Asignaciones: '+asignaciones+(asignaciones?(' ('+asignacionesActivas+' activas, '+(asignaciones-asignacionesActivas)+' inactivas)'):''),
+   'Bloques de folios: '+bloques+(bloques?(' ('+bloquesActivos+' activos, '+(bloques-bloquesActivos)+' inactivos)'):''),
+   'Folios utilizados: '+folios
+  ];
+  templateImportStatus('No se puede eliminar “'+t.nombre+'”. Impedimentos: '+detalle.join(' · ')+'. Primero elimina las asignaciones que ya no necesites. Los bloques y el historial se conservan para proteger los folios utilizados; si existen, puedes dejar la plantilla desactivada.',true);
+  alert('No se puede eliminar “'+t.nombre+'”.\n\n'+detalle.join('\n')+'\n\nLa plantilla no fue borrada. Puedes desactivarla para conservar el historial.');
+  return;
+ }
+ if(!confirm('“'+t.nombre+'” no tiene asignaciones, bloques ni folios utilizados.\n\n¿Eliminarla definitivamente? Esta acción no se puede deshacer.'))return;
+ const {error}=await sb.from('plantillas').delete().eq('id',id);if(error){templateImportStatus('No se pudo eliminar: '+error.message,true);return}templateImportStatus('✓ Plantilla eliminada definitivamente.');clearTemplateEdit();await loadAdminTemplates();
+}
+
+function fillSelect(id,items){const el=document.getElementById(id);el.innerHTML='';items.forEach(x=>{const o=document.createElement('option');o.value=x.id;o.textContent=x.nombre||x.email||x.id;el.appendChild(o)})}
+async function saveAssignment(){
+ const usuario_id=document.getElementById('assignUser').value,plantilla_id=document.getElementById('assignTemplate').value,imprimir_folio=document.getElementById('assignPrintFolio').checked;
+ if(!usuario_id||!plantilla_id){adminStatus('Selecciona usuario y plantilla.',true);return}
+ const {data:existing,error:findError}=await sb.from('usuario_plantillas').select('id,activa,imprimir_folio').eq('usuario_id',usuario_id).eq('plantilla_id',plantilla_id).maybeSingle();
+ if(findError){adminStatus(findError.message,true);return}
+ if(existing){
+   const {error}=await sb.from('usuario_plantillas').update({activa:true,imprimir_folio}).eq('id',existing.id);
+   if(error){adminStatus(error.message,true);return}
+   adminStatus('✓ Asignación reactivada.');await loadAdminAssignments();return;
+ }
+ const {error}=await sb.from('usuario_plantillas').insert({usuario_id,plantilla_id,activa:true,imprimir_folio});
+ if(error){adminStatus(error.message,true);return}
+ adminStatus('✓ Plantilla asignada.');await loadAdminAssignments();
+}
+async function setAssignmentActive(id,activa){
+ const a=(window._adminAssignments||[]).find(x=>x.id===id);if(!a)return;
+ const accion=activa?'activar':'desactivar';
+ if(!confirm(`¿Deseas ${accion} “${a.plantillas?.nombre||'esta plantilla'}” para ${a.profiles?.nombre||a.profiles?.email||'este usuario'}?`))return;
+ const {error}=await sb.from('usuario_plantillas').update({activa,updated_at:new Date().toISOString()}).eq('id',id);
+ if(error){adminStatus(error.message,true);return}
+ adminStatus(`✓ Asignación ${activa?'activada':'desactivada'}.`);await loadAdminAssignments();
+}
+async function toggleAssignmentFolio(id){
+ const a=(window._adminAssignments||[]).find(x=>x.id===id);if(!a)return;
+ const nuevo=!(a.imprimir_folio!==false);
+ const {data,error}=await sb.rpc('admin_cambiar_impresion_folio',{
+   p_asignacion_id:id,
+   p_imprimir_folio:nuevo
+ });
+ if(error){adminStatus('No se pudo cambiar la impresión del folio: '+error.message,true);return}
+ a.imprimir_folio=(data===true);
+ adminStatus('✓ Impresión de folio '+(a.imprimir_folio?'activada':'desactivada')+' para esta asignación.');
+ await loadAdminAssignments();
+}
+async function deleteAssignment(id){
+ const a=(window._adminAssignments||[]).find(x=>x.id===id);if(!a)return;
+ const usuario=a.profiles?.nombre||a.profiles?.email||'el usuario';const plantilla=a.plantillas?.nombre||'esta plantilla';
+ if(!confirm(`¿Eliminar la asignación de “${plantilla}” para ${usuario}?\n\nEsto quita la relación usuario-plantilla. No elimina la plantilla, los bloques ni el historial de folios.`))return;
+ const {error}=await sb.from('usuario_plantillas').delete().eq('id',id);
+ if(error){adminStatus('No se pudo eliminar la asignación: '+error.message,true);return}
+ adminStatus('✓ Asignación eliminada.');await loadAdminAssignments();
+}
+async function approveFolioPurchase(id){
+ if(!confirm('¿Confirmas que el pago fue recibido? Al aprobar se agregarán los folios al bloque activo.'))return;
+ const {error}=await sb.rpc('admin_aprobar_compra_folios',{p_compra_id:id});
+ if(error){adminStatus('No se pudo aprobar: '+error.message,true);return}
+ adminStatus('✓ Pago aprobado y folios agregados.');
+ await Promise.allSettled([loadAdminPurchases(),loadAdminBlocks()]);
+}
+async function cancelFolioPurchase(id){
+ if(!confirm('¿Cancelar esta solicitud de compra?'))return;
+ const {error}=await sb.rpc('admin_cancelar_compra_folios',{p_compra_id:id});
+ if(error){adminStatus('No se pudo cancelar: '+error.message,true);return}
+ adminStatus('✓ Solicitud cancelada.');
+ await loadAdminPurchases();
+}
+async function extendBlock(id){
+ const b=(window._adminBlocks||[]).find(x=>x.id===id);
+ if(!b)return;
+ const cantidadTexto=prompt(`Bloque actual: ${b.numero_inicio}–${b.numero_fin}\nSiguiente folio: ${b.siguiente_numero}\n\n¿Cuántos folios deseas agregar?`,'100');
+ if(cantidadTexto===null)return;
+ const cantidad=Number(cantidadTexto);
+ if(!Number.isInteger(cantidad)||cantidad<=0){adminStatus('Indica una cantidad válida de folios.',true);return}
+ const nuevoFin=Number(b.numero_fin)+cantidad;
+ if(!confirm(`El bloque ${b.numero_inicio}–${b.numero_fin} se ampliará a ${b.numero_inicio}–${nuevoFin}.\n\nEl siguiente folio continuará siendo ${b.siguiente_numero}. ¿Continuar?`))return;
+ const {error}=await sb.from('bloques_folios').update({numero_fin:nuevoFin}).eq('id',id);
+ if(error){
+  if(error.code==='23P01')adminStatus('No se pudo ampliar: el nuevo rango se superpone con otro bloque activo del mismo usuario y plantilla.',true);
+  else adminStatus('No se pudo ampliar el bloque: '+error.message,true);
+  return;
+ }
+ adminStatus(`✓ Bloque ampliado de ${b.numero_inicio}–${b.numero_fin} a ${b.numero_inicio}–${nuevoFin}.`);
+ await loadAdminBlocks();
+}
+async function createBlock(){const usuario_id=document.getElementById('blockUser').value,plantilla_id=document.getElementById('blockTemplate').value,numero_inicio=Number(document.getElementById('blockStart').value),numero_fin=Number(document.getElementById('blockEnd').value);if(!usuario_id||!plantilla_id||!numero_inicio||!numero_fin||numero_inicio>numero_fin){adminStatus('Indica un rango válido.',true);return}const {error}=await sb.from('bloques_folios').insert({usuario_id,plantilla_id,numero_inicio,numero_fin,siguiente_numero:numero_inicio,activo:true});if(error){if(error.code==='23P01')adminStatus('El rango se superpone con otro bloque activo del mismo usuario y plantilla.',true);else adminStatus(error.message,true);return}adminStatus('✓ Bloque creado.');loadAdminBlocks()}
+window.addEventListener('resize',updateFontScale);
+ids.forEach(id=>{const el=document.getElementById(id);if(el)el.addEventListener('input',update)});
+const loginPasswordEl=document.getElementById('loginPassword');
+if(loginPasswordEl)loginPasswordEl.addEventListener('keydown',e=>{if(e.key==='Enter')login()});
+const footerYearEl=document.getElementById('footerYear');
+if(footerYearEl)footerYearEl.textContent=new Date().getFullYear();
+setToday();update();initSession();
+
+// V9.5.30: asegurar que el folio esté colocado en la plantilla justo antes
+// de que el navegador construya la impresión/PDF.
+window.addEventListener('beforeprint',()=>{
+  try{
+    if(typeof syncFolioOnForm==='function') syncFolioOnForm();
+    const folio=document.getElementById('outFolio');
+    if(folio){
+      folio.style.visibility='visible';
+      folio.style.opacity='1';
+    }
+  }catch(e){ console.warn('No se pudo sincronizar folio antes de imprimir',e); }
+});
+</script>
+</body>
+</html>
