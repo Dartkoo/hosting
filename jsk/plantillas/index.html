@@ -295,35 +295,56 @@ async function login(){
  st.className='success-text';st.textContent='Acceso correcto.';
  await startApp(session.user);
 }
-async function logout(){await sb.auth.signOut();location.reload()}
+async function logout(){
+ const loginView=document.getElementById('loginView');
+ const appView=document.getElementById('appView');
+ try{
+  await sb.auth.signOut({scope:'local'});
+ }catch(e){
+  console.warn('Error al cerrar sesión:',e);
+ }
+ // Limpia únicamente las claves de autenticación de este proyecto.
+ try{
+  Object.keys(localStorage).forEach(k=>{
+   if(k.startsWith('sb-')&&k.endsWith('-auth-token')) localStorage.removeItem(k);
+  });
+ }catch(e){}
+ currentUser=null; currentProfile=null; isAdmin=false;
+ templates=[]; assignments=[]; currentTemplate=null; currentFolio=null;
+ if(appView)appView.classList.add('hidden');
+ if(loginView)loginView.classList.remove('hidden');
+ const pw=document.getElementById('loginPassword'); if(pw)pw.value='';
+ const st=document.getElementById('loginStatus'); if(st){st.className='';st.textContent='Sesión cerrada.';}
+}
 async function initSession(){
  const loginView=document.getElementById('loginView');
  const appView=document.getElementById('appView');
-
- // Restauración inmediata desde la sesión que Supabase ya guardó en Local Storage.
- // Esto evita dejar la página en blanco si getSession tarda o se bloquea.
  try{
-  const key=Object.keys(localStorage).find(k=>k.startsWith('sb-')&&k.endsWith('-auth-token'));
-  if(key){
-   const saved=JSON.parse(localStorage.getItem(key)||'null');
-   const user=saved?.user || saved?.currentSession?.user || saved?.session?.user;
-   if(user){
-    startApp(user).catch(err=>console.error('Error iniciando aplicación:',err));
-   }
+  // Esperar a que Supabase restaure y valide la sesión antes de consultar tablas con RLS.
+  const {data,error}=await sb.auth.getSession();
+  if(error) throw error;
+  const user=data?.session?.user||null;
+  if(user){
+   await startApp(user);
+  }else{
+   currentUser=null;
+   if(appView)appView.classList.add('hidden');
+   if(loginView)loginView.classList.remove('hidden');
   }
  }catch(err){
-  console.error('Error leyendo sesión local:',err);
+  console.error('Error restaurando sesión:',err);
+  currentUser=null;
+  if(appView)appView.classList.add('hidden');
+  if(loginView)loginView.classList.remove('hidden');
  }
-
- // Supabase confirma/actualiza la sesión en segundo plano.
  sb.auth.onAuthStateChange((event,session)=>{
   if(event==='SIGNED_OUT'){
    currentUser=null;
-   appView.classList.add('hidden');
-   loginView.classList.remove('hidden');
+   if(appView)appView.classList.add('hidden');
+   if(loginView)loginView.classList.remove('hidden');
    return;
   }
-  if((event==='INITIAL_SESSION'||event==='SIGNED_IN'||event==='TOKEN_REFRESHED') && session?.user && !currentUser){
+  if((event==='SIGNED_IN'||event==='TOKEN_REFRESHED') && session?.user && currentUser?.id!==session.user.id){
    setTimeout(()=>startApp(session.user).catch(console.error),0);
   }
  });
