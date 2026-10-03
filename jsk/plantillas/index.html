@@ -295,64 +295,50 @@ async function login(){
  st.className='success-text';st.textContent='Acceso correcto.';
  await startApp(session.user);
 }
+let manualLogout=false;
 async function logout(){
- // Cierre inmediato: no depende de que la petición de red de Supabase termine.
- currentUser=null; currentProfile=null; isAdmin=false;
- templates=[]; assignments=[]; currentTemplate=null; currentFolio=null;
- const appView=document.getElementById('appView');
- const loginView=document.getElementById('loginView');
- if(appView) appView.classList.add('hidden');
- if(loginView) loginView.classList.remove('hidden');
+ manualLogout=true;
+ currentUser=null;currentProfile=null;isAdmin=false;templates=[];assignments=[];currentTemplate=null;currentFolio=null;
+ const appView=document.getElementById('appView'),loginView=document.getElementById('loginView');
+ if(appView)appView.classList.add('hidden');
+ if(loginView)loginView.classList.remove('hidden');
+ const pw=document.getElementById('loginPassword');if(pw)pw.value='';
+ const st=document.getElementById('loginStatus');if(st){st.className='';st.textContent='Cerrando sesión...';}
  try{
-   // Borra la sesión persistida de ESTE proyecto antes de cualquier espera de red.
+   const {error}=await sb.auth.signOut({scope:'local'});
+   if(error)throw error;
+ }catch(e){console.warn('Error al cerrar sesión en Supabase:',e);}
+ // Limpieza final del token de este proyecto, sin recargar la página.
+ try{
    const projectRef=new URL(SUPABASE_URL).hostname.split('.')[0];
-   const prefixes=[`sb-${projectRef}-auth-token`,'jsk-llenado-formatos-auth'];
-   for(let i=localStorage.length-1;i>=0;i--){
-     const k=localStorage.key(i);
-     if(k && (prefixes.some(p=>k===p||k.startsWith(p)) || (k.startsWith('sb-')&&k.endsWith('-auth-token')))) localStorage.removeItem(k);
-   }
-   for(let i=sessionStorage.length-1;i>=0;i--){
-     const k=sessionStorage.key(i);
-     if(k && (prefixes.some(p=>k===p||k.startsWith(p)) || (k.startsWith('sb-')&&k.endsWith('-auth-token')))) sessionStorage.removeItem(k);
-   }
- }catch(e){console.warn('No se pudo limpiar almacenamiento de sesión',e)}
- // Solicita también el cierre en Supabase, pero no bloquea el botón si la red tarda.
- try{ sb.auth.signOut({scope:'local'}).catch(()=>{}); }catch(e){}
- const pw=document.getElementById('loginPassword'); if(pw)pw.value='';
- const st=document.getElementById('loginStatus'); if(st){st.className='success-text';st.textContent='Sesión cerrada.';}
- // Recarga limpia para impedir que quede en memoria un cliente con token anterior.
- setTimeout(()=>location.replace(location.pathname+location.search),120);
+   const authKey=`sb-${projectRef}-auth-token`;
+   localStorage.removeItem(authKey);
+   sessionStorage.removeItem(authKey);
+ }catch(e){}
+ if(st){st.className='success-text';st.textContent='Sesión cerrada.';}
+ setTimeout(()=>{manualLogout=false;},500);
 }
 async function initSession(){
- const loginView=document.getElementById('loginView');
- const appView=document.getElementById('appView');
-
- // Restauración inmediata desde la sesión que Supabase ya guardó en Local Storage.
- // Esto evita dejar la página en blanco si getSession tarda o se bloquea.
+ const loginView=document.getElementById('loginView'),appView=document.getElementById('appView');
+ // La sesión se obtiene exclusivamente desde Supabase. No arrancar desde localStorage manualmente.
  try{
-  const key=Object.keys(localStorage).find(k=>k.startsWith('sb-')&&k.endsWith('-auth-token'));
-  if(key){
-   const saved=JSON.parse(localStorage.getItem(key)||'null');
-   const user=saved?.user || saved?.currentSession?.user || saved?.session?.user;
-   if(user){
-    startApp(user).catch(err=>console.error('Error iniciando aplicación:',err));
-   }
-  }
- }catch(err){
-  console.error('Error leyendo sesión local:',err);
+   const {data,error}=await sb.auth.getSession();
+   if(error)throw error;
+   if(data?.session?.user) await startApp(data.session.user);
+   else {appView.classList.add('hidden');loginView.classList.remove('hidden');}
+ }catch(e){
+   console.error('Error validando sesión:',e);
+   appView.classList.add('hidden');loginView.classList.remove('hidden');
  }
-
- // Supabase confirma/actualiza la sesión en segundo plano.
  sb.auth.onAuthStateChange((event,session)=>{
-  if(event==='SIGNED_OUT'){
-   currentUser=null;
-   appView.classList.add('hidden');
-   loginView.classList.remove('hidden');
-   return;
-  }
-  if((event==='INITIAL_SESSION'||event==='SIGNED_IN'||event==='TOKEN_REFRESHED') && session?.user && !currentUser){
-   setTimeout(()=>startApp(session.user).catch(console.error),0);
-  }
+   if(event==='SIGNED_OUT' || !session){
+     currentUser=null;
+     appView.classList.add('hidden');loginView.classList.remove('hidden');
+     return;
+   }
+   if(!manualLogout && (event==='SIGNED_IN'||event==='TOKEN_REFRESHED'||event==='USER_UPDATED') && session?.user){
+     if(currentUser?.id!==session.user.id)setTimeout(()=>startApp(session.user).catch(console.error),0);
+   }
  });
 }
 async function startApp(user){currentUser=user;document.getElementById('loginView').classList.add('hidden');document.getElementById('appView').classList.remove('hidden');
